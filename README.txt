@@ -4,7 +4,7 @@ Data source: automatic
 Data available since: UD v2.0
 License: CC BY-NC-SA 3.0 US
 Genre: news blog
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Choi, Jinho
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
 (Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
