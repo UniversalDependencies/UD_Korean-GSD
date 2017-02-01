@@ -5,18 +5,55 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></total>
+    <total><sentences>6339</sentences><tokens>69690</tokens><words>69690</words><fused>0</fused></total>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <forms unique="36322" /><!-- ,, 있다., 수, 있는, 이, 한, 등, 그, 좀, 것으로, 정말, 대한, 위해, 때, 가는 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="11">
+    <tag name="ADJ">2715</tag><!-- _ -->
+    <tag name="ADP">835</tag><!-- _ -->
+    <tag name="ADV">11605</tag><!-- _ -->
+    <tag name="CCONJ">176</tag><!-- _ -->
+    <tag name="DET">539</tag><!-- _ -->
+    <tag name="NOUN">32099</tag><!-- _ -->
+    <tag name="NUM">532</tag><!-- _ -->
+    <tag name="PRON">677</tag><!-- _ -->
+    <tag name="PUNCT">1972</tag><!-- _ -->
+    <tag name="VERB">18517</tag><!-- _ -->
+    <tag name="X">23</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="0">
+  <feats unique="1">
+    <feat name="NumType" value="Card" upos="NUM">532</feat><!-- 한, 두, 첫, 세, 하나, 1, 다섯, 하나는, 하나의, 네 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="25">
+    <dep name="acl:relcl">3204</dep>
+    <dep name="advcl">4483</dep>
+    <dep name="advmod">11725</dep>
+    <dep name="amod">1512</dep>
+    <dep name="appos">197</dep>
+    <dep name="case">891</dep>
+    <dep name="cc">176</dep>
+    <dep name="ccomp">696</dep>
+    <dep name="conj">3921</dep>
+    <dep name="csubj">17</dep>
+    <dep name="dep">2304</dep>
+    <dep name="det">539</dep>
+    <dep name="det:poss">2590</dep>
+    <dep name="fixed">13</dep>
+    <dep name="flat">12513</dep>
+    <dep name="iobj">108</dep>
+    <dep name="mark">372</dep>
+    <dep name="nmod">1675</dep>
+    <dep name="nsubj">7785</dep>
+    <dep name="nsubj:pass">533</dep>
+    <dep name="nummod">431</dep>
+    <dep name="obj">5694</dep>
+    <dep name="punct">1971</dep>
+    <dep name="root">6339</dep>
+    <dep name="xcomp">1</dep>
   </deps>
 </treebank>
