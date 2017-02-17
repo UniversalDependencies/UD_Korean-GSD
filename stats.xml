@@ -5,10 +5,10 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6339</sentences><tokens>69690</tokens><words>69690</words><fused>0</fused></total>
+    <total><sentences>6339</sentences><tokens>74352</tokens><words>74352</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="36322" /><!-- ,, 있다., 수, 있는, 이, 한, 등, 그, 좀, 것으로, 정말, 대한, 위해, 때, 가는 -->
+  <lemmas unique="27" /><!-- ., !, ?, ), ', .., ..., %, ,, ;, ", (), )', ...!, '' -->
+  <forms unique="35949" /><!-- ., ,, 있다, 수, 있는, 이, 한, 등, 그, 좀, !, 것으로, ?, 정말, 대한 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="11">
@@ -20,7 +20,7 @@
     <tag name="NOUN">32099</tag><!-- _ -->
     <tag name="NUM">532</tag><!-- _ -->
     <tag name="PRON">677</tag><!-- _ -->
-    <tag name="PUNCT">1972</tag><!-- _ -->
+    <tag name="PUNCT">6634</tag><!-- ., _, !, ?, ), ', .., ..., %, , -->
     <tag name="VERB">18517</tag><!-- _ -->
     <tag name="X">23</tag><!-- _ -->
   </tags>
@@ -52,7 +52,7 @@
     <dep name="nsubj:pass">533</dep>
     <dep name="nummod">431</dep>
     <dep name="obj">5694</dep>
-    <dep name="punct">1971</dep>
+    <dep name="punct">6633</dep>
     <dep name="root">6339</dep>
     <dep name="xcomp">1</dep>
   </deps>
