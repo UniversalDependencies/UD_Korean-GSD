@@ -543,20 +543,21 @@
 2	최근	_	ADV	ADV	_	3	advmod	_	_	최근/MAG
 3	실시한	_	VERB	PREDREL	_	4	acl:relcl	_	_	실시/NNG+하/XSV+ㄴ/ETM
 4	설문조사에	_	ADV	ADV	_	5	advmod	_	_	설문/NNG+조사/NNG+에/JKB
-5	따르면	_	VERB	PREDCONJ	_	17	advcl	_	_	따르/VV+면/EC
+5	따르면	_	VERB	PREDCONJ	_	18	advcl	_	_	따르/VV+면/EC
 6	OPEC	_	NOUN	PNOUN	_	8	det:poss	_	_	OPEC/SL
 7	회원국들의	_	NOUN	NOUN	_	6	flat	_	_	회원국/NNG+들/XSN+의/JKG
-8	9월	_	NOUN	NUMNOUN	_	17	nsubj	_	_	9/SN+월/NNB
+8	9월	_	NOUN	NUMNOUN	_	18	nsubj	_	_	9/SN+월/NNB
 9	총	_	NOUN	NOUN	_	8	advmod	_	_	총/MM
 10	원유	_	NOUN	NOUN	_	8	flat	_	_	원유/NNG
 11	생산량은	_	NOUN	NOUN	_	8	flat	_	_	생산량/NNG+은/JX
-12	하루	_	NOUN	NOUN	_	17	advmod	_	_	하루/NNG
+12	하루	_	NOUN	NOUN	_	18	advmod	_	_	하루/NNG
 13	평균	_	NOUN	NOUN	_	12	flat	_	_	평균/NNG
-14	2905만5000배럴로	_	ADV	ADV	_	12	flat	_	_	29/SN+0/SO+5/SN+만/NR+5000/SN+배럴/NNB+로/JKB
-15	전월보다	_	ADV	ADV	_	17	advmod	_	_	전월/NNG+보다/JKB
-16	0.5%	_	NOUN	NUMNOUN	_	17	nsubj	_	_	0/SN+./SF+5/SN+%/SW
-17	줄어들었다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	줄어들/VV+었/EP+다/EF
-18	.	_	PUNCT	.	_	17	punct	_	_	./SF
+14	2905만5000배럴로	_	ADV	ADV	_	12	flat	_	_	2905/SN+만/NR+5000/SN+배럴/NNB+로/JKB
+15	전월보다	_	ADV	ADV	_	18	advmod	_	_	전월/NNG+보다/JKB
+16	0.5	_	NOUN	NUMNOUN	_	18	nsubj	_	SpaceAfter=No	0/SN+./SF+5/SN
+17	%	_	PUNCT	.	_	16	punct	_	_	%/SW
+18	줄어들었다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	줄어들/VV+었/EP+다/EF
+19	.	_	PUNCT	.	_	18	punct	_	_	./SF
 
 # sent id = test-s32
 # text = 시원한 국물이 넘 맛있어요
@@ -567,22 +568,26 @@
 
 # sent id = test-s33
 # text = 지난달 2일 RBA는 금리를 동결할 것이란 시장 예상과 달리 6개월 만에 기준금리를 4.75%로 0.25%p 인상했다.
-1	지난달	_	NOUN	NOUN	_	15	nmod	_	_	지난달/NNG
+1	지난달	_	NOUN	NOUN	_	19	nmod	_	_	지난달/NNG
 2	2일	_	NOUN	NUMNOUN	_	1	flat	_	_	2/SN+일/NNB
-3	RBA는	_	NOUN	PNOUN	_	15	nsubj	_	_	RBA/SL+는/JX
+3	RBA는	_	NOUN	PNOUN	_	19	nsubj	_	_	RBA/SL+는/JX
 4	금리를	_	NOUN	NOUN	_	5	obj	_	_	금리/NNG+를/JKO
 5	동결할	_	VERB	PREDREL	_	6	dep	_	_	동결/NNG+하/XSV+ㄹ/ETM
 6	것이란	_	VERB	PREDCOMP	_	7	ccomp	_	_	것/NNB+이/VCP+란/ETM
 7	시장	_	NOUN	NOUN	_	9	advmod	_	_	시장/NNG
 8	예상과	_	ADV	ADV	_	7	flat	_	_	예상/NNG+과/JKB
-9	달리	_	VERB	PREDCONJ	_	15	advcl	_	_	달리/MAG
-10	6개월	_	NOUN	NUMNOUN	_	15	nmod	_	_	6/SN+개월/NNB
+9	달리	_	VERB	PREDCONJ	_	19	advcl	_	_	달리/MAG
+10	6개월	_	NOUN	NUMNOUN	_	19	nmod	_	_	6/SN+개월/NNB
 11	만에	_	ADP	ADP	_	10	case	_	_	만/NNB+에/JKB
-12	기준금리를	_	NOUN	NOUN	_	15	obj	_	_	기준/NNG+금리/NNG+를/JKO
-13	4.75%로	_	ADV	ADV	_	15	advmod	_	_	4/SN+./SF+75/SN+%/SW+로/JKB
-14	0.25%p	_	NOUN	NUMNOUN	_	15	obj	_	_	0/SN+./SF+25/SN+%/SW+p/SW
-15	인상했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	인상/NNG+하/XSV+았/EP+다/EF
-16	.	_	PUNCT	.	_	15	punct	_	_	./SF
+12	기준금리를	_	NOUN	NOUN	_	19	obj	_	_	기준/NNG+금리/NNG+를/JKO
+13	4.75	_	ADV	ADV	_	19	advmod	_	SpaceAfter=No	4/SN+./SF+75/SN
+14	%	_	PUNCT	.	_	15	punct	_	_	%/SW
+15	로	_	ADV	ADV	_	13	advmod	_	_	로/JKB
+16	0.25	_	NOUN	NUMNOUN	_	19	obj	_	SpaceAfter=No	0/SN+./SF+25/SN
+17	%	_	PUNCT	.	_	18	punct	_	_	%/SW
+18	p	_	NOUN	NUMNOUN	_	16	obj	_	_	p/SL
+19	인상했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	인상/NNG+하/XSV+았/EP+다/EF
+20	.	_	PUNCT	.	_	19	punct	_	_	./SF
 
 # sent id = test-s34
 # text = 그는 이어 "만약 이 서비스가 제대로 정착만 된다면 중국 및 동남아 부유층 유치에 일대 전기를 마련하게 되는 계기가 될 것"이라며 "외국인도 이용 가능한 상품으로 기획되었다는 점에서 국내 골프투어 수출 시대의 개막도 기대해봄직하다"고 강한 자신감을 나타냈다.
@@ -702,11 +707,15 @@
 # sent id = test-s41
 # text = 오는 2012~2015년 정상회의는 멕시코-러시아-호주-터키순으로 주최한다.
 1	오는	_	VERB	PREDREL	_	2	acl:relcl	_	_	오/VV+는/ETM
-2	2012~2015년	_	NOUN	NUMNOUN	_	5	nmod	_	_	2/SN+0/SO+12/SN+~/SO+2015/SN+년/NNB
-3	정상회의는	_	NOUN	NOUN	_	5	obj	_	_	정상/NNG+회의/NNG+는/JX
-4	멕시코-러시아-호주-터키순으로	_	ADV	ADV	_	5	advmod	_	_	멕시코/NNP+-/SS+러시아/NNP+-/SS+호주/NNP+-/SS+터키/NNP+순/NNG+으로/JKB
-5	주최한다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	주최/NNG+하/XSV+ㄴ다/EF
-6	.	_	PUNCT	.	_	5	punct	_	_	./SF
+2	2012	_	NOUN	NUMNOUN	_	9	nmod	_	SpaceAfter=No	2012/SN
+3	~	_	PUNCT	.	_	4	punct	_	_	~/SO
+4	2015년	_	NOUN	NUMNOUN	_	2	nmod	_	_	2015/SN+년/NNB
+5	정상회의는	_	NOUN	NOUN	_	9	obj	_	_	정상/NNG+회의/NNG+는/JX
+6	멕시코	_	ADV	ADV	_	9	advmod	_	SpaceAfter=No	멕시코/NNP+-/SS+러시아/NNP
+7	-	_	PUNCT	.	_	8	punct	_	_	-/SS
+8	러시아-호주-터키순으로	_	ADV	ADV	_	6	advmod	_	_	호주/NNP+-/SS+터키/NNP+순/NNG+으로/JKB
+9	주최한다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	주최/NNG+하/XSV+ㄴ다/EF
+10	.	_	PUNCT	.	_	9	punct	_	_	./SF
 
 # sent id = test-s42
 # text = 음핵의 대부분을 덮은 포피를 가진 여성들은 종종 포피가 덮인 채 자위행위를 하는 남성과 비슷하게, 음핵 귀두를 덮은 포피를 자극함으로써 자위행위를 한다.
@@ -894,7 +903,7 @@
 
 # sent id = test-s51
 # text = 2009년 3월 14일부터는 스이카의 사용이 가능해졌다.
-1	2009년	_	NOUN	NUMNOUN	_	6	advmod	_	_	20/SN+0/SO+9/SN+년/NNB
+1	2009년	_	NOUN	NUMNOUN	_	6	advmod	_	_	2009/SN+년/NNB
 2	3월	_	NOUN	NUMNOUN	_	1	flat	_	_	3/SN+월/NNB
 3	14일부터는	_	ADV	ADV	_	1	flat	_	_	14/SN+일/NNB+부터/JX+는/JX
 4	스이카의	_	NOUN	NOUN	_	5	det:poss	_	_	스이카/NNP+의/JKG
@@ -1410,7 +1419,7 @@
 # sent id = test-s84
 # text = 한컴은 2009년에 487억 원의 매출과 512억 원의 영업이익, 144억 원의 순이익을 기록해 사상 최대 실적을 달성했으며, 7년 연속 흑자 실적의 기록을 이어갔다고 밝혔다.
 1	한컴은	_	NOUN	PNOUN	_	13	nsubj	_	_	한컴/NNP+은/JX
-2	2009년에	_	NOUN	NUMNOUN	_	13	nmod	_	_	20/SN+0/SO+9/SN+년/NNB+에/JKB
+2	2009년에	_	NOUN	NUMNOUN	_	13	nmod	_	_	2009/SN+년/NNB+에/JKB
 3	487억	_	NUM	NUM	NumType=Card	4	nummod	_	_	487/SN+억/NR
 4	원의	_	NOUN	NOUN	_	5	det:poss	_	_	원/NNB+의/JKG
 5	매출과	_	NOUN	NOMCONJ	_	13	obj	_	_	매출/NNG+과/JC
@@ -2269,18 +2278,18 @@
 # sent id = test-s146
 # text = 이에 따라 삼성SDI의 분기별 실적 모멘텀은 약화될 것이라며 4분기 IFRS 연결기준 실적은 매출액 1조2000억 원(-10 %), 영업이익 804억 원(-35%)로 추정했다.
 1	이에	_	ADV	ADV	_	2	advmod	_	_	이/NNB+에/JKB
-2	따라	_	VERB	PREDCONJ	_	28	advcl	_	_	따르/VV+아/EC
+2	따라	_	VERB	PREDCONJ	_	31	advcl	_	_	따르/VV+아/EC
 3	삼성SDI의	_	NOUN	PNOUN	_	4	det:poss	_	_	삼성/NNP+SDI/SL+의/JKG
 4	분기별	_	NOUN	NOUN	_	7	nsubj	_	_	분기/NNG+별/XSN
 5	실적	_	NOUN	NOUN	_	4	flat	_	_	실적/NNG
 6	모멘텀은	_	NOUN	NOUN	_	4	flat	_	_	모멘텀/NNG+은/JX
 7	약화될	_	VERB	PREDREL	_	8	dep	_	_	약화/NNG+되/XSV+ㄹ/ETM
-8	것이라며	_	VERB	PREDCONJ	_	28	advcl	_	_	것/NNB+이/VCP+라며/EC
-9	4분기	_	NOUN	NUMNOUN	_	28	obj	_	_	4/SN+분기/NNG
+8	것이라며	_	VERB	PREDCONJ	_	31	advcl	_	_	것/NNB+이/VCP+라며/EC
+9	4분기	_	NOUN	NUMNOUN	_	31	obj	_	_	4/SN+분기/NNG
 10	IFRS	_	NOUN	NOUN	_	9	flat	_	_	IFRS/SL
 11	연결기준	_	NOUN	NOUN	_	9	flat	_	_	연결/NNG+기준/NNG
 12	실적은	_	NOUN	NOUN	_	9	flat	_	_	실적/NNG+은/JX
-13	매출액	_	NOUN	NOUN	_	28	advmod	_	_	매출액/NNG
+13	매출액	_	NOUN	NOUN	_	31	advmod	_	_	매출액/NNG
 14	1조2000억	_	NUM	NUM	NumType=Card	13	nummod	_	_	1/SN+조/NR+2000/SN+억/NR
 15	원	_	NOUN	NOUN	_	13	flat	_	SpaceAfter=No	원/NNB
 16	(	_	PUNCT	.	_	21	punct	_	_	(/SS
@@ -2292,11 +2301,14 @@
 22	영업이익	_	NOUN	NOUN	_	13	conj	_	_	영업/NNG+이익/NNG
 23	804억	_	NUM	NUM	NumType=Card	22	nummod	_	_	804/SN+억/NR
 24	원	_	ADV	ADV	_	22	flat	_	SpaceAfter=No	원/NNB
-25	(	_	PUNCT	.	_	28	punct	_	_	(/SS
+25	(	_	PUNCT	.	_	31	punct	_	_	(/SS
 26	-	_	PUNCT	.	_	27	punct	_	_	-/SS
-27	35%)로	_	ADV	ADV	_	24	flat	_	_	35/SN+%/SW+)/SS+로/JKB
-28	추정했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	추정/NNG+하/XSV+았/EP+다/EF
-29	.	_	PUNCT	.	_	28	punct	_	_	./SF
+27	35	_	ADV	ADV	_	24	flat	_	SpaceAfter=No	35/SN
+28	%	_	PUNCT	.	_	30	punct	_	_	%/SW
+29	)	_	PUNCT	.	_	30	punct	_	_	)/SS
+30	로	_	ADV	ADV	_	27	flat	_	_	로/JKB
+31	추정했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	추정/NNG+하/XSV+았/EP+다/EF
+32	.	_	PUNCT	.	_	31	punct	_	_	./SF
 
 # sent id = test-s147
 # text = 너의 이상형은
@@ -2385,15 +2397,17 @@
 4	단지의	_	NOUN	NOUN	_	5	det:poss	_	_	단지/NNG+의/JKG
 5	전셋값이	_	NOUN	NOUN	_	7	nsubj	_	_	전셋값/NNG+이/JKS
 6	강세를	_	NOUN	NOUN	_	7	obj	_	_	강세/NNG+를/JKO
-7	보이면서	_	VERB	PREDCONJ	_	14	advcl	_	_	보이/VV+면서/EC
+7	보이면서	_	VERB	PREDCONJ	_	16	advcl	_	_	보이/VV+면서/EC
 8	지난해	_	NOUN	NOUN	_	9	nmod	_	_	지난해/NNG
-9	서울	_	NOUN	PNOUN	_	14	nsubj	_	_	서울/NNP
+9	서울	_	NOUN	PNOUN	_	16	nsubj	_	_	서울/NNP
 10	강남지역	_	NOUN	PNOUN	_	9	flat	_	_	강남/NNP+지역/NNG
 11	전셋값	_	NOUN	NOUN	_	9	flat	_	_	전셋값/NNG
 12	상승률은	_	NOUN	NOUN	_	9	flat	_	_	상승/NNG+률/XSN+은/JX
-13	7.6%로	_	ADV	ADV	_	14	advmod	_	_	7/SN+./SF+6/SN+%/SW+로/JKB
-14	나타났습니다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	나타나/VV+았/EP+습니다/EF
-15	.	_	PUNCT	.	_	14	punct	_	_	./SF
+13	7.6	_	ADV	ADV	_	16	advmod	_	SpaceAfter=No	7/SN+./SF+6/SN
+14	%	_	PUNCT	.	_	15	punct	_	_	%/SW
+15	로	_	ADV	ADV	_	13	advmod	_	_	로/JKB
+16	나타났습니다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	나타나/VV+았/EP+습니다/EF
+17	.	_	PUNCT	.	_	16	punct	_	_	./SF
 
 # sent id = test-s154
 # text = 푸짐한 음식과 맛도 좋고 양에 비해 가격 저렴하고 얼큰한 바르미 샤브 칼국수 먹으러 와 보세요
@@ -2480,7 +2494,7 @@
 2	2004년	_	NOUN	NUMNOUN	_	10	nmod	_	_	2004/SN+년/NNB
 3	40대	_	NOUN	NUMNOUN	_	10	nsubj	_	_	40/SN+대/NNB
 4	여행객은	_	NOUN	NOUN	_	3	flat	_	_	여행객/NNG+은/JX
-5	198만6780명으로	_	ADV	ADV	_	10	advmod	_	_	198/SN+만/NR+678/SN+0/SO+명/NNB+으로/JKB
+5	198만6780명으로	_	ADV	ADV	_	10	advmod	_	_	198/SN+만/NR+6780/SN+명/NNB+으로/JKB
 6	20대	_	NOUN	NUMNOUN	_	10	advmod	_	_	20/SN+대/NNB
 7	149만654명보다	_	ADV	ADV	_	6	flat	_	_	149/SN+만/NR+654/SN+명/NNB+보다/JKB
 8	약	_	NOUN	NOUN	_	9	advmod	_	_	약/MM
@@ -2513,11 +2527,12 @@
 
 # sent id = test-s163
 # text = 전년도보다 5.7% 감소한 수치다.
-1	전년도보다	_	ADV	ADV	_	4	advmod	_	_	전년도/NNG+보다/JKB
-2	5.7%	_	NOUN	NUMNOUN	_	3	nsubj	_	_	5/SN+./SF+7/SN+%/SW
-3	감소한	_	VERB	PREDREL	_	4	acl:relcl	_	_	감소/NNG+하/XSV+ㄴ/ETM
-4	수치다	_	VERB	NOMCOP	_	0	root	_	SpaceAfter=No	수치/NNG+이/VCP+다/EF
-5	.	_	PUNCT	.	_	4	punct	_	_	./SF
+1	전년도보다	_	ADV	ADV	_	5	advmod	_	_	전년도/NNG+보다/JKB
+2	5.7	_	NOUN	NUMNOUN	_	4	nsubj	_	SpaceAfter=No	5/SN+./SF+7/SN
+3	%	_	PUNCT	.	_	2	punct	_	_	%/SW
+4	감소한	_	VERB	PREDREL	_	5	acl:relcl	_	_	감소/NNG+하/XSV+ㄴ/ETM
+5	수치다	_	VERB	NOMCOP	_	0	root	_	SpaceAfter=No	수치/NNG+이/VCP+다/EF
+6	.	_	PUNCT	.	_	5	punct	_	_	./SF
 
 # sent id = test-s164
 # text = 근처 장난감 가게 좀 알아봐 줘
@@ -2781,27 +2796,28 @@
 10	측이	_	NOUN	NOUN	_	9	flat	_	_	측/NNB+이/JKS
 11	주장한	_	VERB	PREDREL	_	13	acl:relcl	_	_	주장/NNG+하/XSV+ㄴ/ETM
 12	'	_	PUNCT	.	_	13	punct	_	_	'/SS
-13	입학정원	_	NOUN	PNOUN	_	19	advmod	_	_	입학/NNG+정원/NNG
+13	입학정원	_	NOUN	PNOUN	_	20	advmod	_	_	입학/NNG+정원/NNG
 14	대비	_	NOUN	PNOUN	_	13	flat	_	_	대비/NNG
-15	50%	_	NOUN	PNOUN	_	13	flat	_	_	50/SN+%/SW
-16	합격안	_	ADV	ADV	_	13	flat	_	SpaceAfter=No	합격/NNG+안/NNG
-17	'	_	PUNCT	.	_	18	punct	_	_	'/SS
-18	에	_	ADV	ADV	_	16	flat	_	_	에/JKB
-19	대해	_	VERB	PREDCONJ	_	32	advcl	_	_	대하/VV+아/EC
-20	전국	_	NOUN	NOUN	_	32	nsubj	_	_	전국/NNG
-21	법학전문대학원	_	NOUN	PNOUN	_	20	flat	_	SpaceAfter=No	법학/NNG+전문/NNG+대학원/NNG
-22	(	_	PUNCT	.	_	25	punct	_	_	(/SS
-23	로스쿨	_	NOUN	PNOUN	_	21	flat	_	SpaceAfter=No	로스쿨/NNG
-24	)	_	PUNCT	.	_	23	punct	_	_	)/SS
-25	학생들이	_	NOUN	NOUN	_	20	flat	_	_	학생/NNG+들/XSN+이/JKS
-26	자퇴서를	_	NOUN	NOUN	_	27	obj	_	_	자퇴서/NNG+를/JKO
-27	모으고	_	VERB	PREDCONJ	_	31	appos	_	_	모으/VV+고/EC
-28	집회를	_	NOUN	NOUN	_	29	obj	_	_	집회/NNG+를/JKO
-29	여는	_	VERB	PREDREL	_	27	conj	_	_	열/VV+는/ETM
-30	등	_	NOUN	NOUN	_	29	dep	_	_	등/NNB
-31	집단행동에	_	ADV	ADV	_	32	advmod	_	_	집단행동/NNG+에/JKB
-32	돌입했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	돌입/NNG+하/XSV+았/EP+다/EF
-33	.	_	PUNCT	.	_	32	punct	_	_	./SF
+15	50	_	NOUN	PNOUN	_	13	flat	_	SpaceAfter=No	50/SN
+16	%	_	PUNCT	.	_	15	punct	_	_	%/SW
+17	합격안	_	ADV	ADV	_	13	flat	_	SpaceAfter=No	합격/NNG+안/NNG
+18	'	_	PUNCT	.	_	19	punct	_	_	'/SS
+19	에	_	ADV	ADV	_	17	flat	_	_	에/JKB
+20	대해	_	VERB	PREDCONJ	_	33	advcl	_	_	대하/VV+아/EC
+21	전국	_	NOUN	NOUN	_	33	nsubj	_	_	전국/NNG
+22	법학전문대학원	_	NOUN	PNOUN	_	21	flat	_	SpaceAfter=No	법학/NNG+전문/NNG+대학원/NNG
+23	(	_	PUNCT	.	_	26	punct	_	_	(/SS
+24	로스쿨	_	NOUN	PNOUN	_	22	flat	_	SpaceAfter=No	로스쿨/NNG
+25	)	_	PUNCT	.	_	24	punct	_	_	)/SS
+26	학생들이	_	NOUN	NOUN	_	21	flat	_	_	학생/NNG+들/XSN+이/JKS
+27	자퇴서를	_	NOUN	NOUN	_	28	obj	_	_	자퇴서/NNG+를/JKO
+28	모으고	_	VERB	PREDCONJ	_	32	appos	_	_	모으/VV+고/EC
+29	집회를	_	NOUN	NOUN	_	30	obj	_	_	집회/NNG+를/JKO
+30	여는	_	VERB	PREDREL	_	28	conj	_	_	열/VV+는/ETM
+31	등	_	NOUN	NOUN	_	30	dep	_	_	등/NNB
+32	집단행동에	_	ADV	ADV	_	33	advmod	_	_	집단행동/NNG+에/JKB
+33	돌입했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	돌입/NNG+하/XSV+았/EP+다/EF
+34	.	_	PUNCT	.	_	33	punct	_	_	./SF
 
 # sent id = test-s184
 # text = 재미 있는 활동도 하고, 공부도 재미있고, 쉽게 가리켜준다.
@@ -3337,20 +3353,24 @@
 3	차로	_	ADV	ADV	_	6	advmod	_	_	차/NNG+로/JKB
 4	20여분	_	NOUN	NUMNOUN	_	6	advmod	_	_	20/SN+여/XSN+분/NNB
 5	거리에	_	ADV	ADV	_	4	flat	_	_	거리/NNG+에/JKB
-6	위치하고	_	VERB	PREDCONJ	_	17	dep	_	SpaceAfter=No	위치/NNG+하/XSV+고/EC
+6	위치하고	_	VERB	PREDCONJ	_	21	dep	_	SpaceAfter=No	위치/NNG+하/XSV+고/EC
 7	,	_	PUNCT	.	_	6	punct	_	_	,/SP
-8	향후	_	NOUN	NOUN	_	13	acl:relcl	_	_	향후/NNG
+8	향후	_	NOUN	NOUN	_	17	acl:relcl	_	_	향후/NNG
 9	개통	_	NOUN	NOUN	_	8	flat	_	_	개통/NNG
 10	예정	_	VERB	PREDREL	_	8	flat	_	SpaceAfter=No	예정/NNG
-11	(	_	PUNCT	.	_	13	punct	_	_	(/SS
-12	2013~2014년)인	_	VERB	PREDREL	_	10	flat	_	_	2013/SN+~/SO+2014/SN+년/NNB+)/SS+인/NNG
-13	영종역은	_	NOUN	PNOUN	_	15	nsubj	_	_	영종역/NNP+은/JX
-14	차로	_	ADV	ADV	_	15	advmod	_	_	차/NNG+로/JKB
-15	12분이면	_	VERB	PREDCONJ	_	16	advcl	_	_	12/SN+분/NNB+이/VCP+면/EC
-16	이용할	_	VERB	PREDREL	_	6	conj	_	_	이용/NNG+하/XSV+ㄹ/ETM
-17	수	_	NOUN	NOUN	_	18	nsubj	_	_	수/NNB
-18	있다	_	ADJ	ADJ	_	0	root	_	SpaceAfter=No	있/VV+다/EF
-19	.	_	PUNCT	.	_	18	punct	_	_	./SF
+11	(	_	PUNCT	.	_	17	punct	_	_	(/SS
+12	2013	_	VERB	PREDREL	_	10	flat	_	SpaceAfter=No	2013/SN
+13	~	_	PUNCT	.	_	14	punct	_	_	~/SO
+14	2014년	_	VERB	PREDREL	_	12	flat	_	SpaceAfter=No	2014/SN+년/NNB
+15	)	_	PUNCT	.	_	16	punct	_	_	)/SS
+16	인	_	VERB	PREDREL	_	14	flat	_	_	인/NNG
+17	영종역은	_	NOUN	PNOUN	_	19	nsubj	_	_	영종역/NNP+은/JX
+18	차로	_	ADV	ADV	_	19	advmod	_	_	차/NNG+로/JKB
+19	12분이면	_	VERB	PREDCONJ	_	20	advcl	_	_	12/SN+분/NNB+이/VCP+면/EC
+20	이용할	_	VERB	PREDREL	_	6	conj	_	_	이용/NNG+하/XSV+ㄹ/ETM
+21	수	_	NOUN	NOUN	_	22	nsubj	_	_	수/NNB
+22	있다	_	ADJ	ADJ	_	0	root	_	SpaceAfter=No	있/VV+다/EF
+23	.	_	PUNCT	.	_	22	punct	_	_	./SF
 
 # sent id = test-s212
 # text = 맨유는 바이에른 뮌헨에서 하그리브스를 데려올 당시 이적료 1,800만 파운드(약 321억 원)를 지불했을 뿐만 아니라 선수에게 주급 8만 파운드(약 1억 4천만원)를 4년간 지급함으로써 하그리브스 영입에만 총 3,450만 파운드(약 615억 원)에 달하는 거액을 들여야 했다.
@@ -3530,12 +3550,13 @@
 # text = 가격이 완전 싸서(2명이 25,000원) 걱정했는데...
 1	가격이	_	NOUN	NOUN	_	3	nsubj	_	_	가격/NNG+이/JKS
 2	완전	_	ADV	ADV	_	3	advmod	_	_	완전/NNG
-3	싸서	_	VERB	PREDCONJ	_	7	advcl	_	SpaceAfter=No	싸/VV+아서/EC
+3	싸서	_	VERB	PREDCONJ	_	8	advcl	_	SpaceAfter=No	싸/VV+아서/EC
 4	(	_	PUNCT	.	_	6	punct	_	_	(/SS
 5	2명이	_	VERB	PREDCONJ	_	3	advcl	_	_	2/SN+명/NNB+이/JKS
-6	25,000원)	_	NOUN	NUMNOUN	_	3	appos	_	_	25/SN+,/SP+000/SN+원/NNB+)/SS
-7	걱정했는데	_	VERB	VERB	_	0	root	_	SpaceAfter=No	걱정/NNG+하/XSV+았/EP+는데/EC
-8	...	_	PUNCT	.	_	7	punct	_	_	.../SE
+6	25,000원	_	NOUN	NUMNOUN	_	3	appos	_	SpaceAfter=No	25/SN+,/SP+000/SN+원/NNB
+7	)	_	PUNCT	.	_	6	punct	_	_	)/SS
+8	걱정했는데	_	VERB	VERB	_	0	root	_	SpaceAfter=No	걱정/NNG+하/XSV+았/EP+는데/EC
+9	...	_	PUNCT	.	_	8	punct	_	_	.../SE
 
 # sent id = test-s222
 # text = 예송은 주자학의 핵심내용인 종법과 예의 불변성을 강조하여 왕, 사대부, 평민 모두에게 예외없이 적용하려던 송시열, 송준길 등 주자정통주의와 국왕만은 예외라며 예의 가변성을 인정하려는 윤휴, 허목의 주자비판론자, 탈주자주의자, 탈유교주의자의 사상적 대립이었다.
@@ -3755,18 +3776,20 @@
 
 # sent id = test-s233
 # text = 바늘잎은 8~9cm 길이로 두 개가 한 묶음이 되어 가지에 촘촘히 붙는다.
-1	바늘잎은	_	NOUN	NOUN	_	11	nsubj	_	_	바늘/NNG+잎/NNG+은/JX
-2	8~9cm	_	NOUN	NUMNOUN	_	11	advmod	_	_	8/SN+~/SO+9/SN+cm/SW
-3	길이로	_	ADV	ADV	_	2	flat	_	_	길이/NNG+로/JKB
-4	두	_	NUM	NUM	NumType=Card	5	nummod	_	_	두/MM
-5	개가	_	NOUN	NOUN	_	8	nsubj	_	_	개/NNB+가/JKS
-6	한	_	NUM	NUM	NumType=Card	7	nummod	_	_	한/MM
-7	묶음이	_	NOUN	NOUN	_	8	nsubj	_	_	묶음/NNG+이/JKS
-8	되어	_	VERB	PREDCONJ	_	11	advcl	_	_	되/VV+어/EC
-9	가지에	_	ADV	ADV	_	11	advmod	_	_	가지/NNG+에/JKB
-10	촘촘히	_	ADV	ADV	_	11	advmod	_	_	촘촘히/MAG
-11	붙는다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	붙/VV+는다/EF
-12	.	_	PUNCT	.	_	11	punct	_	_	./SF
+1	바늘잎은	_	NOUN	NOUN	_	13	nsubj	_	_	바늘/NNG+잎/NNG+은/JX
+2	8	_	NOUN	NUMNOUN	_	13	advmod	_	SpaceAfter=No	8/SN
+3	~	_	PUNCT	.	_	4	punct	_	_	~/SO
+4	9cm	_	NOUN	NUMNOUN	_	2	advmod	_	_	9/SN+cm/SL
+5	길이로	_	ADV	ADV	_	2	flat	_	_	길이/NNG+로/JKB
+6	두	_	NUM	NUM	NumType=Card	7	nummod	_	_	두/MM
+7	개가	_	NOUN	NOUN	_	10	nsubj	_	_	개/NNB+가/JKS
+8	한	_	NUM	NUM	NumType=Card	9	nummod	_	_	한/MM
+9	묶음이	_	NOUN	NOUN	_	10	nsubj	_	_	묶음/NNG+이/JKS
+10	되어	_	VERB	PREDCONJ	_	13	advcl	_	_	되/VV+어/EC
+11	가지에	_	ADV	ADV	_	13	advmod	_	_	가지/NNG+에/JKB
+12	촘촘히	_	ADV	ADV	_	13	advmod	_	_	촘촘히/MAG
+13	붙는다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	붙/VV+는다/EF
+14	.	_	PUNCT	.	_	13	punct	_	_	./SF
 
 # sent id = test-s234
 # text = 이에 따르면 JYJ 앨범 '인 헤븐'수록곡인 '삐에로'가 부적격 판정을 받았다.
@@ -5147,23 +5170,25 @@
 5	)	_	PUNCT	.	_	4	punct	_	_	)/SS
 6	평균이	_	NOUN	NOUN	_	1	flat	_	_	평균/NNG+이/JKS
 7	지난해	_	NOUN	NOUN	_	8	nmod	_	_	지난해/NNG
-8	2.0	_	NOUN	NUMNOUN	_	14	ccomp	_	_	2/SN+./SF+0/SN
+8	2.0	_	NOUN	NUMNOUN	_	16	ccomp	_	_	2/SN+./SF+0/SN
 9	%	_	PUNCT	.	_	8	punct	_	_	%/SW
 10	,	_	PUNCT	.	_	8	punct	_	_	,/SP
 11	올해	_	NOUN	NOUN	_	12	nmod	_	_	올해/NNG
-12	1.9%라는	_	VERB	PREDCOMP	_	8	conj	_	_	1/SN+./SF+9/SN+%/SW+이/VCP+라는/ETM
-13	점을	_	NOUN	NOUN	_	14	obj	_	_	점/NNB+을/JKO
-14	고려하면	_	VERB	PREDCONJ	_	22	advcl	_	_	고려/NNG+하/XSV+면/EC
-15	한국은	_	NOUN	PNOUN	_	22	nsubj	_	_	한국/NNP+은/JX
-16	지난해와	_	ADV	ADV	_	17	advmod	_	_	지난해/NNG+와/JKB
-17	달리	_	ADV	ADV	_	22	advmod	_	_	달리/MAG
-18	올해	_	NOUN	NOUN	_	22	nmod	_	_	올해/NNG
-19	사실상	_	ADV	ADV	_	22	advmod	_	_	사실/NNG+상/XSN
-20	긴축	_	NOUN	NOUN	_	22	obj	_	_	긴축/NNG
-21	재정을	_	NOUN	NOUN	_	20	flat	_	_	재정/NNG+을/JKO
-22	펼치는	_	VERB	PREDREL	_	23	dep	_	_	펼치/VV+는/ETM
-23	셈이다	_	VERB	NOMCOP	_	0	root	_	SpaceAfter=No	셈/NNB+이/VCP+다/EF
-24	.	_	PUNCT	.	_	23	punct	_	_	./SF
+12	1.9	_	VERB	PREDCOMP	_	8	conj	_	SpaceAfter=No	1/SN+./SF+9/SN
+13	%	_	PUNCT	.	_	14	punct	_	_	%/SW
+14	라는	_	VERB	PREDCOMP	_	12	conj	_	_	이/VCP+라는/ETM
+15	점을	_	NOUN	NOUN	_	16	obj	_	_	점/NNB+을/JKO
+16	고려하면	_	VERB	PREDCONJ	_	24	advcl	_	_	고려/NNG+하/XSV+면/EC
+17	한국은	_	NOUN	PNOUN	_	24	nsubj	_	_	한국/NNP+은/JX
+18	지난해와	_	ADV	ADV	_	19	advmod	_	_	지난해/NNG+와/JKB
+19	달리	_	ADV	ADV	_	24	advmod	_	_	달리/MAG
+20	올해	_	NOUN	NOUN	_	24	nmod	_	_	올해/NNG
+21	사실상	_	ADV	ADV	_	24	advmod	_	_	사실/NNG+상/XSN
+22	긴축	_	NOUN	NOUN	_	24	obj	_	_	긴축/NNG
+23	재정을	_	NOUN	NOUN	_	22	flat	_	_	재정/NNG+을/JKO
+24	펼치는	_	VERB	PREDREL	_	25	dep	_	_	펼치/VV+는/ETM
+25	셈이다	_	VERB	NOMCOP	_	0	root	_	SpaceAfter=No	셈/NNB+이/VCP+다/EF
+26	.	_	PUNCT	.	_	25	punct	_	_	./SF
 
 # sent id = test-s323
 # text = 실제로 그녀가 복수를 하는 방법에선 뛰어난 두뇌임이 증명됐다.
@@ -5438,24 +5463,30 @@
 4	수어장대가	_	NOUN	PNOUN	_	5	nsubj	_	_	수어장대/NNG+가/JKS
 5	있는	_	VERB	PREDREL	_	6	acl:relcl	_	_	있/VV+는/ETM
 6	청량산	_	VERB	PREDCONJ	_	0	root	_	SpaceAfter=No	청량산/NNP
-7	(	_	PUNCT	.	_	9	punct	_	_	(/SS
-8	482.6m)이고	_	VERB	PREDCONJ	_	6	root	_	_	482/SN+./SF+6/SN+m/SW+)/SS+이/VCP+고/EC
-9	지형도상의	_	NOUN	NOUN	_	10	det:poss	_	_	지형도/NNG+상/XSN+의/JKG
-10	남한산성	_	NOUN	PNOUN	_	15	nsubj	_	_	남한산성/NNP
-11	최고봉은	_	NOUN	NOUN	_	10	flat	_	_	최고봉/NNG+은/JX
-12	39.4m가	_	NOUN	NUMNOUN	_	14	nsubj	_	_	39/SN+./SF+4/SN+m/SW+가/JKS
-13	더	_	ADV	ADV	_	14	advmod	_	_	더/MAG
-14	높은	_	VERB	PREDREL	_	15	acl:relcl	_	_	높/VA+은/ETM
-15	남한산	_	VERB	NOMCOP	_	6	conj	_	SpaceAfter=No	남한산/NNP
-16	(	_	PUNCT	.	_	18	punct	_	_	(/SS
-17	522m)이다.	_	VERB	NOMCOP	_	15	conj	_	_	522/SN+m/SW+)/SS+이/VCP+다/EF+./SF
+7	(	_	PUNCT	.	_	11	punct	_	_	(/SS
+8	482.6m	_	VERB	PREDCONJ	_	6	root	_	SpaceAfter=No	482/SN+./SF+6/SN+m/SL
+9	)	_	PUNCT	.	_	10	punct	_	_	)/SS
+10	이고	_	VERB	PREDCONJ	_	8	root	_	_	이/VCP+고/EC
+11	지형도상의	_	NOUN	NOUN	_	12	det:poss	_	_	지형도/NNG+상/XSN+의/JKG
+12	남한산성	_	NOUN	PNOUN	_	17	nsubj	_	_	남한산성/NNP
+13	최고봉은	_	NOUN	NOUN	_	12	flat	_	_	최고봉/NNG+은/JX
+14	39.4m가	_	NOUN	NUMNOUN	_	16	nsubj	_	_	39/SN+./SF+4/SN+m/SL+가/JKS
+15	더	_	ADV	ADV	_	16	advmod	_	_	더/MAG
+16	높은	_	VERB	PREDREL	_	17	acl:relcl	_	_	높/VA+은/ETM
+17	남한산	_	VERB	NOMCOP	_	6	conj	_	SpaceAfter=No	남한산/NNP
+18	(	_	PUNCT	.	_	23	punct	_	_	(/SS
+19	522m	_	VERB	NOMCOP	_	17	conj	_	SpaceAfter=No	522/SN+m/SL
+20	)	_	PUNCT	.	_	21	punct	_	_	)/SS
+21	이다	_	VERB	NOMCOP	_	19	conj	_	SpaceAfter=No	이/VCP+다/EF
+22	.	_	PUNCT	.	_	21	punct	_	_	./SF
 
 # sent id = test-s342
 # text = 최고고도는 4539m이고 최저고도는 3168m이다.
 1	최고고도는	_	NOUN	NOUN	_	2	nsubj	_	_	최고/NNG+고도/NNG+는/JX
-2	4539m이고	_	VERB	PREDCONJ	_	0	root	_	_	4539/SN+m/SW+이/VCP+고/EC
+2	4539m이고	_	VERB	PREDCONJ	_	0	root	_	_	4539/SN+m/SL+이/VCP+고/EC
 3	최저고도는	_	NOUN	NOUN	_	4	nsubj	_	_	최저/NNG+고도/NNG+는/JX
-4	3168m이다.	_	VERB	NOMCOP	_	2	conj	_	_	3168/SN+m/SW+이/VCP+다/EF+./SF
+4	3168m이다	_	VERB	NOMCOP	_	2	conj	_	SpaceAfter=No	3168/SN+m/SL+이/VCP+다/EF
+5	.	_	PUNCT	.	_	4	punct	_	_	./SF
 
 # sent id = test-s343
 # text = 21세기의 미래 한국 경제를 이끌어갈 창업자들을 부르기 위해 매일경제는 `Can Do(할 수 있다)` 정신으로 무장한 창업 1세대를 조명한다.
@@ -5613,7 +5644,7 @@
 1	구	_	NOUN	NOUN	_	22	nsubj	_	_	구/NNP
 2	관계자는	_	NOUN	NOUN	_	1	flat	_	_	관계자/NNG+는/JX
 3	"	_	PUNCT	.	_	4	punct	_	_	"/SS
-4	MICE산업은	_	NOUN	PNOUN	_	7	nsubj	_	_	M/SW+ICE/SL+산업/NNG+은/JX
+4	MICE산업은	_	NOUN	PNOUN	_	7	nsubj	_	_	MICE/SL+산업/NNG+은/JX
 5	부가가치가	_	NOUN	NOUN	_	6	nsubj	_	_	부가/NNG+가치/NNG+가/JKS
 6	높은	_	VERB	PREDREL	_	7	acl:relcl	_	_	높/VA+은/ETM
 7	21세기형	_	NOUN	NUMNOUN	_	22	advcl	_	_	21/SN+세기/NNG+형/XSN
@@ -6064,7 +6095,7 @@
 # sent id = test-s384
 # text = 그러나 2009년 8월 30일, 심대평 의원이 자유선진당을 전격적으로 탈당한 데 이어, 9월 1일에는 교섭단체 탈퇴신고서를 제출하여 교섭단체 구성요건인 20석을 채우지 못해 해산되었다.
 1	그러나	_	ADV	ADV	_	24	advmod	_	_	그러나/MAJ
-2	2009년	_	NOUN	NUMNOUN	_	10	nmod	_	_	20/SN+0/SO+9/SN+년/NNB
+2	2009년	_	NOUN	NUMNOUN	_	10	nmod	_	_	2009/SN+년/NNB
 3	8월	_	NOUN	NUMNOUN	_	2	flat	_	_	8/SN+월/NNB
 4	30일	_	NOUN	NUMNOUN	_	2	flat	_	SpaceAfter=No	30/SN+일/NNB
 5	,	_	PUNCT	.	_	4	punct	_	_	,/SP
@@ -6682,12 +6713,12 @@
 3	공식	_	NOUN	NOUN	_	11	nsubj	_	_	공식/NNG
 4	명칭은	_	NOUN	NOUN	_	3	flat	_	_	명칭/NNG+은/JX
 5	'	_	PUNCT	.	_	6	punct	_	_	'/SS
-6	OOO담당	_	NOUN	NOUN	_	0	root	_	_	OOO/SW+담당/NNG
+6	OOO담당	_	NOUN	NOUN	_	0	root	_	_	OOO/SL+담당/NNG
 7	부문장	_	NOUN	NOUN	_	6	flat	_	_	부/XPN+문장/NNG
 8	'	_	PUNCT	.	_	6	punct	_	_	'/SS
 9	,	_	PUNCT	.	_	6	punct	_	_	,/SP
 10	'	_	PUNCT	.	_	11	punct	_	_	'/SS
-11	OOO	_	X	X	_	6	conj	_	_	OOO/SW
+11	OOO	_	X	X	_	6	conj	_	_	OOO/SL
 12	책임	_	VERB	NOMCOP	_	11	flat	_	SpaceAfter=No	책임/NNG
 13	'	_	PUNCT	.	_	14	punct	_	_	'/SS
 14	이다	_	VERB	NOMCOP	_	12	flat	_	SpaceAfter=No	이/VCP+다/EF
@@ -6750,7 +6781,7 @@
 5	모리스	_	NOUN	PNOUN	_	10	nsubj	_	_	모리스/NNP
 6	창	_	NOUN	PNOUN	_	5	flat	_	_	창/NNG
 7	박사가	_	NOUN	NOUN	_	5	flat	_	_	박사/NNG+가/JKS
-8	TSMC라는	_	VERB	PREDREL	_	9	acl:relcl	_	_	TS/SL+M/SW+C/SL+이/VCP+라는/ETM
+8	TSMC라는	_	VERB	PREDREL	_	9	acl:relcl	_	_	TSMC/SL+이/VCP+라는/ETM
 9	기업을	_	NOUN	NOUN	_	10	obj	_	_	기업/NNG+을/JKO
 10	설립함으로써	_	ADV	ADV	_	11	advmod	_	_	설립/NNG+하/XSV+ㅁ/ETN+으로써/JKB
 11	확립됐다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	확립/NNG+되/XSV+었/EP+다/EF
@@ -7008,15 +7039,16 @@
 
 # sent id = test-s445
 # text = 도쿄는 후쿠시마 원전에서 남서쪽으로 240㎞ 정도 떨어져 있다.
-1	도쿄는	_	NOUN	PNOUN	_	7	nsubj	_	_	도쿄/NNP+는/JX
-2	후쿠시마	_	NOUN	PNOUN	_	7	advmod	_	_	후쿠시마/NNP
+1	도쿄는	_	NOUN	PNOUN	_	8	nsubj	_	_	도쿄/NNP+는/JX
+2	후쿠시마	_	NOUN	PNOUN	_	8	advmod	_	_	후쿠시마/NNP
 3	원전에서	_	ADV	ADV	_	2	flat	_	_	원전/NNG+에서/JKB
-4	남서쪽으로	_	ADV	ADV	_	7	advmod	_	_	남서쪽/NNG+으로/JKB
-5	240㎞	_	NOUN	NUMNOUN	_	7	nmod	_	_	240/SN+㎞/SW
-6	정도	_	ADP	ADP	_	5	case	_	_	정도/NNG
-7	떨어져	_	VERB	PREDCX	_	0	root	_	_	떨어지/VV+어/EC
-8	있다	_	VERB	VERB	_	7	flat	_	SpaceAfter=No	있/VX+다/EF
-9	.	_	PUNCT	.	_	8	punct	_	_	./SF
+4	남서쪽으로	_	ADV	ADV	_	8	advmod	_	_	남서쪽/NNG+으로/JKB
+5	240	_	NOUN	NUMNOUN	_	8	nmod	_	SpaceAfter=No	240/SN
+6	㎞	_	PUNCT	.	_	5	punct	_	_	㎞/SW
+7	정도	_	ADP	ADP	_	5	case	_	_	정도/NNG
+8	떨어져	_	VERB	PREDCX	_	0	root	_	_	떨어지/VV+어/EC
+9	있다	_	VERB	VERB	_	8	flat	_	SpaceAfter=No	있/VX+다/EF
+10	.	_	PUNCT	.	_	9	punct	_	_	./SF
 
 # sent id = test-s446
 # text = 가격에 비해 맛이 많이 떨어지내요
@@ -7117,7 +7149,7 @@
 5	,	_	PUNCT	.	_	4	punct	_	_	,/SP
 6	옥포조선소에서	_	ADV	ADV	_	7	advmod	_	_	옥포/NNP+조선소/NNG+에서/JKB
 7	건조돼	_	VERB	PREDCONJ	_	11	advcl	_	_	건조/NNG+되/XSV+어/EC
-8	2012년	_	NOUN	NUMNOUN	_	11	nmod	_	_	2/SN+0/SO+12/SN+년/NNB
+8	2012년	_	NOUN	NUMNOUN	_	11	nmod	_	_	2012/SN+년/NNB
 9	하반기	_	NOUN	NOUN	_	8	flat	_	_	하반기/NNG
 10	선주사에	_	ADV	ADV	_	11	advmod	_	_	선/NNG+주사/NNG+에/JKB
 11	인도될	_	VERB	PREDREL	_	12	dep	_	_	인도/NNG+되/XSV+ㄹ/ETM
@@ -7138,29 +7170,30 @@
 
 # sent id = test-s456
 # text = 또 중부선의 경우 증평에서 진천까지 11㎞ 구간에서 지•정체 현상이 반복되고 있으며 차량은 더욱 빠르게 증가하고 있어 저녁까지 운전자들의 불편이 예상된다.
-1	또	_	ADV	ADV	_	22	advmod	_	_	또/MAJ
+1	또	_	ADV	ADV	_	23	advmod	_	_	또/MAJ
 2	중부선의	_	NOUN	NOUN	_	3	det:poss	_	_	중부/NNG+선/NNG+의/JKG
-3	경우	_	NOUN	NOUN	_	22	advmod	_	_	경우/NNG
-4	증평에서	_	ADV	ADV	_	12	advmod	_	_	증평/NNP+에서/JKB
-5	진천까지	_	ADV	ADV	_	12	advmod	_	_	진천/NNP+까지/JX
-6	11㎞	_	NOUN	NUMNOUN	_	12	advmod	_	_	11/SN+㎞/SW
-7	구간에서	_	ADV	ADV	_	6	flat	_	_	구간/NNG+에서/JKB
-8	지	_	NOUN	NOUN	_	12	nsubj:pass	_	SpaceAfter=No	지/NNG
-9	•	_	PUNCT	.	_	10	punct	_	_	•/SS
-10	정체	_	NOUN	NOUN	_	8	nsubj:pass	_	_	정체/NNG
-11	현상이	_	NOUN	NOUN	_	8	flat	_	_	현상/NNG+이/JKS
-12	반복되고	_	VERB	PREDCX	_	22	advcl	_	_	반복/NNG+되/XSV+고/EC
-13	있으며	_	VERB	PREDCONJ	_	12	flat	_	_	있/VX+으며/EC
-14	차량은	_	NOUN	NOUN	_	17	nsubj	_	_	차량/NNG+은/JX
-15	더욱	_	ADV	ADV	_	16	advmod	_	_	더욱/MAG
-16	빠르게	_	ADV	ADV	_	17	advmod	_	_	빠르/VA+게/EC
-17	증가하고	_	VERB	PREDCX	_	12	conj	_	_	증가/NNG+하/XSV+고/EC
-18	있어	_	VERB	PREDCONJ	_	17	flat	_	_	있/VX+어/EC
-19	저녁까지	_	ADV	ADV	_	22	advmod	_	_	저녁/NNG+까지/JX
-20	운전자들의	_	NOUN	NOUN	_	21	det:poss	_	_	운전자/NNG+들/XSN+의/JKG
-21	불편이	_	NOUN	NOUN	_	22	nsubj:pass	_	_	불편/NNG+이/JKS
-22	예상된다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	예상/NNG+되/XSV+ㄴ다/EF
-23	.	_	PUNCT	.	_	22	punct	_	_	./SF
+3	경우	_	NOUN	NOUN	_	23	advmod	_	_	경우/NNG
+4	증평에서	_	ADV	ADV	_	13	advmod	_	_	증평/NNP+에서/JKB
+5	진천까지	_	ADV	ADV	_	13	advmod	_	_	진천/NNP+까지/JX
+6	11	_	NOUN	NUMNOUN	_	13	advmod	_	SpaceAfter=No	11/SN
+7	㎞	_	PUNCT	.	_	6	punct	_	_	㎞/SW
+8	구간에서	_	ADV	ADV	_	6	flat	_	_	구간/NNG+에서/JKB
+9	지	_	NOUN	NOUN	_	13	nsubj:pass	_	SpaceAfter=No	지/NNG
+10	•	_	PUNCT	.	_	11	punct	_	_	•/SS
+11	정체	_	NOUN	NOUN	_	9	nsubj:pass	_	_	정체/NNG
+12	현상이	_	NOUN	NOUN	_	9	flat	_	_	현상/NNG+이/JKS
+13	반복되고	_	VERB	PREDCX	_	23	advcl	_	_	반복/NNG+되/XSV+고/EC
+14	있으며	_	VERB	PREDCONJ	_	13	flat	_	_	있/VX+으며/EC
+15	차량은	_	NOUN	NOUN	_	18	nsubj	_	_	차량/NNG+은/JX
+16	더욱	_	ADV	ADV	_	17	advmod	_	_	더욱/MAG
+17	빠르게	_	ADV	ADV	_	18	advmod	_	_	빠르/VA+게/EC
+18	증가하고	_	VERB	PREDCX	_	13	conj	_	_	증가/NNG+하/XSV+고/EC
+19	있어	_	VERB	PREDCONJ	_	18	flat	_	_	있/VX+어/EC
+20	저녁까지	_	ADV	ADV	_	23	advmod	_	_	저녁/NNG+까지/JX
+21	운전자들의	_	NOUN	NOUN	_	22	det:poss	_	_	운전자/NNG+들/XSN+의/JKG
+22	불편이	_	NOUN	NOUN	_	23	nsubj:pass	_	_	불편/NNG+이/JKS
+23	예상된다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	예상/NNG+되/XSV+ㄴ다/EF
+24	.	_	PUNCT	.	_	23	punct	_	_	./SF
 
 # sent id = test-s457
 # text = 근처에 빵집이 어디있지
@@ -7217,7 +7250,7 @@
 # sent id = test-s460
 # text = 바마코에서 240km 떨어져있다.
 1	바마코에서	_	ADV	ADV	_	3	advmod	_	_	바마코/NNP+에서/JKB
-2	240km	_	NOUN	NUMNOUN	_	3	nsubj	_	_	240/SN+km/SW
+2	240km	_	NOUN	NUMNOUN	_	3	nsubj	_	_	240/SN+km/SL
 3	떨어져있다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	떨어지/VV+어/EC+있/VX+다/EF
 4	.	_	PUNCT	.	_	3	punct	_	_	./SF
 
@@ -7489,7 +7522,8 @@
 5	넘넘	_	ADV	ADV	_	6	advmod	_	_	넘넘/XR
 6	좋아요	_	ADJ	ADJ	_	0	root	_	_	좋/VA+아요/EC
 7	^	_	PUNCT	.	_	8	punct	_	_	^/SW
-8	0^	_	X	X	_	6	dep	_	_	0/SN+^/SW
+8	0	_	X	X	_	6	dep	_	SpaceAfter=No	0/SN
+9	^	_	PUNCT	.	_	8	punct	_	_	^/SW
 
 # sent id = test-s478
 # text = 리움 미술관은 어떻게 생겼냐
@@ -7833,7 +7867,7 @@
 7	경총	_	NOUN	PNOUN	_	6	flat	_	_	경총/NNP
 8	회장	_	NOUN	NOUN	_	6	flat	_	SpaceAfter=No	회장/NNG
 9	(	_	PUNCT	.	_	11	punct	_	_	(/SS
-10	STX중공업	_	NOUN	NOUN	_	8	flat	_	_	ST/SL+X/SW+중공업/NNG
+10	STX중공업	_	NOUN	NOUN	_	8	flat	_	_	STX/SL+중공업/NNG
 11	및	_	CCONJ	CONJ	_	6	cc	_	_	및/MAG
 12	STX건설	_	NOUN	PNOUN	_	6	flat	_	_	STX/SL+건설/NNG
 13	회장	_	NOUN	NOUN	_	6	flat	_	_	회장/NNG
@@ -7853,23 +7887,28 @@
 
 # sent id = test-s505
 # text = 반면 인천이 7.89%로 가장 높았고, 서울(7.02 %), 광주(6.87%)가 순이다.
-1	반면	_	ADV	ADV	_	5	advmod	_	_	반면/NNG
-2	인천이	_	NOUN	PNOUN	_	5	nsubj	_	_	인천/NNP+이/JKS
-3	7.89%로	_	ADV	ADV	_	5	advmod	_	_	7/SN+./SF+89/SN+%/SW+로/JKB
-4	가장	_	ADV	ADV	_	5	advmod	_	_	가장/MAG
-5	높았고	_	VERB	PREDCONJ	_	0	root	_	SpaceAfter=No	높/VA+았/EP+고/EC
-6	,	_	PUNCT	.	_	5	punct	_	_	,/SP
-7	서울	_	NOUN	PNOUN	_	16	nsubj	_	SpaceAfter=No	서울/NNP
-8	(	_	PUNCT	.	_	12	punct	_	_	(/SS
-9	7.02	_	NOUN	PNOUN	_	7	nsubj	_	_	7/SN+./SF+02/SN
-10	%	_	PUNCT	.	_	7	punct	_	_	%/SW
-11	)	_	PUNCT	.	_	7	punct	_	_	)/SS
-12	,	_	PUNCT	.	_	7	punct	_	_	,/SP
-13	광주	_	NOUN	PNOUN	_	7	conj	_	SpaceAfter=No	광주/NNP
-14	(	_	PUNCT	.	_	16	punct	_	_	(/SS
-15	6.87%)가	_	NOUN	PNOUN	_	13	conj	_	_	6/SN+./SF+87/SN+%/SW+)/SS+가/JKS
-16	순이다	_	VERB	NOMCOP	_	5	conj	_	SpaceAfter=No	순/NNG+이/VCP+다/EF
-17	.	_	PUNCT	.	_	16	punct	_	_	./SF
+1	반면	_	ADV	ADV	_	7	advmod	_	_	반면/NNG
+2	인천이	_	NOUN	PNOUN	_	7	nsubj	_	_	인천/NNP+이/JKS
+3	7.89	_	ADV	ADV	_	7	advmod	_	SpaceAfter=No	7/SN+./SF+89/SN
+4	%	_	PUNCT	.	_	5	punct	_	_	%/SW
+5	로	_	ADV	ADV	_	3	advmod	_	_	로/JKB
+6	가장	_	ADV	ADV	_	7	advmod	_	_	가장/MAG
+7	높았고	_	VERB	PREDCONJ	_	0	root	_	SpaceAfter=No	높/VA+았/EP+고/EC
+8	,	_	PUNCT	.	_	7	punct	_	_	,/SP
+9	서울	_	NOUN	PNOUN	_	21	nsubj	_	SpaceAfter=No	서울/NNP
+10	(	_	PUNCT	.	_	14	punct	_	_	(/SS
+11	7.02	_	NOUN	PNOUN	_	9	nsubj	_	_	7/SN+./SF+02/SN
+12	%	_	PUNCT	.	_	9	punct	_	_	%/SW
+13	)	_	PUNCT	.	_	9	punct	_	_	)/SS
+14	,	_	PUNCT	.	_	9	punct	_	_	,/SP
+15	광주	_	NOUN	PNOUN	_	9	conj	_	SpaceAfter=No	광주/NNP
+16	(	_	PUNCT	.	_	21	punct	_	_	(/SS
+17	6.87	_	NOUN	PNOUN	_	15	conj	_	SpaceAfter=No	6/SN+./SF+87/SN
+18	%	_	PUNCT	.	_	20	punct	_	_	%/SW
+19	)	_	PUNCT	.	_	20	punct	_	_	)/SS
+20	가	_	NOUN	PNOUN	_	17	conj	_	_	가/JKS
+21	순이다	_	VERB	NOMCOP	_	7	conj	_	SpaceAfter=No	순/NNG+이/VCP+다/EF
+22	.	_	PUNCT	.	_	21	punct	_	_	./SF
 
 # sent id = test-s506
 # text = 2007년 2월 25일 발매.
@@ -8361,25 +8400,27 @@
 # sent id = test-s537
 # text = 이 지역 점주들은 "7~8월 비수기 저조한 매출을 대비하기 위해 5월 매출 신장을 위해 노력 중"이라고 전했다.
 1	이	_	DET	DET	_	2	det	_	_	이/MM
-2	지역	_	NOUN	PNOUN	_	19	nsubj	_	_	지역/NNG
+2	지역	_	NOUN	PNOUN	_	21	nsubj	_	_	지역/NNG
 3	점주들은	_	NOUN	NOUN	_	2	flat	_	_	점주/NNG+들/XSN+은/JX
 4	"	_	PUNCT	.	_	5	punct	_	_	"/SS
-5	7~8월	_	NOUN	NUMNOUN	_	9	obj	_	_	7/SN+~/SO+8/SN+월/NNB
-6	비수기	_	NOUN	NOUN	_	5	flat	_	_	비수기/NNG
-7	저조한	_	ADJ	ADJ	_	5	amod	_	_	저조/NNG+하/XSA+ㄴ/ETM
-8	매출을	_	NOUN	NOUN	_	5	flat	_	_	매출/NNG+을/JKO
-9	대비하기	_	NOUN	NOUN	_	10	obj	_	_	대비/NNG+하/XSV+기/ETN
-10	위해	_	VERB	PREDCONJ	_	19	advcl	_	_	위하/VV+아/EC
-11	5월	_	NOUN	NUMNOUN	_	14	obj	_	_	5/SN+월/NNB
-12	매출	_	NOUN	NOUN	_	11	flat	_	_	매출/NNG
-13	신장을	_	NOUN	NOUN	_	11	flat	_	_	신장/NNG+을/JKO
-14	위해	_	VERB	PREDCONJ	_	19	advcl	_	_	위하/VV+아/EC
-15	노력	_	NOUN	NOUN	_	19	ccomp	_	_	노력/NNG
-16	중	_	VERB	PREDCOMP	_	15	flat	_	SpaceAfter=No	중/NNB
-17	"	_	PUNCT	.	_	18	punct	_	_	"/SS
-18	이라고	_	VERB	PREDCOMP	_	16	flat	_	_	이라고/JKQ
-19	전했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	전하/VV+았/EP+다/EF
-20	.	_	PUNCT	.	_	19	punct	_	_	./SF
+5	7	_	NOUN	NUMNOUN	_	11	obj	_	SpaceAfter=No	7/SN
+6	~	_	PUNCT	.	_	7	punct	_	_	~/SO
+7	8월	_	NOUN	NUMNOUN	_	5	obj	_	_	8/SN+월/NNB
+8	비수기	_	NOUN	NOUN	_	5	flat	_	_	비수기/NNG
+9	저조한	_	ADJ	ADJ	_	5	amod	_	_	저조/NNG+하/XSA+ㄴ/ETM
+10	매출을	_	NOUN	NOUN	_	5	flat	_	_	매출/NNG+을/JKO
+11	대비하기	_	NOUN	NOUN	_	12	obj	_	_	대비/NNG+하/XSV+기/ETN
+12	위해	_	VERB	PREDCONJ	_	21	advcl	_	_	위하/VV+아/EC
+13	5월	_	NOUN	NUMNOUN	_	16	obj	_	_	5/SN+월/NNB
+14	매출	_	NOUN	NOUN	_	13	flat	_	_	매출/NNG
+15	신장을	_	NOUN	NOUN	_	13	flat	_	_	신장/NNG+을/JKO
+16	위해	_	VERB	PREDCONJ	_	21	advcl	_	_	위하/VV+아/EC
+17	노력	_	NOUN	NOUN	_	21	ccomp	_	_	노력/NNG
+18	중	_	VERB	PREDCOMP	_	17	flat	_	SpaceAfter=No	중/NNB
+19	"	_	PUNCT	.	_	20	punct	_	_	"/SS
+20	이라고	_	VERB	PREDCOMP	_	18	flat	_	_	이라고/JKQ
+21	전했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	전하/VV+았/EP+다/EF
+22	.	_	PUNCT	.	_	21	punct	_	_	./SF
 
 # sent id = test-s538
 # text = 기원전 8세기에서 기원전 6세기에 이르는 기간 동안 아테네는 정치, 경제, 사회, 문화면에서 큰 변화를 겪었다.
@@ -8657,7 +8698,7 @@
 
 # sent id = test-s560
 # text = 1886년에는 럭비 규칙을 제정하고 국제적인 럭비 행정을 총괄하는 기구로 국제 럭비 평의회(IRB, International Rugby Board)가 창설되었고, 1890년 럭비 유니온이 그를 승인하게 된다.
-1	1886년에는	_	NOUN	NUMNOUN	_	20	nmod	_	_	1886/SN+년/NNB+에/JKB+는/JX
+1	1886년에는	_	NOUN	NUMNOUN	_	21	nmod	_	_	1886/SN+년/NNB+에/JKB+는/JX
 2	럭비	_	NOUN	NOUN	_	4	obj	_	_	럭비/NNG
 3	규칙을	_	NOUN	NOUN	_	2	flat	_	_	규칙/NNG+을/JKO
 4	제정하고	_	VERB	PREDCONJ	_	9	acl:relcl	_	_	제정/NNG+하/XSV+고/EC
@@ -8665,26 +8706,27 @@
 6	럭비	_	NOUN	NOUN	_	8	obj	_	_	럭비/NNG
 7	행정을	_	NOUN	NOUN	_	6	flat	_	_	행정/NNG+을/JKO
 8	총괄하는	_	VERB	PREDREL	_	4	conj	_	_	총괄/NNG+하/XSV+는/ETM
-9	기구로	_	ADV	ADV	_	20	advmod	_	_	기구/NNG+로/JKB
-10	국제	_	NOUN	PNOUN	_	20	nsubj:pass	_	_	국제/NNG
+9	기구로	_	ADV	ADV	_	21	advmod	_	_	기구/NNG+로/JKB
+10	국제	_	NOUN	PNOUN	_	21	nsubj:pass	_	_	국제/NNG
 11	럭비	_	NOUN	PNOUN	_	10	flat	_	_	럭비/NNG
 12	평의회	_	NOUN	PNOUN	_	10	flat	_	SpaceAfter=No	평의회/NNG
-13	(	_	PUNCT	.	_	15	punct	_	_	(/SS
-14	IRB,	_	NOUN	PNOUN	_	12	flat	_	_	I/SW+RB/SL+,/SP
-15	International	_	NOUN	PNOUN	_	10	flat	_	_	International/SL
-16	Rugby	_	NOUN	PNOUN	_	10	flat	_	_	Rugby/SL
-17	Board	_	NOUN	PNOUN	_	10	flat	_	SpaceAfter=No	Board/SL
-18	)	_	PUNCT	.	_	19	punct	_	_	)/SS
-19	가	_	NOUN	PNOUN	_	17	flat	_	_	가/JKS
-20	창설되었고	_	VERB	PREDCONJ	_	0	root	_	SpaceAfter=No	창설/NNG+되/XSV+었/EP+고/EC
-21	,	_	PUNCT	.	_	20	punct	_	_	,/SP
-22	1890년	_	NOUN	NUMNOUN	_	26	nmod	_	_	1890/SN+년/NNB
-23	럭비	_	NOUN	PNOUN	_	26	nsubj	_	_	럭비/NNG
-24	유니온이	_	NOUN	PNOUN	_	23	flat	_	_	유니온/NNP+이/JKS
-25	그를	_	PRON	PRON	_	26	obj	_	_	그/NP+를/JKO
-26	승인하게	_	VERB	PREDCX	_	20	conj	_	_	승인/NNG+하/XSV+게/EC
-27	된다	_	VERB	VERB	_	26	flat	_	SpaceAfter=No	되/VV+ㄴ다/EF
-28	.	_	PUNCT	.	_	27	punct	_	_	./SF
+13	(	_	PUNCT	.	_	16	punct	_	_	(/SS
+14	IRB	_	NOUN	PNOUN	_	12	flat	_	SpaceAfter=No	IRB/SL
+15	,	_	PUNCT	.	_	14	punct	_	_	,/SP
+16	International	_	NOUN	PNOUN	_	10	flat	_	_	International/SL
+17	Rugby	_	NOUN	PNOUN	_	10	flat	_	_	Rugby/SL
+18	Board	_	NOUN	PNOUN	_	10	flat	_	SpaceAfter=No	Board/SL
+19	)	_	PUNCT	.	_	20	punct	_	_	)/SS
+20	가	_	NOUN	PNOUN	_	18	flat	_	_	가/JKS
+21	창설되었고	_	VERB	PREDCONJ	_	0	root	_	SpaceAfter=No	창설/NNG+되/XSV+었/EP+고/EC
+22	,	_	PUNCT	.	_	21	punct	_	_	,/SP
+23	1890년	_	NOUN	NUMNOUN	_	27	nmod	_	_	1890/SN+년/NNB
+24	럭비	_	NOUN	PNOUN	_	27	nsubj	_	_	럭비/NNG
+25	유니온이	_	NOUN	PNOUN	_	24	flat	_	_	유니온/NNP+이/JKS
+26	그를	_	PRON	PRON	_	27	obj	_	_	그/NP+를/JKO
+27	승인하게	_	VERB	PREDCX	_	21	conj	_	_	승인/NNG+하/XSV+게/EC
+28	된다	_	VERB	VERB	_	27	flat	_	SpaceAfter=No	되/VV+ㄴ다/EF
+29	.	_	PUNCT	.	_	28	punct	_	_	./SF
 
 # sent id = test-s561
 # text = 먹어본 중 최고!
@@ -8894,29 +8936,33 @@
 
 # sent id = test-s575
 # text = 제약사 가운데선 와이어스의 사이트에 6.3%가 방문해 가장 많았고, 제약 지원 부문에서는 닥터디렉토리(DoctorDirectory)가 22%를 끌어 가장 인기가 높았다.
-1	제약사	_	NOUN	NOUN	_	8	nmod	_	_	제약사/NNG
+1	제약사	_	NOUN	NOUN	_	10	nmod	_	_	제약사/NNG
 2	가운데선	_	ADP	ADP	_	1	case	_	_	가운데/NNG+선/NNG
 3	와이어스의	_	NOUN	PNOUN	_	4	det:poss	_	_	와이어/NNG+스/NNG+의/JKG
-4	사이트에	_	ADV	ADV	_	6	advmod	_	_	사이트/NNG+에/JKB
-5	6.3%가	_	NOUN	NUMNOUN	_	6	nsubj	_	_	6/SN+./SF+3/SN+%/SW+가/JKS
-6	방문해	_	VERB	PREDCONJ	_	8	advcl	_	_	방문/NNG+하/XSV+아/EC
-7	가장	_	ADV	ADV	_	8	advmod	_	_	가장/MAG
-8	많았고	_	VERB	PREDCONJ	_	0	root	_	SpaceAfter=No	많/VA+았/EP+고/EC
-9	,	_	PUNCT	.	_	8	punct	_	_	,/SP
-10	제약	_	NOUN	NOUN	_	22	advmod	_	_	제약/NNG
-11	지원	_	NOUN	NOUN	_	10	flat	_	_	지원/NNG
-12	부문에서는	_	ADV	ADV	_	10	flat	_	_	부문/NNG+에서/JKB+는/JX
-13	닥터디렉토리	_	NOUN	PNOUN	_	19	nsubj	_	SpaceAfter=No	닥터/NNG+디렉토리/NNG
-14	(	_	PUNCT	.	_	18	punct	_	_	(/SS
-15	DoctorDirectory	_	NOUN	PNOUN	_	13	nsubj	_	SpaceAfter=No	DoctorDirectory/SL
-16	)	_	PUNCT	.	_	17	punct	_	_	)/SS
-17	가	_	NOUN	PNOUN	_	15	nsubj	_	_	가/JKS
-18	22%를	_	NOUN	NUMNOUN	_	19	obj	_	_	22/SN+%/SW+를/JKO
-19	끌어	_	VERB	PREDCONJ	_	22	advcl	_	_	끌/VV+어/EC
-20	가장	_	ADV	ADV	_	22	advmod	_	_	가장/MAG
-21	인기가	_	NOUN	NOUN	_	22	nsubj	_	_	인기/NNG+가/JKS
-22	높았다	_	ADJ	ADJ	_	8	conj	_	SpaceAfter=No	높/VA+았/EP+다/EF
-23	.	_	PUNCT	.	_	22	punct	_	_	./SF
+4	사이트에	_	ADV	ADV	_	8	advmod	_	_	사이트/NNG+에/JKB
+5	6.3	_	NOUN	NUMNOUN	_	8	nsubj	_	SpaceAfter=No	6/SN+./SF+3/SN
+6	%	_	PUNCT	.	_	7	punct	_	_	%/SW
+7	가	_	NOUN	NUMNOUN	_	5	nsubj	_	_	가/JKS
+8	방문해	_	VERB	PREDCONJ	_	10	advcl	_	_	방문/NNG+하/XSV+아/EC
+9	가장	_	ADV	ADV	_	10	advmod	_	_	가장/MAG
+10	많았고	_	VERB	PREDCONJ	_	0	root	_	SpaceAfter=No	많/VA+았/EP+고/EC
+11	,	_	PUNCT	.	_	10	punct	_	_	,/SP
+12	제약	_	NOUN	NOUN	_	26	advmod	_	_	제약/NNG
+13	지원	_	NOUN	NOUN	_	12	flat	_	_	지원/NNG
+14	부문에서는	_	ADV	ADV	_	12	flat	_	_	부문/NNG+에서/JKB+는/JX
+15	닥터디렉토리	_	NOUN	PNOUN	_	23	nsubj	_	SpaceAfter=No	닥터/NNG+디렉토리/NNG
+16	(	_	PUNCT	.	_	20	punct	_	_	(/SS
+17	DoctorDirectory	_	NOUN	PNOUN	_	15	nsubj	_	SpaceAfter=No	DoctorDirectory/SL
+18	)	_	PUNCT	.	_	19	punct	_	_	)/SS
+19	가	_	NOUN	PNOUN	_	17	nsubj	_	_	가/JKS
+20	22	_	NOUN	NUMNOUN	_	23	obj	_	SpaceAfter=No	22/SN
+21	%	_	PUNCT	.	_	22	punct	_	_	%/SW
+22	를	_	NOUN	NUMNOUN	_	20	obj	_	_	를/JKO
+23	끌어	_	VERB	PREDCONJ	_	26	advcl	_	_	끌/VV+어/EC
+24	가장	_	ADV	ADV	_	26	advmod	_	_	가장/MAG
+25	인기가	_	NOUN	NOUN	_	26	nsubj	_	_	인기/NNG+가/JKS
+26	높았다	_	ADJ	ADJ	_	10	conj	_	SpaceAfter=No	높/VA+았/EP+다/EF
+27	.	_	PUNCT	.	_	26	punct	_	_	./SF
 
 # sent id = test-s576
 # text = 반찬이 웰빙이네요
@@ -9415,20 +9461,22 @@
 
 # sent id = test-s607
 # text = 2005년 케널 클럽(KC)과 세계애견연맹(FCI)에 정식 품종으로 등록됐다.
-1	2005년	_	NOUN	NUMNOUN	_	13	nmod	_	_	2005/SN+년/NNB
-2	케널	_	NOUN	PNOUN	_	13	advmod	_	_	케널/NNP
+1	2005년	_	NOUN	NUMNOUN	_	15	nmod	_	_	2005/SN+년/NNB
+2	케널	_	NOUN	PNOUN	_	15	advmod	_	_	케널/NNP
 3	클럽	_	NOUN	NOMCONJ	_	2	flat	_	SpaceAfter=No	클럽/NNG
 4	(	_	PUNCT	.	_	8	punct	_	_	(/SS
 5	KC	_	NOUN	NOMCONJ	_	3	flat	_	SpaceAfter=No	KC/SL
 6	)	_	PUNCT	.	_	7	punct	_	_	)/SS
 7	과	_	NOUN	NOMCONJ	_	5	flat	_	_	과/JC
 8	세계애견연맹	_	ADV	ADV	_	2	conj	_	SpaceAfter=No	세계/NNG+애견/NNG+연맹/NNG
-9	(	_	PUNCT	.	_	11	punct	_	_	(/SS
-10	FCI)에	_	ADV	ADV	_	8	conj	_	_	FC/SL+I/SW+)/SS+에/JKB
-11	정식	_	NOUN	NOUN	_	13	advmod	_	_	정식/NNG
-12	품종으로	_	ADV	ADV	_	11	flat	_	_	품종/NNG+으로/JKB
-13	등록됐다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	등록/NNG+되/XSV+었/EP+다/EF
-14	.	_	PUNCT	.	_	13	punct	_	_	./SF
+9	(	_	PUNCT	.	_	13	punct	_	_	(/SS
+10	FCI	_	ADV	ADV	_	8	conj	_	SpaceAfter=No	FCI/SL
+11	)	_	PUNCT	.	_	12	punct	_	_	)/SS
+12	에	_	ADV	ADV	_	10	conj	_	_	에/JKB
+13	정식	_	NOUN	NOUN	_	15	advmod	_	_	정식/NNG
+14	품종으로	_	ADV	ADV	_	13	flat	_	_	품종/NNG+으로/JKB
+15	등록됐다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	등록/NNG+되/XSV+었/EP+다/EF
+16	.	_	PUNCT	.	_	15	punct	_	_	./SF
 
 # sent id = test-s608
 # text = 주문할 때 정신 똑바로 차리세요
@@ -9702,19 +9750,20 @@
 # sent id = test-s625
 # text = 같은 기간 매출액은 2조2249억3900만원, 당기순이익은 1302억4500만원으로 각각 67.9 %, 43.4% 늘어났다.
 1	같은	_	ADJ	ADJ	_	2	amod	_	_	같/VA+은/ETM
-2	기간	_	NOUN	NOUN	_	13	nmod	_	_	기간/NNG
+2	기간	_	NOUN	NOUN	_	14	nmod	_	_	기간/NNG
 3	매출액은	_	NOUN	NOUN	_	4	nsubj	_	_	매출액/NNG+은/JX
-4	2조2249억3900만원	_	NOUN	NUMNOUN	_	13	advmod	_	SpaceAfter=No	2/SN+조/NR+22/SN+4/NNG+9/SN+억/NR+39/SN+0/SO+0/SN+만/NR+원/NNB
+4	2조2249억3900만원	_	NOUN	NUMNOUN	_	14	advmod	_	SpaceAfter=No	2/SN+조/NR+22/SN+4/NNG+9/SN+억/NR+3900/SN+만/NR+원/NNB
 5	,	_	PUNCT	.	_	4	punct	_	_	,/SP
 6	당기순이익은	_	NOUN	NOUN	_	7	nsubj	_	_	당기/NNG+순이익/NNG+은/JX
 7	1302억4500만원으로	_	ADV	ADV	_	4	conj	_	_	1302/SN+억/NR+4500/SN+만/NR+원/NNB+으로/JKB
-8	각각	_	ADV	ADV	_	13	advmod	_	_	각각/MAG
-9	67.9	_	NOUN	NUMNOUN	_	13	advmod	_	_	67/SN+./SF+9/SN
+8	각각	_	ADV	ADV	_	14	advmod	_	_	각각/MAG
+9	67.9	_	NOUN	NUMNOUN	_	14	advmod	_	_	67/SN+./SF+9/SN
 10	%	_	PUNCT	.	_	9	punct	_	_	%/SW
 11	,	_	PUNCT	.	_	9	punct	_	_	,/SP
-12	43.4%	_	ADV	ADV	_	9	conj	_	_	43/SN+./SF+4/SN+%/SW
-13	늘어났다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	늘어나/VV+았/EP+다/EF
-14	.	_	PUNCT	.	_	13	punct	_	_	./SF
+12	43.4	_	ADV	ADV	_	9	conj	_	SpaceAfter=No	43/SN+./SF+4/SN
+13	%	_	PUNCT	.	_	12	punct	_	_	%/SW
+14	늘어났다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	늘어나/VV+았/EP+다/EF
+15	.	_	PUNCT	.	_	14	punct	_	_	./SF
 
 # sent id = test-s626
 # text = 2008년 서울시청 광장에서 5만 8천 포기의 김장을 담가 한국 기네스 기록(한 장소에서 가장 많은 인원이 담근 김장의 양)을 세웠다.
@@ -9754,15 +9803,18 @@
 7	원전수주에	_	ADV	ADV	_	8	advmod	_	_	원전/NNG+수주/NNG+에/JKB
 8	성공한	_	VERB	PREDREL	_	9	dep	_	_	성공/NNG+하/XSV+ㄴ/ETM
 9	직후인	_	VERB	PREDREL	_	10	acl:relcl	_	_	직후/NNG+이/VCP+ㄴ/ETM
-10	올초	_	NOUN	NOUN	_	14	advmod	_	_	올/MM+초/NNB
+10	올초	_	NOUN	NOUN	_	17	advmod	_	_	올/MM+초/NNB
 11	지지율	_	ADV	ADV	_	10	flat	_	SpaceAfter=No	지지/NNG+율/XSN
-12	(	_	PUNCT	.	_	14	punct	_	_	(/SS
-13	51.9%)에	_	ADV	ADV	_	11	flat	_	_	51/SN+./SF+9/SN+%/SW+)/SS+에/JKB
-14	육박하는	_	VERB	PREDREL	_	17	acl:relcl	_	_	육박/NNG+하/XSV+는/ETM
-15	취임	_	NOUN	NOUN	_	17	nmod	_	_	취임/NNG
-16	후	_	ADP	ADP	_	15	case	_	_	후/NNG
-17	최고수준이다	_	VERB	NOMCOP	_	0	root	_	SpaceAfter=No	최고/NNG+수준/NNG+이/VCP+다/EF
-18	.	_	PUNCT	.	_	17	punct	_	_	./SF
+12	(	_	PUNCT	.	_	17	punct	_	_	(/SS
+13	51.9	_	ADV	ADV	_	11	flat	_	SpaceAfter=No	51/SN+./SF+9/SN
+14	%	_	PUNCT	.	_	16	punct	_	_	%/SW
+15	)	_	PUNCT	.	_	16	punct	_	_	)/SS
+16	에	_	ADV	ADV	_	13	flat	_	_	에/JKB
+17	육박하는	_	VERB	PREDREL	_	20	acl:relcl	_	_	육박/NNG+하/XSV+는/ETM
+18	취임	_	NOUN	NOUN	_	20	nmod	_	_	취임/NNG
+19	후	_	ADP	ADP	_	18	case	_	_	후/NNG
+20	최고수준이다	_	VERB	NOMCOP	_	0	root	_	SpaceAfter=No	최고/NNG+수준/NNG+이/VCP+다/EF
+21	.	_	PUNCT	.	_	20	punct	_	_	./SF
 
 # sent id = test-s628
 # text = 최홍만 얼마나 크냐
@@ -10536,7 +10588,7 @@
 11	,	_	PUNCT	.	_	10	punct	_	_	,/SP
 12	스마트패드	_	NOUN	NOUN	_	10	conj	_	SpaceAfter=No	스마트/NNG+패드/NNG
 13	,	_	PUNCT	.	_	12	punct	_	_	,/SP
-14	IPTV	_	NOUN	NOUN	_	10	conj	_	SpaceAfter=No	I/SL+P/SW+TV/SL
+14	IPTV	_	NOUN	NOUN	_	10	conj	_	SpaceAfter=No	IPTV/SL
 15	,	_	PUNCT	.	_	14	punct	_	_	,/SP
 16	스카이라이프	_	NOUN	PNOUN	_	10	conj	_	_	스카이/NNG+라이프/NNG
 17	등으로	_	ADV	ADV	_	16	dep	_	_	등/NNB+으로/JKB
@@ -10547,7 +10599,7 @@
 
 # sent id = test-s684
 # text = 1Gbps급 인터넷이 상용화되면 최근 급증하고 있는 미디어 트래픽을 가입자단에서 처리할 수 있고, 노트북 및 다양한 단말에서도 충분한 대역폭을 확보해 줄 수 있는 등 고객이 필요로 하는 광대역•대용량 미디어 서비스도 원활하게 제공할 수 있을 것으로 기대하고 있다.
-1	1Gbps급	_	NOUN	NUMNOUN	_	3	nsubj	_	_	1/SN+G/SW+bps/SW+급/NNG
+1	1Gbps급	_	NOUN	NUMNOUN	_	3	nsubj	_	_	1/SN+Gbps/SL+급/NNG
 2	인터넷이	_	NOUN	NOUN	_	1	flat	_	_	인터넷/NNG+이/JKS
 3	상용화되면	_	VERB	PREDCONJ	_	12	advcl	_	_	상용/NNG+화/XSN+되/XSV+면/EC
 4	최근	_	ADV	ADV	_	5	advmod	_	_	최근/MAG
@@ -11082,13 +11134,14 @@
 # sent id = test-s717
 # text = 조인스랜드부동산에 따르면 지난주 대전 집값은 0.09% 올랐다.
 1	조인스랜드부동산에	_	ADV	ADV	_	2	advmod	_	_	조인/NNG+스/NNG+랜드/NNG+부동산/NNG+에/JKB
-2	따르면	_	VERB	PREDCONJ	_	7	advcl	_	_	따르/VV+면/EC
-3	지난주	_	NOUN	NOUN	_	7	nmod	_	_	지난주/NNG
-4	대전	_	NOUN	NOUN	_	7	nsubj	_	_	대전/NNP
+2	따르면	_	VERB	PREDCONJ	_	8	advcl	_	_	따르/VV+면/EC
+3	지난주	_	NOUN	NOUN	_	8	nmod	_	_	지난주/NNG
+4	대전	_	NOUN	NOUN	_	8	nsubj	_	_	대전/NNP
 5	집값은	_	NOUN	NOUN	_	4	flat	_	_	집값/NNG+은/JX
-6	0.09%	_	NOUN	NUMNOUN	_	7	advmod	_	_	0/SN+./SF+09/SN+%/SW
-7	올랐다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	오르/VV+았/EP+다/EF
-8	.	_	PUNCT	.	_	7	punct	_	_	./SF
+6	0.09	_	NOUN	NUMNOUN	_	8	advmod	_	SpaceAfter=No	0/SN+./SF+09/SN
+7	%	_	PUNCT	.	_	6	punct	_	_	%/SW
+8	올랐다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	오르/VV+았/EP+다/EF
+9	.	_	PUNCT	.	_	8	punct	_	_	./SF
 
 # sent id = test-s718
 # text = 예탁결제원은 10억여원을 들여 지난해 8월 이 시스템을 개발했다.
@@ -11107,14 +11160,16 @@
 1	손님	_	NOUN	NOUN	_	3	advmod	_	_	손/NNG+님/XSN
 2	상에	_	ADV	ADV	_	1	flat	_	_	상/NNG+에/JKB
 3	오르는	_	VERB	PREDREL	_	4	acl:relcl	_	_	오르/VV+는/ETM
-4	칼국수	_	NOUN	NOUN	_	9	nsubj	_	_	칼국수/NNG
+4	칼국수	_	NOUN	NOUN	_	11	nsubj	_	_	칼국수/NNG
 5	면은	_	NOUN	NOUN	_	4	flat	_	_	면/NNG+은/JX
-6	3~4일	_	NOUN	NUMNOUN	_	9	advmod	_	_	3/SN+~/SO+4/SN+일/NNB
-7	꼭	_	ADV	ADV	_	9	advmod	_	_	꼭/MAG
-8	숙성을	_	NOUN	NOUN	_	9	obj	_	_	숙성/NNG+을/JKO
-9	거친	_	VERB	PREDREL	_	10	dep	_	_	거치/VV+ㄴ/ETM
-10	것이다	_	VERB	NOMCOP	_	0	root	_	SpaceAfter=No	것/NNB+이/VCP+다/EF
-11	.	_	PUNCT	.	_	10	punct	_	_	./SF
+6	3	_	NOUN	NUMNOUN	_	11	advmod	_	SpaceAfter=No	3/SN
+7	~	_	PUNCT	.	_	8	punct	_	_	~/SO
+8	4일	_	NOUN	NUMNOUN	_	6	advmod	_	_	4/SN+일/NNB
+9	꼭	_	ADV	ADV	_	11	advmod	_	_	꼭/MAG
+10	숙성을	_	NOUN	NOUN	_	11	obj	_	_	숙성/NNG+을/JKO
+11	거친	_	VERB	PREDREL	_	12	dep	_	_	거치/VV+ㄴ/ETM
+12	것이다	_	VERB	NOMCOP	_	0	root	_	SpaceAfter=No	것/NNB+이/VCP+다/EF
+13	.	_	PUNCT	.	_	12	punct	_	_	./SF
 
 # sent id = test-s720
 # text = 가장 먼저 할 일은 자녀 이름으로 계좌를 개설하는 것이다.
@@ -11412,20 +11467,22 @@
 
 # sent id = test-s739
 # text = 특히 우리나라에서 위암, 폐암, 간암은 줄어드는 반면 대장암은 해마다 6.9%씩 늘어났습니다.
-1	특히	_	ADV	ADV	_	13	advmod	_	_	특히/MAG
-2	우리나라에서	_	ADV	ADV	_	13	advmod	_	_	우리/NP+나라/NNG+에서/JKB
+1	특히	_	ADV	ADV	_	15	advmod	_	_	특히/MAG
+2	우리나라에서	_	ADV	ADV	_	15	advmod	_	_	우리/NP+나라/NNG+에서/JKB
 3	위암	_	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No	위암/NNG
 4	,	_	PUNCT	.	_	3	punct	_	_	,/SP
 5	폐암	_	NOUN	NOUN	_	3	conj	_	SpaceAfter=No	폐암/NNG
 6	,	_	PUNCT	.	_	5	punct	_	_	,/SP
 7	간암은	_	NOUN	NOUN	_	3	conj	_	_	간암/NNG+은/JX
-8	줄어드는	_	VERB	PREDREL	_	13	advcl	_	_	줄어들/VV+는/ETM
+8	줄어드는	_	VERB	PREDREL	_	15	advcl	_	_	줄어들/VV+는/ETM
 9	반면	_	NOUN	NOUN	_	8	mark	_	_	반면/NNG
-10	대장암은	_	NOUN	NOUN	_	13	nsubj	_	_	대장암/NNG+은/JX
-11	해마다	_	ADV	ADV	_	13	advmod	_	_	해/NNG+마다/JX
-12	6.9%씩	_	NOUN	NUMNOUN	_	13	advmod	_	_	6/SN+./SF+9/SN+%/SW+씩/XSN
-13	늘어났습니다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	늘어나/VV+았/EP+습니다/EF
-14	.	_	PUNCT	.	_	13	punct	_	_	./SF
+10	대장암은	_	NOUN	NOUN	_	15	nsubj	_	_	대장암/NNG+은/JX
+11	해마다	_	ADV	ADV	_	15	advmod	_	_	해/NNG+마다/JX
+12	6.9	_	NOUN	NUMNOUN	_	15	advmod	_	SpaceAfter=No	6/SN+./SF+9/SN
+13	%	_	PUNCT	.	_	14	punct	_	_	%/SW
+14	씩	_	NOUN	NUMNOUN	_	12	advmod	_	_	씩/XSN
+15	늘어났습니다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	늘어나/VV+았/EP+습니다/EF
+16	.	_	PUNCT	.	_	15	punct	_	_	./SF
 
 # sent id = test-s740
 # text = 그것은 공동 구매를 통해 만들어지는 저렴한 가격이다.
@@ -12003,21 +12060,22 @@
 
 # sent id = test-s778
 # text = 특히 모간키간의 채권분야 책임자 케빈 기디스는 주택시장이 더 침체돼 올해 주택가격이 4% 내려간다고 전망했다.
-1	특히	_	ADV	ADV	_	14	advmod	_	_	특히/MAG
+1	특히	_	ADV	ADV	_	15	advmod	_	_	특히/MAG
 2	모간키간의	_	NOUN	PNOUN	_	3	det:poss	_	_	모간키/NNG+간/NNB+의/JKG
-3	채권분야	_	NOUN	NOUN	_	14	nsubj	_	_	채권/NNG+분야/NNG
+3	채권분야	_	NOUN	NOUN	_	15	nsubj	_	_	채권/NNG+분야/NNG
 4	책임자	_	NOUN	NOUN	_	3	flat	_	_	책임자/NNG
 5	케빈	_	NOUN	PNOUN	_	3	flat	_	_	케빈/NNP
 6	기디스는	_	NOUN	PNOUN	_	3	flat	_	_	기디스/NNG+는/JX
 7	주택시장이	_	NOUN	NOUN	_	9	nsubj:pass	_	_	주택/NNG+시장/NNG+이/JKS
 8	더	_	ADV	ADV	_	9	advmod	_	_	더/MAG
-9	침체돼	_	VERB	PREDCONJ	_	13	advcl	_	_	침체/NNG+되/XSV+어/EC
-10	올해	_	NOUN	NOUN	_	13	nmod	_	_	올해/NNG
-11	주택가격이	_	NOUN	NOUN	_	13	nsubj	_	_	주택/NNG+가격/NNG+이/JKS
-12	4%	_	NOUN	NUMNOUN	_	13	advmod	_	_	4/SN+%/SW
-13	내려간다고	_	VERB	PREDCOMP	_	14	ccomp	_	_	내려가/VV+ㄴ다고/EC
-14	전망했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	전망/NNG+하/XSV+았/EP+다/EF
-15	.	_	PUNCT	.	_	14	punct	_	_	./SF
+9	침체돼	_	VERB	PREDCONJ	_	14	advcl	_	_	침체/NNG+되/XSV+어/EC
+10	올해	_	NOUN	NOUN	_	14	nmod	_	_	올해/NNG
+11	주택가격이	_	NOUN	NOUN	_	14	nsubj	_	_	주택/NNG+가격/NNG+이/JKS
+12	4	_	NOUN	NUMNOUN	_	14	advmod	_	SpaceAfter=No	4/SN
+13	%	_	PUNCT	.	_	12	punct	_	_	%/SW
+14	내려간다고	_	VERB	PREDCOMP	_	15	ccomp	_	_	내려가/VV+ㄴ다고/EC
+15	전망했다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	전망/NNG+하/XSV+았/EP+다/EF
+16	.	_	PUNCT	.	_	15	punct	_	_	./SF
 
 # sent id = test-s779
 # text = 이 때문에 오 시장이 주민투표 문제를 매듭짓고 대선에 출마하는 시나리오를 염두에 두고 있다는 분석이 여권에서 나온다.
@@ -12459,15 +12517,16 @@
 
 # sent id = test-s813
 # text = 도쿄는 후쿠시마 원전에서 남서쪽으로 240㎞ 정도 떨어져 있다.
-1	도쿄는	_	NOUN	PNOUN	_	7	nsubj	_	_	도쿄/NNP+는/JX
-2	후쿠시마	_	NOUN	PNOUN	_	7	advmod	_	_	후쿠시마/NNP
+1	도쿄는	_	NOUN	PNOUN	_	8	nsubj	_	_	도쿄/NNP+는/JX
+2	후쿠시마	_	NOUN	PNOUN	_	8	advmod	_	_	후쿠시마/NNP
 3	원전에서	_	ADV	ADV	_	2	flat	_	_	원전/NNG+에서/JKB
-4	남서쪽으로	_	ADV	ADV	_	7	advmod	_	_	남서쪽/NNG+으로/JKB
-5	240㎞	_	NOUN	NUMNOUN	_	7	nmod	_	_	240/SN+㎞/SW
-6	정도	_	ADP	ADP	_	5	case	_	_	정도/NNG
-7	떨어져	_	VERB	PREDCX	_	0	root	_	_	떨어지/VV+어/EC
-8	있다	_	VERB	VERB	_	7	flat	_	SpaceAfter=No	있/VX+다/EF
-9	.	_	PUNCT	.	_	8	punct	_	_	./SF
+4	남서쪽으로	_	ADV	ADV	_	8	advmod	_	_	남서쪽/NNG+으로/JKB
+5	240	_	NOUN	NUMNOUN	_	8	nmod	_	SpaceAfter=No	240/SN
+6	㎞	_	PUNCT	.	_	5	punct	_	_	㎞/SW
+7	정도	_	ADP	ADP	_	5	case	_	_	정도/NNG
+8	떨어져	_	VERB	PREDCX	_	0	root	_	_	떨어지/VV+어/EC
+9	있다	_	VERB	VERB	_	8	flat	_	SpaceAfter=No	있/VX+다/EF
+10	.	_	PUNCT	.	_	9	punct	_	_	./SF
 
 # sent id = test-s814
 # text = 나는 바르셀로나의 메시와 아르헨티나의 메시가 다르다는 것에 주목한다.
@@ -12703,11 +12762,13 @@
 
 # sent id = test-s832
 # text = 역시 중소형이 60%가 넘는다.
-1	역시	_	ADV	ADV	_	4	advmod	_	_	역시/MAG
-2	중소형이	_	NOUN	NOUN	_	4	nsubj	_	_	중소형/NNG+이/JKS
-3	60%가	_	NOUN	NUMNOUN	_	4	nsubj	_	_	60/SN+%/SW+가/JKS
-4	넘는다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	넘/VV+는다/EF
-5	.	_	PUNCT	.	_	4	punct	_	_	./SF
+1	역시	_	ADV	ADV	_	6	advmod	_	_	역시/MAG
+2	중소형이	_	NOUN	NOUN	_	6	nsubj	_	_	중소형/NNG+이/JKS
+3	60	_	NOUN	NUMNOUN	_	6	nsubj	_	SpaceAfter=No	60/SN
+4	%	_	PUNCT	.	_	5	punct	_	_	%/SW
+5	가	_	NOUN	NUMNOUN	_	3	nsubj	_	_	가/JKS
+6	넘는다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	넘/VV+는다/EF
+7	.	_	PUNCT	.	_	6	punct	_	_	./SF
 
 # sent id = test-s833
 # text = 같은 날 대우건설은 부산 사하구 다대동에 부산다대푸르지오를 분양한다.
@@ -12803,12 +12864,13 @@
 
 # sent id = test-s840
 # text = 생산직 근로자들은 100% 특별보너스까지 받는다.
-1	생산직	_	NOUN	NOUN	_	5	nsubj	_	_	생산/NNG+직/NNG
+1	생산직	_	NOUN	NOUN	_	6	nsubj	_	_	생산/NNG+직/NNG
 2	근로자들은	_	NOUN	NOUN	_	1	flat	_	_	근로자/NNG+들/XSN+은/JX
-3	100%	_	NOUN	NUMNOUN	_	5	obj	_	_	100/SN+%/SW
-4	특별보너스까지	_	NOUN	NOUN	_	3	flat	_	_	특별/XR+보너스/NNG+까지/JX
-5	받는다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	받/VV+는다/EF
-6	.	_	PUNCT	.	_	5	punct	_	_	./SF
+3	100	_	NOUN	NUMNOUN	_	6	obj	_	SpaceAfter=No	100/SN
+4	%	_	PUNCT	.	_	3	punct	_	_	%/SW
+5	특별보너스까지	_	NOUN	NOUN	_	3	flat	_	_	특별/XR+보너스/NNG+까지/JX
+6	받는다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	받/VV+는다/EF
+7	.	_	PUNCT	.	_	6	punct	_	_	./SF
 
 # sent id = test-s841
 # text = 구이도 진짜 맛있네요.
