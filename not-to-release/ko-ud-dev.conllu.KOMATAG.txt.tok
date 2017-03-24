@@ -772,23 +772,25 @@
 20	.	_	PUNCT	.	_	19	punct	_	_	./SF
 
 # sent id = dev-s46
-# text = 강지영의 코믹 골반댄스는 5일 일요일 오후 4시 10분 MBC <꽃다발 통해 확인할 수 있다.
+# text = 강지영의 코믹 골반댄스는 5일 일요일 오후 4시 10분 MBC &lt;꽃다발 통해 확인할 수 있다.
 1	강지영의	_	NOUN	PNOUN	_	2	det:poss	_	_	강지영/NNP+의/JKG
-2	코믹	_	NOUN	NOUN	_	13	nsubj	_	_	코믹/NNG
+2	코믹	_	NOUN	NOUN	_	15	nsubj	_	_	코믹/NNG
 3	골반댄스는	_	NOUN	NOUN	_	2	flat	_	_	골반/NNG+댄스/NNG+는/JX
-4	5일	_	NOUN	NUMNOUN	_	13	nmod	_	_	5/SN+일/NNB
+4	5일	_	NOUN	NUMNOUN	_	15	nmod	_	_	5/SN+일/NNB
 5	일요일	_	NOUN	NOUN	_	4	flat	_	_	일요일/NNG
 6	오후	_	NOUN	NOUN	_	4	flat	_	_	오후/NNG
 7	4시	_	NOUN	NUMNOUN	_	4	flat	_	_	4/SN+시/NNB
 8	10분	_	NOUN	NUMNOUN	_	4	flat	_	_	10/SN+분/NNB
-9	MBC	_	NOUN	PNOUN	_	12	obj	_	_	MBC/SL
-10	<	_	PUNCT	.	_	11	punct	_	SpaceAfter=No	</SS
-11	꽃다발	_	NOUN	NOUN	_	9	flat	_	_	꽃다발/NNG
-12	통해	_	VERB	PREDCONJ	_	13	advcl	_	_	통하/VV+아/EC
-13	확인할	_	VERB	PREDREL	_	14	dep	_	_	확인/NNG+하/XSV+ㄹ/ETM
-14	수	_	NOUN	NOUN	_	15	nsubj	_	_	수/NNB
-15	있다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	있/VV+다/EF
-16	.	_	PUNCT	.	_	15	punct	_	_	./SF
+9	MBC	_	NOUN	PNOUN	_	14	obj	_	_	MBC/SL
+10	&	_	PUNCT	.	_	11	punct	_	SpaceAfter=No	&/SW
+11	lt	_	NOUN	NOUN	_	9	flat	_	SpaceAfter=No	lt/SL
+12	;	_	PUNCT	.	_	11	punct	_	SpaceAfter=No	;/SP
+13	꽃다발	_	NOUN	NOUN	_	9	flat	_	_	꽃다발/NNG
+14	통해	_	VERB	PREDCONJ	_	15	advcl	_	_	통하/VV+아/EC
+15	확인할	_	VERB	PREDREL	_	16	dep	_	_	확인/NNG+하/XSV+ㄹ/ETM
+16	수	_	NOUN	NOUN	_	17	nsubj	_	_	수/NNB
+17	있다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	있/VV+다/EF
+18	.	_	PUNCT	.	_	17	punct	_	_	./SF
 
 # sent id = dev-s47
 # text = 구글맵에 10% 쿠폰이 있어서 휴대폰에서 보여주고 구매했습니다.
@@ -2938,21 +2940,23 @@
 5	걸려	_	VERB	VERB	_	0	root	_	_	걸리/VV+어/EC
 
 # sent id = dev-s184
-# text = 당초 김현중은 13일 오후 도쿄 NHK홀에서 '프리미엄 토크&라이브'이벤트에 참석할 예정이었다.
-1	당초	_	ADV	ADV	_	13	advmod	_	_	당초/NNG
-2	김현중은	_	NOUN	PNOUN	_	12	nsubj	_	_	김현/NNP+중/NNB+은/JX
-3	13일	_	NOUN	NUMNOUN	_	12	nmod	_	_	13/SN+일/NNB
+# text = 당초 김현중은 13일 오후 도쿄 NHK홀에서 '프리미엄 토크&amp;라이브'이벤트에 참석할 예정이었다.
+1	당초	_	ADV	ADV	_	15	advmod	_	_	당초/NNG
+2	김현중은	_	NOUN	PNOUN	_	14	nsubj	_	_	김현/NNP+중/NNB+은/JX
+3	13일	_	NOUN	NUMNOUN	_	14	nmod	_	_	13/SN+일/NNB
 4	오후	_	NOUN	NOUN	_	3	flat	_	_	오후/NNG
-5	도쿄	_	NOUN	PNOUN	_	12	advmod	_	_	도쿄/NNP
+5	도쿄	_	NOUN	PNOUN	_	14	advmod	_	_	도쿄/NNP
 6	NHK홀에서	_	ADV	ADV	_	5	flat	_	_	NHK/SL+홀/NNG+에서/JKB
 7	'	_	PUNCT	.	_	8	punct	_	SpaceAfter=No	'/SS
-8	프리미엄	_	NOUN	NOUN	_	12	advmod	_	_	프리미엄/NNG
-9	토크&라이브	_	NOUN	NOUN	_	8	flat	_	SpaceAfter=No	토크/NNG+&/SW+라이브/NNG
-10	'	_	PUNCT	.	_	9	punct	_	SpaceAfter=No	'/SS
-11	이벤트에	_	ADV	ADV	_	8	flat	_	_	이벤트/NNG+에/JKB
-12	참석할	_	VERB	PREDREL	_	13	dep	_	_	참석/NNG+하/XSV+ㄹ/ETM
-13	예정이었다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	예정/NNG+이/VCP+었/EP+다/EF
-14	.	_	PUNCT	.	_	13	punct	_	_	./SF
+8	프리미엄	_	NOUN	NOUN	_	14	advmod	_	_	프리미엄/NNG
+9	토크&amp	_	NOUN	NOUN	_	8	flat	_	SpaceAfter=No	토크/NNG+&/SW+amp/SL
+10	;	_	PUNCT	.	_	9	punct	_	SpaceAfter=No	;/SP
+11	라이브	_	NOUN	NOUN	_	8	flat	_	SpaceAfter=No	라이브/NNG
+12	'	_	PUNCT	.	_	11	punct	_	SpaceAfter=No	'/SS
+13	이벤트에	_	ADV	ADV	_	8	flat	_	_	이벤트/NNG+에/JKB
+14	참석할	_	VERB	PREDREL	_	15	dep	_	_	참석/NNG+하/XSV+ㄹ/ETM
+15	예정이었다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	예정/NNG+이/VCP+었/EP+다/EF
+16	.	_	PUNCT	.	_	15	punct	_	_	./SF
 
 # sent id = dev-s185
 # text = 시설도 좋고 선생님도 좋습니다
@@ -11009,25 +11013,27 @@
 13	.	_	PUNCT	.	_	12	punct	_	_	./SF
 
 # sent id = dev-s705
-# text = <슈퍼스타 K 움직이는 심리는 바로 강자를 이기는 자신들의 대표자 '약자의 영웅'을 기다리는 마음이다.
-1	<	_	PUNCT	.	_	2	punct	_	SpaceAfter=No	</SS
-2	슈퍼스타	_	NOUN	NOUN	_	4	obj	_	_	슈퍼/NNG+스타/NNG
-3	K	_	NOUN	PNOUN	_	2	flat	_	_	K/SL
-4	움직이는	_	VERB	PREDREL	_	5	acl:relcl	_	_	움직이/VV+는/ETM
-5	심리는	_	NOUN	NOUN	_	17	nsubj	_	_	심리/NNG+는/JX
-6	바로	_	ADV	ADV	_	17	advmod	_	_	바로/MAG
-7	강자를	_	NOUN	NOUN	_	8	obj	_	_	강자/NNG+를/JKO
-8	이기는	_	VERB	PREDREL	_	10	acl:relcl	_	_	이기/VV+는/ETM
-9	자신들의	_	PRON	PRON	_	10	det:poss	_	_	자신/NNG+들/XSN+의/JKG
-10	대표자	_	NOUN	NOUN	_	13	appos	_	_	대표자/NNG
-11	'	_	PUNCT	.	_	12	punct	_	SpaceAfter=No	'/SS
-12	약자의	_	ADV	ADV	_	13	det:poss	_	_	약자/NNG+의/JKG
-13	영웅	_	NOUN	NOUN	_	16	obj	_	SpaceAfter=No	영웅/NNG
-14	'	_	PUNCT	.	_	13	punct	_	SpaceAfter=No	'/SS
-15	을	_	ADV	ADV	_	16	obj	_	_	을/JKO
-16	기다리는	_	VERB	PREDREL	_	17	dep	_	_	기다리/VV+는/ETM
-17	마음이다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	마음/NNG+이/VCP+다/EF
-18	.	_	PUNCT	.	_	17	punct	_	_	./SF
+# text = &lt;슈퍼스타 K 움직이는 심리는 바로 강자를 이기는 자신들의 대표자 '약자의 영웅'을 기다리는 마음이다.
+1	&	_	PUNCT	.	_	2	punct	_	SpaceAfter=No	&/SW
+2	lt	_	NOUN	NOUN	_	6	obj	_	SpaceAfter=No	lt/SL
+3	;	_	PUNCT	.	_	2	punct	_	SpaceAfter=No	;/SP
+4	슈퍼스타	_	NOUN	NOUN	_	6	obj	_	_	슈퍼/NNG+스타/NNG
+5	K	_	NOUN	PNOUN	_	2	flat	_	_	K/SL
+6	움직이는	_	VERB	PREDREL	_	7	acl:relcl	_	_	움직이/VV+는/ETM
+7	심리는	_	NOUN	NOUN	_	19	nsubj	_	_	심리/NNG+는/JX
+8	바로	_	ADV	ADV	_	19	advmod	_	_	바로/MAG
+9	강자를	_	NOUN	NOUN	_	10	obj	_	_	강자/NNG+를/JKO
+10	이기는	_	VERB	PREDREL	_	12	acl:relcl	_	_	이기/VV+는/ETM
+11	자신들의	_	PRON	PRON	_	12	det:poss	_	_	자신/NNG+들/XSN+의/JKG
+12	대표자	_	NOUN	NOUN	_	15	appos	_	_	대표자/NNG
+13	'	_	PUNCT	.	_	14	punct	_	SpaceAfter=No	'/SS
+14	약자의	_	ADV	ADV	_	15	det:poss	_	_	약자/NNG+의/JKG
+15	영웅	_	NOUN	NOUN	_	18	obj	_	SpaceAfter=No	영웅/NNG
+16	'	_	PUNCT	.	_	15	punct	_	SpaceAfter=No	'/SS
+17	을	_	ADV	ADV	_	18	obj	_	_	을/JKO
+18	기다리는	_	VERB	PREDREL	_	19	dep	_	_	기다리/VV+는/ETM
+19	마음이다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	마음/NNG+이/VCP+다/EF
+20	.	_	PUNCT	.	_	19	punct	_	_	./SF
 
 # sent id = dev-s706
 # text = 넘 친절하시구 가격 대비 재료두 아낌 없이 넣으시는 것 같아요
@@ -12689,34 +12695,36 @@
 22	.	_	PUNCT	.	_	21	punct	_	_	./SF
 
 # sent id = dev-s819
-# text = 10.16(일) 진행되는 <재미있는 물과 흙 이야기교실 아이들에게 흙과 물의 중요성을 체험시켜주고, 사람과 물 그리고 토양의 이야기도 함께 들려주기에 더욱 의미가 있다.
+# text = 10.16(일) 진행되는 &lt;재미있는 물과 흙 이야기교실 아이들에게 흙과 물의 중요성을 체험시켜주고, 사람과 물 그리고 토양의 이야기도 함께 들려주기에 더욱 의미가 있다.
 1	10.16	_	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No	10/SN+./SF+16/SN
 2	(	_	PUNCT	.	_	3	punct	_	SpaceAfter=No	(/SS
 3	일	_	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No	일/NNG
 4	)	_	PUNCT	.	_	3	punct	_	_	)/SS
-5	진행되는	_	VERB	PREDREL	_	9	acl:relcl	_	_	진행/NNG+되/XSV+는/ETM
-6	<	_	PUNCT	.	_	7	punct	_	SpaceAfter=No	</SS
-7	재미있는	_	ADJ	ADJ	_	9	amod	_	_	재미있/VA+는/ETM
-8	물과	_	NOUN	NOMCONJ	_	15	nsubj	_	_	물/NNG+과/JC
-9	흙	_	NOUN	PNOUN	_	8	conj	_	_	흙/NNG
-10	이야기교실	_	NOUN	PNOUN	_	9	flat	_	_	이야기/NNG+교실/NNG
-11	아이들에게	_	NOUN	NOUN	_	15	iobj	_	_	아이/NNG+들/XSN+에게/JKB
-12	흙과	_	NOUN	NOMCONJ	_	14	det:poss	_	_	흙/NNG+과/JC
-13	물의	_	NOUN	NOUN	_	12	conj	_	_	물/NNG+의/JKG
-14	중요성을	_	NOUN	NOUN	_	15	obj	_	_	중요/XR+성/XSN+을/JKO
-15	체험시켜주고	_	VERB	PREDCONJ	_	26	advcl	_	SpaceAfter=No	체험/NNG+시키/XSV+어/EC+주/VX+고/EC
-16	,	_	PUNCT	.	_	15	punct	_	_	,/SP
-17	사람과	_	NOUN	NOMCONJ	_	21	det:poss	_	_	사람/NNG+과/JC
-18	물	_	NOUN	NOUN	_	17	conj	_	_	물/NNG
-19	그리고	_	CCONJ	CONJ	_	20	cc	_	_	그리고/MAJ
-20	토양의	_	NOUN	NOUN	_	17	conj	_	_	토양/NNG+의/JKG
-21	이야기도	_	NOUN	NOUN	_	23	obj	_	_	이야기/NNG+도/JX
-22	함께	_	ADV	ADV	_	23	advmod	_	_	함께/MAG
-23	들려주기에	_	VERB	PREDCONJ	_	15	conj	_	_	들려주/VV+기/ETN+에/JKB
-24	더욱	_	ADV	ADV	_	26	advmod	_	_	더욱/MAG
-25	의미가	_	NOUN	NOUN	_	26	nsubj	_	_	의미/NNG+가/JKS
-26	있다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	있/VV+다/EF
-27	.	_	PUNCT	.	_	26	punct	_	_	./SF
+5	진행되는	_	VERB	PREDREL	_	11	acl:relcl	_	_	진행/NNG+되/XSV+는/ETM
+6	&	_	PUNCT	.	_	7	punct	_	SpaceAfter=No	&/SW
+7	lt	_	NOUN	NOUN	_	11	amod	_	SpaceAfter=No	lt/SL
+8	;	_	PUNCT	.	_	7	punct	_	SpaceAfter=No	;/SP
+9	재미있는	_	ADJ	ADJ	_	11	amod	_	_	재미있/VA+는/ETM
+10	물과	_	NOUN	NOMCONJ	_	17	nsubj	_	_	물/NNG+과/JC
+11	흙	_	NOUN	PNOUN	_	10	conj	_	_	흙/NNG
+12	이야기교실	_	NOUN	PNOUN	_	11	flat	_	_	이야기/NNG+교실/NNG
+13	아이들에게	_	NOUN	NOUN	_	17	iobj	_	_	아이/NNG+들/XSN+에게/JKB
+14	흙과	_	NOUN	NOMCONJ	_	16	det:poss	_	_	흙/NNG+과/JC
+15	물의	_	NOUN	NOUN	_	14	conj	_	_	물/NNG+의/JKG
+16	중요성을	_	NOUN	NOUN	_	17	obj	_	_	중요/XR+성/XSN+을/JKO
+17	체험시켜주고	_	VERB	PREDCONJ	_	28	advcl	_	SpaceAfter=No	체험/NNG+시키/XSV+어/EC+주/VX+고/EC
+18	,	_	PUNCT	.	_	17	punct	_	_	,/SP
+19	사람과	_	NOUN	NOMCONJ	_	23	det:poss	_	_	사람/NNG+과/JC
+20	물	_	NOUN	NOUN	_	19	conj	_	_	물/NNG
+21	그리고	_	CCONJ	CONJ	_	22	cc	_	_	그리고/MAJ
+22	토양의	_	NOUN	NOUN	_	19	conj	_	_	토양/NNG+의/JKG
+23	이야기도	_	NOUN	NOUN	_	25	obj	_	_	이야기/NNG+도/JX
+24	함께	_	ADV	ADV	_	25	advmod	_	_	함께/MAG
+25	들려주기에	_	VERB	PREDCONJ	_	17	conj	_	_	들려주/VV+기/ETN+에/JKB
+26	더욱	_	ADV	ADV	_	28	advmod	_	_	더욱/MAG
+27	의미가	_	NOUN	NOUN	_	28	nsubj	_	_	의미/NNG+가/JKS
+28	있다	_	VERB	VERB	_	0	root	_	SpaceAfter=No	있/VV+다/EF
+29	.	_	PUNCT	.	_	28	punct	_	_	./SF
 
 # sent id = dev-s820
 # text = 나중에 그 지역에 자전거도로라도 패이고 공원에 잡풀이 우거지면 시장, 군수 뭐하냐는 시민들의 질책이 이어질 것이 아닌가.
