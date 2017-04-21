@@ -44,7 +44,7 @@ The Google UD Korean Treebank is a collaborative work by (in alphabetic order):
 
 Jinho Choi, Emory University
 Na-Rae Han, University of Pittsburgh
-Jena Hwang, Institute for Human & Machine Cognition.
+Jena D. Hwang, Institute for Human & Machine Cognition.
 Ryan McDonald, Google Research
 Joakim Nivre, Uppsala University
 Daniel Zeman, Institute of Formal and Applied Linguistics
