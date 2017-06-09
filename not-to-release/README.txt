@@ -43,6 +43,7 @@ CONTRIBUTORS
 The Google UD Korean Treebank is a collaborative work by (in alphabetic order):
 
 Jinho Choi, Emory University
+Jayeol Chun, Emory University
 Na-Rae Han, University of Pittsburgh
 Jena D. Hwang, Institute for Human & Machine Cognition.
 Ryan McDonald, Google Research
@@ -67,7 +68,7 @@ Data source: automatic
 Data available since: UD v2.0
 License: CC BY-NC-SA 3.0 US
 Genre: news blog
-Contributors: McDonald, Choi, Jinho; Han, Na-Rae; Hwang Jena; Ryan; Nivre, Joakim; Zeman, Daniel
+Contributors: McDonald, Choi, Jinho; Chun, Jayeol; Han, Na-Rae; Hwang Jena; Ryan; Nivre, Joakim; Zeman, Daniel
 Contact: choi@mathcs.emory.edu
 
 ===============================================================================
