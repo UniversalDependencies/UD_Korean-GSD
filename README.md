@@ -1,21 +1,16 @@
-=== Machine-readable metadata =================================================
-Documentation status: partial
-Data source: automatic
-Data available since: UD v2.0
-License: CC BY-NC-SA 3.0 US
-Genre: news blog
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Choi, Jinho
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
-(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+# Summary
+
+The Korean UD is converted from the content head version of the [universal
+dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 
 
-The Korean UD is converted from the Google Universal Dependency Treebanks v2.0 (legacy):
+# Changelog
 
-https://github.com/ryanmcd/uni-dep-tb
-
-The README for that project is included below.
+* 2017-11-15 v2.1
+  * No changes.
+* 2017-03-01 v2.0
+  * Initial UD release.
 
 
 
@@ -200,3 +195,20 @@ Contact
 ryanmcd@google.com
 joakim.nivre@lingfil.uu.se
 slav@google.com
+
+
+=== Machine-readable metadata =================================================
+Data available since: UD v2.0
+License: CC BY-NC-SA 3.0 US
+Includes text: yes
+Genre: news blog
+Lemmas: not available
+UPOS: converted from manual
+XPOS: manual native
+Features: not available
+Relations: converted from manual
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Choi, Jinho
+Contributing: here
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
+(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
