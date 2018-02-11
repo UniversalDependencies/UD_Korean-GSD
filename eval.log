@@ -1,0 +1,41 @@
+Sun Feb 11 20:45:36 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Korean-GSD
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Korean-GSD:
+commit 07c17cecbf5bdc3c1161ac6f18513d0cd2e36a7d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 11 14:02:06 2017 +0100
+Size: counted 74352 of 74352 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.61762114468524.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: '_' is the most frequent lemma.
+Universal POS tags: 11 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 532 out of 74352 total words have one or more features.
+Features: source of annotation (from README) factor is 0.4.
+Universal relations: 23 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.8.
+Udapi: found 22885 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 74352 words.
+Genres: found 2 out of 14 known.
+(weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
+(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
+(weight=0.256410256410256) * (score{size}=0.623764218378264) = 0.159939543173914
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.517647058823529) = 0.0398190045248869
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.497297297297297) = 0.0382536382536383
+(TOTAL score=0.313360171300424) * (availability=1) * (validity=1) = 0.313360171300424
+STARS = 1.5
+UD_Korean-GSD	0.313360171300424	1.5
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
