@@ -7,6 +7,9 @@ dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Significant rework, fixed some annotation errors.
+  * Added lemmas.
 * 2017-11-15 v2.1
   * No changes.
 * 2017-03-01 v2.0
