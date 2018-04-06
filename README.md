@@ -16,7 +16,7 @@ dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
   * Initial UD release.
 
 
-
+<pre>
 ###############################################################################
 LEGACY README FILE BELOW
 ###############################################################################
@@ -215,3 +215,4 @@ Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
 (Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+</pre>
