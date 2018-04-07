@@ -34,7 +34,7 @@ Features: not available
 Relations: converted from manual
 Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Choi, Jinho; Han, Na-Rae; Hwang, Jena; Chun, Jayeol
 Contributing: here
-Contact: zeman@ufal.mff.cuni.cz, jinho.choi@emory.edu
+Contact: jinho.choi@emory.edu
 ===============================================================================
 (Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 </pre>
