@@ -1,9 +1,7 @@
 # Summary
 
-The Google Korean Universal Dependency Treebank (UD-Korean-GSD) is first converted from the [Universal
+The Google Korean Universal Dependency Treebank is first converted from the [Universal
 Dependency Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb), and then enhanced by Chun et al., 2018.
-
-* Building Universal Dependency Treebanks in Korean, Jayeol Chun, Na-Rae Han, Jena D. Hwang, and Jinho D. Choi. In Proceedings of the 11th International Conference on Language Resources and Evaluation, LREC'18, Miyazaki, Japan, 2018.
 
 
 # Acknowledgements
@@ -17,6 +15,12 @@ This is a collaborative work by (in alphabetic order):
 * Ryan McDonald, Google Research
 * Joakim Nivre, Uppsala University
 * Daniel Zeman, Institute of Formal and Applied Linguistics
+
+The project repository: https://github.com/emorynlp/ud-korean
+
+# Citation
+
+* Building Universal Dependency Treebanks in Korean, Jayeol Chun, Na-Rae Han, Jena D. Hwang, and Jinho D. Choi. In Proceedings of the 11th International Conference on Language Resources and Evaluation, LREC'18, Miyazaki, Japan, 2018.
 
 
 # Changelog
