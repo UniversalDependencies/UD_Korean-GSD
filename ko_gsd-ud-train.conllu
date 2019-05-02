@@ -44253,7 +44253,7 @@
 2	사진	사진	NOUN	NNG	_	1	flat	_	_
 
 # sent_id = train-s2773
-# text = 그러나 정종과 단종 모두 묘호를 추증 받지 못해, 정종은 공정대왕(恭靖大王 ), 단종은 노산군(魯山君)으로 불렸다.
+# text = 그러나 정종과 단종 모두 묘호를 추증 받지 못해, 정종은 공정대왕(恭靖大王 ), 단종은 노산군(魯山君)으로 불렸다.
 1	그러나	그러나	ADV	MAJ	_	22	advmod	_	_
 2	정종과	정종+과	NOUN	NNP+JC	_	7	nsubj	_	_
 3	단종	단종	NOUN	NNP	_	2	conj	_	_
@@ -44272,7 +44272,7 @@
 16	단종은	단종+은	NOUN	NNP+JX	_	17	nsubj:pass	_	_
 17	노산군	노산군	PROPN	NNP	_	11	conj	_	SpaceAfter=No
 18	(	(	PUNCT	SS	_	19	punct	_	SpaceAfter=No
-19	魯山君	魯山君	SYM	SH	_	17	appos	_	SpaceAfter=No
+19	魯山君	魯山君	SYM	SH	_	17	appos	_	SpaceAfter=No
 20	)	)	PUNCT	SS	_	19	punct	_	SpaceAfter=No
 21	으로	으로	ADP	JKB	_	17	case	_	_
 22	불렸다	불리+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
