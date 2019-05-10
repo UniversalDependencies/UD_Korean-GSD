@@ -5693,10 +5693,10 @@
 6	찾아줘	찾+아+주+어	VERB	VV+EC+VX+EC	_	0	root	_	_
 
 # sent_id = test-s359
-# text = 겐로쿠엔(兼六园)의 뜻에서 알 수 있듯이 6가지 아름다움을 겸비한 정원이다.
+# text = 겐로쿠엔(兼六园)의 뜻에서 알 수 있듯이 6가지 아름다움을 겸비한 정원이다.
 1	겐로쿠엔	겐로쿠엔	PROPN	NNP	_	6	det:poss	_	SpaceAfter=No
 2	(	(	PUNCT	SS	_	3	punct	_	SpaceAfter=No
-3	兼六园	兼六园	SYM	SH	_	1	appos	_	SpaceAfter=No
+3	兼六园	兼六园	SYM	SH	_	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	SS	_	3	punct	_	SpaceAfter=No
 5	의	의	ADP	JKG	_	1	case	_	_
 6	뜻에서	뜻+에서	ADV	NNG+JKB	_	7	advmod	_	_

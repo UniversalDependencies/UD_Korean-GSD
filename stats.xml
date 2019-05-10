@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>6339</sentences><tokens>80322</tokens><words>80322</words><fused>0</fused></total>
+    <train><sentences>4400</sentences><tokens>56687</tokens><words>56687</words><fused>0</fused></train>
+    <dev><sentences>950</sentences><tokens>11958</tokens><words>11958</words><fused>0</fused></dev>
+    <test><sentences>989</sentences><tokens>11677</tokens><words>11677</words><fused>0</fused></test>
   </size>
   <lemmas unique="35865" /><!-- ., ,, ', (, ), ", 있+다, 수, 이, 있+는, %, 등, 그, 고, 좀 -->
   <forms unique="35846" /><!-- ., ,, ', (, ), ", 있다, 수, 이, 있는, 한, %, 등, 그, 고 -->
