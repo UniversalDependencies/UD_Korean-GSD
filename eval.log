@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Korean-GSD:
-commit 1a9db03b56540fbd34aa62ea52831734d9092ab4
-Merge: 82ebac3 89c6721
+commit a1489184afabafaab589e1462403916f1b4e8fca
+Merge: 7bfdf50 ee2378b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
