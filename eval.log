@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Korean-GSD:
-commit a1489184afabafaab589e1462403916f1b4e8fca
-Merge: 7bfdf50 ee2378b
+commit 8da28ee9b13adfbb1d64f78622588f3687e16a99
+Merge: f2a6730 95c092e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
@@ -23,12 +23,48 @@ Udapi: found 24721 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 80322 words.
 Genres: found 2 out of 17 known.
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-dev.conllu
-*** PASSED ***
+[Line 33 Sent dev-s3 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 34 Sent dev-s3 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 37 Sent dev-s3 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 93 Sent dev-s7 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 101 Sent dev-s7 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 112 Sent dev-s8 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 117 Sent dev-s8 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 124 Sent dev-s8 Node 15]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN'
+[Line 156 Sent dev-s9 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+...suppressing further errors regarding Syntax
+Syntax errors: 975
+*** FAILED *** with 975 errors
+Exit code: 1
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
-*** PASSED ***
+[Line 7 Sent test-s1 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 9 Sent test-s1 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 19 Sent test-s1 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 32 Sent test-s1 Node 30]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 32 Sent test-s1 Node 30]: [L5 Syntax cop-lemma] '이+라며' is not a copula in language [ko]
+[Line 85 Sent test-s5 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 90 Sent test-s5 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 101 Sent test-s5 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 104 Sent test-s5 Node 21]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+...suppressing further errors regarding Syntax
+Syntax errors: 862
+*** FAILED *** with 862 errors
+Exit code: 1
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 14 Sent train-s1 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 21 Sent train-s1 Node 19]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 54 Sent train-s3 Node 11]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 66 Sent train-s4 Node 4]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 81 Sent train-s4 Node 19]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 96 Sent train-s6 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 101 Sent train-s6 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 114 Sent train-s7 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 126 Sent train-s8 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+...suppressing further errors regarding Syntax
+Syntax errors: 4764
+*** FAILED *** with 4764 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.562162162162162) = 0.0432432432432432
-(TOTAL score=0.367376912092529) * (availability=1) * (validity=1) = 0.367376912092529
-STARS = 2
-UD_Korean-GSD	0.367376912092529	2
+(TOTAL score=0.367376912092529) * (availability=1) * (validity=0.01) = 0.00367376912092529
+STARS = 0
+UD_Korean-GSD	0.00367376912092529	0
