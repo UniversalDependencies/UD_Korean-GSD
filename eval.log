@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Korean-GSD:
-commit 8da28ee9b13adfbb1d64f78622588f3687e16a99
-Merge: f2a6730 95c092e
+commit b39727f3fb21480376b1eee7047adf8d522e2247
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 17:24:56 2019 +0100
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 549 out of 80322 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 24721 bugs.
+Udapi: found 24862 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 80322 words.
 Genres: found 2 out of 17 known.
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-dev.conllu
@@ -33,8 +33,19 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-dev.conllu
 [Line 124 Sent dev-s8 Node 15]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN'
 [Line 156 Sent dev-s9 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 ...suppressing further errors regarding Syntax
+[Line 276 Sent dev-s16 Node 17]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
+[Line 286 Sent dev-s16 Node 27]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
+[Line 1504 Sent dev-s96 Node 29]: [L5 Morpho aux-lemma] '있+다' is not an auxiliary verb in language [ko]
+[Line 2428 Sent dev-s151 Node 44]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
+[Line 2683 Sent dev-s168 Node 18]: [L5 Morpho aux-lemma] '있+다' is not an auxiliary verb in language [ko]
+[Line 2695 Sent dev-s168 Node 30]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
+[Line 2858 Sent dev-s177 Node 18]: [L5 Morpho aux-lemma] '않+는다' is not an auxiliary verb in language [ko]
+[Line 4280 Sent dev-s272 Node 9]: [L5 Morpho aux-lemma] '않+는다' is not an auxiliary verb in language [ko]
+[Line 4953 Sent dev-s318 Node 2]: [L5 Morpho aux-lemma] '살+아+있+는' is not an auxiliary verb in language [ko]
+...suppressing further errors regarding Morpho
+Morpho errors: 14
 Syntax errors: 975
-*** FAILED *** with 975 errors
+*** FAILED *** with 989 errors
 Exit code: 1
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
 [Line 7 Sent test-s1 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
@@ -47,8 +58,15 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
 [Line 101 Sent test-s5 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
 [Line 104 Sent test-s5 Node 21]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 ...suppressing further errors regarding Syntax
+[Line 627 Sent test-s34 Node 36]: [L5 Morpho aux-lemma] '기대+하+아+보+ㅁ직+하+다' is not an auxiliary verb in language [ko]
+[Line 1643 Sent test-s98 Node 25]: [L5 Morpho aux-lemma] '않+는다' is not an auxiliary verb in language [ko]
+[Line 5833 Sent test-s367 Node 11]: [L5 Morpho aux-lemma] '있+다' is not an auxiliary verb in language [ko]
+[Line 10407 Sent test-s674 Node 18]: [L5 Morpho aux-lemma] '느끼+어+지+ㄴ다' is not an auxiliary verb in language [ko]
+[Line 10432 Sent test-s675 Node 18]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
+[Line 10537 Sent test-s681 Node 22]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
+Morpho errors: 6
 Syntax errors: 862
-*** FAILED *** with 862 errors
+*** FAILED *** with 868 errors
 Exit code: 1
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
 [Line 14 Sent train-s1 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
@@ -61,8 +79,19 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
 [Line 114 Sent train-s7 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
 [Line 126 Sent train-s8 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 ...suppressing further errors regarding Syntax
+[Line 1967 Sent train-s132 Node 16]: [L5 Morpho aux-lemma] '있+었+다' is not an auxiliary verb in language [ko]
+[Line 2920 Sent train-s192 Node 11]: [L5 Morpho aux-lemma] '받+아+오+았+다' is not an auxiliary verb in language [ko]
+[Line 3847 Sent train-s240 Node 39]: [L5 Morpho aux-lemma] '하+아+오+았+다' is not an auxiliary verb in language [ko]
+[Line 3869 Sent train-s242 Node 8]: [L5 Morpho aux-lemma] '말+하+아+보+아' is not an auxiliary verb in language [ko]
+[Line 4598 Sent train-s286 Node 21]: [L5 Morpho aux-lemma] '있+다' is not an auxiliary verb in language [ko]
+[Line 5479 Sent train-s347 Node 11]: [L5 Morpho aux-lemma] '취소+하+아+달+라' is not an auxiliary verb in language [ko]
+[Line 6308 Sent train-s401 Node 19]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
+[Line 7829 Sent train-s500 Node 3]: [L5 Morpho aux-lemma] '하+더라구요' is not an auxiliary verb in language [ko]
+[Line 8905 Sent train-s569 Node 11]: [L5 Morpho aux-lemma] '느끼+어+지+ㄴ다' is not an auxiliary verb in language [ko]
+...suppressing further errors regarding Morpho
+Morpho errors: 54
 Syntax errors: 4764
-*** FAILED *** with 4764 errors
+*** FAILED *** with 4818 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
