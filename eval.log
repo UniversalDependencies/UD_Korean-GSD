@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Korean-GSD:
-commit b39727f3fb21480376b1eee7047adf8d522e2247
+commit 8fb0195ef2294744f64a8d5f7dd01d6f296684ba
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:24:56 2019 +0100
+Date:   Sun May 10 18:21:35 2020 +0200
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -44,8 +44,8 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-dev.conllu
 [Line 4953 Sent dev-s318 Node 2]: [L5 Morpho aux-lemma] '살+아+있+는' is not an auxiliary verb in language [ko]
 ...suppressing further errors regarding Morpho
 Morpho errors: 14
-Syntax errors: 975
-*** FAILED *** with 989 errors
+Syntax errors: 960
+*** FAILED *** with 974 errors
 Exit code: 1
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
 [Line 7 Sent test-s1 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
@@ -65,8 +65,8 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
 [Line 10432 Sent test-s675 Node 18]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
 [Line 10537 Sent test-s681 Node 22]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
 Morpho errors: 6
-Syntax errors: 862
-*** FAILED *** with 868 errors
+Syntax errors: 838
+*** FAILED *** with 844 errors
 Exit code: 1
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
 [Line 14 Sent train-s1 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
@@ -90,8 +90,8 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
 [Line 8905 Sent train-s569 Node 11]: [L5 Morpho aux-lemma] '느끼+어+지+ㄴ다' is not an auxiliary verb in language [ko]
 ...suppressing further errors regarding Morpho
 Morpho errors: 54
-Syntax errors: 4764
-*** FAILED *** with 4818 errors
+Syntax errors: 4663
+*** FAILED *** with 4717 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
