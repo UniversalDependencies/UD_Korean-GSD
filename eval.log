@@ -1,11 +1,11 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Korean-GSD:
-commit 8fb0195ef2294744f64a8d5f7dd01d6f296684ba
+commit cdec82303198ebed26a701c55ecb1dea4d1bd64e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 18:21:35 2020 +0200
+Date:   Wed Nov 11 19:50:04 2020 +0100
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,6 +19,8 @@ Features: 549 out of 80322 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
+Udapi:
+               TOTAL      24862
 Udapi: found 24862 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 80322 words.
 Genres: found 2 out of 17 known.
@@ -44,8 +46,8 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-dev.conllu
 [Line 4953 Sent dev-s318 Node 2]: [L5 Morpho aux-lemma] '살+아+있+는' is not an auxiliary verb in language [ko]
 ...suppressing further errors regarding Morpho
 Morpho errors: 14
-Syntax errors: 960
-*** FAILED *** with 974 errors
+Syntax errors: 966
+*** FAILED *** with 980 errors
 Exit code: 1
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
 [Line 7 Sent test-s1 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
@@ -65,8 +67,8 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
 [Line 10432 Sent test-s675 Node 18]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
 [Line 10537 Sent test-s681 Node 22]: [L5 Morpho aux-lemma] '하+ㄴ다' is not an auxiliary verb in language [ko]
 Morpho errors: 6
-Syntax errors: 838
-*** FAILED *** with 844 errors
+Syntax errors: 841
+*** FAILED *** with 847 errors
 Exit code: 1
 validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
 [Line 14 Sent train-s1 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
@@ -90,8 +92,8 @@ validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
 [Line 8905 Sent train-s569 Node 11]: [L5 Morpho aux-lemma] '느끼+어+지+ㄴ다' is not an auxiliary verb in language [ko]
 ...suppressing further errors regarding Morpho
 Morpho errors: 54
-Syntax errors: 4663
-*** FAILED *** with 4717 errors
+Syntax errors: 4674
+*** FAILED *** with 4728 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
