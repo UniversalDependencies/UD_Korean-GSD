@@ -6774,14 +6774,14 @@
 11	정	정	NOUN	NNP	_	9	flat	_	_
 12	씨에게	씨+에게	ADV	NNB+JKB	_	9	flat	_	_
 13	접대를	접대+를	NOUN	NNG+JKO	_	14	obj	_	_
-14	받는	받+는	VERB	VV+ETM	_	21	appos	_	_
+14	받는	받+는	VERB	VV+ETM	_	22	acl:relcl	_	_
 15	등	등	NOUN	NNB	_	14	dep	_	_
 16	'	'	PUNCT	SS	_	17	punct	_	SpaceAfter=No
 17	스폰서	스폰서	NOUN	NNG	_	14	appos	_	_
 18	검사	검사	NOUN	NNG	_	14	flat	_	SpaceAfter=No
 19	'	'	PUNCT	SS	_	18	punct	_	SpaceAfter=No
 20	의혹사건으로	의혹+사건+으로	ADV	NNG+NNG+JKB	_	14	flat	_	_
-21	기소된	기소+되+ㄴ	VERB	NNG+XSV+ETM	_	22	acl:relcl	_	_
+21	기소된	기소+되+ㄴ	VERB	NNG+XSV+ETM	_	14	appos	_	_
 22	한승철	한승철	NOUN	NNP	_	29	iobj	_	_
 23	전	전	NOUN	NNG	_	22	flat	_	_
 24	대검	대검	NOUN	NNG	_	22	flat	_	_
@@ -11009,13 +11009,13 @@
 7	강자를	강자+를	NOUN	NNG+JKO	_	8	obj	_	_
 8	이기는	이기+는	VERB	VV+ETM	_	10	acl:relcl	_	_
 9	자신들의	자신+들+의	PRON	NNG+XSN+JKG	_	10	det:poss	_	_
-10	대표자	대표자	NOUN	NNG	_	16	appos	_	_
+10	대표자	대표자	NOUN	NNG	_	17	dep	_	_
 11	'	'	PUNCT	SS	_	12	punct	_	SpaceAfter=No
 12	약자의	약자+의	NOUN	NNG+JKG	_	10	dep	_	_
 13	영웅	영웅	NOUN	NNG	_	10	appos	_	SpaceAfter=No
 14	'	'	PUNCT	SS	_	13	punct	_	SpaceAfter=No
 15	을	을	ADP	JKO	_	10	obj	_	_
-16	기다리는	기다리+는	VERB	VV+ETM	_	17	dep	_	_
+16	기다리는	기다리+는	VERB	VV+ETM	_	10	appos	_	_
 17	마음이다	마음+이+다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	SF	_	17	punct	_	_
 
@@ -12360,7 +12360,7 @@
 5	콘텐츠를	콘텐츠+를	NOUN	NNG+JKO	_	3	conj	_	_
 6	모아놓은	모으+아+놓+은	VERB	VV+EC+VX+ETM	_	1	acl:relcl	_	_
 7	`	`	PUNCT	SS	_	6	punct	_	SpaceAfter=No
-8	프리존	프리+존	PUNCT	NNG+NNG	_	6	punct	_	SpaceAfter=No
+8	프리존	프리+존	PUNCT	NNG+NNG	_	10	punct	_	SpaceAfter=No
 9	`	`	PUNCT	SF	_	10	punct	_	_
 10	서비스도	서비스+도	NOUN	NNG+JX	_	1	flat	_	_
 11	T옴니아2에서	T+옴니아+2+에서	ADV	SL+NNP+SN+JKB	_	1	advmod	_	_
