@@ -5159,7 +5159,7 @@
 6	평균이	평균+이	NOUN	NNG+JKS	_	1	flat	_	_
 7	지난해	지난해	NOUN	NNG	_	8	nmod	_	_
 8	2.0	2.0	NOUN	SN	_	16	ccomp	_	_
-9	%	%	PUNCT	SW	_	8	punct	_	SpaceAfter=No
+9	%	%	PUNCT	SW	_	12	punct	_	SpaceAfter=No
 10	,	,	PUNCT	SP	_	12	punct	_	_
 11	올해	올해	NOUN	NNG	_	12	nmod	_	_
 12	1.9	1.9	NUM	SN	_	8	conj	_	SpaceAfter=No
@@ -8695,7 +8695,7 @@
 11	럭비	럭비	NOUN	NNG	_	10	flat	_	_
 12	평의회	평의회	NOUN	NNG	_	10	flat	_	SpaceAfter=No
 13	(	(	PUNCT	SS	_	16	punct	_	SpaceAfter=No
-14	IRB	IRB	PUNCT	SL	_	12	appos	_	SpaceAfter=No
+14	IRB	IRB	PUNCT	SL	_	16	punct	_	SpaceAfter=No
 15	,	,	PUNCT	SP	_	16	punct	_	_
 16	International	International	NOUN	SL	_	10	flat	_	_
 17	Rugby	Rugby	NOUN	SL	_	10	flat	_	_
@@ -9334,7 +9334,7 @@
 2	통화	통화	NOUN	NNG	_	1	flat	_	_
 3	동맹	동맹	NOUN	NNG	_	1	flat	_	_
 4	(	(	PUNCT	SS	_	7	punct	_	SpaceAfter=No
-5	LMU	LMU	PUNCT	SL	_	3	flat	_	SpaceAfter=No
+5	LMU	LMU	PUNCT	SL	_	7	punct	_	SpaceAfter=No
 6	,	,	PUNCT	SP	_	7	punct	_	_
 7	Latin	Latin	NOUN	SL	_	1	flat	_	_
 8	Monetary	Monetary	NOUN	SL	_	1	flat	_	_
@@ -9394,7 +9394,7 @@
 2	최고	최고	NOUN	NNG	_	5	acl:relcl	_	_
 3	명문사학인	명문+사학+이+ㄴ	VERB	NNG+NNG+VCP+ETM	_	2	flat	_	_
 4	'	'	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-5	옥스포드	옥스포드	PROPN	NNP	_	18	conj	_	SpaceAfter=No
+5	옥스포드	옥스포드	PROPN	NNP	_	30	advcl	_	SpaceAfter=No
 6	'	'	PUNCT	SS	_	5	punct	_	SpaceAfter=No
 7	에서는	에서+는	PART	JKB+JX	_	5	case	_	_
 8	우리	우리	PRON	NP	_	9	det:poss	_	_
@@ -9407,7 +9407,7 @@
 15	최고의	최고+의	NOUN	NNG+JKG	_	14	flat	_	_
 16	과학적인	과학+적+이+ㄴ	ADJ	NNG+XSN+VCP+ETM	_	17	amod	_	_
 17	언어라고	언어+이+라고	VERB	NNG+VCP+EC	_	5	ccomp	_	_
-18	인정하고	인정+하+고	VERB	NNG+XSV+EC	_	30	advcl	_	_
+18	인정하고	인정+하+고	VERB	NNG+XSV+EC	_	5	conj	_	_
 19	극찬한	극찬+하+ㄴ	VERB	NNG+XSV+ETM	_	5	appos	_	_
 20	이후	이후	NOUN	NNG	_	5	mark	_	SpaceAfter=No
 21	,	,	PUNCT	SP	_	20	punct	_	_
@@ -9740,7 +9740,7 @@
 7	1302억4500만원으로	1302+억+4500+만+원+으로	ADV	SN+NR+SN+NR+NNB+JKB	_	4	conj	_	_
 8	각각	각각	ADV	MAG	_	14	advmod	_	_
 9	67.9	67.9	NOUN	SN	_	14	advmod	_	_
-10	%	%	PUNCT	SW	_	9	punct	_	SpaceAfter=No
+10	%	%	PUNCT	SW	_	12	punct	_	SpaceAfter=No
 11	,	,	PUNCT	SP	_	12	punct	_	_
 12	43.4	43.4	NUM	SN	_	9	conj	_	SpaceAfter=No
 13	%	%	SYM	SW	_	12	punct	_	_
@@ -12021,10 +12021,10 @@
 1	베트남	베트남	NOUN	NNP	_	10	nsubj:pass	_	_
 2	현대미술은	현대+미술+은	NOUN	NNP+NNG+JX	_	1	flat	_	_
 3	'	'	PUNCT	SS	_	4	punct	_	SpaceAfter=No
-4	베트남전	베트남전	PROPN	NNP	_	7	conj	_	SpaceAfter=No
+4	베트남전	베트남전	PROPN	NNP	_	10	nsubj:pass	_	SpaceAfter=No
 5	'	'	PUNCT	SS	_	4	punct	_	SpaceAfter=No
 6	의	의	ADP	JKG	_	4	case	_	_
-7	기억과	기억+과	NOUN	NNG+JC	_	10	nsubj:pass	_	_
+7	기억과	기억+과	NOUN	NNG+JC	_	4	conj	_	_
 8	상흔이	상흔+이	NOUN	NNG+JKS	_	4	appos	_	_
 9	고스란히	고스란히	ADV	MAG	_	10	advmod	_	_
 10	반영되어	반영+되+어	VERB	NNG+XSV+EC	_	0	root	_	_

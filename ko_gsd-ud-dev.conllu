@@ -2597,7 +2597,7 @@
 # text = 아르마딜로 스페이스()는 존 카맥이 우주 여행을 목적으로 2000년에 설립한 기업이다.
 1	아르마딜로	아르마딜로	NOUN	NNG	_	13	nsubj	_	_
 2	스페이스	스페이스	NOUN	NNG	_	1	flat	_	SpaceAfter=No
-3	(	(	PUNCT	SS	_	2	punct	_	SpaceAfter=No
+3	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No
 4	)	)	PUNCT	SS	_	5	punct	_	SpaceAfter=No
 5	는	는	ADP	JX	_	2	case	_	_
 6	존	존	NOUN	NNP	_	12	nsubj	_	_
@@ -4673,25 +4673,25 @@
 
 # sent_id = dev-s300
 # text = 나가수 출연진 박정현과 김범수씨의 '사람, 사랑'뮤직비디오와 메이킹 필름을 마련하고, 이들의 사인도 온라인상에서 받을 수 있는 이벤트도 전개 중이다.
-1	나가수	나+가수	NOUN	NP+NNG	_	3	conj	_	_
+1	나가수	나+가수	NOUN	NP+NNG	_	11	det:poss	_	_
 2	출연진	출연진	NOUN	NNG	_	1	flat	_	_
-3	박정현과	박정현+과	NOUN	NNP+JC	_	11	det:poss	_	_
+3	박정현과	박정현+과	NOUN	NNP+JC	_	1	conj	_	_
 4	김범수씨의	김범수+씨+의	NOUN	NNP+NNB+JKG	_	1	appos	_	_
 5	'	'	PUNCT	SS	_	8	punct	_	SpaceAfter=No
-6	사람	사람	PUNCT	NNG	_	19	dep	_	SpaceAfter=No
+6	사람	사람	PUNCT	NNG	_	8	punct	_	SpaceAfter=No
 7	,	,	PUNCT	SP	_	8	punct	_	_
-8	사랑	사랑	NOUN	NNG	_	19	flat	_	SpaceAfter=No
+8	사랑	사랑	NOUN	NNG	_	20	nsubj	_	SpaceAfter=No
 9	'	'	PUNCT	SS	_	8	punct	_	SpaceAfter=No
-10	뮤직비디오와	뮤직비디오+와	NOUN	NNG+JC	_	19	flat	_	_
-11	메이킹	메이킹	NOUN	NNG	_	19	conj	_	_
+10	뮤직비디오와	뮤직비디오+와	NOUN	NNG+JC	_	8	flat	_	_
+11	메이킹	메이킹	NOUN	NNG	_	8	conj	_	_
 12	필름을	필름+을	NOUN	NNG+JKO	_	11	flat	_	_
-13	마련하고	마련+하+고	VERB	NNG+XSV+EC	_	19	appos	_	SpaceAfter=No
-14	,	,	PUNCT	SP	_	13	punct	_	_
+13	마련하고	마련+하+고	VERB	NNG+XSV+EC	_	8	appos	_	SpaceAfter=No
+14	,	,	PUNCT	SP	_	18	punct	_	_
 15	이들의	이+들+의	PRON	NP+XSN+JKG	_	16	det:poss	_	_
 16	사인도	사인+도	NOUN	NNG+JX	_	18	obj	_	_
 17	온라인상에서	온라인+상+에서	ADV	NNG+XSN+JKB	_	18	advmod	_	_
-18	받을	받+을	VERB	VV+ETM	_	19	conj	_	_
-19	수	수	NOUN	NNB	_	20	nsubj	_	_
+18	받을	받+을	VERB	VV+ETM	_	8	conj	_	_
+19	수	수	NOUN	NNB	_	8	flat	_	_
 20	있는	있+는	VERB	VV+ETM	_	21	dep	_	_
 21	이벤트도	이벤트+도	NOUN	NNG+JX	_	22	nsubj	_	_
 22	전개	전개	NOUN	NNG	_	0	root	_	_
@@ -4850,7 +4850,7 @@
 # text = 슬로바키아어 위키백과()는 슬로바키아어로 된 위키백과이다.
 1	슬로바키아어	슬로바키아+어	NOUN	NNP+JKG	_	8	nsubj	_	_
 2	위키백과	위키+백과	PROPN	NNP+NNG	_	1	flat	_	SpaceAfter=No
-3	(	(	PUNCT	SS	_	2	punct	_	SpaceAfter=No
+3	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No
 4	)	)	PUNCT	SS	_	5	punct	_	SpaceAfter=No
 5	는	는	ADP	JX	_	2	case	_	_
 6	슬로바키아어로	슬로바키아+어로	ADV	NNP+NNG	_	7	advmod	_	_
@@ -8370,7 +8370,7 @@
 # text = 중앙 크로아티아() 또는 크로아티아 본토는 현재의 크로아티아 영토에 있는 지역을 가리키는 용어로, 합스부르크 군주국의 지배하에 있던 크로아티아 왕국의 지역 가운데 이스트리아, 슬라보니아, 달마티아를 제외한 지역을 가리키며 크로아티아의 연안 지역과 디나르알프스 산맥(코르둔(Kordun), 리카(Lika ), 고르스키코타르(Gorski kotar )), 메지무례 주를 포함한다.
 1	중앙	중앙	NOUN	NNG	_	57	nsubj	_	_
 2	크로아티아	크로아티아	PROPN	NNP	_	1	flat	_	SpaceAfter=No
-3	(	(	PUNCT	SS	_	2	punct	_	SpaceAfter=No
+3	(	(	PUNCT	SS	_	6	punct	_	SpaceAfter=No
 4	)	)	PUNCT	SS	_	6	punct	_	_
 5	또는	또는	CCONJ	MAJ	_	6	cc	_	_
 6	크로아티아	크로아티아	NOUN	NNP	_	1	conj	_	_
@@ -8671,7 +8671,7 @@
 4	브루스	브루스	NOUN	NNP	_	3	flat	_	_
 5	리	리	NOUN	NNB	_	3	flat	_	SpaceAfter=No
 6	(	(	PUNCT	SS	_	9	punct	_	SpaceAfter=No
-7	이소룡	이소룡	PUNCT	NNP	_	5	appos	_	SpaceAfter=No
+7	이소룡	이소룡	PUNCT	NNP	_	9	punct	_	SpaceAfter=No
 8	,	,	PUNCT	SP	_	9	punct	_	_
 9	李小龍	李小龍	SYM	SH	_	5	appos	_	SpaceAfter=No
 10	)	)	PUNCT	SS	_	9	punct	_	SpaceAfter=No
@@ -11151,11 +11151,11 @@
 10	이어	잇+어	VERB	VV+EC	_	23	advcl	_	_
 11	전남	전남	NOUN	NNP	_	23	det:poss	_	_
 12	16.2	16.2	NOUN	SN	_	11	flat	_	_
-13	%	%	PUNCT	SW	_	12	punct	_	SpaceAfter=No
+13	%	%	PUNCT	SW	_	15	punct	_	SpaceAfter=No
 14	,	,	PUNCT	SP	_	15	punct	_	_
 15	제주	제주	NOUN	NNP	_	11	conj	_	_
 16	15.8	15.8	NOUN	SN	_	15	flat	_	_
-17	%	%	PUNCT	SW	_	16	punct	_	SpaceAfter=No
+17	%	%	PUNCT	SW	_	19	punct	_	SpaceAfter=No
 18	,	,	PUNCT	SP	_	19	punct	_	_
 19	충북	충북	NOUN	NNP	_	11	conj	_	_
 20	15.0	15.0	NUM	SN	_	19	flat	_	SpaceAfter=No
@@ -12361,7 +12361,7 @@
 6	모아놓은	모으+아+놓+은	VERB	VV+EC+VX+ETM	_	1	acl:relcl	_	_
 7	`	`	PUNCT	SS	_	6	punct	_	SpaceAfter=No
 8	프리존	프리+존	PUNCT	NNG+NNG	_	6	punct	_	SpaceAfter=No
-9	`	`	PUNCT	SF	_	6	punct	_	_
+9	`	`	PUNCT	SF	_	10	punct	_	_
 10	서비스도	서비스+도	NOUN	NNG+JX	_	1	flat	_	_
 11	T옴니아2에서	T+옴니아+2+에서	ADV	SL+NNP+SN+JKB	_	1	advmod	_	_
 12	사용	사용	NOUN	NNG	_	1	nsubj	_	_
@@ -13214,13 +13214,13 @@
 17	곧	곧	ADV	MAG	_	30	advmod	_	_
 18	오토모노	오토모노	NOUN	NNP	_	23	advmod	_	_
 19	쓰기히토	쓰기히토	PROPN	NNP	_	18	flat	_	SpaceAfter=No
-20	(	(	PUNCT	SS	_	19	punct	_	SpaceAfter=No
+20	(	(	PUNCT	SS	_	22	punct	_	SpaceAfter=No
 21	)	)	PUNCT	SS	_	22	punct	_	SpaceAfter=No
 22	에	에	ADP	JKB	_	19	case	_	_
 23	의한	의하+ㄴ	VERB	VV+ETM	_	24	acl:relcl	_	_
 24	후지와라노	후지와라+노	NOUN	NNP+NNP	_	30	nsubj	_	_
 25	타네쓰구	타네쓰구	PROPN	NNP	_	24	flat	_	SpaceAfter=No
-26	(	(	PUNCT	SS	_	25	punct	_	SpaceAfter=No
+26	(	(	PUNCT	SS	_	28	punct	_	SpaceAfter=No
 27	)	)	PUNCT	SS	_	28	punct	_	_
 28	암살	암살	NOUN	NNG	_	24	flat	_	_
 29	사건이	사건+이	NOUN	NNG+JKS	_	24	flat	_	_
@@ -14203,7 +14203,7 @@
 2	카드사별로	카드사+별+로	ADV	NNG+XSN+JKB	_	16	obl	_	_
 3	신한카드가	신한+카드+가	NOUN	NNP+NNG+JKS	_	4	nsubj	_	_
 4	7.6~26.9	7.6~26.9	NOUN	SN	_	0	root	_	_
-5	%	%	PUNCT	SW	_	4	punct	_	SpaceAfter=No
+5	%	%	PUNCT	SW	_	8	punct	_	SpaceAfter=No
 6	,	,	PUNCT	SP	_	8	punct	_	_
 7	삼성카드가	삼성카드+가	NOUN	NNP+JKS	_	8	nsubj	_	_
 8	7.9~24.9	7.9~24.9	NOUN	SN	_	4	conj	_	_
@@ -14211,7 +14211,7 @@
 10	,	,	PUNCT	SP	_	8	punct	_	_
 11	하나SK카드가	하나+SK+카드+가	NOUN	NNP+SL+NNG+JKS	_	12	nsubj	_	_
 12	6.9~24.9	6.9~24.9	NOUN	SN	_	4	conj	_	_
-13	%	%	PUNCT	SW	_	12	punct	_	SpaceAfter=No
+13	%	%	PUNCT	SW	_	16	punct	_	SpaceAfter=No
 14	,	,	PUNCT	SP	_	16	punct	_	_
 15	국민은행이	국민은행+이	NOUN	NNP+JKS	_	16	nsubj	_	_
 16	7.5~26.5	7.5~26.5	NUM	SN	_	4	conj	_	SpaceAfter=No

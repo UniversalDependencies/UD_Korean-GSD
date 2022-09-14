@@ -299,7 +299,7 @@
 # text = 또 관련 _ 부처 및 민간전문가들이 참여하는 곡물조달 TF를 확대하고 내실있게 운용해 달라고 농식품부에 당부했다.
 1	또	또	ADV	MAG	_	15	advmod	_	_
 2	관련	관련	NOUN	NNG	_	7	nsubj	_	_
-3	_	_	PUNCT	SS	_	2	punct	_	_
+3	_	_	PUNCT	SS	_	6	punct	_	_
 4	부처	부처	PUNCT	NNG	_	6	punct	_	_
 5	및	및	CCONJ	MAG	_	6	cc	_	_
 6	민간전문가들이	민간+전문가+들+이	NOUN	NNG+NNG+XSN+JKS	_	2	conj	_	_
@@ -615,10 +615,10 @@
 8	``	``	PUNCT	SF	_	5	punct	_	_
 9	또는	또는	CCONJ	MAJ	_	11	cc	_	_
 10	''	''	PUNCT	SS	_	9	punct	_	SpaceAfter=No
-11	억지춘향	억지+춘향	PROPN	NNG+NNP	_	14	conj	_	SpaceAfter=No
+11	억지춘향	억지+춘향	PROPN	NNG+NNP	_	15	nsubj	_	SpaceAfter=No
 12	’	’	PUNCT	SS	_	13	punct	_	SpaceAfter=No
 13	이라는	이+라는	VERB	VCP+ETM	_	11	cop	_	_
-14	말이	말+이	NOUN	NNG+JKS	_	15	nsubj	_	_
+14	말이	말+이	NOUN	NNG+JKS	_	11	conj	_	_
 15	있다	있+다	ADJ	VV+EF	_	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	SF	_	15	punct	_	_
 
@@ -4089,7 +4089,7 @@
 1	이러한	이러+하+ㄴ	ADJ	XR+XSA+ETM	_	8	amod	_	_
 2	창시	창시	NOUN	NNG	_	8	acl:relcl	_	SpaceAfter=No
 3	,	,	PUNCT	SP	_	2	punct	_	_
-4	_	_	PUNCT	SS	_	2	punct	_	_
+4	_	_	PUNCT	SS	_	7	punct	_	_
 5	복원	복원	PUNCT	NNG	_	7	punct	_	_
 6	또는	또는	CCONJ	MAG	_	7	cc	_	_
 7	전승된	전승+되+ㄴ	VERB	NNG+XSV+ETM	_	2	conj	_	_
@@ -4507,7 +4507,7 @@
 6	스타화보는	스타+화보+는	NOUN	NNG+NNG+JX	_	5	flat	_	_
 7	SK텔레콤	SK+텔레콤	NOUN	SL+NNG	_	18	obj	_	SpaceAfter=No
 8	(	(	PUNCT	SS	_	11	punct	_	SpaceAfter=No
-9	*	*	PUNCT	SO	_	15	punct	_	SpaceAfter=No
+9	*	*	PUNCT	SO	_	11	punct	_	SpaceAfter=No
 10	*	*	PUNCT	SO	_	11	punct	_	SpaceAfter=No
 11	8253	8253	NUM	SN	_	7	nummod	_	SpaceAfter=No
 12	+	+	PUNCT	+SW	_	11	punct	_	SpaceAfter=No
@@ -4986,7 +4986,7 @@
 5	기분이	기분+이	NOUN	NNG+JKS	_	7	nsubj	_	_
 6	넘	넘	ADV	NNG	_	7	advmod	_	_
 7	좋아요	좋+아요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
-8	~	~	PUNCT	SO	_	7	punct	_	SpaceAfter=No
+8	~	~	PUNCT	SO	_	10	punct	_	SpaceAfter=No
 9	~	~	PUNCT	SO	_	10	punct	_	SpaceAfter=No
 10	~	~	SYM	SO	_	7	punct	_	_
 
@@ -6113,7 +6113,7 @@
 28	제품에	제품+에	ADV	NNG+JKB	_	27	flat	_	_
 29	대해서는	대하+아서+는	ADV	VV+EC+JX	_	30	advmod	_	_
 30	48.7	48.7	NOUN	SN	_	20	conj	_	_
-31	%	%	PUNCT	SW	_	30	punct	_	SpaceAfter=No
+31	%	%	PUNCT	SW	_	35	punct	_	SpaceAfter=No
 32	,	,	PUNCT	SP	_	35	punct	_	_
 33	자국제품에	자국+제품+에	ADV	NNG+NNG+JKB	_	34	obl	_	_
 34	대해서는	대하+아서+는	ADV	VV+EC+JX	_	35	advmod	_	_
@@ -7352,8 +7352,8 @@
 
 # sent_id = train-s474
 # text = 이들은 문화, 미디어, 엔터테인먼트 종사 청년 기독교인 모임인 '문미엔'소속으로 바쁜 스케줄 속에서도 소규모 예배, 기도 모임 등을 가지며 성실한 신앙생활을 해온 것으로 알려졌다.
-1	이들은	이+들+은	PRON	NNB+XSN+JX	_	28	nsubj	_	_
-2	문화	문화	NOUN	NNG	_	28	acl:relcl	_	SpaceAfter=No
+1	이들은	이+들+은	PRON	NNB+XSN+JX	_	14	nsubj	_	_
+2	문화	문화	NOUN	NNG	_	14	acl:relcl	_	SpaceAfter=No
 3	,	,	PUNCT	SP	_	4	punct	_	_
 4	미디어	미디어	NOUN	NNG	_	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	SP	_	4	punct	_	_
@@ -7365,7 +7365,7 @@
 11	'	'	PUNCT	SS	_	12	punct	_	SpaceAfter=No
 12	문미엔	문미+에+ㄴ	PUNCT	NNG+JKB+JX	_	2	punct	_	SpaceAfter=No
 13	'	'	PUNCT	SS	_	12	punct	_	SpaceAfter=No
-14	소속으로	소속+으로	ADV	NNG+JKB	_	28	flat	_	_
+14	소속으로	소속+으로	ADV	NNG+JKB	_	29	obl	_	_
 15	바쁜	바쁘+ㄴ	ADJ	VA+ETM	_	16	amod	_	_
 16	스케줄	스케줄	NOUN	NNG	_	24	nmod	_	_
 17	속에서도	속+에서+도	ADP	NNG+JKB+JX	_	16	case	_	_
@@ -7375,11 +7375,11 @@
 21	기도	기도	NOUN	NNG	_	18	conj	_	_
 22	모임	모임	NOUN	NNG	_	21	flat	_	_
 23	등을	등+을	NOUN	NNB+JKO	_	21	dep	_	_
-24	가지며	가지+며	VERB	VV+EC	_	28	advcl	_	_
+24	가지며	가지+며	VERB	VV+EC	_	14	advcl	_	_
 25	성실한	성실+하+ㄴ	ADJ	NNG+XSA+ETM	_	26	amod	_	_
-26	신앙생활을	신앙생활+을	NOUN	NNG+JKO	_	28	obj	_	_
-27	해온	하+아+오+ㄴ	VERB	VV+EC+VX+ETM	_	28	appos	_	_
-28	것으로	것+으로	ADV	NNB+JKB	_	29	obl	_	_
+26	신앙생활을	신앙생활+을	NOUN	NNG+JKO	_	14	obj	_	_
+27	해온	하+아+오+ㄴ	VERB	VV+EC+VX+ETM	_	14	appos	_	_
+28	것으로	것+으로	ADV	NNB+JKB	_	14	flat	_	_
 29	알려졌다	알리+어+지+었+다	VERB	VV+EC+VX+EP+EF	_	0	root	_	SpaceAfter=No
 30	.	.	PUNCT	SF	_	29	punct	_	_
 
@@ -9954,8 +9954,8 @@
 9	토번의	토번+의	NOUN	NNP+JKG	_	10	det:poss	_	_
 10	명장	명장	NOUN	NNG	_	22	advmod	_	_
 11	가르친링	가르치+ㄴ+링	NOUN	VV+ETM+NNG	_	10	flat	_	SpaceAfter=No
-12	(	(	PUNCT	SS	_	15	punct	_	SpaceAfter=No
-13	喝爾欽陵	喝爾欽陵	PUNCT	SH	_	11	appos	_	SpaceAfter=No
+12	(	(	PUNCT	SS	_	18	punct	_	SpaceAfter=No
+13	喝爾欽陵	喝爾欽陵	PUNCT	SH	_	15	punct	_	SpaceAfter=No
 14	,	,	PUNCT	SP	_	15	punct	_	_
 15	논흠릉	논흠릉	NOUN	NNG	_	10	flat	_	SpaceAfter=No
 16	(	(	PUNCT	SS	_	17	punct	_	SpaceAfter=No
@@ -13008,7 +13008,7 @@
 27	박지온	박+지+오+ㄴ	NOUN	VV+EC+VX+ETM	_	35	obj	_	_
 28	목사	목사	NOUN	NNG	_	27	flat	_	SpaceAfter=No
 29	(	(	PUNCT	SS	_	32	punct	_	SpaceAfter=No
-30	대구노회	대구+노+회	PUNCT	NNP+NNP+NNB	_	28	appos	_	SpaceAfter=No
+30	대구노회	대구+노+회	PUNCT	NNP+NNP+NNB	_	32	punct	_	SpaceAfter=No
 31	,	,	PUNCT	SP	_	32	punct	_	_
 32	송현교회	송현+교회	PROPN	NNP+NNG	_	28	appos	_	SpaceAfter=No
 33	)	)	PUNCT	SS	_	32	punct	_	SpaceAfter=No
@@ -13246,7 +13246,7 @@
 20	조사료	조사료	NOUN	NNG	_	28	obj	_	_
 21	자급률을	자급+률+을	NOUN	NNG+XSN+JKO	_	20	flat	_	_
 22	60	60	NUM	SN	_	28	advmod	_	SpaceAfter=No
-23	%	%	PUNCT	SW	_	22	punct	_	SpaceAfter=No
+23	%	%	PUNCT	SW	_	25	punct	_	SpaceAfter=No
 24	→	→	PUNCT	SW	_	25	punct	_	SpaceAfter=No
 25	80	80	NUM	SN	_	22	nmod	_	SpaceAfter=No
 26	%	%	PUNCT	SW	_	27	punct	_	SpaceAfter=No
@@ -13936,7 +13936,7 @@
 1	고전	고전	NOUN	NNG	_	18	nsubj	_	_
 2	경제학	경제학	NOUN	NNG	_	1	flat	_	SpaceAfter=No
 3	(	(	PUNCT	SS	_	6	punct	_	SpaceAfter=No
-4	古典經濟學	古典經濟學	PUNCT	SH	_	2	appos	_	SpaceAfter=No
+4	古典經濟學	古典經濟學	PUNCT	SH	_	6	punct	_	SpaceAfter=No
 5	,	,	PUNCT	SP	_	6	punct	_	_
 6	classical	classical	NOUN	SL	_	1	flat	_	_
 7	economics	economics	NOUN	SL	_	2	appos	_	SpaceAfter=No
@@ -16968,29 +16968,29 @@
 # sent_id = train-s1056
 # text = '2009 최고의 루키'로는 슈퍼스타K 출신의 서인국, 알리, 2NE1이, 최고의 음악성을 보장하는 '탐음매니아상'수상자로는 장기하와 얼굴들이, '최고의 작곡상'수상자로는 '그런 사람 또 없습니다'의 조영수가 각각 선정됐다.
 1	'	'	PUNCT	SS	NumType=Card	2	punct	_	SpaceAfter=No
-2	2009	2009	NUM	SN	NumType=Card	9	conj	_	_
+2	2009	2009	NUM	SN	NumType=Card	39	nsubj:pass	_	_
 3	최고의	최고+의	NOUN	NNG+JKG	_	2	det:poss	_	_
 4	루키	루키	NOUN	NNG	_	2	flat	_	SpaceAfter=No
 5	'	'	PUNCT	SS	_	4	punct	_	SpaceAfter=No
 6	로는	로+는	PART	JKB+JX	_	4	case	_	_
 7	슈퍼스타K	슈퍼스타+K	NOUN	NNG+SL	_	2	det:poss	_	_
 8	출신의	출신+의	NOUN	NNG+JKG	_	7	flat	_	_
-9	서인국	서인국	NOUN	NNP	_	39	nsubj:pass	_	SpaceAfter=No
+9	서인국	서인국	NOUN	NNP	_	2	conj	_	SpaceAfter=No
 10	,	,	PUNCT	SP	_	11	punct	_	_
 11	알리	알리	NOUN	NNP	_	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	SP	_	11	punct	_	_
 13	2NE1이	2+NE+1+이	NOUN	SN+SL+SN+JKS	_	2	appos	_	SpaceAfter=No
-14	,	,	PUNCT	SP	_	9	punct	_	_
+14	,	,	PUNCT	SP	_	2	punct	_	_
 15	최고의	최고+의	NOUN	NNG+JKG	_	16	det:poss	_	_
 16	음악성을	음악+성+을	NOUN	NNG+XSN+JKO	_	17	obj	_	_
 17	보장하는	보장+하+는	VERB	NNG+XSV+ETM	_	19	acl:relcl	_	_
 18	'	'	PUNCT	SS	_	19	punct	_	SpaceAfter=No
-19	탐음매니아상	탐+음+매니아+상	NOUN	NNG+NNG+NNG+XSN	_	22	conj	_	SpaceAfter=No
+19	탐음매니아상	탐+음+매니아+상	NOUN	NNG+NNG+NNG+XSN	_	39	nsubj:pass	_	SpaceAfter=No
 20	'	'	PUNCT	SS	_	19	punct	_	SpaceAfter=No
 21	수상자로는	수상자+로+는	ADV	NNG+JKB+JX	_	19	flat	_	_
-22	장기하와	장기+하+와	NOUN	NNG+NNG+JC	_	39	nsubj:pass	_	_
+22	장기하와	장기+하+와	NOUN	NNG+NNG+JC	_	19	conj	_	_
 23	얼굴들이	얼굴+들+이	NOUN	NNG+XSN+JKS	_	19	appos	_	SpaceAfter=No
-24	,	,	PUNCT	SP	_	22	punct	_	_
+24	,	,	PUNCT	SP	_	19	punct	_	_
 25	'	'	PUNCT	SS	_	27	punct	_	SpaceAfter=No
 26	최고의	최고+의	NOUN	NNG+JKG	_	27	dep	_	_
 27	작곡상	작곡+상	NOUN	NNG+XSN	_	39	nsubj:pass	_	SpaceAfter=No
@@ -19186,7 +19186,7 @@
 8	주연의	주연+의	NOUN	NNG+JKG	_	1	flat	_	_
 9	연극	연극	NOUN	NNG	_	21	appos	_	_
 10	'	'	PUNCT	SS	_	13	punct	_	SpaceAfter=No
-11	여보	여보	PUNCT	IC	_	9	appos	_	SpaceAfter=No
+11	여보	여보	PUNCT	IC	_	13	punct	_	SpaceAfter=No
 12	,	,	PUNCT	SP	_	13	punct	_	_
 13	고마워	고맙+어	ADJ	VA+EC	_	9	amod	_	SpaceAfter=No
 14	'	'	PUNCT	SS	_	13	punct	_	SpaceAfter=No
@@ -20053,7 +20053,7 @@
 # text = 단당류(單糖類, monosaccharide)는 산(acid ), 염기(base ), 효소(enzyme) 등으로 더 이상 가수분해되지 않는 가장 간단한 구조를 가진 탄수화물의 기본 단위체이다.
 1	단당류	단당+류	NOUN	NNG+XSN	_	32	nsubj	_	SpaceAfter=No
 2	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-3	單糖類	單糖類	PUNCT	SH	_	1	appos	_	SpaceAfter=No
+3	單糖類	單糖類	PUNCT	SH	_	5	punct	_	SpaceAfter=No
 4	,	,	PUNCT	SP	_	5	punct	_	_
 5	monosaccharide	monosaccharide	NOUN	SL	_	1	appos	_	SpaceAfter=No
 6	)	)	PUNCT	SS	_	5	punct	_	SpaceAfter=No
@@ -21211,7 +21211,7 @@
 12	(	(	PUNCT	SS	_	13	punct	_	SpaceAfter=No
 13	경영학	경영학	NOUN	NNG	_	11	appos	_	_
 14	석사	석사	NOUN	NNG	_	9	flat	_	SpaceAfter=No
-15	,	,	PUNCT	SP	_	14	punct	_	_
+15	,	,	PUNCT	SP	_	16	punct	_	_
 16	박사	박사	NOUN	NNG	_	9	flat	_	_
 17	)	)	PUNCT	SS	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	SP	_	19	punct	_	_
@@ -21315,7 +21315,7 @@
 21	/	/	PUNCT	SP	_	22	punct	_	SpaceAfter=No
 22	독수리	독수리	NOUN	NNG	_	19	flat	_	SpaceAfter=No
 23	(	(	PUNCT	SS	_	26	punct	_	SpaceAfter=No
-24	KR	KR	PUNCT	SL	_	22	flat	_	SpaceAfter=No
+24	KR	KR	PUNCT	SL	_	26	punct	_	SpaceAfter=No
 25	/	/	PUNCT	SP	_	26	punct	_	SpaceAfter=No
 26	FE	FE	NOUN	SL	_	22	appos	_	SpaceAfter=No
 27	)	)	PUNCT	SS	_	26	punct	_	_
@@ -22463,7 +22463,7 @@
 # text = 불가항력(不可抗力, Force majeure)은 자연재해나 천지지변(Act of God)을 포함하여 외부로부터 발생한 일로서 보통 필요하다고 인정되는 수단을 다하여서도 피할 수 없었던 것을 지칭하는 법률용어이다.
 1	불가항력	불가항력	NOUN	NNG	_	31	nsubj	_	SpaceAfter=No
 2	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-3	不可抗力	不可抗力	PUNCT	SH	_	1	appos	_	SpaceAfter=No
+3	不可抗力	不可抗力	PUNCT	SH	_	5	punct	_	SpaceAfter=No
 4	,	,	PUNCT	SP	_	5	punct	_	_
 5	Force	Force	NOUN	SL	_	1	flat	_	_
 6	majeure	majeure	NOUN	SL	_	1	appos	_	SpaceAfter=No
@@ -23656,7 +23656,7 @@
 # text = 후진(後晉, 936년~946년)은 오대십국 시대 중 오대의 3번째 왕조로써 후당의 실력자였던 석경당이 세운 국가이다.
 1	후진	후진	NOUN	NNG	_	18	nsubj	_	SpaceAfter=No
 2	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-3	後晉	後晉	PUNCT	SH	_	1	appos	_	SpaceAfter=No
+3	後晉	後晉	PUNCT	SH	_	5	punct	_	SpaceAfter=No
 4	,	,	PUNCT	SP	_	5	punct	_	_
 5	936년~946년	936+년+~946+년	NOUN	SN+NNB+SN+NNB	_	1	appos	_	SpaceAfter=No
 6	)	)	PUNCT	SS	_	5	punct	_	SpaceAfter=No
@@ -26406,7 +26406,7 @@
 # text = 빙하호(氷河湖, glacial lake)는 빙하의 후퇴에 의해 녹은 물이 모레인(빙하 말단의 퇴석)에 의해 막히면서 물이 모여 형성된 호수이다.
 1	빙하호	빙하호	NOUN	NNG	_	26	nsubj	_	SpaceAfter=No
 2	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-3	氷河湖	氷河湖	PUNCT	SH	_	1	appos	_	SpaceAfter=No
+3	氷河湖	氷河湖	PUNCT	SH	_	5	punct	_	SpaceAfter=No
 4	,	,	PUNCT	SP	_	5	punct	_	_
 5	glacial	glacial	NOUN	SL	_	1	flat	_	_
 6	lake	lake	NOUN	SL	_	1	appos	_	SpaceAfter=No
@@ -31389,7 +31389,7 @@
 # sent_id = train-s1968
 # text = 이밖에 _ 인권 및 평화능력을 중시하는 교육문화를 만들어 나가고, 학생들의 안전과 건강을 위한 제도와 문화를 정비하기로 했다.
 1	이밖에	이+밖+에	ADV	MM+NNG+JKB	_	14	obl	_	_
-2	_	_	PUNCT	SS	_	1	punct	_	_
+2	_	_	PUNCT	SS	_	7	punct	_	_
 3	인권	인권	PUNCT	NNG	_	7	punct	_	_
 4	및	및	CCONJ	MAG	_	7	cc	_	_
 5	평화능력을	평화+능력+을	NOUN	NNG+NNG+JKO	_	6	obj	_	_
@@ -31580,7 +31580,7 @@
 10	에서	에서	ADP	JKB	_	8	case	_	_
 11	2020년	2020+년	NOUN	SN+NNB	_	19	advmod	_	_
 12	7.90	7.90	NOUN	SN	_	11	flat	_	_
-13	%	%	PUNCT	SW	_	12	punct	_	SpaceAfter=No
+13	%	%	PUNCT	SW	_	15	punct	_	SpaceAfter=No
 14	,	,	PUNCT	SP	_	15	punct	_	_
 15	2030년	2030+년	NOUN	SN+NNB	_	11	conj	_	_
 16	11.8	11.8	NUM	SN	_	15	flat	_	SpaceAfter=No
@@ -33565,7 +33565,7 @@
 38	/	/	PUNCT	SP	_	36	punct	_	SpaceAfter=No
 39	kW에서	kW+에서	ADV	SL+JKB	_	45	advmod	_	_
 40	1500-1000	1500-+1000	NUM	SN+SN	NumType=Card	44	nummod	_	_
-41	$	$	PUNCT	SW	_	40	punct	_	SpaceAfter=No
+41	$	$	PUNCT	SW	_	43	punct	_	SpaceAfter=No
 42	/	/	PUNCT	SP	_	43	punct	_	SpaceAfter=No
 43	kW	kW	NOUN	SL	_	40	flat	_	_
 44	이하로	이하+로	ADP	NNG+JKB	_	45	advmod	_	_
@@ -34006,7 +34006,7 @@
 4	제조사	제조사	NOUN	NNG	_	1	flat	_	_
 5	태블스킨컴퍼니	태블+스키+ㄴ+컴퍼니	NOUN	NNG+NNG+JX+NNG	_	1	flat	_	SpaceAfter=No
 6	(	(	PUNCT	SS	_	9	punct	_	SpaceAfter=No
-7	www.tablskin.com	www.tablskin.com	PUNCT	SL	_	5	appos	_	SpaceAfter=No
+7	www.tablskin.com	www.tablskin.com	PUNCT	SL	_	9	punct	_	SpaceAfter=No
 8	,	,	PUNCT	SP	_	9	punct	_	_
 9	박우성	박우성	NOUN	NNP	_	1	flat	_	_
 10	대표	대표	NOUN	NNG	_	5	appos	_	SpaceAfter=No
@@ -34942,7 +34942,7 @@
 13	(	(	PUNCT	SS	_	18	punct	_	SpaceAfter=No
 14	Mix	Mix	PUNCT	SL	_	12	appos	_	SpaceAfter=No
 15	/	/	PUNCT	SP	_	12	punct	_	SpaceAfter=No
-16	Effects	Effects	PUNCT	SL	_	12	appos	_	SpaceAfter=No
+16	Effects	Effects	PUNCT	SL	_	18	punct	_	SpaceAfter=No
 17	,	,	PUNCT	SP	_	18	punct	_	_
 18	곧	곧	ADV	MAG	_	10	advmod	_	_
 19	M	M	VERB	SL	_	10	flat	_	SpaceAfter=No
@@ -36899,7 +36899,7 @@
 # sent_id = train-s2309
 # text = 내무인민위원회()는 소비에트 연방의 정부기관이자 비밀경찰이다.
 1	내무인민위원회	내무+인민+위원회	NOUN	NNG+NNG+NNG	_	8	dep	_	SpaceAfter=No
-2	(	(	PUNCT	SS	_	1	punct	_	SpaceAfter=No
+2	(	(	PUNCT	SS	_	4	punct	_	SpaceAfter=No
 3	)	)	PUNCT	SS	_	4	punct	_	SpaceAfter=No
 4	는	는	ADP	JX	_	1	case	_	_
 5	소비에트	소비에트	NOUN	NNP	_	8	det:poss	_	_
@@ -38234,7 +38234,7 @@
 9	메신저	메신저	NOUN	NNG	_	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	SP	_	9	punct	_	_
 11	MMS	MMS	NOUN	SL	_	7	conj	_	_
-12	/	/	PUNCT	SP	_	11	punct	_	SpaceAfter=No
+12	/	/	PUNCT	SP	_	14	punct	_	SpaceAfter=No
 13	SMS	SMS	PUNCT	SL	_	14	punct	_	_
 14	문자	문자	NOUN	NNG	_	7	conj	_	SpaceAfter=No
 15	,	,	PUNCT	SP	_	14	punct	_	_
@@ -45407,11 +45407,11 @@
 4	별명은	별명+은	NOUN	NNG+JX	_	10	nsubj	_	_
 5	``	``	PUNCT	SS	_	4	punct	_	SpaceAfter=No
 6	Rhino	Rhino	NOUN	SL	_	0	root	_	_
-7	''	''	PUNCT	SS	_	6	punct	_	SpaceAfter=No
+7	''	''	PUNCT	SS	_	10	punct	_	SpaceAfter=No
 8	,	,	PUNCT	SP	_	10	punct	_	_
 9	``	``	PUNCT	SF	_	10	punct	_	SpaceAfter=No
 10	Double-Ugly	Double-+Ugly	NOUN	SL+SL	_	6	conj	_	SpaceAfter=No
-11	''	''	PUNCT	SS	_	10	punct	_	SpaceAfter=No
+11	''	''	PUNCT	SS	_	14	punct	_	SpaceAfter=No
 12	/	/	PUNCT	SP	_	14	punct	_	SpaceAfter=No
 13	``	``	PUNCT	SF	_	14	punct	_	SpaceAfter=No
 14	DUFF	DUFF	NOUN	SL	_	10	conj	_	SpaceAfter=No
@@ -47638,21 +47638,21 @@
 # sent_id = train-s2987
 # text = '남자, 그리고 하모니 ', 이번 합창단 프로젝트도 그렇게 수개월을 묵혀뒀던 나름의 야심작이었다.
 1	'	'	PUNCT	SS	_	4	punct	_	SpaceAfter=No
-2	남자	남자	PUNCT	NNG	_	15	nsubj	_	SpaceAfter=No
+2	남자	남자	PUNCT	NNG	_	4	punct	_	SpaceAfter=No
 3	,	,	PUNCT	SP	_	4	punct	_	_
-4	그리고	그리고	NOUN	MAJ	_	15	flat	_	_
-5	하모니	하모니	NOUN	NNG	_	15	flat	_	_
+4	그리고	그리고	NOUN	MAJ	_	0	root	_	_
+5	하모니	하모니	NOUN	NNG	_	4	flat	_	_
 6	'	'	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-7	,	,	PUNCT	SP	_	5	punct	_	_
-8	이번	이번	NOUN	NNG	_	15	appos	_	_
-9	합창단	합창단	NOUN	NNG	_	15	flat	_	_
-10	프로젝트도	프로젝트+도	NOUN	NNG+JX	_	15	flat	_	_
+7	,	,	PUNCT	SP	_	8	punct	_	_
+8	이번	이번	NOUN	NNG	_	4	appos	_	_
+9	합창단	합창단	NOUN	NNG	_	4	flat	_	_
+10	프로젝트도	프로젝트+도	NOUN	NNG+JX	_	4	flat	_	_
 11	그렇게	그렇+게	ADV	VA+EC	_	13	advmod	_	_
 12	수개월을	수개월+을	NOUN	NNG+JKO	_	13	obj	_	_
-13	묵혀뒀던	묵혀두+었+던	VERB	VV+EP+ETM	_	15	acl:relcl	_	_
-14	나름의	나름+의	NOUN	NNB+JKG	_	15	det:poss	_	_
-15	야심작이었다	야심작+이+었+다	VERB	NNG+VCP+EP+EF	_	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	SF	_	15	punct	_	_
+13	묵혀뒀던	묵혀두+었+던	VERB	VV+EP+ETM	_	4	acl:relcl	_	_
+14	나름의	나름+의	NOUN	NNB+JKG	_	4	det:poss	_	_
+15	야심작이었다	야심작+이+었+다	VERB	NNG+VCP+EP+EF	_	4	flat	_	SpaceAfter=No
+16	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = train-s2988
 # text = 현재위치에서 기차로 대전 신세계 백화점 가는 길
@@ -47825,7 +47825,7 @@
 14	역시	역시	ADV	MAJ	_	23	advmod	_	_
 15	각각	각각	ADV	MAG	_	23	advmod	_	_
 16	4	4	NOUN	SN	_	23	obj	_	_
-17	%	%	PUNCT	SW	_	16	punct	_	SpaceAfter=No
+17	%	%	PUNCT	SW	_	19	punct	_	SpaceAfter=No
 18	,	,	PUNCT	SP	_	19	punct	_	_
 19	7	7	NUM	SN	_	16	conj	_	SpaceAfter=No
 20	%	%	PUNCT	SW	_	21	punct	_	SpaceAfter=No
@@ -48061,22 +48061,22 @@
 
 # sent_id = train-s3017
 # text = 뒤이어 '고교생, 투신한 60대 여성 시신 성폭행'이 4위에 랭크됐고 5위는 '여성가족부 가요 심의 논란'이 차지했다.
-1	뒤이어	뒤잇+어	ADV	VV+EC	_	3	advmod	_	_
+1	뒤이어	뒤잇+어	ADV	VV+EC	_	0	root	_	_
 2	'	'	PUNCT	SS	_	6	punct	_	SpaceAfter=No
-3	고교생	고교+생	PUNCT	NNG+XSN	_	0	root	_	SpaceAfter=No
+3	고교생	고교+생	PUNCT	NNG+XSN	_	6	punct	_	SpaceAfter=No
 4	,	,	PUNCT	SP	_	6	punct	_	_
 5	투신한	투신+하+ㄴ	VERB	NNG+XSV+ETM	_	6	acl:relcl	_	_
-6	60대	60+대	NOUN	SN+NNB	_	3	conj	_	_
+6	60대	60+대	NOUN	SN+NNB	_	1	conj	_	_
 7	여성	여성	NOUN	NNG	_	6	flat	_	_
 8	시신	시신	NOUN	NNG	_	6	flat	_	_
 9	성폭행	성폭행	NOUN	NNG	_	6	flat	_	SpaceAfter=No
 10	'	'	PUNCT	SS	_	9	punct	_	SpaceAfter=No
 11	이	이	ADP	JKS	_	9	nsubj	_	_
-12	4위에	4+위+에	ADV	SN+NNB+JKB	_	3	obl	_	_
-13	랭크됐고	랭크+되+었+고	VERB	NNG+XSV+EP+EC	_	3	appos	_	_
+12	4위에	4+위+에	ADV	SN+NNB+JKB	_	1	obl	_	_
+13	랭크됐고	랭크+되+었+고	VERB	NNG+XSV+EP+EC	_	1	appos	_	_
 14	5위는	5+위+는	NOUN	SN+NNB+JX	_	16	nsubj	_	_
 15	'	'	PUNCT	SS	_	16	punct	_	SpaceAfter=No
-16	여성가족부	여성+가족+부	NOUN	NNG+NNG+NNG	_	3	conj	_	_
+16	여성가족부	여성+가족+부	NOUN	NNG+NNG+NNG	_	1	conj	_	_
 17	가요	가요	NOUN	NNG	_	16	flat	_	_
 18	심의	심의	NOUN	NNG	_	16	flat	_	_
 19	논란	논란	NOUN	NNG	_	16	flat	_	SpaceAfter=No
@@ -48152,7 +48152,7 @@
 19	원으로	원+으로	ADV	NNB+JKB	_	20	obl	_	_
 20	전년동기대비	전년+동기+대비	NOUN	NNG+NNG+NNG	_	0	root	_	_
 21	4.12	4.12	NOUN	SN	_	20	flat	_	_
-22	%	%	PUNCT	SW	_	21	punct	_	SpaceAfter=No
+22	%	%	PUNCT	SW	_	29	punct	_	SpaceAfter=No
 23	,	,	PUNCT	SP	_	29	punct	_	_
 24	당기순이익은	당기+순이익+은	NOUN	NNG+NNG+JX	_	29	nsubj	_	_
 25	763억	763+억	NUM	SN+NR	NumType=Card	26	nummod	_	_
@@ -48433,7 +48433,7 @@
 # sent_id = train-s3043
 # text = 네르케()는 스웨덴 중부 스베알란드 지역을 구성하는 지방 가운데 하나로, 면적은 4,122㎢, 인구는 195,414명(2009년 기준)이다.
 1	네르케	네르케	PROPN	NNP	_	12	nsubj	_	SpaceAfter=No
-2	(	(	PUNCT	SS	_	1	punct	_	SpaceAfter=No
+2	(	(	PUNCT	SS	_	4	punct	_	SpaceAfter=No
 3	)	)	PUNCT	SS	_	4	punct	_	SpaceAfter=No
 4	는	는	ADP	JX	_	1	case	_	_
 5	스웨덴	스웨덴	NOUN	NNP	_	9	obj	_	_
@@ -53025,7 +53025,7 @@
 7	킨바코	킨바코	NOUN	NNP	_	5	flat	_	_
 8	루프트	루프트	NOUN	NNP	_	5	flat	_	_
 9	베케리어	베케리어	PROPN	NNP	_	5	flat	_	SpaceAfter=No
-10	(	(	PUNCT	SS	_	9	punct	_	SpaceAfter=No
+10	(	(	PUNCT	SS	_	12	punct	_	SpaceAfter=No
 11	)	)	PUNCT	SS	_	12	punct	_	SpaceAfter=No
 12	를	를	ADP	JKO	_	9	obj	_	_
 13	설립하고	설립+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
@@ -56529,7 +56529,7 @@
 4	특징	특징	NOUN	NNG	_	3	flat	_	_
 5	중	중	ADP	NNB	_	3	case	_	_
 6	'	'	PUNCT	SS	_	7	punct	_	SpaceAfter=No
-7	선한길	선하+ㄴ+길	NOUN	VA+ETM+NNG	_	39	conj	_	_
+7	선한길	선하+ㄴ+길	NOUN	VA+ETM+NNG	_	0	root	_	_
 8	또는	또는	NOUN	MAG	_	7	flat	_	_
 9	악한길	악+한길	NOUN	NNG+NNG	_	7	flat	_	SpaceAfter=No
 10	(	(	PUNCT	SS	_	11	punct	_	SpaceAfter=No
@@ -56561,7 +56561,7 @@
 36	을	을	ADP	JKO	_	34	obj	_	_
 37	택하는	택하+는	VERB	VV+ETM	_	34	appos	_	_
 38	것이	것+이	NOUN	NNB+JKS	_	39	nsubj	_	_
-39	되고	되+고	VERB	VV+EC	_	0	root	_	SpaceAfter=No
+39	되고	되+고	VERB	VV+EC	_	7	conj	_	SpaceAfter=No
 40	,	,	PUNCT	SP	_	53	punct	_	_
 41	플레이어가	플레이어+가	NOUN	NNG+JKS	_	43	nsubj	_	_
 42	악하게	악하+게	ADV	VA+EC	_	43	advmod	_	_
@@ -56581,7 +56581,7 @@
 56	택하게	택하+게	VERB	VV+EC	_	53	appos	_	_
 57	되는	되+는	VERB	VV+ETM	_	53	flat	_	_
 58	것이다	것+이+다	VERB	NNB+VCP+EF	_	7	appos	_	SpaceAfter=No
-59	.	.	PUNCT	SF	_	39	punct	_	_
+59	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = train-s3525
 # text = 다만, 현재 확대 추진하고 있는 무상급식과 달리 아침급식은 희망자에 한해 실시하는 만큼 유상으로 한다는 방침이다.
@@ -58414,7 +58414,7 @@
 9	이용한	이용+하+ㄴ	VERB	NNG+XSV+ETM	_	10	acl:relcl	_	_
 10	검사가	검사+가	NOUN	NNG+JKS	_	11	nsubj	_	_
 11	75	75	NOUN	SN	_	0	root	_	_
-12	%	%	PUNCT	SW	_	11	punct	_	SpaceAfter=No
+12	%	%	PUNCT	SW	_	17	punct	_	SpaceAfter=No
 13	,	,	PUNCT	SP	_	17	punct	_	_
 14	PET를	PET+를	NOUN	SL+JKO	_	15	obj	_	_
 15	이용한	이용+하+ㄴ	VERB	NNG+XSV+ETM	_	16	acl:relcl	_	_
@@ -58965,7 +58965,7 @@
 6	탕수육이	탕수육+이	NOUN	NNG+JKS	_	7	nsubj	_	_
 7	맛있었당	맛있+었+당	ADJ	VA+EP+EC	_	0	root	_	SpaceAfter=No
 8	~	~	PUNCT	SO	_	7	punct	_	SpaceAfter=No
-9	~	~	PUNCT	SO	_	7	punct	_	SpaceAfter=No
+9	~	~	PUNCT	SO	_	11	punct	_	SpaceAfter=No
 10	~	~	PUNCT	SO	_	11	punct	_	SpaceAfter=No
 11	~	~	SYM	SO	_	7	punct	_	_
 
@@ -59061,15 +59061,15 @@
 1	은행별로는	은행+별+로+는	ADV	NNG+XSN+JKB+JX	_	20	advmod	_	_
 2	하나은행	하나은행	NOUN	NNP	_	18	det:poss	_	_
 3	65.7	65.7	NOUN	SN	_	2	flat	_	_
-4	%	%	PUNCT	SW	_	3	punct	_	SpaceAfter=No
+4	%	%	PUNCT	SW	_	6	punct	_	SpaceAfter=No
 5	,	,	PUNCT	SP	_	6	punct	_	_
 6	국민은행	국민은행	NOUN	NNP	_	2	conj	_	_
 7	70.1	70.1	NOUN	SN	_	6	flat	_	_
-8	%	%	PUNCT	SW	_	7	punct	_	SpaceAfter=No
+8	%	%	PUNCT	SW	_	10	punct	_	SpaceAfter=No
 9	,	,	PUNCT	SP	_	10	punct	_	_
 10	우리은행	우리은행	NOUN	NNP	_	2	conj	_	_
 11	62.9	62.9	NOUN	SN	_	10	flat	_	_
-12	%	%	PUNCT	SW	_	11	punct	_	SpaceAfter=No
+12	%	%	PUNCT	SW	_	14	punct	_	SpaceAfter=No
 13	,	,	PUNCT	SP	_	14	punct	_	_
 14	신한은행	신한은행	NOUN	NNP	_	2	conj	_	_
 15	64.6	64.6	NUM	SN	_	14	flat	_	SpaceAfter=No
@@ -60489,7 +60489,7 @@
 24	,	,	PUNCT	SP	_	23	punct	_	_
 25	_	_	PUNCT	SS	_	23	punct	_	_
 26	티아라	티아라	PUNCT	NNP	_	23	punct	_	_
-27	_	_	PUNCT	SS	_	23	punct	_	_
+27	_	_	PUNCT	SS	_	29	punct	_	_
 28	효민	효민	PUNCT	NNP	_	29	punct	_	_
 29	은정	은정	NOUN	NNP	_	7	conj	_	SpaceAfter=No
 30	,	,	PUNCT	SP	_	29	punct	_	_
@@ -61443,7 +61443,7 @@
 2	마사아키가	마사+아+하+기+가	NOUN	NNP+NNG+XSV+ETN+JKS	_	1	flat	_	_
 3	언급한	언급+하+ㄴ	VERB	NNG+XSV+ETM	_	5	acl:relcl	_	_
 4	'	'	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-5	배꼽	배꼽	NOUN	NNG	_	28	conj	_	_
+5	배꼽	배꼽	NOUN	NNG	_	0	root	_	_
 6	댄스	댄스	NOUN	NNG	_	5	flat	_	SpaceAfter=No
 7	'	'	PUNCT	SS	_	6	punct	_	SpaceAfter=No
 8	는	는	ADP	JX	_	6	case	_	_
@@ -61459,19 +61459,19 @@
 18	상의를	상의+를	NOUN	NNG+JKO	_	19	obj	_	_
 19	올리는	올리+는	VERB	VV+ETM	_	20	acl:relcl	_	_
 20	춤으로	춤+으로	ADV	NNG+JKB	_	5	obl	_	SpaceAfter=No
-21	,	,	PUNCT	SP	_	20	punct	_	_
+21	,	,	PUNCT	SP	_	28	punct	_	_
 22	국내에서	국내+에서	ADV	NNG+JKB	_	28	advmod	_	_
 23	걸그룹	것+이+ㄹ+그룹	NOUN	NNB+VCP+ETM+NNG	_	28	advmod	_	_
 24	의상	의상	NOUN	NNG	_	23	flat	_	_
 25	규제	규제	NOUN	NNG	_	23	flat	_	_
 26	강화로	강화+로	ADV	NNG+JKB	_	23	flat	_	_
 27	제대로	제대로	ADV	MAG	_	28	advmod	_	_
-28	선보이지	선보이+지	VERB	VV+EC	_	0	root	_	_
+28	선보이지	선보이+지	VERB	VV+EC	_	5	conj	_	_
 29	못하고	못하+고	VERB	VX+EC	_	28	flat	_	_
 30	수정	수정	NOUN	NNG	_	5	advmod	_	_
 31	안무로	안무+로	ADV	NNG+JKB	_	30	flat	_	_
 32	대체했다	대체+하+았+다	VERB	NNG+XSV+EP+EF	_	5	appos	_	SpaceAfter=No
-33	.	.	PUNCT	SF	_	28	punct	_	_
+33	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = train-s3854
 # text = '저속'은 음란에 이르지 않는 정도의 표현이라고 정의된다.
@@ -63184,7 +63184,7 @@
 2	2월	2+월	NOUN	SN+NNB	_	1	flat	_	_
 3	졸업생의	졸업+생+의	NOUN	NNG+XSN+JKG	_	1	flat	_	_
 4	경우	경우	ADV	NNG	_	17	advmod	_	_
-5	삼성	삼성	PROPN	NNP	_	13	conj	_	SpaceAfter=No
+5	삼성	삼성	PROPN	NNP	_	17	nsubj	_	SpaceAfter=No
 6	•	•	PUNCT	SS	_	7	punct	_	SpaceAfter=No
 7	현대	현대	PROPN	NNP	_	5	appos	_	SpaceAfter=No
 8	•	•	PUNCT	SS	_	7	punct	_	SpaceAfter=No
@@ -63192,12 +63192,12 @@
 10	•	•	PUNCT	SS	_	11	punct	_	SpaceAfter=No
 11	STX조선	STX+조선	NOUN	SL+NNG	_	5	dep	_	_
 12	등	등	NOUN	NNB	_	5	dep	_	_
-13	대기업	대+기업	NOUN	XPN+NNG	_	17	nsubj	_	_
+13	대기업	대+기업	NOUN	XPN+NNG	_	5	conj	_	_
 14	및	및	CCONJ	MAJ	_	5	cc	_	_
 15	공기업	공기업	NOUN	NNG	_	5	appos	_	_
 16	취업률이	취업+률+이	NOUN	NNG+XSN+JKS	_	13	flat	_	_
 17	36	36	NOUN	SN	_	0	root	_	_
-18	%	%	PUNCT	SW	_	17	punct	_	SpaceAfter=No
+18	%	%	PUNCT	SW	_	21	punct	_	SpaceAfter=No
 19	,	,	PUNCT	SP	_	21	punct	_	_
 20	중견기업	중견+기업	NOUN	NNG+NNG	_	21	nsubj	_	_
 21	45	45	NOUN	SN	_	17	conj	_	_
@@ -63207,7 +63207,7 @@
 25	및	및	CCONJ	MAG	_	26	cc	_	_
 26	연구원	연구원	NOUN	NNG	_	24	conj	_	_
 27	3	3	NOUN	SN	_	17	conj	_	_
-28	%	%	PUNCT	SW	_	27	punct	_	SpaceAfter=No
+28	%	%	PUNCT	SW	_	32	punct	_	SpaceAfter=No
 29	,	,	PUNCT	SP	_	32	punct	_	_
 30	대학원	대학원	NOUN	NNG	_	32	nsubj	_	_
 31	진학	진학	NOUN	NNG	_	30	flat	_	_
@@ -64592,7 +64592,7 @@
 # text = 이지미(李之美, 생몰년 미상)는 고려시대 중기의 문신, 외척으로 본관은 인주(仁州)이다.
 1	이지미	이지미	NOUN	NNG	_	13	nsubj	_	SpaceAfter=No
 2	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-3	李之美	李之美	PUNCT	SH	_	1	appos	_	SpaceAfter=No
+3	李之美	李之美	PUNCT	SH	_	5	punct	_	SpaceAfter=No
 4	,	,	PUNCT	SP	_	5	punct	_	_
 5	생몰년	생몰년	NOUN	NNG	_	1	flat	_	_
 6	미상	미상	NOUN	NNG	_	1	appos	_	SpaceAfter=No
@@ -65227,7 +65227,7 @@
 17	마이크로	마이크로	NOUN	NNG	_	16	flat	_	_
 18	웨이브	웨이브	NOUN	NNG	_	16	flat	_	_
 19	시스템스	시스템+스	NOUN	NNG+NNG	_	16	flat	_	SpaceAfter=No
-20	(	(	PUNCT	SS	_	19	punct	_	SpaceAfter=No
+20	(	(	PUNCT	SS	_	22	punct	_	SpaceAfter=No
 21	)	)	PUNCT	SS	_	22	punct	_	SpaceAfter=No
 22	로	로	ADP	JKB	_	19	case	_	_
 23	변경되었다	변경+되+었+다	VERB	NNG+XSV+EP+EF	_	12	conj	_	SpaceAfter=No
@@ -66443,7 +66443,7 @@
 7	이름이라는	이름+이+라는	VERB	NNG+VCP+ETM	_	8	dep	_	_
 8	것	것	NOUN	NNB	_	17	nsubj	_	SpaceAfter=No
 9	(	(	PUNCT	SS	_	12	punct	_	SpaceAfter=No
-10	철수	철수	PUNCT	NNP	_	8	appos	_	SpaceAfter=No
+10	철수	철수	PUNCT	NNP	_	12	punct	_	SpaceAfter=No
 11	,	,	PUNCT	SP	_	12	punct	_	_
 12	영희	영희	NOUN	NNP	_	8	flat	_	SpaceAfter=No
 13	,	,	PUNCT	SP	_	14	punct	_	_
@@ -66969,7 +66969,7 @@
 10	MBC	MBC	NOUN	SL	_	18	nmod	_	_
 11	시트콤	시트콤	NOUN	NNG	_	10	flat	_	_
 12	'	'	PUNCT	SS	_	15	punct	_	SpaceAfter=No
-13	안녕	안녕	PUNCT	IC	_	10	flat	_	SpaceAfter=No
+13	안녕	안녕	PUNCT	IC	_	15	punct	_	SpaceAfter=No
 14	,	,	PUNCT	SP	_	15	punct	_	_
 15	프란체스카3	프란체스카+3	NUM	NNP+SN	_	10	appos	_	SpaceAfter=No
 16	'	'	PUNCT	SS	_	15	punct	_	_
@@ -67306,7 +67306,7 @@
 10	'	'	PUNCT	SS	_	11	punct	_	SpaceAfter=No
 11	엠카운트다운	엠+카운트다운	NOUN	NNG+NNG	_	9	appos	_	SpaceAfter=No
 12	(	(	PUNCT	SS	_	15	punct	_	SpaceAfter=No
-13	연출	연출	PUNCT	NNG	_	11	appos	_	SpaceAfter=No
+13	연출	연출	PUNCT	NNG	_	15	punct	_	SpaceAfter=No
 14	:	:	PUNCT	SP	_	15	punct	_	_
 15	박찬욱	박찬욱	NOUN	NNP	_	9	flat	_	_
 16	PD	PD	NOUN	SL	_	11	appos	_	SpaceAfter=No
@@ -67783,10 +67783,10 @@
 1	베트남	베트남	NOUN	NNP	_	10	nsubj:pass	_	_
 2	현대미술은	현대+미술+은	NOUN	NNP+NNG+JX	_	1	flat	_	_
 3	'	'	PUNCT	SS	_	4	punct	_	SpaceAfter=No
-4	베트남전	베트남전	PROPN	NNP	_	7	conj	_	SpaceAfter=No
+4	베트남전	베트남전	PROPN	NNP	_	10	nsubj:pass	_	SpaceAfter=No
 5	'	'	PUNCT	SS	_	4	punct	_	SpaceAfter=No
 6	의	의	ADP	JKG	_	4	case	_	_
-7	기억과	기억+과	NOUN	NNG+JC	_	10	nsubj:pass	_	_
+7	기억과	기억+과	NOUN	NNG+JC	_	4	conj	_	_
 8	상흔이	상흔+이	NOUN	NNG+JKS	_	4	appos	_	_
 9	고스란히	고스란히	ADV	MAG	_	10	advmod	_	_
 10	반영되어	반영+되+어	VERB	NNG+XSV+EC	_	0	root	_	_
@@ -68513,7 +68513,7 @@
 # text = 김돈희(金敦熙, 1871년 ~ 1936년)는 대한제국의 관료 겸 일제 강점기의 서예가로, 자는 공숙(公叔 ), 호는 성당(惺堂)이며 본관은 경주이다.
 1	김돈희	김돈희	PROPN	NNP	_	15	nsubj	_	SpaceAfter=No
 2	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No
-3	金敦熙	金敦熙	PUNCT	SH	_	1	appos	_	SpaceAfter=No
+3	金敦熙	金敦熙	PUNCT	SH	_	5	punct	_	SpaceAfter=No
 4	,	,	PUNCT	SP	_	5	punct	_	_
 5	1871년	1871+년	NOUN	SN+NNB	_	1	flat	_	_
 6	~	~	SYM	SO	_	5	punct	_	_
@@ -69442,7 +69442,7 @@
 12	생각하여	생각+하+아	VERB	NNG+XSV+EC	_	22	advcl	_	_
 13	이누쿠보	이누쿠보	PROPN	NNP	_	21	dep	_	SpaceAfter=No
 14	(	(	PUNCT	SS	_	17	punct	_	SpaceAfter=No
-15	犬公方	犬公方	PUNCT	SH	_	13	appos	_	SpaceAfter=No
+15	犬公方	犬公方	PUNCT	SH	_	17	punct	_	SpaceAfter=No
 16	:	:	PUNCT	SP	_	17	punct	_	_
 17	개	개	NOUN	NNG	_	13	flat	_	_
 18	쇼군	쇼군	PROPN	NNP	_	13	appos	_	SpaceAfter=No
@@ -69559,13 +69559,13 @@
 # sent_id = train-s4385
 # text = 그러나 현대자동차와 기아자동차, GM 대우 등 자동차 업계 및 협회 등에서는 설 연휴 동안 24시간 종합상황실을 별도로 운영, 고객의 안전한 귀성길을 적극 지원할 예정이다.
 1	그러나	그러나	ADV	MAJ	_	26	advmod	_	_
-2	현대자동차와	현대자동차+와	NOUN	NNP+JC	_	8	conj	_	_
+2	현대자동차와	현대자동차+와	NOUN	NNP+JC	_	24	nsubj	_	_
 3	기아자동차	기아자동차	NOUN	NNP	_	2	conj	_	SpaceAfter=No
 4	,	,	PUNCT	SP	_	5	punct	_	_
 5	GM	GM	NOUN	SL	_	2	conj	_	_
 6	대우	대우	NOUN	NNP	_	5	flat	_	_
 7	등	등	NOUN	NNB	_	5	dep	_	_
-8	자동차	자동차	NOUN	NNG	_	24	nsubj	_	_
+8	자동차	자동차	NOUN	NNG	_	2	conj	_	_
 9	업계	업계	NOUN	NNG	_	8	flat	_	_
 10	및	및	CCONJ	MAG	_	2	cc	_	_
 11	협회	협회	NOUN	NNG	_	2	appos	_	_
