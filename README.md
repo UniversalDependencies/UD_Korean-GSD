@@ -25,6 +25,8 @@ The project repository: https://github.com/emorynlp/ud-korean
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed right-headed apposition and non-projective punctuation.
 * 2019-11-15 v2.5
   * Google gave permission to drop the "NC" restriction from the license.
     This applies to the UD annotations (not the underlying content, of which Google claims no ownership or copyright).
