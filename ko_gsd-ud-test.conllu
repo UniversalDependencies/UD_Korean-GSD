@@ -2925,7 +2925,7 @@
 # translit = .geu.geo .gwaen.chanh.deo.ra.gu.yo~
 1	그거	그거	PRON	NP	_	2	nsubj	_	Translit=.geu.geo|LTranslit=.geu.geo
 2	괜찮더라구요	괜찮+더라구요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No|Translit=.gwaen.chanh.deo.ra.gu.yo|LTranslit=.gwaen.chanh+.deo.ra.gu.yo
-3	~	~	SYM	SO	_	2	punct	_	Translit=~|LTranslit=~
+3	~	~	PUNCT	SO	_	2	punct	_	Translit=~|LTranslit=~
 
 # sent_id = test-s181
 # text = 가끔은 그 때 맛이 더 그리울 때도 있어요.
@@ -4240,7 +4240,7 @@
 3	사용했는데	사용+하+았+는데	VERB	NNG+XSV+EP+EC	_	5	advcl	_	Translit=.sa.yong.haess.neun.de|LTranslit=.sa.yong+.ha+.ass+.neun.de
 4	짱	짱	ADV	MAG	_	5	advmod	_	Translit=.jjang|LTranslit=.jjang
 5	좋아요	좋+아요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No|Translit=.joh.a.yo|LTranslit=.joh+.a.yo
-6	~	~	SYM	SO	_	5	punct	_	Translit=~|LTranslit=~
+6	~	~	PUNCT	SO	_	5	punct	_	Translit=~|LTranslit=~
 
 # sent_id = test-s246
 # text = 30유로는 몇 원인가요
@@ -4701,7 +4701,7 @@
 6	뽑은	뽑+은	VERB	VV+ETM	_	7	acl:relcl	_	Translit=.bbob.eun|LTranslit=.bbob+.eun
 7	국수도	국수+도	NOUN	NNG+JX	_	4	conj	_	Translit=.gug.su.do|LTranslit=.gug.su+.do
 8	일품입니다	일품+이+ㅂ니다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No|Translit=.il.pum.ib.ni.da|LTranslit=.il.pum+.i+ㅂ.ni.da
-9	~	~	SYM	SO	_	8	punct	_	Translit=~|LTranslit=~
+9	~	~	PUNCT	SO	_	8	punct	_	Translit=~|LTranslit=~
 
 # sent_id = test-s272
 # text = 진짜 진짜 맛있어요!
@@ -7295,7 +7295,7 @@
 5	의정부보다	의정부+보다	ADV	NNP+JKB	_	7	advmod	_	Translit=.yi.jeong.bu.bo.da|LTranslit=.yi.jeong.bu+.bo.da
 6	훨씬	훨씬	ADV	MAG	_	7	advmod	_	Translit=.hweol.ssin|LTranslit=.hweol.ssin
 7	맛있다	맛있+다	ADJ	VA+EF	_	3	amod	_	SpaceAfter=No|Translit=.mas.iss.da|LTranslit=.mas.iss+.da
-8	~	~	SYM	SO	_	7	punct	_	Translit=~|LTranslit=~
+8	~	~	PUNCT	SO	_	7	punct	_	Translit=~|LTranslit=~
 
 # sent_id = test-s435
 # text = 그의 신랄한 기독교 비판은 한국 내 개신교선교사들, 기독교신자들로부터 주목을 받는 계기가 되었으나, 기독교 비평가인 박헌영에 대한 부정적 인식과 소문을 타고, 그가 편협하고 과격한 성격을 가진 사람이라는 편견으로 굳어져갔다.
@@ -10915,7 +10915,7 @@
 7	겉도는	겉돌+는	VERB	VV+ETM	_	8	acl:relcl	_	Translit=.geot.do.neun|LTranslit=.geot.dol+.neun
 8	맛이라	맛+이+라	VERB	NNG+VCP+EC	_	9	advcl	_	Translit=.mas.i.ra|LTranslit=.mas+.i+.ra
 9	아쉬워요	아쉽+어요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No|Translit=.a.swi.weo.yo|LTranslit=.a.swib+.eo.yo
-10	~	~	SYM	SO	_	9	punct	_	Translit=~|LTranslit=~
+10	~	~	PUNCT	SO	_	9	punct	_	Translit=~|LTranslit=~
 
 # sent_id = test-s666
 # text = 이 근처 막히나요?

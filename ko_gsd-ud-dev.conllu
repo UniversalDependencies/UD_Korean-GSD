@@ -2004,7 +2004,7 @@
 3	친절하고	친절+하+고	VERB	NNG+XSA+EC	_	0	root	_	Translit=.chin.jeol.ha.go|LTranslit=.chin.jeol+.ha+.go
 4	디자인이	디자인+이	NOUN	NNG+JKS	_	5	nsubj	_	Translit=.di.ja.in.i|LTranslit=.di.ja.in+.i
 5	굳입니다	굳+이+ㅂ니다	VERB	NNG+VCP+EF	_	3	conj	_	SpaceAfter=No|Translit=.gud.ib.ni.da|LTranslit=.gud+.i+ㅂ.ni.da
-6	~	~	SYM	SO	_	5	punct	_	Translit=~|LTranslit=~
+6	~	~	PUNCT	SO	_	5	punct	_	Translit=~|LTranslit=~
 
 # sent_id = dev-s123
 # text = 집 근처라 지나가다 들러봤는데 파스타건 피자건 맛은 두말할 나위 없이 만족스럽습니다.
@@ -2667,7 +2667,7 @@
 5	해물탕	해물탕	NOUN	NNG	_	7	nsubj	_	Translit=.hae.mul.tang|LTranslit=.hae.mul.tang
 6	맛이	맛+이	NOUN	NNG+JKS	_	5	flat	_	Translit=.mas.i|LTranslit=.mas+.i
 7	죽여줘요	죽여주+어요	VERB	VV+EF	_	0	root	_	SpaceAfter=No|Translit=.jug.yeo.jweo.yo|LTranslit=.jug.yeo.ju+.eo.yo
-8	~	~	SYM	SO	_	7	punct	_	Translit=~|LTranslit=~
+8	~	~	PUNCT	SO	_	7	punct	_	Translit=~|LTranslit=~
 
 # sent_id = dev-s160
 # text = 대전까지 몇 마일
@@ -6430,7 +6430,7 @@
 5	관광지랑	관광지+랑	ADV	NNG+JKB	_	6	advmod	_	Translit=.gwan.gwang.ji.rang|LTranslit=.gwan.gwang.ji+.rang
 6	가까워서	가깝+어서	VERB	VA+EC	_	7	advcl	_	Translit=.ga.gga.weo.seo|LTranslit=.ga.ggab+.eo.seo
 7	좋네요	좋+네요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No|Translit=.joh.ne.yo|LTranslit=.joh+.ne.yo
-8	~	~	SYM	SO	_	7	punct	_	Translit=~|LTranslit=~
+8	~	~	PUNCT	SO	_	7	punct	_	Translit=~|LTranslit=~
 
 # sent_id = dev-s386
 # text = 강남사거리 차 막혀
@@ -7354,7 +7354,7 @@
 7	해	하+아	VERB	VV+EC	_	9	advcl	_	Translit=.hae|LTranslit=.ha+.a
 8	주셔서	주+시+어서	VERB	VX+EP+EC	_	7	flat	_	Translit=.ju.syeo.seo|LTranslit=.ju+.si+.eo.seo
 9	좋았어요	좋+았+어요	ADJ	VA+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.joh.ass.eo.yo|LTranslit=.joh+.ass+.eo.yo
-10	~	~	SYM	SO	_	9	punct	_	Translit=~|LTranslit=~
+10	~	~	PUNCT	SO	_	9	punct	_	Translit=~|LTranslit=~
 
 # sent_id = dev-s442
 # text = 하지만 음식에 대한 기대는 금물입니다
@@ -7623,7 +7623,7 @@
 6	갈현동	갈현동	PROPN	NNP	_	2	flat	_	Translit=.gal.hyeon.dong|LTranslit=.gal.hyeon.dong
 7	일대	일대	ADV	NNG	_	2	flat	_	Translit=.il.dae|LTranslit=.il.dae
 8	80만여	80+만+이+어	VERB	SN+NNB+VCP+EC	_	11	advmod	_	SpaceAfter=No|Translit=80.man.yeo|LTranslit=80+.man+.i+.eo
-9	㎡	㎡	SYM	SW	_	8	punct	_	Translit=㎡|LTranslit=㎡
+9	㎡	㎡	PUNCT	SW	_	10	punct	_	Translit=㎡|LTranslit=㎡
 10	규모로	규모+로	ADV	NNG+JKB	_	8	flat	_	Translit=.gyu.mo.ro|LTranslit=.gyu.mo+.ro
 11	조성되며	조성+되+며	VERB	NNG+XSV+EC	_	36	advcl	_	SpaceAfter=No|Translit=.jo.seong.doe.myeo|LTranslit=.jo.seong+.doe+.myeo
 12	,	,	PUNCT	SP	_	11	punct	_	Translit=,|LTranslit=,
@@ -12730,7 +12730,7 @@
 4	국물이	국물+이	NOUN	NNG+JKS	_	3	flat	_	Translit=.gug.mul.i|LTranslit=.gug.mul+.i
 5	아주	아주	ADV	MAG	_	6	advmod	_	Translit=.a.ju|LTranslit=.a.ju
 6	끝내줘요	끝내+주+어요	VERB	MAG+VV+EF	_	0	root	_	SpaceAfter=No|Translit=.ggeut.nae.jweo.yo|LTranslit=.ggeut.nae+.ju+.eo.yo
-7	~	~	SYM	SO	_	6	punct	_	Translit=~|LTranslit=~
+7	~	~	PUNCT	SO	_	6	punct	_	Translit=~|LTranslit=~
 
 # sent_id = dev-s768
 # text = 서울서 왔는데 대만족해요.
@@ -14572,7 +14572,7 @@
 2	육수	육수	NOUN	NNG	_	4	nsubj	_	Translit=.yug.su|LTranslit=.yug.su
 3	맛이	맛+이	NOUN	NNG+JKS	_	2	flat	_	Translit=.mas.i|LTranslit=.mas+.i
 4	끝내줘요	끝내+어+주+어요	AUX	VV+EC+VX+EF	_	0	root	_	SpaceAfter=No|Translit=.ggeut.nae.jweo.yo|LTranslit=.ggeut.nae+.eo+.ju+.eo.yo
-5	^^	^^	SYM	SW	_	4	punct	_	Translit=^^|LTranslit=^^
+5	^^	^^	PUNCT	SW	_	4	punct	_	Translit=^^|LTranslit=^^
 
 # sent_id = dev-s883
 # text = 넥센 히어로즈에 대해 알려줘
