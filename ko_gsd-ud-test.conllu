@@ -583,8 +583,8 @@
 13	평균	평균	NOUN	NNG	_	12	flat	_	Translit=.pyeong.gyun|LTranslit=.pyeong.gyun
 14	2905만5000배럴로	2905+만+5000+배럴+로	ADV	SN+NR+SN+NNB+JKB	_	12	flat	_	Translit=2905.man5000.bae.reol.ro|LTranslit=2905+.man+5000+.bae.reol+.ro
 15	전월보다	전월+보다	ADV	NNG+JKB	_	18	advmod	_	Translit=.jeon.weol.bo.da|LTranslit=.jeon.weol+.bo.da
-16	0.5	0.5	NUM	SN	_	18	nsubj	_	SpaceAfter=No|Translit=0.5|LTranslit=0.5
-17	%	%	SYM	SW	_	16	punct	_	Translit=%|LTranslit=%
+16	0.5	0.5	NUM	SN	_	17	nummod	_	SpaceAfter=No|Translit=0.5|LTranslit=0.5
+17	%	%	SYM	SW	_	18	nsubj	_	Translit=%|LTranslit=%
 18	줄어들었다	줄어들+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.jul.eo.deul.eoss.da|LTranslit=.jul.eo.deul+.eoss+.da
 19	.	.	PUNCT	SF	_	18	punct	_	Translit=.|LTranslit=.
 
@@ -2683,8 +2683,8 @@
 # text = 전년도보다 5.7% 감소한 수치다.
 # translit = .jeon.nyeon.do.bo.da 5.7% .gam.so.han .su.chi.da.
 1	전년도보다	전년도+보다	ADV	NNG+JKB	_	5	advmod	_	Translit=.jeon.nyeon.do.bo.da|LTranslit=.jeon.nyeon.do+.bo.da
-2	5.7	5.7	NUM	SN	_	4	nsubj	_	SpaceAfter=No|Translit=5.7|LTranslit=5.7
-3	%	%	SYM	SW	_	2	punct	_	Translit=%|LTranslit=%
+2	5.7	5.7	NUM	SN	_	3	nummod	_	SpaceAfter=No|Translit=5.7|LTranslit=5.7
+3	%	%	SYM	SW	_	4	nsubj	_	Translit=%|LTranslit=%
 4	감소한	감소+하+ㄴ	VERB	NNG+XSV+ETM	_	5	acl:relcl	_	Translit=.gam.so.han|LTranslit=.gam.so+.ha+ㄴ
 5	수치다	수치+이+다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No|Translit=.su.chi.da|LTranslit=.su.chi+.i+.da
 6	.	.	PUNCT	SF	_	5	punct	_	Translit=.|LTranslit=.
@@ -2973,8 +2973,8 @@
 12	'	'	PUNCT	SS	_	13	punct	_	SpaceAfter=No|Translit='|LTranslit='
 13	입학정원	입학+정원	NOUN	NNG+NNG	_	33	advcl	_	Translit=.ib.hag.jeong.weon|LTranslit=.ib.hag+.jeong.weon
 14	대비	대비	NOUN	NNG	_	13	flat	_	Translit=.dae.bi|LTranslit=.dae.bi
-15	50	50	NUM	SN	_	13	flat	_	SpaceAfter=No|Translit=50|LTranslit=50
-16	%	%	SYM	SW	_	15	punct	_	Translit=%|LTranslit=%
+15	50	50	NUM	SN	_	16	nummod	_	SpaceAfter=No|Translit=50|LTranslit=50
+16	%	%	SYM	SW	_	13	flat	_	Translit=%|LTranslit=%
 17	합격안	합격+안	NOUN	NNG+NNG	_	13	flat	_	SpaceAfter=No|Translit=.hab.gyeog.an|LTranslit=.hab.gyeog+.an
 18	'	'	PUNCT	SS	_	17	punct	_	SpaceAfter=No|Translit='|LTranslit='
 19	에	에	ADP	JKB	_	17	case	_	Translit=.e|LTranslit=.e
@@ -7476,8 +7476,8 @@
 2	후쿠시마	후쿠시마	NOUN	NNP	_	8	advmod	_	Translit=.hu.ku.si.ma|LTranslit=.hu.ku.si.ma
 3	원전에서	원전+에서	ADV	NNG+JKB	_	2	flat	_	Translit=.weon.jeon.e.seo|LTranslit=.weon.jeon+.e.seo
 4	남서쪽으로	남서쪽+으로	ADV	NNG+JKB	_	8	obl	_	Translit=.nam.seo.jjog.eu.ro|LTranslit=.nam.seo.jjog+.eu.ro
-5	240	240	NUM	SN	_	8	nummod	_	SpaceAfter=No|Translit=240|LTranslit=240
-6	㎞	㎞	SYM	SW	_	5	punct	_	Translit=㎞|LTranslit=㎞
+5	240	240	NUM	SN	_	6	nummod	_	SpaceAfter=No|Translit=240|LTranslit=240
+6	㎞	㎞	SYM	SW	_	8	nummod	_	Translit=㎞|LTranslit=㎞
 7	정도	정도	ADP	NNG	_	5	case	_	Translit=.jeong.do|LTranslit=.jeong.do
 8	떨어져	떨어지+어	VERB	VV+EC	_	0	root	_	Translit=.ddeol.eo.jyeo|LTranslit=.ddeol.eo.ji+.eo
 9	있다	있+다	VERB	VX+EF	_	8	flat	_	SpaceAfter=No|Translit=.iss.da|LTranslit=.iss+.da
@@ -7619,8 +7619,8 @@
 3	경우	경우	NOUN	NNG	_	23	advmod	_	Translit=.gyeong.u|LTranslit=.gyeong.u
 4	증평에서	증평+에서	ADV	NNP+JKB	_	13	advmod	_	Translit=.jeung.pyeong.e.seo|LTranslit=.jeung.pyeong+.e.seo
 5	진천까지	진천+까지	ADV	NNP+JX	_	13	advmod	_	Translit=.jin.cheon.gga.ji|LTranslit=.jin.cheon+.gga.ji
-6	11	11	NUM	SN	_	13	nummod	_	SpaceAfter=No|Translit=11|LTranslit=11
-7	㎞	㎞	SYM	SW	_	6	punct	_	Translit=㎞|LTranslit=㎞
+6	11	11	NUM	SN	_	7	nummod	_	SpaceAfter=No|Translit=11|LTranslit=11
+7	㎞	㎞	SYM	SW	_	13	nummod	_	Translit=㎞|LTranslit=㎞
 8	구간에서	구간+에서	ADV	NNG+JKB	_	6	flat	_	Translit=.gu.gan.e.seo|LTranslit=.gu.gan+.e.seo
 9	지	지	NOUN	NNG	_	13	nsubj:pass	_	SpaceAfter=No|Translit=.ji|LTranslit=.ji
 10	•	•	PUNCT	SS	_	9	punct	_	SpaceAfter=No|Translit=•|LTranslit=•
@@ -7987,8 +7987,8 @@
 5	넘넘	넘넘	ADV	XR	_	6	advmod	_	Translit=.neom.neom|LTranslit=.neom.neom
 6	좋아요	좋+아요	ADJ	VA+EC	_	0	root	_	Translit=.joh.a.yo|LTranslit=.joh+.a.yo
 7	^	^	PUNCT	SW	_	8	punct	_	SpaceAfter=No|Translit=^|LTranslit=^
-8	0	0	NUM	SN	_	6	nummod	_	SpaceAfter=No|Translit=0|LTranslit=0
-9	^	^	SYM	SW	_	8	punct	_	Translit=^|LTranslit=^
+8	0	0	NUM	SN	_	9	nummod	_	SpaceAfter=No|Translit=0|LTranslit=0
+9	^	^	SYM	SW	_	6	nummod	_	Translit=^|LTranslit=^
 
 # sent_id = test-s478
 # text = 리움 미술관은 어떻게 생겼냐
@@ -10367,8 +10367,8 @@
 9	67.9	67.9	NOUN	SN	_	14	advmod	_	Translit=67.9|LTranslit=67.9
 10	%	%	PUNCT	SW	_	12	punct	_	SpaceAfter=No|Translit=%|LTranslit=%
 11	,	,	PUNCT	SP	_	12	punct	_	Translit=,|LTranslit=,
-12	43.4	43.4	NUM	SN	_	9	conj	_	SpaceAfter=No|Translit=43.4|LTranslit=43.4
-13	%	%	SYM	SW	_	12	punct	_	Translit=%|LTranslit=%
+12	43.4	43.4	NUM	SN	_	13	nummod	_	SpaceAfter=No|Translit=43.4|LTranslit=43.4
+13	%	%	SYM	SW	_	9	conj	_	Translit=%|LTranslit=%
 14	늘어났다	늘어나+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.neul.eo.nass.da|LTranslit=.neul.eo.na+.ass+.da
 15	.	.	PUNCT	SF	_	14	punct	_	Translit=.|LTranslit=.
 
@@ -11837,8 +11837,8 @@
 3	지난주	지난주	NOUN	NNG	_	8	nmod	_	Translit=.ji.nan.ju|LTranslit=.ji.nan.ju
 4	대전	대전	NOUN	NNP	_	8	nsubj	_	Translit=.dae.jeon|LTranslit=.dae.jeon
 5	집값은	집값+은	NOUN	NNG+JX	_	4	flat	_	Translit=.jib.gabs.eun|LTranslit=.jib.gabs+.eun
-6	0.09	0.09	NUM	SN	_	8	advmod	_	SpaceAfter=No|Translit=0.09|LTranslit=0.09
-7	%	%	SYM	SW	_	6	punct	_	Translit=%|LTranslit=%
+6	0.09	0.09	NUM	SN	_	7	nummod	_	SpaceAfter=No|Translit=0.09|LTranslit=0.09
+7	%	%	SYM	SW	_	8	advmod	_	Translit=%|LTranslit=%
 8	올랐다	오르+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.ol.rass.da|LTranslit=.o.reu+.ass+.da
 9	.	.	PUNCT	SF	_	8	punct	_	Translit=.|LTranslit=.
 
@@ -12829,8 +12829,8 @@
 9	침체돼	침체+되+어	VERB	NNG+XSV+EC	_	14	advcl	_	Translit=.chim.che.dwae|LTranslit=.chim.che+.doe+.eo
 10	올해	올해	NOUN	NNG	_	14	nmod	_	Translit=.ol.hae|LTranslit=.ol.hae
 11	주택가격이	주택+가격+이	NOUN	NNG+NNG+JKS	_	14	nsubj	_	Translit=.ju.taeg.ga.gyeog.i|LTranslit=.ju.taeg+.ga.gyeog+.i
-12	4	4	NUM	SN	_	14	advmod	_	SpaceAfter=No|Translit=4|LTranslit=4
-13	%	%	SYM	SW	_	12	punct	_	Translit=%|LTranslit=%
+12	4	4	NUM	SN	_	13	nummod	_	SpaceAfter=No|Translit=4|LTranslit=4
+13	%	%	SYM	SW	_	14	advmod	_	Translit=%|LTranslit=%
 14	내려간다고	내려가+ㄴ다고	VERB	VV+EC	_	15	ccomp	_	Translit=.nae.ryeo.gan.da.go|LTranslit=.nae.ryeo.ga+ㄴ.da.go
 15	전망했다	전망+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.jeon.mang.haess.da|LTranslit=.jeon.mang+.ha+.ass+.da
 16	.	.	PUNCT	SF	_	15	punct	_	Translit=.|LTranslit=.
@@ -13314,8 +13314,8 @@
 2	후쿠시마	후쿠시마	NOUN	NNP	_	8	advmod	_	Translit=.hu.ku.si.ma|LTranslit=.hu.ku.si.ma
 3	원전에서	원전+에서	ADV	NNG+JKB	_	2	flat	_	Translit=.weon.jeon.e.seo|LTranslit=.weon.jeon+.e.seo
 4	남서쪽으로	남서쪽+으로	ADV	NNG+JKB	_	8	obl	_	Translit=.nam.seo.jjog.eu.ro|LTranslit=.nam.seo.jjog+.eu.ro
-5	240	240	NUM	SN	_	8	nummod	_	SpaceAfter=No|Translit=240|LTranslit=240
-6	㎞	㎞	SYM	SW	_	5	punct	_	Translit=㎞|LTranslit=㎞
+5	240	240	NUM	SN	_	6	nummod	_	SpaceAfter=No|Translit=240|LTranslit=240
+6	㎞	㎞	SYM	SW	_	8	nummod	_	Translit=㎞|LTranslit=㎞
 7	정도	정도	ADP	NNG	_	5	case	_	Translit=.jeong.do|LTranslit=.jeong.do
 8	떨어져	떨어지+어	VERB	VV+EC	_	0	root	_	Translit=.ddeol.eo.jyeo|LTranslit=.ddeol.eo.ji+.eo
 9	있다	있+다	VERB	VX+EF	_	8	flat	_	SpaceAfter=No|Translit=.iss.da|LTranslit=.iss+.da
@@ -13686,8 +13686,8 @@
 # translit = .saeng.san.jig .geun.ro.ja.deul.eun 100% .teug.byeol.bo.neo.seu.gga.ji .bad.neun.da.
 1	생산직	생산+직	NOUN	NNG+NNG	_	6	nsubj	_	Translit=.saeng.san.jig|LTranslit=.saeng.san+.jig
 2	근로자들은	근로자+들+은	NOUN	NNG+XSN+JX	_	1	flat	_	Translit=.geun.ro.ja.deul.eun|LTranslit=.geun.ro.ja+.deul+.eun
-3	100	100	NUM	SN	_	6	obj	_	SpaceAfter=No|Translit=100|LTranslit=100
-4	%	%	SYM	SW	_	3	punct	_	Translit=%|LTranslit=%
+3	100	100	NUM	SN	_	4	nummod	_	SpaceAfter=No|Translit=100|LTranslit=100
+4	%	%	SYM	SW	_	6	obj	_	Translit=%|LTranslit=%
 5	특별보너스까지	특별+보너스+까지	NOUN	XR+NNG+JX	_	3	flat	_	Translit=.teug.byeol.bo.neo.seu.gga.ji|LTranslit=.teug.byeol+.bo.neo.seu+.gga.ji
 6	받는다	받+는다	VERB	VV+EF	_	0	root	_	SpaceAfter=No|Translit=.bad.neun.da|LTranslit=.bad+.neun.da
 7	.	.	PUNCT	SF	_	6	punct	_	Translit=.|LTranslit=.

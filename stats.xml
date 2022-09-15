@@ -22,14 +22,14 @@
     <tag name="CCONJ">223</tag><!-- 및, 또는, 그리고, 과, 와, 혹은, 물론, 겸, 그러나, 나 -->
     <tag name="DET">573</tag><!-- 이, 그, 몇, 모든, 각, 어떤, 어느, 이+들, 약, 무슨 -->
     <tag name="INTJ">3</tag><!-- 글쎄, 아차, 에이 -->
-    <tag name="NOUN">32347</tag><!-- 수, 등, 것+이, 것, 때, 길, 맛+이, 것+을, 맛+도, 등+을 -->
+    <tag name="NOUN">32346</tag><!-- 수, 등, 것+이, 것, 때, 길, 맛+이, 것+을, 맛+도, 등+을 -->
     <tag name="NUM">848</tag><!-- 한, 두, 첫, 10, 하+ㄴ, 1, 세, 50, 3, 30 -->
     <tag name="PART">31</tag><!-- 에서+는, 에+는, 라+는, 과+는, 과+도, 과+의, 로+는, 마저+를, 보다+도, 에+까지 -->
     <tag name="PRON">682</tag><!-- 그+는, 그+의, 우리, 이+를, 그, 이+는, 자신+의, 이, 여기, 제+가 -->
-    <tag name="PROPN">490</tag><!-- 미국, 경기, 서울, 한국+시간, 과천시, 광주, 네덜란드+의, 마이더스, 박근혜, 베트남전 -->
-    <tag name="PUNCT">10362</tag><!-- ., ,, ', (, ), ", %, ?, !, • -->
-    <tag name="SYM">328</tag><!-- ~, %, ㎞, ㎡, &, ^^, ㎢, 孫權, 淮南尹, 燕 -->
-    <tag name="VERB">18433</tag><!-- 있+다, 있+는, 위하+아, 대하+ㄴ, 가+는, 알리+어+주+어, 통하+아, 지나+ㄴ, 하+는, 하+았+다 -->
+    <tag name="PROPN">495</tag><!-- 미국, 경기, 서울, 한국+시간, 과천시, 광주, 네덜란드+의, 마이더스, 박근혜, 베트남전 -->
+    <tag name="PUNCT">10359</tag><!-- ., ,, ', (, ), ", %, ?, !, • -->
+    <tag name="SYM">328</tag><!-- %, ~, ㎞, ㎡, &, ^^, ㎢, 孫權, 淮南尹, 燕 -->
+    <tag name="VERB">18432</tag><!-- 있+다, 있+는, 위하+아, 대하+ㄴ, 가+는, 알리+어+주+어, 통하+아, 지나+ㄴ, 하+는, 하+았+다 -->
     <tag name="X">13</tag><!-- ㅋ+ㅋ, ㅎ, ㅜ+ㅜ, F+1, Schools, in, ㅅ+ㅅ, ㅋ, ㅎ+ㅎ, ㅜ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -37,34 +37,35 @@
     <feat name="NumType" value="Card" upos="DET,NUM,PUNCT">549</feat><!-- 한, 두, 첫, 세, 하나, 1, ', 다섯, 하나는, 하나의 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="29">
+  <deps unique="30">
     <dep name="acl">4</dep>
     <dep name="acl:relcl">3194</dep>
     <dep name="advcl">4516</dep>
     <dep name="advmod">8813</dep>
     <dep name="amod">1566</dep>
-    <dep name="appos">1512</dep>
+    <dep name="appos">1510</dep>
     <dep name="aux">64</dep>
     <dep name="case">1631</dep>
     <dep name="cc">223</dep>
     <dep name="ccomp">651</dep>
-    <dep name="conj">3863</dep>
+    <dep name="conj">3864</dep>
     <dep name="cop">73</dep>
     <dep name="csubj">21</dep>
     <dep name="dep">2433</dep>
     <dep name="det">569</dep>
     <dep name="det:poss">2507</dep>
     <dep name="fixed">13</dep>
-    <dep name="flat">12243</dep>
+    <dep name="flat">12244</dep>
     <dep name="iobj">108</dep>
+    <dep name="list">1</dep>
     <dep name="mark">372</dep>
     <dep name="nmod">1763</dep>
     <dep name="nsubj">7773</dep>
     <dep name="nsubj:pass">516</dep>
-    <dep name="nummod">490</dep>
+    <dep name="nummod">555</dep>
     <dep name="obj">5801</dep>
-    <dep name="obl">2784</dep>
-    <dep name="punct">10479</dep>
+    <dep name="obl">2785</dep>
+    <dep name="punct">10412</dep>
     <dep name="root">6339</dep>
     <dep name="xcomp">1</dep>
   </deps>

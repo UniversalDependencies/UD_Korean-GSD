@@ -838,8 +838,8 @@
 # text = 구글맵에 10% 쿠폰이 있어서 휴대폰에서 보여주고 구매했습니다.
 # translit = .gu.geul.maeb.e 10% .ku.pon.i .iss.eo.seo .hyu.dae.pon.e.seo .bo.yeo.ju.go .gu.mae.haess.seub.ni.da.
 1	구글맵에	구+글맵+에	ADV	NNG+NNG+JKB	_	5	obl	_	Translit=.gu.geul.maeb.e|LTranslit=.gu+.geul.maeb+.e
-2	10	10	NUM	SN	_	5	nsubj	_	SpaceAfter=No|Translit=10|LTranslit=10
-3	%	%	SYM	SW	_	2	punct	_	Translit=%|LTranslit=%
+2	10	10	NUM	SN	_	3	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
+3	%	%	SYM	SW	_	5	nsubj	_	Translit=%|LTranslit=%
 4	쿠폰이	쿠폰+이	NOUN	NNG+JKS	_	2	flat	_	Translit=.ku.pon.i|LTranslit=.ku.pon+.i
 5	있어서	있+어서	VERB	VV+EC	_	8	advcl	_	Translit=.iss.eo.seo|LTranslit=.iss+.eo.seo
 6	휴대폰에서	휴대폰+에서	ADV	NNG+JKB	_	7	advmod	_	Translit=.hyu.dae.pon.e.seo|LTranslit=.hyu.dae.pon+.e.seo
@@ -6149,8 +6149,8 @@
 7	점차	점차	ADV	MAG	_	8	advmod	_	Translit=.jeom.cha|LTranslit=.jeom.cha
 8	커져서	커지+어서	VERB	VV+EC	_	17	advcl	_	Translit=.keo.jyeo.seo|LTranslit=.keo.ji+.eo.seo
 9	길이	길이	NOUN	NNG	_	17	advmod	_	Translit=.gil.i|LTranslit=.gil.i
-10	5-15	5-+15	NUM	SN+SN	_	9	nmod	_	SpaceAfter=No|Translit=5-15|LTranslit=5-+15
-11	㎝	㎝	SYM	SW	_	10	punct	_	SpaceAfter=No|Translit=㎝|LTranslit=㎝
+10	5-15	5-+15	NUM	SN+SN	_	11	nummod	_	SpaceAfter=No|Translit=5-15|LTranslit=5-+15
+11	㎝	㎝	SYM	SW	_	9	nmod	_	SpaceAfter=No|Translit=㎝|LTranslit=㎝
 12	,	,	PUNCT	SP	_	13	punct	_	Translit=,|LTranslit=,
 13	너비	너비	NOUN	NNG	_	9	conj	_	Translit=.neo.bi|LTranslit=.neo.bi
 14	1-2.5	1-+2.5	NUM	SN+SN	_	13	nmod	_	SpaceAfter=No|Translit=1-2.5|LTranslit=1-+2.5
@@ -8216,8 +8216,8 @@
 2	극	극	NOUN	NNG	_	4	advmod	_	Translit=.geug|LTranslit=.geug
 3	전개와	전개+와	ADV	NNG+JC	_	2	flat	_	Translit=.jeon.gae.wa|LTranslit=.jeon.gae+.wa
 4	상황설정으로	상황+설정+으로	ADV	NNG+NNG+JKB	_	10	obl	_	Translit=.sang.hwang.seol.jeong.eu.ro|LTranslit=.sang.hwang+.seol.jeong+.eu.ro
-5	30	30	NUM	SN	_	9	det:poss	_	SpaceAfter=No|Translit=30|LTranslit=30
-6	%	%	SYM	SW	_	5	punct	_	Translit=%|LTranslit=%
+5	30	30	NUM	SN	_	6	nummod	_	SpaceAfter=No|Translit=30|LTranslit=30
+6	%	%	SYM	SW	_	9	det:poss	_	Translit=%|LTranslit=%
 7	후반의	후반+의	NOUN	NNG+JKG	_	5	flat	_	Translit=.hu.ban.yi|LTranslit=.hu.ban+.yi
 8	높은	높+은	ADJ	VA+ETM	_	9	amod	_	Translit=.nop.eun|LTranslit=.nop+.eun
 9	시청률을	시청+률+을	NOUN	NNG+XSN+JKO	_	10	obj	_	Translit=.si.cheong.ryul.eul|LTranslit=.si.cheong+.ryul+.eul
@@ -9699,8 +9699,8 @@
 19	있는	있+는	VERB	VV+ETM	_	20	acl:relcl	_	Translit=.iss.neun|LTranslit=.iss+.neun
 20	시정	시정	NOUN	NNG	_	22	nsubj	_	Translit=.si.jeong|LTranslit=.si.jeong
 21	거리는	거리+는	NOUN	NNG+JX	_	20	flat	_	Translit=.geo.ri.neun|LTranslit=.geo.ri+.neun
-22	10	10	NUM	SN	_	13	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
-23	㎞	㎞	SYM	SW	_	22	punct	_	SpaceAfter=No|Translit=㎞|LTranslit=㎞
+22	10	10	NUM	SN	_	23	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
+23	㎞	㎞	SYM	SW	_	13	nummod	_	SpaceAfter=No|Translit=㎞|LTranslit=㎞
 24	,	,	PUNCT	SP	_	30	punct	_	Translit=,|LTranslit=,
 25	구름은	구름+은	NOUN	NNG+JX	_	30	nsubj	_	Translit=.gu.reum.eun|LTranslit=.gu.reum+.eun
 26	관측지점에서	관측+지점+에서	ADV	NNG+NNG+JKB	_	30	advmod	_	Translit=.gwan.cheug.ji.jeom.e.seo|LTranslit=.gwan.cheug+.ji.jeom+.e.seo
@@ -11856,8 +11856,8 @@
 # translit = .ji.yeog.byeol.ro.neun .gang.weon.do.ga 16.2% .tu.pyo.yul.ro .ga.jang .nop.ass.go, .dwi.reul .i.eo .jeon.nam 16.2 %, .je.ju 15.8 %, .chung.bug 15.0% .deung.yi .sun.i.eoss.da.
 1	지역별로는	지역+별+로+는	ADV	NNG+XSN+JKB+JX	_	7	advmod	_	Translit=.ji.yeog.byeol.ro.neun|LTranslit=.ji.yeog+.byeol+.ro+.neun
 2	강원도가	강원도+가	NOUN	NNP+JKS	_	7	nsubj	_	Translit=.gang.weon.do.ga|LTranslit=.gang.weon.do+.ga
-3	16.2	16.2	NUM	SN	_	7	advmod	_	SpaceAfter=No|Translit=16.2|LTranslit=16.2
-4	%	%	SYM	SW	_	3	punct	_	Translit=%|LTranslit=%
+3	16.2	16.2	NUM	SN	_	4	nummod	_	SpaceAfter=No|Translit=16.2|LTranslit=16.2
+4	%	%	SYM	SW	_	7	advmod	_	Translit=%|LTranslit=%
 5	투표율로	투표+율+로	ADV	NNG+XSN+JKB	_	3	flat	_	Translit=.tu.pyo.yul.ro|LTranslit=.tu.pyo+.yul+.ro
 6	가장	가장	ADV	MAG	_	7	advmod	_	Translit=.ga.jang|LTranslit=.ga.jang
 7	높았고	높+았+고	VERB	VA+EP+EC	_	0	root	_	SpaceAfter=No|Translit=.nop.ass.go|LTranslit=.nop+.ass+.go
@@ -11873,8 +11873,8 @@
 17	%	%	PUNCT	SW	_	19	punct	_	SpaceAfter=No|Translit=%|LTranslit=%
 18	,	,	PUNCT	SP	_	19	punct	_	Translit=,|LTranslit=,
 19	충북	충북	NOUN	NNP	_	11	conj	_	Translit=.chung.bug|LTranslit=.chung.bug
-20	15.0	15.0	NUM	SN	_	19	flat	_	SpaceAfter=No|Translit=15.0|LTranslit=15.0
-21	%	%	SYM	SW	_	20	punct	_	Translit=%|LTranslit=%
+20	15.0	15.0	NUM	SN	_	21	nummod	_	SpaceAfter=No|Translit=15.0|LTranslit=15.0
+21	%	%	SYM	SW	_	19	flat	_	Translit=%|LTranslit=%
 22	등의	등+의	NOUN	NNB+JKG	_	19	dep	_	Translit=.deung.yi|LTranslit=.deung+.yi
 23	순이었다	순+이+었+다	VERB	NNG+VCP+EP+EF	_	7	conj	_	SpaceAfter=No|Translit=.sun.i.eoss.da|LTranslit=.sun+.i+.eoss+.da
 24	.	.	PUNCT	SF	_	23	punct	_	Translit=.|LTranslit=.
@@ -12109,8 +12109,8 @@
 31	사용해	사용+하+아	VERB	NNG+XSV+EC	_	37	advcl	_	Translit=.sa.yong.hae|LTranslit=.sa.yong+.ha+.a
 32	실내	실내	NOUN	NNG	_	37	obj	_	Translit=.sil.nae|LTranslit=.sil.nae
 33	습도를	습도+를	NOUN	NNG+JKO	_	32	flat	_	Translit=.seub.do.reul|LTranslit=.seub.do+.reul
-34	50~60	50~60	NUM	SN	_	37	nmod	_	SpaceAfter=No|Translit=50~60|LTranslit=50~60
-35	%	%	SYM	SW	_	34	punct	_	Translit=%|LTranslit=%
+34	50~60	50~60	NUM	SN	_	35	nummod	_	SpaceAfter=No|Translit=50~60|LTranslit=50~60
+35	%	%	SYM	SW	_	37	nmod	_	Translit=%|LTranslit=%
 36	이하로	이하+로	ADP	NNG+JKB	_	34	case	_	Translit=.i.ha.ro|LTranslit=.i.ha+.ro
 37	유지할	유지+하+ㄹ	VERB	NNG+XSV+ETM	_	38	dep	_	Translit=.yu.ji.hal|LTranslit=.yu.ji+.ha+ㄹ
 38	필요가	필요+가	NOUN	NNG+JKS	_	39	nsubj	_	Translit=.pil.yo.ga|LTranslit=.pil.yo+.ga
@@ -12816,8 +12816,8 @@
 # translit = .il.bon.e .wa 100% .jeon.ryeog.pi.ching.eul .ha.myeon.seo .pe.i.seu.reul .ggeul.eo.ol.ri.go .iss.eo.do .a.mu.reon .mun.je.ga .eobs.da".go .ja.sin.gam.eul .bo.yeoss.da.
 1	일본에	일본+에	ADV	NNP+JKB	_	6	obl	_	Translit=.il.bon.e|LTranslit=.il.bon+.e
 2	와	오+아	ADV	VV+EC	_	6	advmod	_	Translit=.wa|LTranslit=.o+.a
-3	100	100	NUM	SN	_	6	nsubj	_	SpaceAfter=No|Translit=100|LTranslit=100
-4	%	%	SYM	SW	_	3	punct	_	Translit=%|LTranslit=%
+3	100	100	NUM	SN	_	4	nummod	_	SpaceAfter=No|Translit=100|LTranslit=100
+4	%	%	SYM	SW	_	6	nsubj	_	Translit=%|LTranslit=%
 5	전력피칭을	전력+피칭+을	NOUN	NNG+NNG+JKO	_	3	flat	_	Translit=.jeon.ryeog.pi.ching.eul|LTranslit=.jeon.ryeog+.pi.ching+.eul
 6	하면서	하+면서	VERB	VV+EC	_	16	advcl	_	Translit=.ha.myeon.seo|LTranslit=.ha+.myeon.seo
 7	페이스를	페이스+를	NOUN	NNG+JKO	_	8	nsubj	_	Translit=.pe.i.seu.reul|LTranslit=.pe.i.seu+.reul
@@ -13156,7 +13156,7 @@
 4	서비스와	서비스+와	NOUN	NNG+JC	_	3	flat	_	Translit=.seo.bi.seu.wa|LTranslit=.seo.bi.seu+.wa
 5	콘텐츠를	콘텐츠+를	NOUN	NNG+JKO	_	3	conj	_	Translit=.kon.ten.cheu.reul|LTranslit=.kon.ten.cheu+.reul
 6	모아놓은	모으+아+놓+은	VERB	VV+EC+VX+ETM	_	1	acl:relcl	_	Translit=.mo.a.noh.eun|LTranslit=.mo.eu+.a+.noh+.eun
-7	`	`	PUNCT	SS	_	6	punct	_	SpaceAfter=No|Translit=`|LTranslit=`
+7	`	`	PUNCT	SS	_	10	punct	_	SpaceAfter=No|Translit=`|LTranslit=`
 8	프리존	프리+존	PUNCT	NNG+NNG	_	10	punct	_	SpaceAfter=No|Translit=.peu.ri.jon|LTranslit=.peu.ri+.jon
 9	`	`	PUNCT	SF	_	10	punct	_	Translit=`|LTranslit=`
 10	서비스도	서비스+도	NOUN	NNG+JX	_	1	flat	_	Translit=.seo.bi.seu.do|LTranslit=.seo.bi.seu+.do
@@ -13452,8 +13452,8 @@
 4	이스라엘의	이스라엘+의	NOUN	NNP+JKG	_	5	det:poss	_	Translit=.i.seu.ra.el.yi|LTranslit=.i.seu.ra.el+.yi
 5	LAHAT은	LAHAT+은	NOUN	SL+JX	_	19	nsubj	_	Translit=LAHAT.eun|LTranslit=LAHAT+.eun
 6	무게	무게	NOUN	NNG	_	12	advcl	_	Translit=.mu.ge|LTranslit=.mu.ge
-7	13	13	NUM	SN	NumType=Card	6	nummod	_	Translit=13|LTranslit=13
-8	kg	kg	SYM	SW	_	7	punct	_	Translit=kg|LTranslit=kg
+7	13	13	NUM	SN	NumType=Card	8	nummod	_	Translit=13|LTranslit=13
+8	kg	kg	SYM	SW	_	6	nummod	_	Translit=kg|LTranslit=kg
 9	탄두중량	탄두+중량	NOUN	NNG+NNG	_	6	conj	_	Translit=.tan.du.jung.ryang|LTranslit=.tan.du+.jung.ryang
 10	4.5	4.5	NUM	SN	NumType=Card	9	nummod	_	Translit=4.5|LTranslit=4.5
 11	kg인데도	kg+이+ㄴ데+도	VERB	SL+VCP+EC+JX	_	9	flat	_	Translit=kg.in.de.do|LTranslit=kg+.i+ㄴ.de+.do
@@ -15128,8 +15128,8 @@
 13	%	%	PUNCT	SW	_	16	punct	_	SpaceAfter=No|Translit=%|LTranslit=%
 14	,	,	PUNCT	SP	_	16	punct	_	Translit=,|LTranslit=,
 15	국민은행이	국민은행+이	NOUN	NNP+JKS	_	16	nsubj	_	Translit=.gug.min.eun.haeng.i|LTranslit=.gug.min.eun.haeng+.i
-16	7.5~26.5	7.5~26.5	NUM	SN	_	4	conj	_	SpaceAfter=No|Translit=7.5~26.5|LTranslit=7.5~26.5
-17	%	%	SYM	SW	_	16	punct	_	Translit=%|LTranslit=%
+16	7.5~26.5	7.5~26.5	NUM	SN	_	17	nummod	_	SpaceAfter=No|Translit=7.5~26.5|LTranslit=7.5~26.5
+17	%	%	SYM	SW	_	4	conj	_	Translit=%|LTranslit=%
 18	등이다	등+이+다	VERB	NNB+VCP+EF	_	16	dep	_	SpaceAfter=No|Translit=.deung.i.da|LTranslit=.deung+.i+.da
 19	.	.	PUNCT	SF	_	18	punct	_	Translit=.|LTranslit=.
 
