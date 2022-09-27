@@ -41,7 +41,7 @@
     <dep name="acl">4</dep>
     <dep name="acl:relcl">3194</dep>
     <dep name="advcl">4516</dep>
-    <dep name="advmod">8813</dep>
+    <dep name="advmod">6502</dep>
     <dep name="amod">1566</dep>
     <dep name="appos">1510</dep>
     <dep name="aux">64</dep>
@@ -65,7 +65,7 @@
     <dep name="nsubj:pass">516</dep>
     <dep name="nummod">555</dep>
     <dep name="obj">5801</dep>
-    <dep name="obl">3072</dep>
+    <dep name="obl">5383</dep>
     <dep name="parataxis">1</dep>
     <dep name="punct">10411</dep>
     <dep name="root">6339</dep>
