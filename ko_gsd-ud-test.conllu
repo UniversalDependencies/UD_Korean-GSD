@@ -92,7 +92,7 @@
 4	오래	오래	ADV	MAG	_	5	advmod	_	Translit=.o.rae|LTranslit=.o.rae
 5	갈	가+ㄹ	VERB	VV+ETM	_	6	dep	_	Translit=.gal|LTranslit=.ga+ㄹ
 6	것으로	것+으로	ADV	NNB+JKB	_	7	obl	_	Translit=.geos.eu.ro|LTranslit=.geos+.eu.ro
-7	믿지	믿+지	VERB	VV+EC	_	12	advmod	_	Translit=.mid.ji|LTranslit=.mid+.ji
+7	믿지	믿+지	VERB	VV+EC	_	12	advcl	_	Translit=.mid.ji|LTranslit=.mid+.ji
 8	않았기	않+았+기	NOUN	VX+EP+ETN	_	7	flat	_	Translit=.anh.ass.gi|LTranslit=.anh+.ass+.gi
 9	때문에	때문+에	ADV	NNB+JKB	_	7	case	_	SpaceAfter=No|Translit=.ddae.mun.e|LTranslit=.ddae.mun+.e
 10	,	,	PUNCT	SP	_	9	punct	_	Translit=,|LTranslit=,
@@ -10196,7 +10196,7 @@
 6	,	,	PUNCT	SP	_	5	punct	_	Translit=,|LTranslit=,
 7	2층이	2+층+이	NOUN	SN+XSN+JKS	_	12	nsubj	_	Translit=2.cheung.i|LTranslit=2+.cheung+.i
 8	훨씬	훨씬	ADV	MAG	_	10	advmod	_	Translit=.hweol.ssin|LTranslit=.hweol.ssin
-9	예쁘고	예쁘+고	VERB	VA+EC	_	12	advmod	_	Translit=.ye.bbeu.go|LTranslit=.ye.bbeu+.go
+9	예쁘고	예쁘+고	VERB	VA+EC	_	12	advcl	_	Translit=.ye.bbeu.go|LTranslit=.ye.bbeu+.go
 10	깨끗하게	깨끗+하+게	ADV	XR+XSA+EC	_	9	conj	_	Translit=.ggae.ggeus.ha.ge|LTranslit=.ggae.ggeus+.ha+.ge
 11	잘	잘	ADV	MAG	_	12	advmod	_	Translit=.jal|LTranslit=.jal
 12	되어	되+어	VERB	VV+EC	_	0	root	_	Translit=.doe.eo|LTranslit=.doe+.eo
@@ -10509,7 +10509,7 @@
 4	훌쩍	훌쩍	ADV	MAG	_	5	advmod	_	Translit=.hul.jjeog|LTranslit=.hul.jjeog
 5	넘기는	넘기+는	VERB	VV+ETM	_	6	acl:relcl	_	Translit=.neom.gi.neun|LTranslit=.neom.gi+.neun
 6	유혹을	유혹+을	NOUN	NNG+JKO	_	7	obj	_	Translit=.yu.hog.eul|LTranslit=.yu.hog+.eul
-7	뿌리치고	뿌리치+고	VERB	VV+EC	_	11	advmod	_	Translit=.bbu.ri.chi.go|LTranslit=.bbu.ri.chi+.go
+7	뿌리치고	뿌리치+고	VERB	VV+EC	_	11	advcl	_	Translit=.bbu.ri.chi.go|LTranslit=.bbu.ri.chi+.go
 8	국내	국내	NOUN	NNG	_	10	obl	_	Translit=.gug.nae|LTranslit=.gug.nae
 9	야구에	야구+에	ADV	NNG+JKB	_	8	flat	_	Translit=.ya.gu.e|LTranslit=.ya.gu+.e
 10	남기로	남+기+로	ADV	VV+ETN+JKB	_	7	conj	_	Translit=.nam.gi.ro|LTranslit=.nam+.gi+.ro
@@ -11098,7 +11098,7 @@
 9	"	"	PUNCT	SS	_	8	punct	_	SpaceAfter=No|Translit="|LTranslit="
 10	라며	라며	VERB	EC	_	8	advcl	_	Translit=.ra.myeo|LTranslit=.ra.myeo
 11	"	"	PUNCT	SS	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
-12	그래도	그러+어도	VERB	VV+EC	_	18	advmod	_	Translit=.geu.rae.do|LTranslit=.geu.reo+.eo.do
+12	그래도	그러+어도	VERB	VV+EC	_	18	advcl	_	Translit=.geu.rae.do|LTranslit=.geu.reo+.eo.do
 13	앞으로	앞+으로	ADV	NNG+JKB	_	18	obl	_	Translit=.ap.eu.ro|LTranslit=.ap+.eu.ro
 14	조금	조금	ADV	MAG	_	15	advmod	_	Translit=.jo.geum|LTranslit=.jo.geum
 15	더	더	ADV	MAG	_	17	advmod	_	Translit=.deo|LTranslit=.deo
@@ -11178,7 +11178,7 @@
 20	등	등	NOUN	NNB	_	18	dep	_	Translit=.deung|LTranslit=.deung
 21	상업적인	상업+적+이+ㄴ	ADJ	NNG+XSN+VCP+ETM	_	14	amod	_	Translit=.sang.eob.jeog.in|LTranslit=.sang.eob+.jeog+.i+ㄴ
 22	행위를	행위+를	NOUN	NNG+JKO	_	14	appos	_	Translit=.haeng.wi.reul|LTranslit=.haeng.wi+.reul
-23	하지	하+지	VERB	VV+EC	_	25	advmod	_	Translit=.ha.ji|LTranslit=.ha+.ji
+23	하지	하+지	VERB	VV+EC	_	25	advcl	_	Translit=.ha.ji|LTranslit=.ha+.ji
 24	않기로	않+기+로	ADV	VX+ETN+JKB	_	23	flat	_	Translit=.anh.gi.ro|LTranslit=.anh+.gi+.ro
 25	했다	하+았+다	VERB	VX+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.haess.da|LTranslit=.ha+.ass+.da
 26	.	.	PUNCT	SF	_	25	punct	_	Translit=.|LTranslit=.

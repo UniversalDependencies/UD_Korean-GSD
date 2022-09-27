@@ -3289,7 +3289,7 @@
 2	"	"	PUNCT	SS	_	11	punct	_	SpaceAfter=No|Translit="|LTranslit="
 3	더	더	ADV	MAG	_	5	advmod	_	Translit=.deo|LTranslit=.deo
 4	(	(	PUNCT	SS	_	5	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
-5	코믹하게	코믹+하+게	VERB	NNG+XSV+EC	_	7	advmod	_	SpaceAfter=No|Translit=.ko.mig.ha.ge|LTranslit=.ko.mig+.ha+.ge
+5	코믹하게	코믹+하+게	VERB	NNG+XSV+EC	_	7	advcl	_	SpaceAfter=No|Translit=.ko.mig.ha.ge|LTranslit=.ko.mig+.ha+.ge
 6	)	)	PUNCT	SS	_	5	punct	_	Translit=)|LTranslit=)
 7	할	하+ㄹ	VERB	VV+ETM	_	8	dep	_	Translit=.hal|LTranslit=.ha+ㄹ
 8	수도	수+도	NOUN	NNB+JX	_	9	nsubj	_	Translit=.su.do|LTranslit=.su+.do
@@ -3910,7 +3910,7 @@
 4	꽃	꽃	NOUN	NNG	_	2	flat	_	Translit=.ggoch|LTranslit=.ggoch
 5	바구니를	바구니+를	NOUN	NNG+JKO	_	2	flat	_	Translit=.ba.gu.ni.reul|LTranslit=.ba.gu.ni+.reul
 6	주문했더니	주문+하+았+더니	VERB	NNG+XSV+EP+EC	_	9	advcl	_	Translit=.ju.mun.haess.deo.ni|LTranslit=.ju.mun+.ha+.ass+.deo.ni
-7	정성스럽고	정성+스럽+고	VERB	NNG+XSA+EC	_	9	advmod	_	Translit=.jeong.seong.seu.reob.go|LTranslit=.jeong.seong+.seu.reob+.go
+7	정성스럽고	정성+스럽+고	VERB	NNG+XSA+EC	_	9	advcl	_	Translit=.jeong.seong.seu.reob.go|LTranslit=.jeong.seong+.seu.reob+.go
 8	예쁘게	예쁘+게	ADV	VA+EC	_	7	conj	_	Translit=.ye.bbeu.ge|LTranslit=.ye.bbeu+.ge
 9	만들어	만들+어	VERB	VV+EC	_	0	root	_	Translit=.man.deul.eo|LTranslit=.man.deul+.eo
 10	주셨습니다	주+시+었+습니다	VERB	VX+EP+EP+EF	_	9	flat	_	SpaceAfter=No|Translit=.ju.syeoss.seub.ni.da|LTranslit=.ju+.si+.eoss+.seub.ni.da
@@ -4783,7 +4783,7 @@
 # translit = .jeo.ryeom.han .ga.gyeog.e .pu.jim.ha.go .mas.iss.ge .meog.eul .su .iss.neun .jib.i.gu.yo
 1	저렴한	저렴+하+ㄴ	ADJ	XR+XSA+ETM	_	2	amod	_	Translit=.jeo.ryeom.han|LTranslit=.jeo.ryeom+.ha+ㄴ
 2	가격에	가격+에	ADV	NNG+JKB	_	5	obl	_	Translit=.ga.gyeog.e|LTranslit=.ga.gyeog+.e
-3	푸짐하고	푸짐+하+고	VERB	XR+XSA+EC	_	5	advmod	_	Translit=.pu.jim.ha.go|LTranslit=.pu.jim+.ha+.go
+3	푸짐하고	푸짐+하+고	VERB	XR+XSA+EC	_	5	advcl	_	Translit=.pu.jim.ha.go|LTranslit=.pu.jim+.ha+.go
 4	맛있게	맛있+게	ADV	VA+EC	_	3	conj	_	Translit=.mas.iss.ge|LTranslit=.mas.iss+.ge
 5	먹을	먹+을	VERB	VV+ETM	_	6	dep	_	Translit=.meog.eul|LTranslit=.meog+.eul
 6	수	수	NOUN	NNB	_	7	nsubj	_	Translit=.su|LTranslit=.su
@@ -7622,7 +7622,7 @@
 5	•	•	PUNCT	SS	_	6	punct	_	SpaceAfter=No|Translit=•|LTranslit=•
 6	갈현동	갈현동	PROPN	NNP	_	2	flat	_	Translit=.gal.hyeon.dong|LTranslit=.gal.hyeon.dong
 7	일대	일대	ADV	NNG	_	2	flat	_	Translit=.il.dae|LTranslit=.il.dae
-8	80만여	80+만+이+어	VERB	SN+NNB+VCP+EC	_	11	advmod	_	SpaceAfter=No|Translit=80.man.yeo|LTranslit=80+.man+.i+.eo
+8	80만여	80+만+이+어	VERB	SN+NNB+VCP+EC	_	11	advcl	_	SpaceAfter=No|Translit=80.man.yeo|LTranslit=80+.man+.i+.eo
 9	㎡	㎡	PUNCT	SW	_	10	punct	_	Translit=㎡|LTranslit=㎡
 10	규모로	규모+로	ADV	NNG+JKB	_	8	flat	_	Translit=.gyu.mo.ro|LTranslit=.gyu.mo+.ro
 11	조성되며	조성+되+며	VERB	NNG+XSV+EC	_	36	advcl	_	SpaceAfter=No|Translit=.jo.seong.doe.myeo|LTranslit=.jo.seong+.doe+.myeo
@@ -9152,7 +9152,7 @@
 3	어렵다는	어렵+다는	VERB	VA+ETM	_	4	ccomp	_	Translit=.eo.ryeob.da.neun|LTranslit=.eo.ryeob+.da.neun
 4	결혼	결혼	NOUN	NNG	_	9	obj	_	Translit=.gyeol.hon|LTranslit=.gyeol.hon
 5	준비	준비	NOUN	NNG	_	4	flat	_	Translit=.jun.bi|LTranslit=.jun.bi
-6	쉽고	쉽+고	VERB	VA+EC	_	9	advmod	_	Translit=.swib.go|LTranslit=.swib+.go
+6	쉽고	쉽+고	VERB	VA+EC	_	9	advcl	_	Translit=.swib.go|LTranslit=.swib+.go
 7	편하고	편하+고	VERB	VA+EC	_	6	conj	_	Translit=.pyeon.ha.go|LTranslit=.pyeon.ha+.go
 8	재밋게	재밋게	ADV	NNG	_	6	conj	_	Translit=.jae.mis.ge|LTranslit=.jae.mis.ge
 9	하고	하+고	VERB	VV+EC	_	0	root	_	Translit=.ha.go|LTranslit=.ha+.go
@@ -11556,7 +11556,7 @@
 # text = 향어회 저렴하고 풍족하게 먹을 수 있어요.
 # translit = .hyang.eo.hoe .jeo.ryeom.ha.go .pung.jog.ha.ge .meog.eul .su .iss.eo.yo.
 1	향어회	향어회	NOUN	NNG	_	4	obj	_	Translit=.hyang.eo.hoe|LTranslit=.hyang.eo.hoe
-2	저렴하고	저렴+하+고	VERB	XR+XSA+EC	_	4	advmod	_	Translit=.jeo.ryeom.ha.go|LTranslit=.jeo.ryeom+.ha+.go
+2	저렴하고	저렴+하+고	VERB	XR+XSA+EC	_	4	advcl	_	Translit=.jeo.ryeom.ha.go|LTranslit=.jeo.ryeom+.ha+.go
 3	풍족하게	풍족+하+게	ADV	XR+XSA+EC	_	2	conj	_	Translit=.pung.jog.ha.ge|LTranslit=.pung.jog+.ha+.ge
 4	먹을	먹+을	VERB	VV+ETM	_	5	dep	_	Translit=.meog.eul|LTranslit=.meog+.eul
 5	수	수	NOUN	NNB	_	6	nsubj	_	Translit=.su|LTranslit=.su
@@ -12470,7 +12470,7 @@
 # sent_id = dev-s751
 # text = 아담하고 조용해 보이는 내부가 눈길을 끈다.
 # translit = .a.dam.ha.go .jo.yong.hae .bo.i.neun .nae.bu.ga .nun.gil.eul .ggeun.da.
-1	아담하고	아담+하+고	VERB	XR+XSA+EC	_	3	advmod	_	Translit=.a.dam.ha.go|LTranslit=.a.dam+.ha+.go
+1	아담하고	아담+하+고	VERB	XR+XSA+EC	_	3	advcl	_	Translit=.a.dam.ha.go|LTranslit=.a.dam+.ha+.go
 2	조용해	조용+하+아	ADV	XR+XSA+EC	_	1	conj	_	Translit=.jo.yong.hae|LTranslit=.jo.yong+.ha+.a
 3	보이는	보이+는	VERB	VV+ETM	_	4	acl:relcl	_	Translit=.bo.i.neun|LTranslit=.bo.i+.neun
 4	내부가	내부+가	NOUN	NNG+JKS	_	6	nsubj	_	Translit=.nae.bu.ga|LTranslit=.nae.bu+.ga
