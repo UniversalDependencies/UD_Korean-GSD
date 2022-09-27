@@ -7779,7 +7779,7 @@
 6	레지스터와의	레지스터+와+의	NOUN	NNG+JKB+JKG	_	7	nmod:poss	_	Translit=.re.ji.seu.teo.wa.yi|LTranslit=.re.ji.seu.teo+.wa+.yi
 7	인터뷰에서	인터뷰+에서	ADV	NNG+JKB	_	19	advmod	_	Translit=.in.teo.byu.e.seo|LTranslit=.in.teo.byu+.e.seo
 8	"	"	PUNCT	SS	_	13	punct	_	SpaceAfter=No|Translit="|LTranslit="
-9	순두부찌게	순두부+찌+게	VERB	NNG+VV+EC	_	11	det:poss	_	Translit=.sun.du.bu.jji.ge|LTranslit=.sun.du.bu+.jji+.ge
+9	순두부찌게	순두부+찌+게	VERB	NNG+VV+EC	_	11	nmod:poss	_	Translit=.sun.du.bu.jji.ge|LTranslit=.sun.du.bu+.jji+.ge
 10	맛의	맛+의	NOUN	NNG+JKG	_	9	flat	_	Translit=.mas.yi|LTranslit=.mas+.yi
 11	비결은	비결+은	NOUN	NNG+JX	_	13	nsubj	_	Translit=.bi.gyeol.eun|LTranslit=.bi.gyeol+.eun
 12	남편에게도	남편+에게+도	ADV	NNG+JKB+JX	_	13	advmod	_	Translit=.nam.pyeon.e.ge.do|LTranslit=.nam.pyeon+.e.ge+.do
@@ -13391,7 +13391,7 @@
 6	레지스터와의	레지스터+와+의	NOUN	NNG+JKB+JKG	_	7	nmod:poss	_	Translit=.re.ji.seu.teo.wa.yi|LTranslit=.re.ji.seu.teo+.wa+.yi
 7	인터뷰에서	인터뷰+에서	ADV	NNG+JKB	_	19	advmod	_	Translit=.in.teo.byu.e.seo|LTranslit=.in.teo.byu+.e.seo
 8	"	"	PUNCT	SS	_	13	punct	_	SpaceAfter=No|Translit="|LTranslit="
-9	순두부찌게	순두부+찌+게	VERB	NNG+VV+EC	_	11	det:poss	_	Translit=.sun.du.bu.jji.ge|LTranslit=.sun.du.bu+.jji+.ge
+9	순두부찌게	순두부+찌+게	VERB	NNG+VV+EC	_	11	nmod:poss	_	Translit=.sun.du.bu.jji.ge|LTranslit=.sun.du.bu+.jji+.ge
 10	맛의	맛+의	NOUN	NNG+JKG	_	9	flat	_	Translit=.mas.yi|LTranslit=.mas+.yi
 11	비결은	비결+은	NOUN	NNG+JX	_	13	nsubj	_	Translit=.bi.gyeol.eun|LTranslit=.bi.gyeol+.eun
 12	남편에게도	남편+에게+도	ADV	NNG+JKB+JX	_	13	advmod	_	Translit=.nam.pyeon.e.ge.do|LTranslit=.nam.pyeon+.e.ge+.do
