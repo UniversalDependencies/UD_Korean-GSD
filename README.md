@@ -29,6 +29,7 @@ The project repository: https://github.com/emorynlp/ud-korean
   * Fixed right-headed apposition and non-projective punctuation.
   * Symbols after numbers are units, not punctuation.
   * Nouns cannot be attached as mark.
+  * Fixed: genitive nouns are nmod:poss, not det:poss.
 * 2019-11-15 v2.5
   * Google gave permission to drop the "NC" restriction from the license.
     This applies to the UD annotations (not the underlying content, of which Google claims no ownership or copyright).
