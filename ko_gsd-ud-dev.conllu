@@ -4847,7 +4847,7 @@
 11	및	및	CCONJ	MAG	_	12	cc	_	Translit=.mich|LTranslit=.mich
 12	시행규칙	시행+규칙	NOUN	NNG+NNG	_	8	conj	_	Translit=.si.haeng.gyu.chig|LTranslit=.si.haeng+.gyu.chig
 13	제정안	제정+안	NOUN	NNG+NNG	_	12	flat	_	SpaceAfter=No|Translit=.je.jeong.an|LTranslit=.je.jeong+.an
-14	'	'	PUNCT	SS	_	8	punct	_	SpaceAfter=No|Translit='|LTranslit='
+14	'	'	PUNCT	SS	_	13	punct	_	SpaceAfter=No|Translit='|LTranslit='
 15	을	을	ADP	JKO	_	13	obj	_	Translit=.eul|LTranslit=.eul
 16	마련	마련	NOUN	NNG	_	8	appos	_	SpaceAfter=No|Translit=.ma.ryeon|LTranslit=.ma.ryeon
 17	,	,	PUNCT	SP	_	29	punct	_	Translit=,|LTranslit=,
