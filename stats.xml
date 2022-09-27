@@ -37,11 +37,11 @@
     <feat name="NumType" value="Card" upos="DET,NUM,PUNCT">549</feat><!-- 한, 두, 첫, 세, 하나, 1, ', 다섯, 하나는, 하나의 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="32">
+  <deps unique="33">
     <dep name="acl">4</dep>
     <dep name="acl:relcl">3194</dep>
     <dep name="advcl">4550</dep>
-    <dep name="advmod">6468</dep>
+    <dep name="advmod">6467</dep>
     <dep name="amod">1566</dep>
     <dep name="appos">1510</dep>
     <dep name="aux">64</dep>
@@ -54,6 +54,7 @@
     <dep name="dep">2433</dep>
     <dep name="det">569</dep>
     <dep name="det:poss">180</dep>
+    <dep name="discourse">1</dep>
     <dep name="fixed">13</dep>
     <dep name="flat">12244</dep>
     <dep name="iobj">108</dep>
