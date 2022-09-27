@@ -3590,7 +3590,7 @@
 6	연세대	연세대	NOUN	NNP	_	8	advmod	_	Translit=.yeon.se.dae|LTranslit=.yeon.se.dae
 7	원주캠퍼스로	원주+캠퍼스+로	ADV	NNP+NNG+JKB	_	6	flat	_	Translit=.weon.ju.kaem.peo.seu.ro|LTranslit=.weon.ju+.kaem.peo.seu+.ro
 8	862만원이고	862+만+원+이+고	VERB	SN+NR+NNB+VCP+EC	_	0	root	_	Translit=862.man.weon.i.go|LTranslit=862+.man+.weon+.i+.go
-9	한림대	한림대	PROPN	NNP	_	49	det:poss	_	SpaceAfter=No|Translit=.han.rim.dae|LTranslit=.han.rim.dae
+9	한림대	한림대	PROPN	NNP	_	49	nmod:poss	_	SpaceAfter=No|Translit=.han.rim.dae|LTranslit=.han.rim.dae
 10	(	(	PUNCT	SS	_	11	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 11	788만원	788+만+원	NUM	SN+NR+NNB	_	9	appos	_	Translit=788.man.weon|LTranslit=788+.man+.weon
 12	)	)	PUNCT	SS	_	11	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
@@ -5979,7 +5979,7 @@
 6	케리	케리	NOUN	NNP	_	3	flat	_	SpaceAfter=No|Translit=.ke.ri|LTranslit=.ke.ri
 7	,	,	PUNCT	SP	_	10	punct	_	Translit=,|LTranslit=,
 8	'	'	PUNCT	SS	_	10	punct	_	SpaceAfter=No|Translit='|LTranslit='
-9	중국선교의	중국+선교+의	PROPN	NNP+NNG+JKG	_	10	det:poss	_	Translit=.jung.gug.seon.gyo.yi|LTranslit=.jung.gug+.seon.gyo+.yi
+9	중국선교의	중국+선교+의	PROPN	NNP+NNG+JKG	_	10	nmod:poss	_	Translit=.jung.gug.seon.gyo.yi|LTranslit=.jung.gug+.seon.gyo+.yi
 10	아버지	아버지	NOUN	NNG	_	3	appos	_	SpaceAfter=No|Translit=.a.beo.ji|LTranslit=.a.beo.ji
 11	'	'	PUNCT	SS	_	10	punct	_	SpaceAfter=No|Translit='|LTranslit='
 12	허드슨	허드슨	NOUN	NNP	_	10	flat	_	Translit=.heo.deu.seun|LTranslit=.heo.deu.seun
@@ -8217,7 +8217,7 @@
 3	전개와	전개+와	ADV	NNG+JC	_	2	flat	_	Translit=.jeon.gae.wa|LTranslit=.jeon.gae+.wa
 4	상황설정으로	상황+설정+으로	ADV	NNG+NNG+JKB	_	10	obl	_	Translit=.sang.hwang.seol.jeong.eu.ro|LTranslit=.sang.hwang+.seol.jeong+.eu.ro
 5	30	30	NUM	SN	_	6	nummod	_	SpaceAfter=No|Translit=30|LTranslit=30
-6	%	%	SYM	SW	_	9	det:poss	_	Translit=%|LTranslit=%
+6	%	%	SYM	SW	_	9	nmod:poss	_	Translit=%|LTranslit=%
 7	후반의	후반+의	NOUN	NNG+JKG	_	5	flat	_	Translit=.hu.ban.yi|LTranslit=.hu.ban+.yi
 8	높은	높+은	ADJ	VA+ETM	_	9	amod	_	Translit=.nop.eun|LTranslit=.nop+.eun
 9	시청률을	시청+률+을	NOUN	NNG+XSN+JKO	_	10	obj	_	Translit=.si.cheong.ryul.eul|LTranslit=.si.cheong+.ryul+.eul
@@ -9005,7 +9005,7 @@
 14	직전에는	직전+에+는	ADP	NNG+JKB+JX	_	13	case	_	Translit=.jig.jeon.e.neun|LTranslit=.jig.jeon+.e+.neun
 15	네덜란드의	네덜란드+의	NOUN	NNP+JKG	_	16	nmod:poss	_	Translit=.ne.deol.ran.deu.yi|LTranslit=.ne.deol.ran.deu+.yi
 16	은행가들로부터	은행가+들+부터	ADV	NNG+XSN+JX	_	22	advmod	_	Translit=.eun.haeng.ga.deul.ro.bu.teo|LTranslit=.eun.haeng.ga+.deul+.bu.teo
-17	4	4	NUM	SN	_	20	det:poss	_	SpaceAfter=No|Translit=4|LTranslit=4
+17	4	4	NUM	SN	_	20	nmod:poss	_	SpaceAfter=No|Translit=4|LTranslit=4
 18	%	%	PUNCT	SW	_	19	punct	_	SpaceAfter=No|Translit=%|LTranslit=%
 19	의	의	ADP	JKG	_	17	case	_	Translit=.yi|LTranslit=.yi
 20	이자로	이자+로	ADV	NNG+JKB	_	22	obl	_	Translit=.i.ja.ro|LTranslit=.i.ja+.ro
@@ -10803,7 +10803,7 @@
 1	옥스퍼드	옥스퍼드	NOUN	NNP	_	27	nsubj	_	Translit=.og.seu.peo.deu|LTranslit=.og.seu.peo.deu
 2	애널리티카는	애널리티카+는	NOUN	NNG+JX	_	1	flat	_	Translit=.ae.neol.ri.ti.ka.neun|LTranslit=.ae.neol.ri.ti.ka+.neun
 3	"	"	PUNCT	SS	_	24	punct	_	SpaceAfter=No|Translit="|LTranslit="
-4	김정은	김정은	PROPN	NNP	_	6	det:poss	_	Translit=.gim.jeong.eun|LTranslit=.gim.jeong.eun
+4	김정은	김정은	PROPN	NNP	_	6	nmod:poss	_	Translit=.gim.jeong.eun|LTranslit=.gim.jeong.eun
 5	체제의	체제+의	NOUN	NNG+JKG	_	4	flat	_	Translit=.che.je.yi|LTranslit=.che.je+.yi
 6	건재함을	건재+하+ㅁ+을	NOUN	NNG+XSA+ETN+JKO	_	7	obj	_	Translit=.geon.jae.ham.eul|LTranslit=.geon.jae+.ha+ㅁ+.eul
 7	과시하기	과시+하+기	NOUN	NNG+XSV+ETN	_	8	obj	_	Translit=.gwa.si.ha.gi|LTranslit=.gwa.si+.ha+.gi
@@ -12278,7 +12278,7 @@
 16	업계	업계	NOUN	NNG	_	19	acl:relcl	_	Translit=.eob.gye|LTranslit=.eob.gye
 17	최고	최고	NOUN	NNG	_	16	flat	_	Translit=.choe.go|LTranslit=.choe.go
 18	수준인	수준+이+ㄴ	VERB	NNG+VCP+ETM	_	16	flat	_	Translit=.su.jun.in|LTranslit=.su.jun+.i+ㄴ
-19	0.7	0.7	NUM	SN	_	22	det:poss	_	SpaceAfter=No|Translit=0.7|LTranslit=0.7
+19	0.7	0.7	NUM	SN	_	22	nmod:poss	_	SpaceAfter=No|Translit=0.7|LTranslit=0.7
 20	%	%	PUNCT	SW	_	21	punct	_	SpaceAfter=No|Translit=%|LTranslit=%
 21	의	의	ADP	JKG	_	19	case	_	Translit=.yi|LTranslit=.yi
 22	할인	할인	NOUN	NNG	_	24	obj	_	Translit=.hal.in|LTranslit=.hal.in

@@ -5,7 +5,7 @@
 2	배성영	배성영	NOUN	NNP	_	1	flat	_	Translit=.bae.seong.yeong|LTranslit=.bae.seong.yeong
 3	수석연구원은	수석+연구원+은	NOUN	NNG+NNG+JX	_	1	flat	_	Translit=.su.seog.yeon.gu.weon.eun|LTranslit=.su.seog+.yeon.gu.weon+.eun
 4	"	"	PUNCT	SS	_	28	punct	_	SpaceAfter=No|Translit="|LTranslit="
-5	미국	미국	PROPN	NNP	_	7	det:poss	_	Translit=.mi.gug|LTranslit=.mi.gug
+5	미국	미국	PROPN	NNP	_	7	nmod:poss	_	Translit=.mi.gug|LTranslit=.mi.gug
 6	통화당국의	통화+당국+의	NOUN	NNG+NNG+JKG	_	5	flat	_	Translit=.tong.hwa.dang.gug.yi|LTranslit=.tong.hwa+.dang.gug+.yi
 7	경기부양	경기+부양	NOUN	NNG+NNG	_	21	advmod	_	Translit=.gyeong.gi.bu.yang|LTranslit=.gyeong.gi+.bu.yang
 8	기조	기조	NOUN	NNG	_	7	flat	_	Translit=.gi.jo|LTranslit=.gi.jo
@@ -2841,7 +2841,7 @@
 5	대개는	대개+는	ADV	NNG+JX	_	11	advmod	_	Translit=.dae.gae.neun|LTranslit=.dae.gae+.neun
 6	그	그	PRON	MM	_	11	nmod	_	Translit=.geu|LTranslit=.geu
 7	위에	위+에	ADP	NNG+JKB	_	6	case	_	Translit=.wi.e|LTranslit=.wi+.e
-8	수천의	수천+의	NUM	NR+JKG	NumType=Card	9	det:poss	_	Translit=.su.cheon.yi|LTranslit=.su.cheon+.yi
+8	수천의	수천+의	NUM	NR+JKG	NumType=Card	9	nmod:poss	_	Translit=.su.cheon.yi|LTranslit=.su.cheon+.yi
 9	보석으로	보석+으로	ADV	NNG+JKB	_	11	obl	_	Translit=.bo.seog.eu.ro|LTranslit=.bo.seog+.eu.ro
 10	장식을	장식+을	NOUN	NNG+JKO	_	11	obj	_	Translit=.jang.sig.eul|LTranslit=.jang.sig+.eul
 11	한다	하+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No|Translit=.han.da|LTranslit=.ha+ㄴ.da
@@ -6053,7 +6053,7 @@
 # sent_id = test-s359
 # text = 겐로쿠엔(兼六园)의 뜻에서 알 수 있듯이 6가지 아름다움을 겸비한 정원이다.
 # translit = .gen.ro.ku.en(jiānliùyuán).yi .ddeus.e.seo .al .su .iss.deus.i 6.ga.ji .a.reum.da.um.eul .gyeom.bi.han .jeong.weon.i.da.
-1	겐로쿠엔	겐로쿠엔	PROPN	NNP	_	6	det:poss	_	SpaceAfter=No|Translit=.gen.ro.ku.en|LTranslit=.gen.ro.ku.en
+1	겐로쿠엔	겐로쿠엔	PROPN	NNP	_	6	nmod:poss	_	SpaceAfter=No|Translit=.gen.ro.ku.en|LTranslit=.gen.ro.ku.en
 2	(	(	PUNCT	SS	_	3	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 3	兼六园	兼六园	SYM	SH	_	1	appos	_	SpaceAfter=No|Translit=jiānliùyuán|LTranslit=jiānliùyuán
 4	)	)	PUNCT	SS	_	3	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
@@ -6961,7 +6961,7 @@
 6	넥슨	넥슨	NOUN	NNG	_	5	flat	_	SpaceAfter=No|Translit=.neg.seun|LTranslit=.neg.seun
 7	'	'	PUNCT	SS	_	6	punct	_	SpaceAfter=No|Translit='|LTranslit='
 8	이라는	이+라는	VERB	VCP+ETM	_	6	cop	_	Translit=.i.ra.neun|LTranslit=.i+.ra.neun
-9	하나의	하나+의	NUM	NR+JKG	NumType=Card	5	det:poss	_	Translit=.ha.na.yi|LTranslit=.ha.na+.yi
+9	하나의	하나+의	NUM	NR+JKG	NumType=Card	5	nmod:poss	_	Translit=.ha.na.yi|LTranslit=.ha.na+.yi
 10	목표	목표	NOUN	NNG	_	5	appos	_	Translit=.mog.pyo|LTranslit=.mog.pyo
 11	아래	아래	ADP	NNG	_	5	case	_	Translit=.a.rae|LTranslit=.a.rae
 12	함께	함께	ADV	MAG	_	15	advmod	_	Translit=.ham.gge|LTranslit=.ham.gge

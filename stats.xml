@@ -53,14 +53,14 @@
     <dep name="csubj">21</dep>
     <dep name="dep">2433</dep>
     <dep name="det">569</dep>
-    <dep name="det:poss">232</dep>
+    <dep name="det:poss">187</dep>
     <dep name="fixed">13</dep>
     <dep name="flat">12244</dep>
     <dep name="iobj">108</dep>
     <dep name="list">1</dep>
     <dep name="mark">85</dep>
     <dep name="nmod">1763</dep>
-    <dep name="nmod:poss">2275</dep>
+    <dep name="nmod:poss">2320</dep>
     <dep name="nsubj">7773</dep>
     <dep name="nsubj:pass">516</dep>
     <dep name="nummod">555</dep>
