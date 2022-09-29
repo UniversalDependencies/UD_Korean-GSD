@@ -15056,7 +15056,7 @@
 1	"	"	PUNCT	SS	_	3	punct	_	SpaceAfter=No|Translit="|LTranslit="
 2	스페셜올림픽에	스페셜+올림픽+에	ADV	NNG+NNG+JKB	_	3	obl	_	Translit=.seu.pe.syeol.ol.rim.pig.e|LTranslit=.seu.pe.syeol+.ol.rim.pig+.e
 3	나가고	나가+고	VERB	VV+EC	_	7	ccomp	_	Translit=.na.ga.go|LTranslit=.na.ga+.go
-4	싶다	싶+다	AUX	VX+EC	_	3	aux	_	SpaceAfter=No|Translit=.sip.da|LTranslit=.sip+.da
+4	싶다	싶	AUX	VX+EC	_	3	aux	_	OrigLemma=싶+다|SpaceAfter=No|Translit=.sip.da|LTranslit=.sip
 5	"	"	PUNCT	SS	_	3	punct	_	SpaceAfter=No|Translit="|LTranslit="
 6	고	고	ADP	JKQ	_	3	case	_	Translit=.go|LTranslit=.go
 7	말했다	말+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.mal.haess.da|LTranslit=.mal+.ha+.ass+.da

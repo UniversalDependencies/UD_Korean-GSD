@@ -10,7 +10,7 @@
     <dev><sentences>950</sentences><tokens>11958</tokens><words>11958</words><fused>0</fused></dev>
     <test><sentences>989</sentences><tokens>11677</tokens><words>11677</words><fused>0</fused></test>
   </size>
-  <lemmas unique="35851" /><!-- ., ,, ', (, ), ", 있+다, 이, 수, 있+는, %, 등, 그, 고, 좀 -->
+  <lemmas unique="35852" /><!-- ., ,, ', (, ), ", 있+다, 이, 수, 있+는, %, 등, 그, 고, 좀 -->
   <forms unique="35846" /><!-- ., ,, ', (, ), ", 있다, 수, 이, 있는, 한, %, 등, 그, 고 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">2760</tag><!-- 있+다, 다른, 많+은, 좋+아요, 크+ㄴ, 맛있+어요, 같+아요, 없+다, 가깝+ㄴ, 다양+하+ㄴ -->
     <tag name="ADP">1793</tag><!-- 고, 의, 는, 중, 때문+에, 를, 을, 에, 로, 가 -->
     <tag name="ADV">11362</tag><!-- 좀, 것+으로, 정말, 너무, 더, 또, 잘, 가장, 많이, 함께 -->
-    <tag name="AUX">136</tag><!-- 이, 있, 하, 않, 기대+하+아+보+ㅁ직+하+다, 나가+겠+다, 말+하+아+보+아, 실시+하+아야+하+겠+다, 심하+아+지+어, 싶+네요 -->
+    <tag name="AUX">136</tag><!-- 이, 있, 하, 않, 싶, 기대+하+아+보+ㅁ직+하+다, 나가+겠+다, 말+하+아+보+아, 실시+하+아야+하+겠+다, 심하+아+지+어 -->
     <tag name="CCONJ">223</tag><!-- 및, 또는, 그리고, 과, 와, 혹은, 물론, 겸, 그러나, 나 -->
     <tag name="DET">573</tag><!-- 이, 그, 몇, 모든, 각, 어떤, 어느, 이+들, 약, 무슨 -->
     <tag name="INTJ">3</tag><!-- 글쎄, 아차, 에이 -->
