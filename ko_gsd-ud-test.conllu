@@ -658,7 +658,7 @@
 33	수출	수출	NOUN	NNG	_	31	flat	_	Translit=.su.chul|LTranslit=.su.chul
 34	시대의	시대+의	NOUN	NNG+JKG	_	31	flat	_	Translit=.si.dae.yi|LTranslit=.si.dae+.yi
 35	개막도	개막+도	NOUN	NNG+JX	_	36	obj	_	Translit=.gae.mag.do|LTranslit=.gae.mag+.do
-36	기대해봄직하다	기대+하+아+보+ㅁ직+하+다	AUX	NNG+XSV+EC+VX+EC+VX+EF	_	41	aux	_	SpaceAfter=No|Translit=.gi.dae.hae.bom.jig.ha.da|LTranslit=.gi.dae+.ha+.a+.bo+ㅁ.jig+.ha+.da
+36	기대해봄직하다	기대+하+아+보+ㅁ직+하+다	VERB	NNG+XSV+EC+VX+EC+VX+EF	_	41	advcl	_	SpaceAfter=No|Translit=.gi.dae.hae.bom.jig.ha.da|LTranslit=.gi.dae+.ha+.a+.bo+ㅁ.jig+.ha+.da
 37	"	"	PUNCT	SS	_	36	punct	_	SpaceAfter=No|Translit="|LTranslit="
 38	고	고	ADP	JKQ	_	36	case	_	Translit=.go|LTranslit=.go
 39	강한	강하+ㄴ	ADJ	VA+ETM	_	40	amod	_	Translit=.gang.han|LTranslit=.gang.ha+ㄴ
