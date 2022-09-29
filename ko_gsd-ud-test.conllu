@@ -11078,7 +11078,7 @@
 15	벌일	벌이+ㄹ	VERB	VV+ETM	_	18	advcl	_	Translit=.beol.il|LTranslit=.beol.i+ㄹ
 16	때는	때+는	NOUN	NNG+JX	_	15	obl	_	OrigDeprel=mark|Translit=.ddae.neun|LTranslit=.ddae+.neun
 17	긴박감도	긴박감+도	NOUN	NNG+JX	_	18	nsubj	_	Translit=.gin.bag.gam.do|LTranslit=.gin.bag.gam+.do
-18	느껴진다	느끼+어+지+ㄴ다	AUX	VV+EC+VX+EF	_	21	aux	_	SpaceAfter=No|Translit=.neu.ggyeo.jin.da|LTranslit=.neu.ggi+.eo+.ji+ㄴ.da
+18	느껴진다	느끼+어+지+ㄴ다	VERB	VV+EC+VX+EF	_	21	advcl	_	SpaceAfter=No|Translit=.neu.ggyeo.jin.da|LTranslit=.neu.ggi+.eo+.ji+ㄴ.da
 19	"	"	PUNCT	SS	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
 20	고	고	ADP	JKQ	_	18	case	_	Translit=.go|LTranslit=.go
 21	했다	하+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.haess.da|LTranslit=.ha+.ass+.da
