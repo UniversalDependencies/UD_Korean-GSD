@@ -15204,7 +15204,7 @@
 24	구성원과	구성원+과	ADV	NNG+JKB	_	26	advmod	_	Translit=.gu.seong.weon.gwa|LTranslit=.gu.seong.weon+.gwa
 25	함께	함께	ADV	MAG	_	26	advmod	_	Translit=.ham.gge|LTranslit=.ham.gge
 26	노력해	노력+하+아	VERB	NNG+XSV+EC	_	30	ccomp	_	Translit=.no.ryeog.hae|LTranslit=.no.ryeog+.ha+.a
-27	나가겠다	나가+겠+다	AUX	VX+EP+EC	_	26	aux	_	SpaceAfter=No|Translit=.na.ga.gess.da|LTranslit=.na.ga+.gess+.da
+27	나가겠다	나가+겠+다	VERB	VX+EP+EC	_	26	compound	_	SpaceAfter=No|Translit=.na.ga.gess.da|LTranslit=.na.ga+.gess+.da
 28	"	"	PUNCT	SS	_	26	punct	_	SpaceAfter=No|Translit="|LTranslit="
 29	고	고	ADP	JKQ	_	26	case	_	Translit=.go|LTranslit=.go
 30	다짐했다	다짐+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.da.jim.haess.da|LTranslit=.da.jim+.ha+.ass+.da
