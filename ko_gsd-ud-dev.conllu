@@ -289,7 +289,7 @@
 14	곳으로	곳+으로	ADV	NNG+JKB	_	16	obl	_	Translit=.gos.eu.ro|LTranslit=.gos+.eu.ro
 15	메시지를	메시지+를	NOUN	NNG+JKO	_	16	obj	_	Translit=.me.si.ji.reul|LTranslit=.me.si.ji+.reul
 16	전해야	전하+아야	VERB	VV+EC	_	30	advcl	_	Translit=.jeon.hae.ya|LTranslit=.jeon.ha+.a.ya
-17	한다	하+ㄴ다	AUX	VX+EC	_	16	aux	_	SpaceAfter=No|Translit=.han.da|LTranslit=.ha+ㄴ.da
+17	한다	하	AUX	VX+EC	_	16	aux	_	OrigLemma=하+ㄴ다|SpaceAfter=No|Translit=.han.da|LTranslit=.ha
 18	"	"	PUNCT	SS	_	17	punct	_	SpaceAfter=No|Translit="|LTranslit="
 19	며	며	VERB	EC	_	17	flat	_	Translit=.myeo|LTranslit=.myeo
 20	"	"	PUNCT	SS	_	26	punct	_	SpaceAfter=No|Translit="|LTranslit="
@@ -299,7 +299,7 @@
 24	그들	그+들	PRON	NP+XSN	_	25	det:poss	_	Translit=.geu.deul|LTranslit=.geu+.deul
 25	방식으로	방식+으로	ADV	NNG+JKB	_	26	obl	_	Translit=.bang.sig.eu.ro|LTranslit=.bang.sig+.eu.ro
 26	접근해야	접근+하+아야	VERB	NNG+XSV+EC	_	30	ccomp	_	Translit=.jeob.geun.hae.ya|LTranslit=.jeob.geun+.ha+.a.ya
-27	한다	하+ㄴ다	AUX	VX+EC	_	26	aux	_	SpaceAfter=No|Translit=.han.da|LTranslit=.ha+ㄴ.da
+27	한다	하	AUX	VX+EC	_	26	aux	_	OrigLemma=하+ㄴ다|SpaceAfter=No|Translit=.han.da|LTranslit=.ha
 28	"	"	PUNCT	SS	_	26	punct	_	SpaceAfter=No|Translit="|LTranslit="
 29	고	고	ADP	JKQ	_	26	case	_	Translit=.go|LTranslit=.go
 30	강조했다	강조+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.gang.jo.haess.da|LTranslit=.gang.jo+.ha+.ass+.da
@@ -2576,7 +2576,7 @@
 41	발현되는	발현+되+는	VERB	NNG+XSV+ETM	_	42	acl:relcl	_	Translit=.bal.hyeon.doe.neun|LTranslit=.bal.hyeon+.doe+.neun
 42	녹색사회를	녹색+사회+를	NOUN	NNG+NNG+JKO	_	43	obj	_	Translit=.nog.saeg.sa.hoe.reul|LTranslit=.nog.saeg+.sa.hoe+.reul
 43	추구해야	추구+하+아야	VERB	NNG+XSV+EC	_	32	conj	_	Translit=.chu.gu.hae.ya|LTranslit=.chu.gu+.ha+.a.ya
-44	한다	하+ㄴ다	AUX	VX+EC	_	32	aux	_	SpaceAfter=No|Translit=.han.da|LTranslit=.ha+ㄴ.da
+44	한다	하	AUX	VX+EC	_	32	aux	_	OrigLemma=하+ㄴ다|SpaceAfter=No|Translit=.han.da|LTranslit=.ha
 45	"	"	PUNCT	SS	_	32	punct	_	SpaceAfter=No|Translit="|LTranslit="
 46	고	고	ADP	JKQ	_	32	case	_	Translit=.go|LTranslit=.go
 47	말했습니다	말+하+았+습니다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.mal.haess.seub.ni.da|LTranslit=.mal+.ha+.ass+.seub.ni.da
@@ -2860,7 +2860,7 @@
 27	정부는	정부+는	NOUN	NNG+JX	_	29	nsubj	_	Translit=.jeong.bu.neun|LTranslit=.jeong.bu+.neun
 28	강력하게	강력+하+게	ADV	XR+XSA+EC	_	29	advmod	_	Translit=.gang.ryeog.ha.ge|LTranslit=.gang.ryeog+.ha+.ge
 29	응징해야	응징+하+아야	VERB	NNG+XSV+EC	_	26	conj	_	Translit=.eung.jing.hae.ya|LTranslit=.eung.jing+.ha+.a.ya
-30	한다	하+ㄴ다	AUX	VX+EC	_	29	aux	_	SpaceAfter=No|Translit=.han.da|LTranslit=.ha+ㄴ.da
+30	한다	하	AUX	VX+EC	_	29	aux	_	OrigLemma=하+ㄴ다|SpaceAfter=No|Translit=.han.da|LTranslit=.ha
 31	"	"	PUNCT	SS	_	26	punct	_	SpaceAfter=No|Translit="|LTranslit="
 32	고	고	ADP	JKQ	_	26	case	_	Translit=.go|LTranslit=.go
 33	주문했다	주문+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.ju.mun.haess.da|LTranslit=.ju.mun+.ha+.ass+.da
@@ -11453,7 +11453,7 @@
 8	다	다	ADV	MAG	_	10	advmod	_	Translit=.da|LTranslit=.da
 9	때려	때리+어	VERB	VV+EC	_	10	advcl	_	Translit=.ddae.ryeo|LTranslit=.ddae.ri+.eo
 10	죽여야	죽이+어야	VERB	VV+EC	_	14	ccomp	_	Translit=.jug.yeo.ya|LTranslit=.jug.i+.eo.ya
-11	한다	하+ㄴ다	AUX	VX+EF	_	10	aux	_	SpaceAfter=No|Translit=.han.da|LTranslit=.ha+ㄴ.da
+11	한다	하	AUX	VX+EF	_	10	aux	_	OrigLemma=하+ㄴ다|SpaceAfter=No|Translit=.han.da|LTranslit=.ha
 12	''	''	PUNCT	SS	_	13	punct	_	SpaceAfter=No|Translit=''|LTranslit=''
 13	고	고	ADP	JKQ	_	11	case	_	Translit=.go|LTranslit=.go
 14	말했다고	말+하+았+다고	VERB	NNG+XSV+EP+EC	_	15	ccomp	_	Translit=.mal.haess.da.go|LTranslit=.mal+.ha+.ass+.da.go

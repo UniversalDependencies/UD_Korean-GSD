@@ -11104,7 +11104,7 @@
 15	더	더	ADV	MAG	_	17	advmod	_	Translit=.deo|LTranslit=.deo
 16	적극적으로	적극+적+으로	ADV	NNG+XSN+JKB	_	17	obl	_	Translit=.jeog.geug.jeog.eu.ro|LTranslit=.jeog.geug+.jeog+.eu.ro
 17	해줬으면	하+아+주+었+으면	VERB	VV+EC+VX+EP+EC	_	18	advcl	_	Translit=.hae.jweoss.eu.myeon|LTranslit=.ha+.a+.ju+.eoss+.eu.myeon
-18	한다	하+ㄴ다	AUX	VX+EC	_	21	aux	_	SpaceAfter=No|Translit=.han.da|LTranslit=.ha+ㄴ.da
+18	한다	하	AUX	VX+EC	_	21	aux	_	OrigLemma=하+ㄴ다|SpaceAfter=No|Translit=.han.da|LTranslit=.ha
 19	"	"	PUNCT	SS	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
 20	라고	라고	ADP	JKQ	_	18	case	_	Translit=.ra.go|LTranslit=.ra.go
 21	밝혔다	밝히+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.barg.hyeoss.da|LTranslit=.barg.hi+.eoss+.da
@@ -11215,7 +11215,7 @@
 19	기다려	기다리+어	VERB	VV+EC	_	21	advcl	_	Translit=.gi.da.ryeo|LTranslit=.gi.da.ri+.eo
 20	합의처리를	합의+처리+를	NOUN	NNG+NNG+JKO	_	21	obj	_	Translit=.hab.yi.cheo.ri.reul|LTranslit=.hab.yi+.cheo.ri+.reul
 21	해야	하+아야	VERB	VV+EC	_	26	ccomp	_	Translit=.hae.ya|LTranslit=.ha+.a.ya
-22	한다	하+ㄴ다	AUX	VX+EC	_	21	aux	_	SpaceAfter=No|Translit=.han.da|LTranslit=.ha+ㄴ.da
+22	한다	하	AUX	VX+EC	_	21	aux	_	OrigLemma=하+ㄴ다|SpaceAfter=No|Translit=.han.da|LTranslit=.ha
 23	"	"	PUNCT	SS	_	21	punct	_	SpaceAfter=No|Translit="|LTranslit="
 24	고	고	ADP	JKQ	_	21	case	_	Translit=.go|LTranslit=.go
 25	합의처리를	합의+처리+를	NOUN	NNG+NNG+JKO	_	26	obj	_	Translit=.hab.yi.cheo.ri.reul|LTranslit=.hab.yi+.cheo.ri+.reul
