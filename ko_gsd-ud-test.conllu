@@ -1738,7 +1738,7 @@
 22	체벌금지	체벌+금지	NOUN	NNG+NNG	_	24	obl	_	Translit=.che.beol.geum.ji|LTranslit=.che.beol+.geum.ji
 23	원칙에	원칙+에	ADV	NNG+JKB	_	22	flat	_	Translit=.weon.chig.e|LTranslit=.weon.chig+.e
 24	맞지	맞+지	VERB	VV+EC	_	18	conj	_	Translit=.maj.ji|LTranslit=.maj+.ji
-25	않는다	않+는다	AUX	VX+EC	_	24	aux	_	SpaceAfter=No|Translit=.anh.neun.da|LTranslit=.anh+.neun.da
+25	않는다	않	AUX	VX+EC	_	24	aux	_	OrigLemma=않+는다|SpaceAfter=No|Translit=.anh.neun.da|LTranslit=.anh
 26	"	"	PUNCT	SS	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
 27	고	고	ADP	JKQ	_	18	case	_	Translit=.go|LTranslit=.go
 28	말했다	말+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.mal.haess.da|LTranslit=.mal+.ha+.ass+.da

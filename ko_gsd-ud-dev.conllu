@@ -3032,7 +3032,7 @@
 15	해도	하+아도	VERB	VV+EC	_	17	advcl	_	Translit=.hae.do|LTranslit=.ha+.a.do
 16	신의칙에	신의칙+에	ADV	NNG+JKB	_	17	obl	_	Translit=.sin.yi.chig.e|LTranslit=.sin.yi.chig+.e
 17	반하지	반하+지	VERB	VV+EC	_	21	ccomp	_	Translit=.ban.ha.ji|LTranslit=.ban.ha+.ji
-18	않는다	않+는다	AUX	VX+EC	_	17	aux	_	SpaceAfter=No|Translit=.anh.neun.da|LTranslit=.anh+.neun.da
+18	않는다	않	AUX	VX+EC	_	17	aux	_	OrigLemma=않+는다|SpaceAfter=No|Translit=.anh.neun.da|LTranslit=.anh
 19	"	"	PUNCT	SS	_	17	punct	_	SpaceAfter=No|Translit="|LTranslit="
 20	고	고	ADP	JKQ	_	17	case	_	Translit=.go|LTranslit=.go
 21	밝혔다	밝히+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.barg.hyeoss.da|LTranslit=.barg.hi+.eoss+.da
@@ -4549,7 +4549,7 @@
 6	욕설을	욕설+을	NOUN	NNG+JKO	_	8	obj	_	Translit=.yog.seol.eul|LTranslit=.yog.seol+.eul
 7	전혀	전혀	ADV	MAG	_	8	advmod	_	Translit=.jeon.hyeo|LTranslit=.jeon.hyeo
 8	하지	하+지	VERB	VV+EC	_	12	acl:relcl	_	Translit=.ha.ji|LTranslit=.ha+.ji
-9	않는다	않+는다	AUX	VX+EC	_	8	aux	_	SpaceAfter=No|Translit=.anh.neun.da|LTranslit=.anh+.neun.da
+9	않는다	않	AUX	VX+EC	_	8	aux	_	OrigLemma=않+는다|SpaceAfter=No|Translit=.anh.neun.da|LTranslit=.anh
 10	"	"	PUNCT	SS	_	9	punct	_	SpaceAfter=No|Translit="|LTranslit="
 11	는	는	VERB	ETM	_	9	flat	_	Translit=.neun|LTranslit=.neun
 12	아이는	아이+는	NOUN	NNG+JX	_	16	nsubj	_	Translit=.a.i.neun|LTranslit=.a.i+.neun
