@@ -1597,7 +1597,7 @@
 26	유입이	유입+이	NOUN	NNG+JKS	_	28	nsubj	_	Translit=.yu.ib.i|LTranslit=.yu.ib+.i
 27	급격히	급격히	ADV	MAG	_	28	advmod	_	Translit=.geub.gyeog.hi|LTranslit=.geub.gyeog.hi
 28	늘고	늘+고	VERB	VV+EC	_	32	ccomp	_	Translit=.neul.go|LTranslit=.neul+.go
-29	있다	있+다	AUX	VX+EC	_	28	aux	_	SpaceAfter=No|Translit=.iss.da|LTranslit=.iss+.da
+29	있다	있	AUX	VX+EC	_	28	aux	_	OrigLemma=있+다|SpaceAfter=No|Translit=.iss.da|LTranslit=.iss
 30	"	"	PUNCT	SS	_	28	punct	_	SpaceAfter=No|Translit="|LTranslit="
 31	고	고	ADP	JKQ	_	28	case	_	Translit=.go|LTranslit=.go
 32	설명했다	설명+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.seol.myeong.haess.da|LTranslit=.seol.myeong+.ha+.ass+.da
@@ -2848,7 +2848,7 @@
 15	평화와	평화+와	NOUN	NNG+JC	_	17	nsubj	_	Translit=.pyeong.hwa.wa|LTranslit=.pyeong.hwa+.wa
 16	안정도	안정+도	NOUN	NNG+JX	_	15	conj	_	Translit=.an.jeong.do|LTranslit=.an.jeong+.do
 17	위협받고	위협+받+고	VERB	NNG+VV+EC	_	11	conj	_	Translit=.wi.hyeob.bad.go|LTranslit=.wi.hyeob+.bad+.go
-18	있다	있+다	AUX	VX+EC	_	11	aux	_	SpaceAfter=No|Translit=.iss.da|LTranslit=.iss+.da
+18	있다	있	AUX	VX+EC	_	11	aux	_	OrigLemma=있+다|SpaceAfter=No|Translit=.iss.da|LTranslit=.iss
 19	"	"	PUNCT	SS	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
 20	며	며	VERB	EC	_	18	flat	_	Translit=.myeo|LTranslit=.myeo
 21	"	"	PUNCT	SS	_	26	punct	_	SpaceAfter=No|Translit="|LTranslit="

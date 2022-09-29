@@ -6197,7 +6197,7 @@
 8	할지	하+ㄹ지	VERB	VX+EC	_	7	flat	_	Translit=.hal.ji|LTranslit=.ha+ㄹ.ji
 9	많이	많이	ADV	MAG	_	10	advmod	_	Translit=.manh.i|LTranslit=.manh.i
 10	고민하고	고민+하+고	VERB	NNG+XSV+EC	_	15	ccomp	_	Translit=.go.min.ha.go|LTranslit=.go.min+.ha+.go
-11	있다	있+다	AUX	VX+EC	_	10	aux	_	SpaceAfter=No|Translit=.iss.da|LTranslit=.iss+.da
+11	있다	있	AUX	VX+EC	_	10	aux	_	OrigLemma=있+다|SpaceAfter=No|Translit=.iss.da|LTranslit=.iss
 12	"	"	PUNCT	SS	_	10	punct	_	SpaceAfter=No|Translit="|LTranslit="
 13	고	고	ADP	JKQ	_	10	case	_	Translit=.go|LTranslit=.go
 14	짧게	짧+게	ADV	VA+EC	_	15	advmod	_	Translit=.jjarb.ge|LTranslit=.jjarb+.ge
