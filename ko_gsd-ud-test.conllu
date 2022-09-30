@@ -813,7 +813,7 @@
 29	그렇다고	그렇+다고	VERB	VA+EC	_	30	ccomp	_	Translit=.geu.reoh.da.go|LTranslit=.geu.reoh+.da.go
 30	말하기에는	말+하+기+에+는	ADV	NNG+XSV+ETN+JKB+JX	_	31	advmod	_	Translit=.mal.ha.gi.e.neun|LTranslit=.mal+.ha+.gi+.e+.neun
 31	이르다	이르+다	VERB	VV+EC	_	26	conj	_	SpaceAfter=No|Translit=.i.reu.da|LTranslit=.i.reu+.da
-32	"	"	PUNCT	SS	_	26	punct	_	SpaceAfter=No|Translit="|LTranslit="
+32	"	"	PUNCT	SS	_	31	punct	_	SpaceAfter=No|Translit="|LTranslit="
 33	고	고	ADP	JKQ	_	26	case	_	Translit=.go|LTranslit=.go
 34	밝혔다	밝히+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.barg.hyeoss.da|LTranslit=.barg.hi+.eoss+.da
 35	.	.	PUNCT	SF	_	34	punct	_	Translit=.|LTranslit=.
@@ -4757,7 +4757,7 @@
 9	연맹의	연맹+의	NOUN	NNG+JKG	_	8	flat	_	Translit=.yeon.maeng.yi|LTranslit=.yeon.maeng+.yi
 10	회원을	회원+을	NOUN	NNG+JKO	_	11	obj	_	Translit=.hoe.weon.eul|LTranslit=.hoe.weon+.eul
 11	중심으로	중심+으로	ADV	NNG+JKB	_	15	obl	_	Translit=.jung.sim.eu.ro|LTranslit=.jung.sim+.eu.ro
-12	《	《	PUNCT	SS	_	15	punct	_	SpaceAfter=No|Translit=《|LTranslit=《
+12	《	《	PUNCT	SS	_	13	punct	_	SpaceAfter=No|Translit=《|LTranslit=《
 13	신페인	신페인	PROPN	NNP	_	15	nsubj:pass	_	SpaceAfter=No|Translit=.sin.pe.in|LTranslit=.sin.pe.in
 14	:	:	PUNCT	SP	_	13	punct	_	SpaceAfter=No|Translit=:|LTranslit=:
 15	올드캐슬	올드캐슬	PROPN	NNG	_	0	root	_	Translit=.ol.deu.kae.seul|LTranslit=.ol.deu.kae.seul
@@ -8854,7 +8854,7 @@
 19	품고	품+고	VERB	VV+EC	_	25	ccomp	_	Translit=.pum.go|LTranslit=.pum+.go
 20	고소하게	고소+하+게	VERB	XR+XSA+EC	_	19	conj	_	Translit=.go.so.ha.ge|LTranslit=.go.so+.ha+.ge
 21	됐다	되+었+다	VERB	VV+EP+EF	_	19	flat	_	SpaceAfter=No|Translit=.dwaess.da|LTranslit=.doe+.eoss+.da
-22	"	"	PUNCT	SS	_	19	punct	_	SpaceAfter=No|Translit="|LTranslit="
+22	"	"	PUNCT	SS	_	20	punct	_	SpaceAfter=No|Translit="|LTranslit="
 23	는	는	ADP	JX	_	19	case	_	Translit=.neun|LTranslit=.neun
 24	자백을	자백+을	NOUN	NNG+JKO	_	25	obj	_	Translit=.ja.baeg.eul|LTranslit=.ja.baeg+.eul
 25	받아냈다	받+아+내+었+다	VERB	VV+EC+VX+EP+EF	_	5	conj	_	SpaceAfter=No|Translit=.bad.a.naess.da|LTranslit=.bad+.a+.nae+.eoss+.da
