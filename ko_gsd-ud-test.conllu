@@ -11097,16 +11097,16 @@
 8	뛰더라	뛰+더라	VERB	VV+EC	_	21	advcl	_	SpaceAfter=No|Translit=.ddwi.deo.ra|LTranslit=.ddwi+.deo.ra
 9	"	"	PUNCT	SS	_	8	punct	_	SpaceAfter=No|Translit="|LTranslit="
 10	라며	라며	VERB	EC	_	8	advcl	_	Translit=.ra.myeo|LTranslit=.ra.myeo
-11	"	"	PUNCT	SS	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
-12	그래도	그러+어도	VERB	VV+EC	_	18	advcl	_	Translit=.geu.rae.do|LTranslit=.geu.reo+.eo.do
-13	앞으로	앞+으로	ADV	NNG+JKB	_	18	obl	_	Translit=.ap.eu.ro|LTranslit=.ap+.eu.ro
+11	"	"	PUNCT	SS	_	12	punct	_	SpaceAfter=No|Translit="|LTranslit="
+12	그래도	그러+어도	VERB	VV+EC	_	21	advcl	_	Translit=.geu.rae.do|LTranslit=.geu.reo+.eo.do
+13	앞으로	앞+으로	ADV	NNG+JKB	_	21	obl	_	Translit=.ap.eu.ro|LTranslit=.ap+.eu.ro
 14	조금	조금	ADV	MAG	_	15	advmod	_	Translit=.jo.geum|LTranslit=.jo.geum
 15	더	더	ADV	MAG	_	17	advmod	_	Translit=.deo|LTranslit=.deo
 16	적극적으로	적극+적+으로	ADV	NNG+XSN+JKB	_	17	obl	_	Translit=.jeog.geug.jeog.eu.ro|LTranslit=.jeog.geug+.jeog+.eu.ro
-17	해줬으면	하+아+주+었+으면	VERB	VV+EC+VX+EP+EC	_	18	advcl	_	Translit=.hae.jweoss.eu.myeon|LTranslit=.ha+.a+.ju+.eoss+.eu.myeon
+17	해줬으면	하+아+주+었+으면	VERB	VV+EC+VX+EP+EC	_	21	advcl	_	Translit=.hae.jweoss.eu.myeon|LTranslit=.ha+.a+.ju+.eoss+.eu.myeon
 18	한다	하	AUX	VX+EC	_	21	aux	_	OrigLemma=하+ㄴ다|SpaceAfter=No|Translit=.han.da|LTranslit=.ha
 19	"	"	PUNCT	SS	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
-20	라고	라고	ADP	JKQ	_	18	case	_	Translit=.ra.go|LTranslit=.ra.go
+20	라고	라고	ADP	JKQ	_	21	case	_	Translit=.ra.go|LTranslit=.ra.go
 21	밝혔다	밝히+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.barg.hyeoss.da|LTranslit=.barg.hi+.eoss+.da
 22	.	.	PUNCT	SF	_	21	punct	_	Translit=.|LTranslit=.
 
