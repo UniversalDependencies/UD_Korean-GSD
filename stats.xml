@@ -10,15 +10,15 @@
     <dev><sentences>950</sentences><tokens>11958</tokens><words>11958</words><fused>0</fused></dev>
     <test><sentences>989</sentences><tokens>11677</tokens><words>11677</words><fused>0</fused></test>
   </size>
-  <lemmas unique="35865" /><!-- ., ,, ', (, ), ", 있+다, 수, 이, 있+는, %, 등, 그, 고, 좀 -->
+  <lemmas unique="35852" /><!-- ., ,, ', (, ), ", 있+다, 이, 수, 있+는, %, 등, 그, 고, 좀 -->
   <forms unique="35846" /><!-- ., ,, ', (, ), ", 있다, 수, 이, 있는, 한, %, 등, 그, 고 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">2760</tag><!-- 있+다, 다른, 많+은, 좋+아요, 크+ㄴ, 맛있+어요, 같+아요, 없+다, 가깝+ㄴ, 다양+하+ㄴ -->
-    <tag name="ADP">1794</tag><!-- 고, 의, 는, 중, 때문+에, 를, 을, 에, 로, 가 -->
-    <tag name="ADV">11361</tag><!-- 좀, 것+으로, 정말, 너무, 더, 또, 잘, 가장, 많이, 함께 -->
-    <tag name="AUX">74</tag><!-- 있+다, 하+ㄴ다, 않+는다, 하+았+다, 느끼+어+지+ㄴ다, 하+아+오+았+다, 기대+하+아+보+ㅁ직+하+다, 끝내+어+주+어요, 나가+겠+다, 말+하+아+보+아 -->
+    <tag name="ADP">1793</tag><!-- 고, 의, 는, 중, 때문+에, 를, 을, 에, 로, 가 -->
+    <tag name="ADV">11362</tag><!-- 좀, 것+으로, 정말, 너무, 더, 또, 잘, 가장, 많이, 함께 -->
+    <tag name="AUX">125</tag><!-- 이, 있, 하, 않, 싶 -->
     <tag name="CCONJ">223</tag><!-- 및, 또는, 그리고, 과, 와, 혹은, 물론, 겸, 그러나, 나 -->
     <tag name="DET">573</tag><!-- 이, 그, 몇, 모든, 각, 어떤, 어느, 이+들, 약, 무슨 -->
     <tag name="INTJ">3</tag><!-- 글쎄, 아차, 에이 -->
@@ -26,10 +26,10 @@
     <tag name="NUM">848</tag><!-- 한, 두, 첫, 10, 하+ㄴ, 1, 세, 50, 3, 30 -->
     <tag name="PART">31</tag><!-- 에서+는, 에+는, 라+는, 과+는, 과+도, 과+의, 로+는, 마저+를, 보다+도, 에+까지 -->
     <tag name="PRON">682</tag><!-- 그+는, 그+의, 우리, 이+를, 그, 이+는, 자신+의, 이, 여기, 제+가 -->
-    <tag name="PROPN">490</tag><!-- 미국, 경기, 서울, 한국+시간, 과천시, 광주, 네덜란드+의, 마이더스, 박근혜, 베트남전 -->
-    <tag name="PUNCT">10362</tag><!-- ., ,, ', (, ), ", %, ?, !, • -->
-    <tag name="SYM">328</tag><!-- ~, %, ㎞, ㎡, &, ^^, ㎢, 孫權, 淮南尹, 燕 -->
-    <tag name="VERB">18433</tag><!-- 있+다, 있+는, 위하+아, 대하+ㄴ, 가+는, 알리+어+주+어, 통하+아, 지나+ㄴ, 하+는, 하+았+다 -->
+    <tag name="PROPN">495</tag><!-- 미국, 경기, 서울, 한국+시간, 과천시, 광주, 네덜란드+의, 마이더스, 박근혜, 베트남전 -->
+    <tag name="PUNCT">10411</tag><!-- ., ,, ', (, ), ", %, ?, !, • -->
+    <tag name="SYM">275</tag><!-- %, ㎞, ㎡, ㎢, 孫權, 淮南尹, 燕, 科, 親, ? -->
+    <tag name="VERB">18381</tag><!-- 있+다, 있+는, 위하+아, 대하+ㄴ, 가+는, 알리+어+주+어, 통하+아, 지나+ㄴ, 하+는, 하+았+다 -->
     <tag name="X">13</tag><!-- ㅋ+ㅋ, ㅎ, ㅜ+ㅜ, F+1, Schools, in, ㅅ+ㅅ, ㅋ, ㅎ+ㅎ, ㅜ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -37,34 +37,39 @@
     <feat name="NumType" value="Card" upos="DET,NUM,PUNCT">549</feat><!-- 한, 두, 첫, 세, 하나, 1, ', 다섯, 하나는, 하나의 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="29">
-    <dep name="acl">4</dep>
+  <deps unique="34">
+    <dep name="acl">9</dep>
     <dep name="acl:relcl">3194</dep>
-    <dep name="advcl">4517</dep>
-    <dep name="advmod">8815</dep>
+    <dep name="advcl">4555</dep>
+    <dep name="advmod">6468</dep>
     <dep name="amod">1566</dep>
-    <dep name="appos">1530</dep>
-    <dep name="aux">64</dep>
-    <dep name="case">1632</dep>
+    <dep name="appos">1510</dep>
+    <dep name="aux">47</dep>
+    <dep name="case">1631</dep>
     <dep name="cc">223</dep>
     <dep name="ccomp">651</dep>
-    <dep name="conj">3864</dep>
-    <dep name="cop">102</dep>
+    <dep name="compound">7</dep>
+    <dep name="conj">3866</dep>
+    <dep name="cop">73</dep>
     <dep name="csubj">21</dep>
-    <dep name="dep">2437</dep>
+    <dep name="dep">2433</dep>
     <dep name="det">569</dep>
-    <dep name="det:poss">2507</dep>
+    <dep name="det:poss">180</dep>
+    <dep name="discourse">1</dep>
     <dep name="fixed">13</dep>
-    <dep name="flat">12247</dep>
+    <dep name="flat">12242</dep>
     <dep name="iobj">108</dep>
-    <dep name="mark">372</dep>
+    <dep name="list">1</dep>
+    <dep name="mark">86</dep>
     <dep name="nmod">1763</dep>
-    <dep name="nsubj">7774</dep>
+    <dep name="nmod:poss">2327</dep>
+    <dep name="nsubj">7773</dep>
     <dep name="nsubj:pass">516</dep>
-    <dep name="nummod">490</dep>
-    <dep name="obj">5801</dep>
-    <dep name="obl">2784</dep>
-    <dep name="punct">10418</dep>
+    <dep name="nummod">555</dep>
+    <dep name="obj">5800</dep>
+    <dep name="obl">5382</dep>
+    <dep name="parataxis">1</dep>
+    <dep name="punct">10411</dep>
     <dep name="root">6339</dep>
     <dep name="xcomp">1</dep>
   </deps>
