@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Korean-GSD:
-commit e12298b359c5f23544dab7e6310fc5f81c876a24
+commit 40592ebf1f41c396e6007ea33e2291ae4ac5eb69
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 11:43:06 2022 +0100
+Date:   Tue May 9 11:18:52 2023 +0200
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -55,6 +55,7 @@ Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
 [Line 215 Sent train-s13 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [4, 6] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 237 Sent train-s14 Node 18]: [L3 Syntax too-many-subjects] Multiple subjects [13, 17] not subtyped as ':outer'.
+[Line 669 Sent train-s41 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] '충칭 * 아니라'
 [Line 756 Sent train-s46 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [4, 6] not subtyped as ':outer'.
 [Line 830 Sent train-s51 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [6, 7] not subtyped as ':outer'.
 [Line 930 Sent train-s58 Node 13]: [L3 Syntax too-many-subjects] Multiple subjects [4, 12] not subtyped as ':outer'.
@@ -63,7 +64,10 @@ Exit code: 1
 [Line 3079 Sent train-s190 Node 14]: [L3 Syntax too-many-subjects] Multiple subjects [4, 13] not subtyped as ':outer'.
 [Line 3201 Sent train-s197 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 5] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
+[Line 31641 Sent train-s1865 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '전시 * 아니라'
+[Line 68690 Sent train-s4069 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '저 * 아니라'
 Syntax errors: 278
+Warnings: 3
 *** FAILED *** with 278 errors
 Exit code: 1
 Validity: 0.01
