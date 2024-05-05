@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Korean-GSD:
-commit 40592ebf1f41c396e6007ea33e2291ae4ac5eb69
+commit 72b7d90ca5239f42475a661efc1af60c86b97abd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 11:18:52 2023 +0200
+Date:   Mon Nov 6 12:32:36 2023 +0100
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      20795
-Udapi: found 20795 bugs.
+               TOTAL      20787
+Udapi: found 20787 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 80322 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-dev.conllu
@@ -34,6 +34,7 @@ Genres: found 2 out of 17 known.
 [Line 1516 Sent dev-s92 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [4, 6] not subtyped as ':outer'.
 [Line 2022 Sent dev-s123 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [5, 7] not subtyped as ':outer'.
 [Line 2060 Sent dev-s126 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [1, 15] not subtyped as ':outer'.
+[Line 2392 Sent dev-s142 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [4, 5] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 61
 *** FAILED *** with 61 errors
@@ -48,6 +49,7 @@ Exit code: 1
 [Line 742 Sent test-s40 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 5] not subtyped as ':outer'.
 [Line 810 Sent test-s43 Node 26]: [L3 Syntax too-many-subjects] Multiple subjects [23, 24] not subtyped as ':outer'.
 [Line 946 Sent test-s50 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
+[Line 1607 Sent test-s90 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [5, 6] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 63
 *** FAILED *** with 63 errors
@@ -63,6 +65,7 @@ Exit code: 1
 [Line 2288 Sent train-s144 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [14, 16] not subtyped as ':outer'.
 [Line 3079 Sent train-s190 Node 14]: [L3 Syntax too-many-subjects] Multiple subjects [4, 13] not subtyped as ':outer'.
 [Line 3201 Sent train-s197 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 5] not subtyped as ':outer'.
+[Line 4611 Sent train-s273 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 [Line 31641 Sent train-s1865 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '전시 * 아니라'
 [Line 68690 Sent train-s4069 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '저 * 아니라'
