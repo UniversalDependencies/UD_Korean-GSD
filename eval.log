@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Korean-GSD:
-commit 72b7d90ca5239f42475a661efc1af60c86b97abd
+commit a4535c1c7443a9a13cfdfdd675f9ae6620baf89a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:32:36 2023 +0100
+Date:   Sun May 5 12:57:41 2024 +0200
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -67,10 +67,11 @@ Exit code: 1
 [Line 3201 Sent train-s197 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 5] not subtyped as ':outer'.
 [Line 4611 Sent train-s273 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
+[Line 6337 Sent train-s384 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:이:det --> 2:앨범:obj)
 [Line 31641 Sent train-s1865 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '전시 * 아니라'
 [Line 68690 Sent train-s4069 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '저 * 아니라'
 Syntax errors: 278
-Warnings: 3
+Warnings: 4
 *** FAILED *** with 278 errors
 Exit code: 1
 Validity: 0.01
