@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Korean-GSD:
-commit a4535c1c7443a9a13cfdfdd675f9ae6620baf89a
+commit 48f527a10d6b737015be3969201a1d370b8622a3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:57:41 2024 +0200
+Date:   Mon Nov 11 16:05:51 2024 +0100
 Size: counted 80322 of 80322 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.77208711206363.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,10 +20,10 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      20787
-Udapi: found 20787 bugs.
+               TOTAL      20714
+Udapi: found 20714 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 80322 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-dev.conllu
 [Line 45 Sent dev-s3 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [1, 11] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 54 Sent dev-s4 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
@@ -36,7 +36,10 @@ Genres: found 2 out of 17 known.
 [Line 2060 Sent dev-s126 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [1, 15] not subtyped as ':outer'.
 [Line 2392 Sent dev-s142 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [4, 5] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
+[Line 6521 Sent dev-s393 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
+[Line 7221 Sent dev-s432 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression '1심과 같이' does not have the 'ExtPos' feature
 Syntax errors: 61
+Warnings: 2
 *** FAILED *** with 61 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
@@ -51,12 +54,15 @@ Exit code: 1
 [Line 946 Sent test-s50 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
 [Line 1607 Sent test-s90 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [5, 6] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
+[Line 3595 Sent test-s212 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
 Syntax errors: 63
+Warnings: 1
 *** FAILED *** with 63 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
 [Line 215 Sent train-s13 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [4, 6] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 237 Sent train-s14 Node 18]: [L3 Syntax too-many-subjects] Multiple subjects [13, 17] not subtyped as ':outer'.
+[Line 669 Sent train-s41 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression '충칭 아니라' does not have the 'ExtPos' feature
 [Line 669 Sent train-s41 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] '충칭 * 아니라'
 [Line 756 Sent train-s46 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [4, 6] not subtyped as ':outer'.
 [Line 830 Sent train-s51 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [6, 7] not subtyped as ':outer'.
@@ -67,22 +73,28 @@ Exit code: 1
 [Line 3201 Sent train-s197 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 5] not subtyped as ':outer'.
 [Line 4611 Sent train-s273 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
-[Line 6337 Sent train-s384 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:이:det --> 2:앨범:obj)
+[Line 5545 Sent train-s330 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression '불치병환자뿐만 아니라' does not have the 'ExtPos' feature
+[Line 30141 Sent train-s1770 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression '뿐 아니라' does not have the 'ExtPos' feature
+[Line 31149 Sent train-s1832 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
+[Line 31641 Sent train-s1865 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression '전시 아니라' does not have the 'ExtPos' feature
 [Line 31641 Sent train-s1865 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '전시 * 아니라'
-[Line 68690 Sent train-s4069 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '저 * 아니라'
-Syntax errors: 278
-Warnings: 4
-*** FAILED *** with 278 errors
+[Line 32205 Sent train-s1901 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
+[Line 58586 Sent train-s3442 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
+[Line 64737 Sent train-s3820 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression '하루 빨리' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Syntax errors: 279
+Warnings: 13
+*** FAILED *** with 279 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
 (weight=0.256410256410256) * (score{size}=0.634944837923978) = 0.162806368698456
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.374029718745335) * (availability=1) * (validity=0.01) = 0.00374029718745335
+(TOTAL score=0.373526953536688) * (availability=1) * (validity=0.01) = 0.00373526953536688
 STARS = 0
-UD_Korean-GSD	0.00374029718745335	0
+UD_Korean-GSD	0.00373526953536688	0
