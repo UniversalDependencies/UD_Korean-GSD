@@ -70,7 +70,7 @@
 # sent_id = test-s4
 # text = 위안화 절상 기대감은 중국으로 투기적 자본을 유인하는 강력한 동인이 되어 왔다.
 # translit = .wi.an.hwa .jeol.sang .gi.dae.gam.eun .jung.gug.eu.ro .tu.gi.jeog .ja.bon.eul .yu.in.ha.neun .gang.ryeog.han .dong.in.i .doe.eo .wass.da.
-1	위안화	위안+화	NOUN	NNG+XSN	_	10	nsubj	_	Translit=.wi.an.hwa|LTranslit=.wi.an+.hwa
+1	위안화	위안+화	NOUN	NNG+XSN	_	10	nsubj:outer	_	Translit=.wi.an.hwa|LTranslit=.wi.an+.hwa
 2	절상	절상	NOUN	NNG	_	1	flat	_	Translit=.jeol.sang|LTranslit=.jeol.sang
 3	기대감은	기대감+은	NOUN	NNG+JX	_	1	flat	_	Translit=.gi.dae.gam.eun|LTranslit=.gi.dae.gam+.eun
 4	중국으로	중국+으로	ADV	NNP+JKB	_	7	obl	_	Translit=.jung.gug.eu.ro|LTranslit=.jung.gug+.eu.ro
@@ -180,7 +180,7 @@
 # text = 서울에 커피전문점 뭐 있나
 # translit = .seo.ul.e .keo.pi.jeon.mun.jeom .mweo .iss.na
 1	서울에	서울+에	ADV	NNP+JKB	_	4	obl	_	Translit=.seo.ul.e|LTranslit=.seo.ul+.e
-2	커피전문점	커피+전문점	NOUN	NNG+NNG	_	4	nsubj	_	Translit=.keo.pi.jeon.mun.jeom|LTranslit=.keo.pi+.jeon.mun.jeom
+2	커피전문점	커피+전문점	NOUN	NNG+NNG	_	4	nsubj:outer	_	Translit=.keo.pi.jeon.mun.jeom|LTranslit=.keo.pi+.jeon.mun.jeom
 3	뭐	뭐	PRON	NP	_	4	nsubj	_	Translit=.mweo|LTranslit=.mweo
 4	있나	있+나	ADJ	VV+EC	_	0	root	_	Translit=.iss.na|LTranslit=.iss+.na
 
@@ -198,7 +198,7 @@
 9	재정	재정	NOUN	NNG	_	11	nsubj	_	Translit=.jae.jeong|LTranslit=.jae.jeong
 10	여력이	여력+이	NOUN	NNG+JKS	_	9	flat	_	Translit=.yeo.ryeog.i|LTranslit=.yeo.ryeog+.i
 11	떨어졌고	떨어지+었+고	VERB	VV+EP+EC	_	19	advcl	_	Translit=.ddeol.eo.jyeoss.go|LTranslit=.ddeol.eo.ji+.eoss+.go
-12	통화	통화	NOUN	NNG	_	17	nsubj	_	Translit=.tong.hwa|LTranslit=.tong.hwa
+12	통화	통화	NOUN	NNG	_	17	nsubj:outer	_	Translit=.tong.hwa|LTranslit=.tong.hwa
 13	정책	정책	NOUN	NNG	_	12	flat	_	Translit=.jeong.chaeg|LTranslit=.jeong.chaeg
 14	또한	또한	ADV	MAG	_	17	advmod	_	Translit=.ddo.han|LTranslit=.ddo.han
 15	약효가	약효+가	NOUN	NNG+JKS	_	17	nsubj	_	Translit=.yag.hyo.ga|LTranslit=.yag.hyo+.ga
@@ -526,7 +526,7 @@
 # text = 당시 일본 정교회는 아직 재정적으로 자립할 수 있는 상태가 아니라서 급여를 지불할 수 없게 된 많은 교직자들을 해고시킬 수밖에 없게 되어 교세는 쇠약해졌다.
 # translit = .dang.si .il.bon .jeong.gyo.hoe.neun .a.jig .jae.jeong.jeog.eu.ro .ja.rib.hal .su .iss.neun .sang.tae.ga .a.ni.ra.seo .geub.yeo.reul .ji.bul.hal .su .eobs.ge .doen .manh.eun .gyo.jig.ja.deul.eul .hae.go.si.kil .su.bagg.e .eobs.ge .doe.eo .gyo.se.neun .soe.yag.hae.jyeoss.da.
 1	당시	당시	ADV	NNG	_	10	advmod	_	Translit=.dang.si|LTranslit=.dang.si
-2	일본	일본	NOUN	NNP	_	10	nsubj	_	Translit=.il.bon|LTranslit=.il.bon
+2	일본	일본	NOUN	NNP	_	10	nsubj:outer	_	Translit=.il.bon|LTranslit=.il.bon
 3	정교회는	정교회+는	NOUN	NNG+JX	_	2	flat	_	Translit=.jeong.gyo.hoe.neun|LTranslit=.jeong.gyo.hoe+.neun
 4	아직	아직	ADV	MAG	_	10	advmod	_	Translit=.a.jig|LTranslit=.a.jig
 5	재정적으로	재정+적+으로	ADV	NNG+XSN+JKB	_	6	obl	_	Translit=.jae.jeong.jeog.eu.ro|LTranslit=.jae.jeong+.jeog+.eu.ro
@@ -575,7 +575,7 @@
 5	따르면	따르+면	VERB	VV+EC	_	18	advcl	_	Translit=.dda.reu.myeon|LTranslit=.dda.reu+.myeon
 6	OPEC	OPEC	NOUN	SL	_	8	nmod:poss	_	Translit=OPEC|LTranslit=OPEC
 7	회원국들의	회원국+들+의	NOUN	NNG+XSN+JKG	_	6	flat	_	Translit=.hoe.weon.gug.deul.yi|LTranslit=.hoe.weon.gug+.deul+.yi
-8	9월	9+월	NOUN	SN+NNB	_	18	nsubj	_	Translit=9.weol|LTranslit=9+.weol
+8	9월	9+월	NOUN	SN+NNB	_	18	nsubj:outer	_	Translit=9.weol|LTranslit=9+.weol
 9	총	총	NOUN	MM	_	8	obl	_	Translit=.chong|LTranslit=.chong
 10	원유	원유	NOUN	NNG	_	8	flat	_	Translit=.weon.yu|LTranslit=.weon.yu
 11	생산량은	생산량+은	NOUN	NNG+JX	_	8	flat	_	Translit=.saeng.san.ryang.eun|LTranslit=.saeng.san.ryang+.eun
@@ -628,7 +628,7 @@
 3	"	"	PUNCT	SS	_	21	punct	_	SpaceAfter=No|Translit="|LTranslit="
 4	만약	만약	ADV	MAG	_	9	advmod	_	Translit=.man.yag|LTranslit=.man.yag
 5	이	이	DET	MM	_	6	det	_	Translit=.i|LTranslit=.i
-6	서비스가	서비스+가	NOUN	NNG+JKS	_	9	nsubj	_	Translit=.seo.bi.seu.ga|LTranslit=.seo.bi.seu+.ga
+6	서비스가	서비스+가	NOUN	NNG+JKS	_	9	nsubj:outer	_	Translit=.seo.bi.seu.ga|LTranslit=.seo.bi.seu+.ga
 7	제대로	제대로	ADV	MAG	_	9	advmod	_	Translit=.je.dae.ro|LTranslit=.je.dae.ro
 8	정착만	정착+만	NOUN	NNG+JX	_	9	nsubj	_	Translit=.jeong.chag.man|LTranslit=.jeong.chag+.man
 9	된다면	되+ㄴ다면	VERB	VV+EC	_	21	advcl	_	Translit=.doen.da.myeon|LTranslit=.doe+ㄴ.da.myeon
@@ -736,7 +736,7 @@
 # translit = .go.gi.jib .chi.go.neun .ban.chan.do .yeo.reo .ga.ji .na.wa.yo.
 1	고기집	고기+집	NOUN	NNG+NNG	_	2	nsubj	_	Translit=.go.gi.jib|LTranslit=.go.gi+.jib
 2	치고는	치+고+는	VERB	VV+EC+JX	_	6	advcl	_	Translit=.chi.go.neun|LTranslit=.chi+.go+.neun
-3	반찬도	반찬+도	NOUN	NNG+JX	_	6	nsubj	_	Translit=.ban.chan.do|LTranslit=.ban.chan+.do
+3	반찬도	반찬+도	NOUN	NNG+JX	_	6	nsubj:outer	_	Translit=.ban.chan.do|LTranslit=.ban.chan+.do
 4	여러	여러	ADJ	MM	_	5	amod	_	Translit=.yeo.reo|LTranslit=.yeo.reo
 5	가지	가지	NOUN	NNB	_	6	nsubj	_	Translit=.ga.ji|LTranslit=.ga.ji
 6	나와요	나오+아요	VERB	VV+EF	_	0	root	_	SpaceAfter=No|Translit=.na.wa.yo|LTranslit=.na.o+.a.yo
@@ -804,7 +804,7 @@
 20	면서	면서	VERB	EC	_	18	advcl	_	Translit=.myeon.seo|LTranslit=.myeon.seo
 21	"	"	PUNCT	SS	_	26	punct	_	SpaceAfter=No|Translit="|LTranslit="
 22	하지만	하지만	CCONJ	MAJ	_	31	cc	_	Translit=.ha.ji.man|LTranslit=.ha.ji.man
-23	아시아는	아시아+는	NOUN	NNP+JX	_	26	nsubj	_	Translit=.a.si.a.neun|LTranslit=.a.si.a+.neun
+23	아시아는	아시아+는	NOUN	NNP+JX	_	26	nsubj:outer	_	Translit=.a.si.a.neun|LTranslit=.a.si.a+.neun
 24	21세기	21+세기	NOUN	SN+NNG	_	26	nsubj	_	Translit=21.se.gi|LTranslit=21+.se.gi
 25	잠재력은	잠재력+은	NOUN	NNG+JX	_	24	flat	_	Translit=.jam.jae.ryeog.eun|LTranslit=.jam.jae.ryeog+.eun
 26	높지만	높+지만	VERB	VA+EC	_	34	ccomp	_	Translit=.nop.ji.man|LTranslit=.nop+.ji.man
@@ -940,7 +940,7 @@
 # sent_id = test-s50
 # text = 강남사거리 지금 상황이 어때
 # translit = .gang.nam.sa.geo.ri .ji.geum .sang.hwang.i .eo.ddae
-1	강남사거리	강남+사거리	NOUN	NNP+NNG	_	4	nsubj	_	Translit=.gang.nam.sa.geo.ri|LTranslit=.gang.nam+.sa.geo.ri
+1	강남사거리	강남+사거리	NOUN	NNP+NNG	_	4	nsubj:outer	_	Translit=.gang.nam.sa.geo.ri|LTranslit=.gang.nam+.sa.geo.ri
 2	지금	지금	ADV	MAG	_	4	advmod	_	Translit=.ji.geum|LTranslit=.ji.geum
 3	상황이	상황+이	NOUN	NNG+JKS	_	4	nsubj	_	Translit=.sang.hwang.i|LTranslit=.sang.hwang+.i
 4	어때	어떻+어	ADJ	VA+EC	_	0	root	_	Translit=.eo.ddae|LTranslit=.eo.ddeoh+.eo
@@ -1602,7 +1602,7 @@
 2	직원들까지	직원+들+까지	ADV	NNG+XSN+JX	_	4	advmod	_	Translit=.jig.weon.deul.gga.ji|LTranslit=.jig.weon+.deul+.gga.ji
 3	늘	늘	ADV	MAG	_	4	advmod	_	Translit=.neul|LTranslit=.neul
 4	친절하고	친절+하+고	VERB	NNG+XSA+EC	_	0	root	_	Translit=.chin.jeol.ha.go|LTranslit=.chin.jeol+.ha+.go
-5	안주도	안주+도	NOUN	NNG+JX	_	7	nsubj	_	Translit=.an.ju.do|LTranslit=.an.ju+.do
+5	안주도	안주+도	NOUN	NNG+JX	_	7	nsubj:outer	_	Translit=.an.ju.do|LTranslit=.an.ju+.do
 6	실패작이	실패작+이	NOUN	NNG+JKS	_	7	nsubj	_	Translit=.sil.pae.jag.i|LTranslit=.sil.pae.jag+.i
 7	없었습니다	없+었+습니다	ADJ	VA+EP+EF	_	4	conj	_	SpaceAfter=No|Translit=.eobs.eoss.seub.ni.da|LTranslit=.eobs+.eoss+.seub.ni.da
 8	.	.	PUNCT	SF	_	7	punct	_	Translit=.|LTranslit=.
@@ -1700,7 +1700,7 @@
 # sent_id = test-s97
 # text = 환경 문제는 지금 4대강 사업의 최대 쟁점이 돼 있다.
 # translit = .hwan.gyeong .mun.je.neun .ji.geum 4.dae.gang .sa.eob.yi .choe.dae .jaeng.jeom.i .dwae .iss.da.
-1	환경	환경	NOUN	NNG	_	8	nsubj	_	Translit=.hwan.gyeong|LTranslit=.hwan.gyeong
+1	환경	환경	NOUN	NNG	_	8	nsubj:outer	_	Translit=.hwan.gyeong|LTranslit=.hwan.gyeong
 2	문제는	문제+는	NOUN	NNG+JX	_	1	flat	_	Translit=.mun.je.neun|LTranslit=.mun.je+.neun
 3	지금	지금	NOUN	MAG	_	8	nmod	_	Translit=.ji.geum|LTranslit=.ji.geum
 4	4대강	4+대강	NOUN	SN+NNG	_	6	nmod:poss	_	Translit=4.dae.gang|LTranslit=4+.dae.gang
@@ -1768,7 +1768,7 @@
 9	이전에	이전+에	ADV	NNG+JKB	_	10	obl	_	Translit=.i.jeon.e|LTranslit=.i.jeon+.e
 10	사용하던	사용+하+던	VERB	NNG+XSV+ETM	_	11	acl:relcl	_	Translit=.sa.yong.ha.deon|LTranslit=.sa.yong+.ha+.deon
 11	폰부터	폰+부터	ADV	NNP+JX	_	20	advmod	_	Translit=.pon.bu.teo|LTranslit=.pon+.bu.teo
-12	문자메시지는	문자+메시지+는	NOUN	NNG+NNG+JX	_	20	nsubj	_	Translit=.mun.ja.me.si.ji.neun|LTranslit=.mun.ja+.me.si.ji+.neun
+12	문자메시지는	문자+메시지+는	NOUN	NNG+NNG+JX	_	20	nsubj:outer	_	Translit=.mun.ja.me.si.ji.neun|LTranslit=.mun.ja+.me.si.ji+.neun
 13	전화번호	전화번호	NOUN	NNG	_	15	obl	_	Translit=.jeon.hwa.beon.ho|LTranslit=.jeon.hwa.beon.ho
 14	별로	별로	ADV	MAG	_	13	flat	_	Translit=.byeol.ro|LTranslit=.byeol.ro
 15	그룹핑하는	그룹+핑+하+는	VERB	NNG+MAG+XSA+ETM	_	17	acl:relcl	_	Translit=.geu.rub.ping.ha.neun|LTranslit=.geu.rub+.ping+.ha+.neun
@@ -1802,7 +1802,7 @@
 # translit = .eo.cha.pi .geu.reon .myeon.eun .dang.yeon.hi .i.gos.i .bu.jog.ha.gi .ddae.mun.i.da!
 1	어차피	어차피	ADV	MAG	_	6	advmod	_	Translit=.eo.cha.pi|LTranslit=.eo.cha.pi
 2	그런	그런	ADJ	MM	_	3	amod	_	Translit=.geu.reon|LTranslit=.geu.reon
-3	면은	면+은	NOUN	NNG+JX	_	6	nsubj	_	Translit=.myeon.eun|LTranslit=.myeon+.eun
+3	면은	면+은	NOUN	NNG+JX	_	6	nsubj:outer	_	Translit=.myeon.eun|LTranslit=.myeon+.eun
 4	당연히	당연히	ADV	MAG	_	6	advmod	_	Translit=.dang.yeon.hi|LTranslit=.dang.yeon.hi
 5	이곳이	이곳+이	PRON	NP+JKS	_	6	nsubj	_	Translit=.i.gos.i|LTranslit=.i.gos+.i
 6	부족하기	부족+하+기	NOUN	NNG+XSA+ETN	_	0	root	_	Translit=.bu.jog.ha.gi|LTranslit=.bu.jog+.ha+.gi
@@ -1862,7 +1862,7 @@
 3	다시	다시	ADV	MAG	_	4	advmod	_	Translit=.da.si|LTranslit=.da.si
 4	꽃피게	꽃피+게	VERB	VV+EC	_	6	dep	_	Translit=.ggoch.pi.ge|LTranslit=.ggoch.pi+.ge
 5	되는	되+는	VERB	VV+ETM	_	4	flat	_	Translit=.doe.neun|LTranslit=.doe+.neun
-6	것은	것+은	NOUN	NNB+JX	_	8	nsubj	_	Translit=.geos.eun|LTranslit=.geos+.eun
+6	것은	것+은	NOUN	NNB+JX	_	8	nsubj:outer	_	Translit=.geos.eun|LTranslit=.geos+.eun
 7	15세기가	15+세기+가	NOUN	SN+NNG+JKS	_	8	nsubj	_	Translit=15.se.gi.ga|LTranslit=15+.se.gi+.ga
 8	되어서였다	되+어서+이+었+다	ADJ	VV+EC+VCP+EP+EF	_	0	root	_	SpaceAfter=No|Translit=.doe.eo.seo.yeoss.da|LTranslit=.doe+.eo.seo+.i+.eoss+.da
 9	.	.	PUNCT	SF	_	8	punct	_	Translit=.|LTranslit=.
@@ -2109,7 +2109,7 @@
 3	대시세	대+시세	NOUN	XPN+NNG	_	5	obl	_	Translit=.dae.si.se|LTranslit=.dae+.si.se
 4	분출주로	분출+주로	ADV	NNG+MAG	_	3	flat	_	Translit=.bun.chul.ju.ro|LTranslit=.bun.chul+.ju.ro
 5	분류되는	분류+되+는	VERB	NNG+XSV+ETM	_	6	dep	_	Translit=.bun.ryu.doe.neun|LTranslit=.bun.ryu+.doe+.neun
-6	까닭은	까닭+은	NOUN	NNG+JX	_	16	nsubj	_	Translit=.gga.darg.eun|LTranslit=.gga.darg+.eun
+6	까닭은	까닭+은	NOUN	NNG+JX	_	16	nsubj:outer	_	Translit=.gga.darg.eun|LTranslit=.gga.darg+.eun
 7	파격적인	파격+적+이+ㄴ	ADJ	NNG+XSN+VCP+ETM	_	8	amod	_	Translit=.pa.gyeog.jeog.in|LTranslit=.pa.gyeog+.jeog+.i+ㄴ
 8	실적	실적	NOUN	NNG	_	10	nsubj	_	Translit=.sil.jeog|LTranslit=.sil.jeog
 9	뿐	뿐	ADV	JX	_	8	dep	_	Translit=.bbun|LTranslit=.bbun
@@ -2584,7 +2584,7 @@
 # sent_id = test-s156
 # text = 서울시장과 구청장은 선호의 동조화 경향이 뚜렷하다.
 # translit = .seo.ul.si.jang.gwa .gu.cheong.jang.eun .seon.ho.yi .dong.jo.hwa .gyeong.hyang.i .ddu.ryeos.ha.da.
-1	서울시장과	서울시장+과	NOUN	NNG+JC	_	6	nsubj	_	Translit=.seo.ul.si.jang.gwa|LTranslit=.seo.ul.si.jang+.gwa
+1	서울시장과	서울시장+과	NOUN	NNG+JC	_	6	nsubj:outer	_	Translit=.seo.ul.si.jang.gwa|LTranslit=.seo.ul.si.jang+.gwa
 2	구청장은	구청장+은	NOUN	NNG+JX	_	1	conj	_	Translit=.gu.cheong.jang.eun|LTranslit=.gu.cheong.jang+.eun
 3	선호의	선호+의	NOUN	NNG+JKG	_	6	nsubj	_	Translit=.seon.ho.yi|LTranslit=.seon.ho+.yi
 4	동조화	동조+화	NOUN	NNG+XSN	_	3	flat	_	Translit=.dong.jo.hwa|LTranslit=.dong.jo+.hwa
@@ -2645,7 +2645,7 @@
 # translit = .sil.je 2004.nyeon 40.dae .yeo.haeng.gaeg.eun 198.man6780.myeong.eu.ro 20.dae 149.man654.myeong.bo.da .yag 50.man.myeong.i .manh.ass.da.
 1	실제	실제	ADV	NNG	_	10	advmod	_	Translit=.sil.je|LTranslit=.sil.je
 2	2004년	2004+년	NOUN	SN+NNB	_	10	nmod	_	Translit=2004.nyeon|LTranslit=2004+.nyeon
-3	40대	40+대	NOUN	SN+NNB	_	10	nsubj	_	Translit=40.dae|LTranslit=40+.dae
+3	40대	40+대	NOUN	SN+NNB	_	10	nsubj:outer	_	Translit=40.dae|LTranslit=40+.dae
 4	여행객은	여행객+은	NOUN	NNG+JX	_	3	flat	_	Translit=.yeo.haeng.gaeg.eun|LTranslit=.yeo.haeng.gaeg+.eun
 5	198만6780명으로	198+만+6780+명+으로	ADV	SN+NR+SN+NNB+JKB	_	10	obl	_	Translit=198.man6780.myeong.eu.ro|LTranslit=198+.man+6780+.myeong+.eu.ro
 6	20대	20+대	NOUN	SN+NNB	_	10	obl	_	Translit=20.dae|LTranslit=20+.dae
@@ -2659,7 +2659,7 @@
 # text = 연초부터 중동•북아프리카 사태가 터지면서 유가가 폭등했고, 3월에는 일본에서 대지진이 발생, 세계 경제가 큰 타격을 받으면서부터다.
 # translit = .yeon.cho.bu.teo .jung.dong•.bug.a.peu.ri.ka .sa.tae.ga .teo.ji.myeon.seo .yu.ga.ga .pog.deung.haess.go, 3.weol.e.neun .il.bon.e.seo .dae.ji.jin.i .bal.saeng, .se.gye .gyeong.je.ga .keun .ta.gyeog.eul .bad.eu.myeon.seo.bu.teo.da.
 1	연초부터	연초+부터	ADV	NNG+JX	_	6	advmod	_	Translit=.yeon.cho.bu.teo|LTranslit=.yeon.cho+.bu.teo
-2	중동	중동	PROPN	NNP	_	6	nsubj	_	SpaceAfter=No|Translit=.jung.dong|LTranslit=.jung.dong
+2	중동	중동	PROPN	NNP	_	6	nsubj:outer	_	SpaceAfter=No|Translit=.jung.dong|LTranslit=.jung.dong
 3	•	•	PUNCT	SS	_	2	punct	_	SpaceAfter=No|Translit=•|LTranslit=•
 4	북아프리카	북아프리카	PROPN	NNP	_	6	nsubj	_	Translit=.bug.a.peu.ri.ka|LTranslit=.bug.a.peu.ri.ka
 5	사태가	사태+가	NOUN	NNG+JKS	_	2	flat	_	Translit=.sa.tae.ga|LTranslit=.sa.tae+.ga
@@ -2749,7 +2749,7 @@
 1	수족관	수족관	NOUN	NNG	_	2	nsubj	_	Translit=.su.jog.gwan|LTranslit=.su.jog.gwan
 2	깨끗하고	깨끗+하+고	VERB	XR+XSA+EC	_	7	advcl	_	Translit=.ggae.ggeus.ha.go|LTranslit=.ggae.ggeus+.ha+.go
 3	장어도	장어+도	NOUN	NNG+JX	_	5	nsubj	_	Translit=.jang.eo.do|LTranslit=.jang.eo+.do
-4	맛은	맛+은	NOUN	NNG+JX	_	5	nsubj	_	Translit=.mas.eun|LTranslit=.mas+.eun
+4	맛은	맛+은	NOUN	NNG+JX	_	5	nsubj:outer	_	Translit=.mas.eun|LTranslit=.mas+.eun
 5	있는데	있+는데	VERB	VV+EC	_	2	conj	_	Translit=.iss.neun.de|LTranslit=.iss+.neun.de
 6	시설이	시설+이	NOUN	NNG+JKS	_	7	nsubj	_	Translit=.si.seol.i|LTranslit=.si.seol+.i
 7	비위생적입니다	비+위생+적+이+ㅂ니다	ADJ	XPN+NNG+XSN+VCP+EF	_	0	root	_	SpaceAfter=No|Translit=.bi.wi.saeng.jeog.ib.ni.da|LTranslit=.bi+.wi.saeng+.jeog+.i+ㅂ.ni.da
@@ -2909,7 +2909,7 @@
 7	느끼는	느끼+는	VERB	VV+ETM	_	8	acl:relcl	_	Translit=.neu.ggi.neun|LTranslit=.neu.ggi+.neun
 8	사람이	사람+이	NOUN	NNG+JKS	_	9	nsubj	_	Translit=.sa.ram.i|LTranslit=.sa.ram+.i
 9	상당수이며	상당수+이+며	VERB	NNG+VCP+EC	_	0	root	_	Translit=.sang.dang.su.i.myeo|LTranslit=.sang.dang.su+.i+.myeo
-10	이것은	이것+은	PRON	NP+JX	_	13	nsubj	_	Translit=.i.geos.eun|LTranslit=.i.geos+.eun
+10	이것은	이것+은	PRON	NP+JX	_	13	nsubj:outer	_	Translit=.i.geos.eun|LTranslit=.i.geos+.eun
 11	올바른	올바르+ㄴ	ADJ	VA+ETM	_	12	amod	_	Translit=.ol.ba.reun|LTranslit=.ol.ba.reu+ㄴ
 12	성의식이	성의식+이	NOUN	NNG+JKS	_	13	nsubj	_	Translit=.seong.yi.sig.i|LTranslit=.seong.yi.sig+.i
 13	확립되지	확립+되+지	VERB	NNG+XSV+EC	_	16	ccomp	_	Translit=.hwag.rib.doe.ji|LTranslit=.hwag.rib+.doe+.ji
@@ -3140,7 +3140,7 @@
 # text = 어느새 당신도 단골이 되어 있을 겁니다!
 # translit = .eo.neu.sae .dang.sin.do .dan.gol.i .doe.eo .iss.eul .geob.ni.da!
 1	어느새	어느새	ADV	MAG	_	4	advmod	_	Translit=.eo.neu.sae|LTranslit=.eo.neu.sae
-2	당신도	당신+도	PRON	NP+JX	_	4	nsubj	_	Translit=.dang.sin.do|LTranslit=.dang.sin+.do
+2	당신도	당신+도	PRON	NP+JX	_	4	nsubj:outer	_	Translit=.dang.sin.do|LTranslit=.dang.sin+.do
 3	단골이	단골+이	NOUN	NNG+JKC	_	4	nsubj	_	Translit=.dan.gol.i|LTranslit=.dan.gol+.i
 4	되어	되+어	VERB	VV+EC	_	6	dep	_	Translit=.doe.eo|LTranslit=.doe+.eo
 5	있을	있+을	VERB	VX+ETM	_	4	flat	_	Translit=.iss.eul|LTranslit=.iss+.eul
@@ -3233,7 +3233,7 @@
 15	미국	미국	NOUN	NNP	_	17	nmod:poss	_	Translit=.mi.gug|LTranslit=.mi.gug
 16	감리교회의	감리교회+의	NOUN	NNG+JKG	_	15	flat	_	Translit=.gam.ri.gyo.hoe.yi|LTranslit=.gam.ri.gyo.hoe+.yi
 17	선교사로	선교사+로	ADV	NNG+JKB	_	19	obl	_	Translit=.seon.gyo.sa.ro|LTranslit=.seon.gyo.sa+.ro
-18	한국이름은	한국+이름+은	NOUN	NNP+NNG+JX	_	19	nsubj	_	Translit=.han.gug.i.reum.eun|LTranslit=.han.gug+.i.reum+.eun
+18	한국이름은	한국+이름+은	NOUN	NNP+NNG+JX	_	19	nsubj:outer	_	Translit=.han.gug.i.reum.eun|LTranslit=.han.gug+.i.reum+.eun
 19	사애리시	사애리시	NOUN	NNG	_	0	root	_	SpaceAfter=No|Translit=.sa.ae.ri.si|LTranslit=.sa.ae.ri.si
 20	(	(	PUNCT	SS	_	21	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 21	史愛理施	史愛理施	SYM	SH	_	19	appos	_	SpaceAfter=No|Translit=shǐ'àilǐshī|LTranslit=shǐ'àilǐshī
@@ -3380,7 +3380,7 @@
 3	청장은	청장+은	NOUN	NNG+JX	_	2	flat	_	Translit=.cheong.jang.eun|LTranslit=.cheong.jang+.eun
 4	"	"	PUNCT	SS	_	24	punct	_	SpaceAfter=No|Translit="|LTranslit="
 5	바다에서의	바다+에서+의	NOUN	NNG+JKB+JKG	_	6	dep	_	Translit=.ba.da.e.seo.yi|LTranslit=.ba.da+.e.seo+.yi
-6	각종	각종	NOUN	NNG	_	9	nsubj	_	Translit=.gag.jong|LTranslit=.gag.jong
+6	각종	각종	NOUN	NNG	_	9	nsubj:outer	_	Translit=.gag.jong|LTranslit=.gag.jong
 7	사고는	사고+는	NOUN	NNG+JX	_	6	flat	_	Translit=.sa.go.neun|LTranslit=.sa.go+.neun
 8	예고가	예고+가	NOUN	NNG+JKS	_	9	nsubj	_	Translit=.ye.go.ga|LTranslit=.ye.go+.ga
 9	없기	없+기	NOUN	VA+ETN	_	13	nmod	_	Translit=.eobs.gi|LTranslit=.eobs+.gi
@@ -3445,7 +3445,7 @@
 # sent_id = test-s206
 # text = 아이패드2 출시가 실적 개선의 신호탄이 될 것으로 보이며 최근 발매된 "아이패드2의 초기물량 매진사태"로 범핑수요가 대폭 증가해 실적 성장을 이끌 것이다.
 # translit = .a.i.pae.deu2 .chul.si.ga .sil.jeog .gae.seon.yi .sin.ho.tan.i .doel .geos.eu.ro .bo.i.myeo .choe.geun .bal.mae.doen ".a.i.pae.deu2.yi .cho.gi.mul.ryang .mae.jin.sa.tae".ro .beom.ping.su.yo.ga .dae.pog .jeung.ga.hae .sil.jeog .seong.jang.eul .i.ggeul .geos.i.da.
-1	아이패드2	아이패드+2	NOUN	NNG+SN	_	6	nsubj	_	Translit=.a.i.pae.deu2|LTranslit=.a.i.pae.deu+2
+1	아이패드2	아이패드+2	NOUN	NNG+SN	_	6	nsubj:outer	_	Translit=.a.i.pae.deu2|LTranslit=.a.i.pae.deu+2
 2	출시가	출시+가	NOUN	NNG+JKS	_	1	flat	_	Translit=.chul.si.ga|LTranslit=.chul.si+.ga
 3	실적	실적	NOUN	NNG	_	5	nmod:poss	_	Translit=.sil.jeog|LTranslit=.sil.jeog
 4	개선의	개선+의	NOUN	NNG+JKG	_	3	flat	_	Translit=.gae.seon.yi|LTranslit=.gae.seon+.yi
@@ -3719,7 +3719,7 @@
 6	직접	직접	ADV	MAG	_	7	advmod	_	Translit=.jig.jeob|LTranslit=.jig.jeob
 7	만든	만들+ㄴ	VERB	VV+ETM	_	9	acl:relcl	_	Translit=.man.deun|LTranslit=.man.deul+ㄴ
 8	이	이	DET	MM	_	9	det	_	Translit=.i|LTranslit=.i
-9	도자기들은	도자기+들+은	NOUN	NNG+XSN+JX	_	17	nsubj:pass	_	Translit=.do.ja.gi.deul.eun|LTranslit=.do.ja.gi+.deul+.eun
+9	도자기들은	도자기+들+은	NOUN	NNG+XSN+JX	_	17	nsubj:outer	_	Translit=.do.ja.gi.deul.eun|LTranslit=.do.ja.gi+.deul+.eun
 10	시가가	시가+가	NOUN	NNG+JKS	_	17	nsubj:pass	_	Translit=.si.ga.ga|LTranslit=.si.ga+.ga
 11	흰색	흰색	NOUN	NNG	_	12	nsubj	_	Translit=.hyin.saeg|LTranslit=.hyin.saeg
 12	2000만원	2000+만+원	NOUN	SN+NR+NNB	_	17	obl	_	SpaceAfter=No|Translit=2000.man.weon|LTranslit=2000+.man+.weon
@@ -3974,7 +3974,7 @@
 1	사람이	사람+이	NOUN	NNG+JKS	_	2	nsubj	_	Translit=.sa.ram.i|LTranslit=.sa.ram+.i
 2	없는	없+는	VERB	VA+ETM	_	3	acl:relcl	_	Translit=.eobs.neun|LTranslit=.eobs+.neun
 3	곳이라	곳+이+라	VERB	NNG+VCP+EC	_	8	advcl	_	Translit=.gos.i.ra|LTranslit=.gos+.i+.ra
-4	스피커도	스피커+도	NOUN	NNG+JX	_	8	nsubj	_	Translit=.seu.pi.keo.do|LTranslit=.seu.pi.keo+.do
+4	스피커도	스피커+도	NOUN	NNG+JX	_	8	nsubj:outer	_	Translit=.seu.pi.keo.do|LTranslit=.seu.pi.keo+.do
 5	고음에서	고음+에서	ADV	NNG+JKB	_	8	advmod	_	Translit=.go.eum.e.seo|LTranslit=.go.eum+.e.seo
 6	찢어지는	찢어지+는	VERB	VV+ETM	_	7	acl:relcl	_	Translit=.jjij.eo.ji.neun|LTranslit=.jjij.eo.ji+.neun
 7	소리	소리	NOUN	NNG	_	8	nsubj	_	Translit=.so.ri|LTranslit=.so.ri
@@ -4003,7 +4003,7 @@
 2	8~9cm	8~9+cm	NOUN	SN+SL	_	11	obl	_	Translit=8~9cm|LTranslit=8~9+cm
 3	길이로	길이+로	ADV	NNG+JKB	_	2	flat	_	Translit=.gil.i.ro|LTranslit=.gil.i+.ro
 4	두	두	NUM	MM	NumType=Card	5	nummod	_	Translit=.du|LTranslit=.du
-5	개가	개+가	NOUN	NNB+JKS	_	8	nsubj	_	Translit=.gae.ga|LTranslit=.gae+.ga
+5	개가	개+가	NOUN	NNB+JKS	_	8	nsubj:outer	_	Translit=.gae.ga|LTranslit=.gae+.ga
 6	한	한	NUM	MM	NumType=Card	7	nummod	_	Translit=.han|LTranslit=.han
 7	묶음이	묶음+이	NOUN	NNG+JKS	_	8	nsubj	_	Translit=.mugg.eum.i|LTranslit=.mugg.eum+.i
 8	되어	되+어	VERB	VV+EC	_	11	advcl	_	Translit=.doe.eo|LTranslit=.doe+.eo
@@ -4133,7 +4133,7 @@
 14	쉬워질	쉽+어+지+ㄹ	VERB	VA+EC+VX+ETM	_	15	dep	_	Translit=.swi.weo.jil|LTranslit=.swib+.eo+.ji+ㄹ
 15	것이고	것+이+고	VERB	NNB+VCP+EC	_	0	root	_	SpaceAfter=No|Translit=.geos.i.go|LTranslit=.geos+.i+.go
 16	,	,	PUNCT	SP	_	26	punct	_	Translit=,|LTranslit=,
-17	국내시장	국내+시장	NOUN	NNG+NNG	_	25	nsubj	_	Translit=.gug.nae.si.jang|LTranslit=.gug.nae+.si.jang
+17	국내시장	국내+시장	NOUN	NNG+NNG	_	25	nsubj:outer	_	Translit=.gug.nae.si.jang|LTranslit=.gug.nae+.si.jang
 18	역시	역시	ADV	MAG	_	25	advmod	_	Translit=.yeog.si|LTranslit=.yeog.si
 19	얼마든지	얼마+이+든지	ADV	NNG+VCP+EC	_	25	advmod	_	Translit=.eol.ma.deun.ji|LTranslit=.eol.ma+.i+.deun.ji
 20	수성	수성	NOUN	NNG	_	25	nsubj	_	SpaceAfter=No|Translit=.su.seong|LTranslit=.su.seong
@@ -4514,7 +4514,7 @@
 # sent_id = test-s262
 # text = 메뉴는 매운 맛부터 뼈 없는 닭까지 취향대로 골라먹을 수 있다.
 # translit = .me.nyu.neun .mae.un .mas.bu.teo .bbyeo .eobs.neun .darg.gga.ji .chwi.hyang.dae.ro .gol.ra.meog.eul .su .iss.da.
-1	메뉴는	메뉴+는	NOUN	NNG+JX	_	10	nsubj	_	Translit=.me.nyu.neun|LTranslit=.me.nyu+.neun
+1	메뉴는	메뉴+는	NOUN	NNG+JX	_	10	nsubj:outer	_	Translit=.me.nyu.neun|LTranslit=.me.nyu+.neun
 2	매운	맵+ㄴ	ADJ	VA+ETM	_	3	amod	_	Translit=.mae.un|LTranslit=.maeb+ㄴ
 3	맛부터	맛+부터	ADV	NNG+JX	_	8	advmod	_	Translit=.mas.bu.teo|LTranslit=.mas+.bu.teo
 4	뼈	뼈	NOUN	NNG	_	5	nsubj	_	Translit=.bbyeo|LTranslit=.bbyeo
@@ -4609,7 +4609,7 @@
 1	또한	또한	ADV	MAG	_	7	advmod	_	Translit=.ddo.han|LTranslit=.ddo.han
 2	길고	길+고	VERB	VA+EC	_	4	amod	_	Translit=.gil.go|LTranslit=.gil+.go
 3	두꺼운	두껍+ㄴ	ADJ	VA+ETM	_	2	conj	_	Translit=.du.ggeo.un|LTranslit=.du.ggeob+ㄴ
-4	발톱도	발톱+도	NOUN	NNG+JX	_	7	nsubj	_	Translit=.bal.tob.do|LTranslit=.bal.tob+.do
+4	발톱도	발톱+도	NOUN	NNG+JX	_	7	nsubj:outer	_	Translit=.bal.tob.do|LTranslit=.bal.tob+.do
 5	위험한	위험+하+ㄴ	ADJ	NNG+XSA+ETM	_	6	amod	_	Translit=.wi.heom.han|LTranslit=.wi.heom+.ha+ㄴ
 6	무기가	무기+가	NOUN	NNG+JKC	_	7	nsubj	_	Translit=.mu.gi.ga|LTranslit=.mu.gi+.ga
 7	된다	되+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No|Translit=.doen.da|LTranslit=.doe+ㄴ.da
@@ -4629,7 +4629,7 @@
 # sent_id = test-s268
 # text = 중국도 유로화 가치 급락으로 유로존 수출시장이 위축되거나 세계경제 회복이 지연되길 바라지 않기 때문이다.
 # translit = .jung.gug.do .yu.ro.hwa .ga.chi .geub.rag.eu.ro .yu.ro.jon .su.chul.si.jang.i .wi.chug.doe.geo.na .se.gye.gyeong.je .hoe.bog.i .ji.yeon.doe.gil .ba.ra.ji .anh.gi .ddae.mun.i.da.
-1	중국도	중국+도	NOUN	NNP+JX	_	13	nsubj	_	Translit=.jung.gug.do|LTranslit=.jung.gug+.do
+1	중국도	중국+도	NOUN	NNP+JX	_	13	nsubj:outer	_	Translit=.jung.gug.do|LTranslit=.jung.gug+.do
 2	유로화	유로화	NOUN	NNG	_	10	obl	_	Translit=.yu.ro.hwa|LTranslit=.yu.ro.hwa
 3	가치	가치	NOUN	NNG	_	2	flat	_	Translit=.ga.chi|LTranslit=.ga.chi
 4	급락으로	급락+으로	ADV	NNG+JKB	_	2	flat	_	Translit=.geub.rag.eu.ro|LTranslit=.geub.rag+.eu.ro
@@ -4693,7 +4693,7 @@
 # sent_id = test-s271
 # text = 콩국수도 직접 갈은 콩과 직접 뽑은 국수도 일품입니다~
 # translit = .kong.gug.su.do .jig.jeob .gal.eun .kong.gwa .jig.jeob .bbob.eun .gug.su.do .il.pum.ib.ni.da~
-1	콩국수도	콩국수+도	NOUN	NNG+JX	_	8	nsubj	_	Translit=.kong.gug.su.do|LTranslit=.kong.gug.su+.do
+1	콩국수도	콩국수+도	NOUN	NNG+JX	_	8	nsubj:outer	_	Translit=.kong.gug.su.do|LTranslit=.kong.gug.su+.do
 2	직접	직접	ADV	MAG	_	3	advmod	_	Translit=.jig.jeob|LTranslit=.jig.jeob
 3	갈은	갈+은	VERB	VV+ETM	_	4	acl:relcl	_	Translit=.gal.eun|LTranslit=.gal+.eun
 4	콩과	콩+과	NOUN	NNG+JKB	_	8	nsubj	_	Translit=.kong.gwa|LTranslit=.kong+.gwa
@@ -5262,7 +5262,7 @@
 # sent_id = test-s309
 # text = 일 하나는 똑소리 나데요
 # translit = .il .ha.na.neun .ddog.so.ri .na.de.yo
-1	일	일	NOUN	NNG	_	4	nsubj	_	Translit=.il|LTranslit=.il
+1	일	일	NOUN	NNG	_	4	nsubj:outer	_	Translit=.il|LTranslit=.il
 2	하나는	하나+는	NUM	NR+JX	NumType=Card	1	flat	_	Translit=.ha.na.neun|LTranslit=.ha.na+.neun
 3	똑소리	똑소리	NOUN	NNG	_	4	nsubj	_	Translit=.ddog.so.ri|LTranslit=.ddog.so.ri
 4	나데요	나데요	VERB	NNP	_	0	root	_	Translit=.na.de.yo|LTranslit=.na.de.yo
@@ -5307,7 +5307,7 @@
 # sent_id = test-s314
 # text = 북측 조선적십자회는 지난 10일 통지문을 통해 '추석 계기 금강산 이산가족 상봉'을 제안하면서 "이상의 문제를 협의하기 위해 가능한 한 빠른 시일 내에 북남적십자관계자들의 실무접촉을 가질 것을 제의한다"고 밝힌 바 있다.
 # translit = .bug.cheug .jo.seon.jeog.sib.ja.hoe.neun .ji.nan 10.il .tong.ji.mun.eul .tong.hae '.chu.seog .gye.gi .geum.gang.san .i.san.ga.jog .sang.bong'.eul .je.an.ha.myeon.seo ".i.sang.yi .mun.je.reul .hyeob.yi.ha.gi .wi.hae .ga.neung.han .han .bba.reun .si.il .nae.e .bug.nam.jeog.sib.ja.gwan.gye.ja.deul.yi .sil.mu.jeob.chog.eul .ga.jil .geos.eul .je.yi.han.da".go .barg.hin .ba .iss.da.
-1	북측	북+측	NOUN	NNP+NNB	_	35	nsubj	_	Translit=.bug.cheug|LTranslit=.bug+.cheug
+1	북측	북+측	NOUN	NNP+NNB	_	35	nsubj:outer	_	Translit=.bug.cheug|LTranslit=.bug+.cheug
 2	조선적십자회는	조선+적십자회+는	NOUN	NNP+NNG+JX	_	1	flat	_	Translit=.jo.seon.jeog.sib.ja.hoe.neun|LTranslit=.jo.seon+.jeog.sib.ja.hoe+.neun
 3	지난	지나+ㄴ	VERB	VV+ETM	_	4	acl:relcl	_	Translit=.ji.nan|LTranslit=.ji.na+ㄴ
 4	10일	10+일	NOUN	SN+NNB	_	8	nmod	_	Translit=10.il|LTranslit=10+.il
@@ -6142,7 +6142,7 @@
 # text = 지금 서울 시내 길 막혀
 # translit = .ji.geum .seo.ul .si.nae .gil .mag.hyeo
 1	지금	지금	ADV	MAG	_	5	advmod	_	Translit=.ji.geum|LTranslit=.ji.geum
-2	서울	서울	NOUN	NNP	_	5	nsubj	_	Translit=.seo.ul|LTranslit=.seo.ul
+2	서울	서울	NOUN	NNP	_	5	nsubj:outer	_	Translit=.seo.ul|LTranslit=.seo.ul
 3	시내	시내	NOUN	NNG	_	2	flat	_	Translit=.si.nae|LTranslit=.si.nae
 4	길	길	NOUN	NNG	_	5	nsubj	_	Translit=.gil|LTranslit=.gil
 5	막혀	막히+어	VERB	VV+EC	_	0	root	_	Translit=.mag.hyeo|LTranslit=.mag.hi+.eo
@@ -6317,7 +6317,7 @@
 # text = 넓은 잔디밭도 여유 있어 보이고 중간에 나무 밑에 잘 자리 잡으면 쾌적한 휴식이 가능합니다.
 # translit = .neorb.eun .jan.di.bat.do .yeo.yu .iss.eo .bo.i.go .jung.gan.e .na.mu .mit.e .jal .ja.ri .jab.eu.myeon .kwae.jeog.han .hyu.sig.i .ga.neung.hab.ni.da.
 1	넓은	넓+은	ADJ	VA+ETM	_	2	amod	_	Translit=.neorb.eun|LTranslit=.neorb+.eun
-2	잔디밭도	잔디밭+도	NOUN	NNG+JX	_	4	nsubj	_	Translit=.jan.di.bat.do|LTranslit=.jan.di.bat+.do
+2	잔디밭도	잔디밭+도	NOUN	NNG+JX	_	4	nsubj:outer	_	Translit=.jan.di.bat.do|LTranslit=.jan.di.bat+.do
 3	여유	여유	NOUN	NNG	_	4	nsubj	_	Translit=.yeo.yu|LTranslit=.yeo.yu
 4	있어	있+어	VERB	VV+EC	_	0	root	_	Translit=.iss.eo|LTranslit=.iss+.eo
 5	보이고	보이+고	VERB	VV+EC	_	4	flat	_	Translit=.bo.i.go|LTranslit=.bo.i+.go
@@ -6652,7 +6652,7 @@
 # sent_id = test-s394
 # text = 5위는 자이언트 피라냐로 불리는 물고기 동영상이 차지했다.
 # translit = 5.wi.neun .ja.i.eon.teu .pi.ra.nya.ro .bul.ri.neun .mul.go.gi .dong.yeong.sang.i .cha.ji.haess.da.
-1	5위는	5+위+는	NOUN	SN+NNB+JX	_	7	nsubj	_	Translit=5.wi.neun|LTranslit=5+.wi+.neun
+1	5위는	5+위+는	NOUN	SN+NNB+JX	_	7	nsubj:outer	_	Translit=5.wi.neun|LTranslit=5+.wi+.neun
 2	자이언트	자이언트	NOUN	NNP	_	4	obl	_	Translit=.ja.i.eon.teu|LTranslit=.ja.i.eon.teu
 3	피라냐로	피라냐+로	ADV	NNP+JKB	_	2	flat	_	Translit=.pi.ra.nya.ro|LTranslit=.pi.ra.nya+.ro
 4	불리는	불리+는	VERB	VV+ETM	_	5	acl:relcl	_	Translit=.bul.ri.neun|LTranslit=.bul.ri+.neun
@@ -6887,7 +6887,7 @@
 # sent_id = test-s408
 # text = 효고현 교육위원회는 23일 도요토미 히데요시의 보물이 매장돼 있는 장소로 기록된 '다다은동광산'의 한 갱도에 무인 탐사 로봇을 들여보내 보물찾기에 나섰다고 <아사히신문 22일 보도했다.
 # translit = .hyo.go.hyeon .gyo.yug.wi.weon.hoe.neun 23.il .do.yo.to.mi .hi.de.yo.si.yi .bo.mul.i .mae.jang.dwae .iss.neun .jang.so.ro .gi.rog.doen '.da.da.eun.dong.gwang.san'.yi .han .gaeng.do.e .mu.in .tam.sa .ro.bos.eul .deul.yeo.bo.nae .bo.mul.chaj.gi.e .na.seoss.da.go <.a.sa.hi.sin.mun 22.il .bo.do.haess.da.
-1	효고현	효고현	NOUN	NNP	_	26	nsubj	_	Translit=.hyo.go.hyeon|LTranslit=.hyo.go.hyeon
+1	효고현	효고현	NOUN	NNP	_	26	nsubj:outer	_	Translit=.hyo.go.hyeon|LTranslit=.hyo.go.hyeon
 2	교육위원회는	교육위원회+는	NOUN	NNP+JX	_	1	flat	_	Translit=.gyo.yug.wi.weon.hoe.neun|LTranslit=.gyo.yug.wi.weon.hoe+.neun
 3	23일	23+일	NOUN	SN+NNB	_	22	nmod	_	Translit=23.il|LTranslit=23+.il
 4	도요토미	도요토미	NOUN	NNP	_	6	nmod:poss	_	Translit=.do.yo.to.mi|LTranslit=.do.yo.to.mi
@@ -7302,7 +7302,7 @@
 # translit = .geu.yi .sin.ral.han .gi.dog.gyo .bi.pan.eun .han.gug .nae .gae.sin.gyo.seon.gyo.sa.deul, .gi.dog.gyo.sin.ja.deul.ro.bu.teo .ju.mog.eul .bad.neun .gye.gi.ga .doe.eoss.eu.na, .gi.dog.gyo .bi.pyeong.ga.in .bag.heon.yeong.e .dae.han .bu.jeong.jeog .in.sig.gwa .so.mun.eul .ta.go, .geu.ga .pyeon.hyeob.ha.go .gwa.gyeog.han .seong.gyeog.eul .ga.jin .sa.ram.i.ra.neun .pyeon.gyeon.eu.ro .gud.eo.jyeo.gass.da.
 1	그의	그+의	PRON	NP+JKG	_	3	det:poss	_	Translit=.geu.yi|LTranslit=.geu+.yi
 2	신랄한	신랄+하+ㄴ	ADJ	XR+XSA+ETM	_	3	amod	_	Translit=.sin.ral.han|LTranslit=.sin.ral+.ha+ㄴ
-3	기독교	기독교	NOUN	NNG	_	13	nsubj	_	Translit=.gi.dog.gyo|LTranslit=.gi.dog.gyo
+3	기독교	기독교	NOUN	NNG	_	13	nsubj:outer	_	Translit=.gi.dog.gyo|LTranslit=.gi.dog.gyo
 4	비판은	비판+은	NOUN	NNG+JX	_	3	flat	_	Translit=.bi.pan.eun|LTranslit=.bi.pan+.eun
 5	한국	한국	NOUN	NNP	_	9	nmod	_	Translit=.han.gug|LTranslit=.han.gug
 6	내	나+의	ADP	NP+JKG	_	5	case	_	Translit=.nae|LTranslit=.na+.yi
@@ -7514,7 +7514,7 @@
 # translit = .mun.je.neun .geu .os.gwa .jang.sig.pum.i .ja.sin.yi .no.dong.eu.ro .jang.man.han .geos.i .a.ni.ra .bu.mo.yi .don.eu.ro .san .geos.i.ra.neun .jeom.i.da.
 1	문제는	문제+는	NOUN	NNG+JX	_	14	nsubj	_	Translit=.mun.je.neun|LTranslit=.mun.je+.neun
 2	그	그	DET	MM	_	4	det	_	Translit=.geu|LTranslit=.geu
-3	옷과	옷+과	NOUN	NNG+JC	_	9	nsubj	_	Translit=.os.gwa|LTranslit=.os+.gwa
+3	옷과	옷+과	NOUN	NNG+JC	_	9	nsubj:outer	_	Translit=.os.gwa|LTranslit=.os+.gwa
 4	장식품이	장식품+이	NOUN	NNG+JKS	_	3	conj	_	Translit=.jang.sig.pum.i|LTranslit=.jang.sig.pum+.i
 5	자신의	자신+의	PRON	NNG+JKG	_	6	det:poss	_	Translit=.ja.sin.yi|LTranslit=.ja.sin+.yi
 6	노동으로	노동+으로	ADV	NNG+JKB	_	7	obl	_	Translit=.no.dong.eu.ro|LTranslit=.no.dong+.eu.ro
@@ -7622,7 +7622,7 @@
 6	11	11	NUM	SN	_	7	nummod	_	SpaceAfter=No|Translit=11|LTranslit=11
 7	㎞	㎞	SYM	SW	_	13	nummod	_	Translit=㎞|LTranslit=㎞
 8	구간에서	구간+에서	ADV	NNG+JKB	_	6	flat	_	Translit=.gu.gan.e.seo|LTranslit=.gu.gan+.e.seo
-9	지	지	NOUN	NNG	_	13	nsubj:pass	_	SpaceAfter=No|Translit=.ji|LTranslit=.ji
+9	지	지	NOUN	NNG	_	13	nsubj:outer	_	SpaceAfter=No|Translit=.ji|LTranslit=.ji
 10	•	•	PUNCT	SS	_	9	punct	_	SpaceAfter=No|Translit=•|LTranslit=•
 11	정체	정체	NOUN	NNG	_	13	nsubj:pass	_	Translit=.jeong.che|LTranslit=.jeong.che
 12	현상이	현상+이	NOUN	NNG+JKS	_	9	flat	_	Translit=.hyeon.sang.i|LTranslit=.hyeon.sang+.i
@@ -7803,7 +7803,7 @@
 # sent_id = test-s467
 # text = 고려신용정보 이영화 채권추심팀장은 자신의 직업에 자부심이 대단하다.
 # translit = .go.ryeo.sin.yong.jeong.bo .i.yeong.hwa .chae.gweon.chu.sim.tim.jang.eun .ja.sin.yi .jig.eob.e .ja.bu.sim.i .dae.dan.ha.da.
-1	고려신용정보	고려+신용+정보	NOUN	NNP+NNG+NNG	_	7	nsubj	_	Translit=.go.ryeo.sin.yong.jeong.bo|LTranslit=.go.ryeo+.sin.yong+.jeong.bo
+1	고려신용정보	고려+신용+정보	NOUN	NNP+NNG+NNG	_	7	nsubj:outer	_	Translit=.go.ryeo.sin.yong.jeong.bo|LTranslit=.go.ryeo+.sin.yong+.jeong.bo
 2	이영화	이영화	NOUN	NNP	_	1	flat	_	Translit=.i.yeong.hwa|LTranslit=.i.yeong.hwa
 3	채권추심팀장은	채권+추심+팀장+은	NOUN	NNG+NNG+NNG+JX	_	1	flat	_	Translit=.chae.gweon.chu.sim.tim.jang.eun|LTranslit=.chae.gweon+.chu.sim+.tim.jang+.eun
 4	자신의	자신+의	PRON	NNG+JKG	_	5	det:poss	_	Translit=.ja.sin.yi|LTranslit=.ja.sin+.yi
@@ -7980,7 +7980,7 @@
 # sent_id = test-s477
 # text = 회도 양이 짱 많아서 넘넘 좋아요 ^0^
 # translit = .hoe.do .yang.i .jjang .manh.a.seo .neom.neom .joh.a.yo ^0^
-1	회도	회+도	NOUN	NNB+JX	_	4	nsubj	_	Translit=.hoe.do|LTranslit=.hoe+.do
+1	회도	회+도	NOUN	NNB+JX	_	4	nsubj:outer	_	Translit=.hoe.do|LTranslit=.hoe+.do
 2	양이	양+이	NOUN	NNG+JKS	_	4	nsubj	_	Translit=.yang.i|LTranslit=.yang+.i
 3	짱	짱	ADV	MAG	_	4	advmod	_	Translit=.jjang|LTranslit=.jjang
 4	많아서	많+아서	VERB	VA+EC	_	6	advcl	_	Translit=.manh.a.seo|LTranslit=.manh+.a.seo
@@ -8551,7 +8551,7 @@
 # sent_id = test-s514
 # text = 일산은 마두동 백마삼환극동 중대형이 500만~1000만원 정도 내렸다.
 # translit = .il.san.eun .ma.du.dong .baeg.ma.sam.hwan.geug.dong .jung.dae.hyeong.i 500.man~1000.man.weon .jeong.do .nae.ryeoss.da.
-1	일산은	일산+은	NOUN	NNP+JX	_	7	nsubj	_	Translit=.il.san.eun|LTranslit=.il.san+.eun
+1	일산은	일산+은	NOUN	NNP+JX	_	7	nsubj:outer	_	Translit=.il.san.eun|LTranslit=.il.san+.eun
 2	마두동	마두동	NOUN	NNP	_	7	nsubj	_	Translit=.ma.du.dong|LTranslit=.ma.du.dong
 3	백마삼환극동	백마삼환극동	NOUN	NNP	_	2	flat	_	Translit=.baeg.ma.sam.hwan.geug.dong|LTranslit=.baeg.ma.sam.hwan.geug.dong
 4	중대형이	중대형+이	NOUN	NNG+JKS	_	2	flat	_	Translit=.jung.dae.hyeong.i|LTranslit=.jung.dae.hyeong+.i
@@ -9213,7 +9213,7 @@
 # sent_id = test-s558
 # text = 사생대회 수상자는 대구광역시교육감상 3명, 포항•구미교육장상 6명을 비롯해 대구은행장상 1,644명으로 수상자에게는 장학금 및 부상이 각각 주어졌다.
 # translit = .sa.saeng.dae.hoe .su.sang.ja.neun .dae.gu.gwang.yeog.si.gyo.yug.gam.sang 3.myeong, .po.hang•.gu.mi.gyo.yug.jang.sang 6.myeong.eul .bi.ros.hae .dae.gu.eun.haeng.jang.sang 1,644.myeong.eu.ro .su.sang.ja.e.ge.neun .jang.hag.geum .mich .bu.sang.i .gag.gag .ju.eo.jyeoss.da.
-1	사생대회	사생+대회	NOUN	NNG+NNG	_	10	nsubj	_	Translit=.sa.saeng.dae.hoe|LTranslit=.sa.saeng+.dae.hoe
+1	사생대회	사생+대회	NOUN	NNG+NNG	_	10	nsubj:outer	_	Translit=.sa.saeng.dae.hoe|LTranslit=.sa.saeng+.dae.hoe
 2	수상자는	수상자+는	NOUN	NNG+JX	_	1	flat	_	Translit=.su.sang.ja.neun|LTranslit=.su.sang.ja+.neun
 3	대구광역시교육감상	대구+광역시+교육감상	NOUN	NNP+NNG+NNG	_	4	nsubj	_	Translit=.dae.gu.gwang.yeog.si.gyo.yug.gam.sang|LTranslit=.dae.gu+.gwang.yeog.si+.gyo.yug.gam.sang
 4	3명	3+명	VERB	SN+NNB	_	8	obj	_	SpaceAfter=No|Translit=3.myeong|LTranslit=3+.myeong
@@ -9454,7 +9454,7 @@
 4	있으며	있+으며	VERB	VV+EC	_	0	root	_	Translit=.iss.eu.myeo|LTranslit=.iss+.eu.myeo
 5	붉은	붉+은	ADJ	VA+ETM	_	6	amod	_	Translit=.burg.eun|LTranslit=.burg+.eun
 6	성이라는	성+이+라는	VERB	NNG+VCP+ETM	_	7	dep	_	Translit=.seong.i.ra.neun|LTranslit=.seong+.i+.ra.neun
-7	이름은	이름+은	NOUN	NNG+JX	_	13	nsubj	_	Translit=.i.reum.eun|LTranslit=.i.reum+.eun
+7	이름은	이름+은	NOUN	NNG+JX	_	13	nsubj:outer	_	Translit=.i.reum.eun|LTranslit=.i.reum+.eun
 8	성의	성+의	NOUN	NNG+JKG	_	10	nmod:poss	_	Translit=.seong.yi|LTranslit=.seong+.yi
 9	거대한	거대+하+ㄴ	ADJ	XR+XSA+ETM	_	10	amod	_	Translit=.geo.dae.han|LTranslit=.geo.dae+.ha+ㄴ
 10	벽이	벽+이	NOUN	NNG+JKS	_	13	nsubj	_	Translit=.byeog.i|LTranslit=.byeog+.i
@@ -10141,7 +10141,7 @@
 # translit = .i.reoh.ge .keun .him.i .gi.jun .dan.wi.ga .doen .geos.eun .jeon.gi.e .dae.han .sang.se.han .ji.sig.i .eobs.neun .si.jeol.e .i.reul .cheug.jeong .dan.wi.ro .sam.ass.gi .ddae.mun.i.da.
 1	이렇게	이렇+게	ADV	VA+EC	_	2	advmod	_	Translit=.i.reoh.ge|LTranslit=.i.reoh+.ge
 2	큰	크+ㄴ	ADJ	VA+ETM	_	3	amod	_	Translit=.keun|LTranslit=.keu+ㄴ
-3	힘이	힘+이	NOUN	NNG+JKS	_	6	nsubj	_	Translit=.him.i|LTranslit=.him+.i
+3	힘이	힘+이	NOUN	NNG+JKS	_	6	nsubj:outer	_	Translit=.him.i|LTranslit=.him+.i
 4	기준	기준	NOUN	NNG	_	6	nsubj	_	Translit=.gi.jun|LTranslit=.gi.jun
 5	단위가	단위+가	NOUN	NNG+JKS	_	4	flat	_	Translit=.dan.wi.ga|LTranslit=.dan.wi+.ga
 6	된	되+ㄴ	VERB	VV+ETM	_	7	dep	_	Translit=.doen|LTranslit=.doe+ㄴ
@@ -10542,14 +10542,14 @@
 4	잘	잘	ADV	MAG	_	5	advmod	_	Translit=.jal|LTranslit=.jal
 5	먹었고	먹+었+고	VERB	VV+EP+EC	_	1	conj	_	Translit=.meog.eoss.go|LTranslit=.meog+.eoss+.go
 6	다른	다른	ADJ	MM	_	7	amod	_	Translit=.da.reun|LTranslit=.da.reun
-7	말이	말+이	NOUN	NNG+JKS	_	9	nsubj	_	Translit=.mal.i|LTranslit=.mal+.i
+7	말이	말+이	NOUN	NNG+JKS	_	9	nsubj:outer	_	Translit=.mal.i|LTranslit=.mal+.i
 8	필요	필요	NOUN	NNG	_	9	nsubj	_	Translit=.pil.yo|LTranslit=.pil.yo
 9	없어요	없+어요	ADJ	VA+EC	_	1	conj	_	Translit=.eobs.eo.yo|LTranslit=.eobs+.eo.yo
 
 # sent_id = test-s639
 # text = 탐앤탐스 자체가 커피 맛도 좋구 브레드나 부메뉴들도 정말 좋아요
 # translit = .tam.aen.tam.seu .ja.che.ga .keo.pi .mas.do .joh.gu .beu.re.deu.na .bu.me.nyu.deul.do .jeong.mal .joh.a.yo
-1	탐앤탐스	탐앤+탐스	NOUN	NNG+NNG	_	5	nsubj	_	Translit=.tam.aen.tam.seu|LTranslit=.tam.aen+.tam.seu
+1	탐앤탐스	탐앤+탐스	NOUN	NNG+NNG	_	5	nsubj:outer	_	Translit=.tam.aen.tam.seu|LTranslit=.tam.aen+.tam.seu
 2	자체가	자체+가	NOUN	NNG+JKS	_	1	flat	_	Translit=.ja.che.ga|LTranslit=.ja.che+.ga
 3	커피	커피	NOUN	NNG	_	5	nsubj	_	Translit=.keo.pi|LTranslit=.keo.pi
 4	맛도	맛+도	NOUN	NNG+JX	_	3	flat	_	Translit=.mas.do|LTranslit=.mas+.do
@@ -10907,7 +10907,7 @@
 # text = 양념이 자체는 맛잇는데 닭에 배이지 않아 겉도는 맛이라 아쉬워요~
 # translit = .yang.nyeom.i .ja.che.neun .mas.is.neun.de .darg.e .bae.i.ji .anh.a .geot.do.neun .mas.i.ra .a.swi.weo.yo~
 1	양념이	양념+이	NOUN	NNG+JKS	_	3	nsubj	_	Translit=.yang.nyeom.i|LTranslit=.yang.nyeom+.i
-2	자체는	자체+는	NOUN	NNG+JX	_	3	nsubj	_	Translit=.ja.che.neun|LTranslit=.ja.che+.neun
+2	자체는	자체+는	NOUN	NNG+JX	_	3	nsubj:outer	_	Translit=.ja.che.neun|LTranslit=.ja.che+.neun
 3	맛잇는데	맛+잇+는데	VERB	NNG+VV+EC	_	5	advcl	_	Translit=.mas.is.neun.de|LTranslit=.mas+.is+.neun.de
 4	닭에	닭+에	ADV	NNG+JKB	_	5	obl	_	Translit=.darg.e|LTranslit=.darg+.e
 5	배이지	배이+지	VERB	VV+EC	_	7	advcl	_	Translit=.bae.i.ji|LTranslit=.bae.i+.ji
@@ -10987,7 +10987,7 @@
 # sent_id = test-s670
 # text = 우승팀은 전, 후기 1위 두 팀과 이들을 제외한 통합승점 1, 2위가 4강 플레이오프전을 펼칠 예정이다.
 # translit = .u.seung.tim.eun .jeon, .hu.gi 1.wi .du .tim.gwa .i.deul.eul .je.oe.han .tong.hab.seung.jeom 1, 2.wi.ga 4.gang .peul.re.i.o.peu.jeon.eul .pyeol.chil .ye.jeong.i.da.
-1	우승팀은	우승+팀+은	NOUN	NNG+NNG+JX	_	16	nsubj	_	Translit=.u.seung.tim.eun|LTranslit=.u.seung+.tim+.eun
+1	우승팀은	우승+팀+은	NOUN	NNG+NNG+JX	_	16	nsubj:outer	_	Translit=.u.seung.tim.eun|LTranslit=.u.seung+.tim+.eun
 2	전	전	NOUN	NNG	_	16	obl	_	SpaceAfter=No|Translit=.jeon|LTranslit=.jeon
 3	,	,	PUNCT	SP	_	4	punct	_	Translit=,|LTranslit=,
 4	후기	후기	NOUN	NNG	_	2	conj	_	Translit=.hu.gi|LTranslit=.hu.gi
@@ -11724,7 +11724,7 @@
 # sent_id = test-s710
 # text = 환경 문제는 지금 4대강 사업의 최대 쟁점이 돼 있다.
 # translit = .hwan.gyeong .mun.je.neun .ji.geum 4.dae.gang .sa.eob.yi .choe.dae .jaeng.jeom.i .dwae .iss.da.
-1	환경	환경	NOUN	NNG	_	8	nsubj	_	Translit=.hwan.gyeong|LTranslit=.hwan.gyeong
+1	환경	환경	NOUN	NNG	_	8	nsubj:outer	_	Translit=.hwan.gyeong|LTranslit=.hwan.gyeong
 2	문제는	문제+는	NOUN	NNG+JX	_	1	flat	_	Translit=.mun.je.neun|LTranslit=.mun.je+.neun
 3	지금	지금	NOUN	MAG	_	8	nmod	_	Translit=.ji.geum|LTranslit=.ji.geum
 4	4대강	4+대강	NOUN	SN+NNG	_	6	nmod:poss	_	Translit=4.dae.gang|LTranslit=4+.dae.gang
@@ -11952,7 +11952,7 @@
 1	그	그	DET	MM	_	2	det	_	Translit=.geu|LTranslit=.geu
 2	앞에	앞+에	ADV	NNG+JKB	_	3	obl	_	Translit=.ap.e|LTranslit=.ap+.e
 3	주차된	주차+되+ㄴ	VERB	NNG+XSV+ETM	_	4	acl:relcl	_	Translit=.ju.cha.doen|LTranslit=.ju.cha+.doe+ㄴ
-4	승합차는	승합차+는	NOUN	NNG+JX	_	8	nsubj	_	Translit=.seung.hab.cha.neun|LTranslit=.seung.hab.cha+.neun
+4	승합차는	승합차+는	NOUN	NNG+JX	_	8	nsubj:outer	_	Translit=.seung.hab.cha.neun|LTranslit=.seung.hab.cha+.neun
 5	트렁크	트렁크	NOUN	NNG	_	8	nsubj	_	Translit=.teu.reong.keu|LTranslit=.teu.reong.keu
 6	문이	문+이	NOUN	NNG+JKS	_	5	flat	_	Translit=.mun.i|LTranslit=.mun+.i
 7	활짝	활짝	ADV	MAG	_	8	advmod	_	Translit=.hwal.jjag|LTranslit=.hwal.jjag
@@ -12426,7 +12426,7 @@
 # text = 우리산업의 상반기 누적 실적은 매출액과 영업이익이 각각 645억원, 17억원으로 추정됐다.
 # translit = .u.ri.san.eob.yi .sang.ban.gi .nu.jeog .sil.jeog.eun .mae.chul.aeg.gwa .yeong.eob.i.ig.i .gag.gag 645.eog.weon, 17.eog.weon.eu.ro .chu.jeong.dwaess.da.
 1	우리산업의	우리+산업+의	NOUN	NP+NNG+JKG	_	2	nmod:poss	_	Translit=.u.ri.san.eob.yi|LTranslit=.u.ri+.san.eob+.yi
-2	상반기	상반기	NOUN	NNG	_	11	nsubj:pass	_	Translit=.sang.ban.gi|LTranslit=.sang.ban.gi
+2	상반기	상반기	NOUN	NNG	_	11	nsubj:outer	_	Translit=.sang.ban.gi|LTranslit=.sang.ban.gi
 3	누적	누적	NOUN	NNG	_	2	flat	_	Translit=.nu.jeog|LTranslit=.nu.jeog
 4	실적은	실적+은	NOUN	NNG+JX	_	2	flat	_	Translit=.sil.jeog.eun|LTranslit=.sil.jeog+.eun
 5	매출액과	매출액+과	NOUN	NNG+JC	_	11	nsubj:pass	_	Translit=.mae.chul.aeg.gwa|LTranslit=.mae.chul.aeg+.gwa
@@ -12794,7 +12794,7 @@
 # sent_id = test-s776
 # text = 베트남 현대미술은 '베트남전'의 기억과 상흔이 고스란히 반영되어 있다.
 # translit = .be.teu.nam .hyeon.dae.mi.sul.eun '.be.teu.nam.jeon'.yi .gi.eog.gwa .sang.heun.i .go.seu.ran.hi .ban.yeong.doe.eo .iss.da.
-1	베트남	베트남	NOUN	NNP	_	10	nsubj:pass	_	Translit=.be.teu.nam|LTranslit=.be.teu.nam
+1	베트남	베트남	NOUN	NNP	_	10	nsubj:outer	_	Translit=.be.teu.nam|LTranslit=.be.teu.nam
 2	현대미술은	현대+미술+은	NOUN	NNP+NNG+JX	_	1	flat	_	Translit=.hyeon.dae.mi.sul.eun|LTranslit=.hyeon.dae+.mi.sul+.eun
 3	'	'	PUNCT	SS	_	4	punct	_	SpaceAfter=No|Translit='|LTranslit='
 4	베트남전	베트남전	PROPN	NNP	_	10	nsubj:pass	_	SpaceAfter=No|Translit=.be.teu.nam.jeon|LTranslit=.be.teu.nam.jeon
@@ -13129,7 +13129,7 @@
 # sent_id = test-s799
 # text = 문경은 감독과 저도 젊은 나이에 지도자가 됐습니다.
 # translit = .mun.gyeong.eun .gam.dog.gwa .jeo.do .jeorm.eun .na.i.e .ji.do.ja.ga .dwaess.seub.ni.da.
-1	문경은	문경은	NOUN	NNP	_	7	nsubj	_	Translit=.mun.gyeong.eun|LTranslit=.mun.gyeong.eun
+1	문경은	문경은	NOUN	NNP	_	7	nsubj:outer	_	Translit=.mun.gyeong.eun|LTranslit=.mun.gyeong.eun
 2	감독과	감독+과	NOUN	NNG+JC	_	1	flat	_	Translit=.gam.dog.gwa|LTranslit=.gam.dog+.gwa
 3	저도	저+도	PRON	NP+JX	_	1	conj	_	Translit=.jeo.do|LTranslit=.jeo+.do
 4	젊은	젊+은	ADJ	VA+ETM	_	5	amod	_	Translit=.jeorm.eun|LTranslit=.jeorm+.eun
@@ -13575,7 +13575,7 @@
 # text = 역시 중소형이 60%가 넘는다.
 # translit = .yeog.si .jung.so.hyeong.i 60%.ga .neom.neun.da.
 1	역시	역시	ADV	MAG	_	6	advmod	_	Translit=.yeog.si|LTranslit=.yeog.si
-2	중소형이	중소형+이	NOUN	NNG+JKS	_	6	nsubj	_	Translit=.jung.so.hyeong.i|LTranslit=.jung.so.hyeong+.i
+2	중소형이	중소형+이	NOUN	NNG+JKS	_	6	nsubj:outer	_	Translit=.jung.so.hyeong.i|LTranslit=.jung.so.hyeong+.i
 3	60	60	NUM	SN	_	6	nsubj	_	SpaceAfter=No|Translit=60|LTranslit=60
 4	%	%	PUNCT	SW	_	5	punct	_	SpaceAfter=No|Translit=%|LTranslit=%
 5	가	가	ADP	JKS	_	3	nsubj	_	Translit=.ga|LTranslit=.ga
@@ -13740,7 +13740,7 @@
 # sent_id = test-s845
 # text = 사장님도 좋은 분 같으시고 손님 만나 얘기 나누기 좋은 장소입니다.
 # translit = .sa.jang.nim.do .joh.eun .bun .gat.eu.si.go .son.nim .man.na .yae.gi .na.nu.gi .joh.eun .jang.so.ib.ni.da.
-1	사장님도	사장+님+도	NOUN	NNG+XSN+JX	_	4	nsubj	_	Translit=.sa.jang.nim.do|LTranslit=.sa.jang+.nim+.do
+1	사장님도	사장+님+도	NOUN	NNG+XSN+JX	_	4	nsubj:outer	_	Translit=.sa.jang.nim.do|LTranslit=.sa.jang+.nim+.do
 2	좋은	좋+은	ADJ	VA+ETM	_	3	amod	_	Translit=.joh.eun|LTranslit=.joh+.eun
 3	분	분	NOUN	NNB	_	4	nsubj	_	Translit=.bun|LTranslit=.bun
 4	같으시고	같+으시+고	VERB	VA+EP+EC	_	0	root	_	Translit=.gat.eu.si.go|LTranslit=.gat+.eu.si+.go
@@ -13995,7 +13995,7 @@
 # sent_id = test-s867
 # text = 원장님이 어린이집을 운영할 자질이 있는지 의문이네요.
 # translit = .weon.jang.nim.i .eo.rin.i.jib.eul .un.yeong.hal .ja.jil.i .iss.neun.ji .yi.mun.i.ne.yo.
-1	원장님이	원장+님+이	NOUN	NNG+XSN+JKS	_	5	nsubj	_	Translit=.weon.jang.nim.i|LTranslit=.weon.jang+.nim+.i
+1	원장님이	원장+님+이	NOUN	NNG+XSN+JKS	_	5	nsubj:outer	_	Translit=.weon.jang.nim.i|LTranslit=.weon.jang+.nim+.i
 2	어린이집을	어린이집+을	NOUN	NNG+JKO	_	3	obj	_	Translit=.eo.rin.i.jib.eul|LTranslit=.eo.rin.i.jib+.eul
 3	운영할	운영+하+ㄹ	VERB	NNG+XSV+ETM	_	4	dep	_	Translit=.un.yeong.hal|LTranslit=.un.yeong+.ha+ㄹ
 4	자질이	자질+이	NOUN	NNG+JKS	_	5	nsubj	_	Translit=.ja.jil.i|LTranslit=.ja.jil+.i
@@ -14079,7 +14079,7 @@
 # sent_id = test-s873
 # text = 저는 시원한 해산물이 생각나면 자주 가는데 후회없습니다.
 # translit = .jeo.neun .si.weon.han .hae.san.mul.i .saeng.gag.na.myeon .ja.ju .ga.neun.de .hu.hoe.eobs.seub.ni.da.
-1	저는	절+는	PRON	VV+ETM	_	4	nsubj	_	Translit=.jeo.neun|LTranslit=.jeol+.neun
+1	저는	절+는	PRON	VV+ETM	_	4	nsubj:outer	_	Translit=.jeo.neun|LTranslit=.jeol+.neun
 2	시원한	시원+하+ㄴ	ADJ	XR+XSA+ETM	_	3	amod	_	Translit=.si.weon.han|LTranslit=.si.weon+.ha+ㄴ
 3	해산물이	해산물+이	NOUN	NNG+JKS	_	4	nsubj	_	Translit=.hae.san.mul.i|LTranslit=.hae.san.mul+.i
 4	생각나면	생각나+면	VERB	VV+EC	_	6	advcl	_	Translit=.saeng.gag.na.myeon|LTranslit=.saeng.gag.na+.myeon
@@ -14124,7 +14124,7 @@
 5	,	,	PUNCT	SP	_	7	punct	_	Translit=,|LTranslit=,
 6	시설이	시설+이	NOUN	NNG+JKS	_	7	nsubj	_	Translit=.si.seol.i|LTranslit=.si.seol+.i
 7	청결하고	청결+하+고	VERB	NNG+XSV+EC	_	4	conj	_	Translit=.cheong.gyeol.ha.go|LTranslit=.cheong.gyeol+.ha+.go
-8	사장님이	사장+님+이	NOUN	NNG+XSN+JKS	_	10	nsubj	_	Translit=.sa.jang.nim.i|LTranslit=.sa.jang+.nim+.i
+8	사장님이	사장+님+이	NOUN	NNG+XSN+JKS	_	10	nsubj:outer	_	Translit=.sa.jang.nim.i|LTranslit=.sa.jang+.nim+.i
 9	인심이	인심+이	NOUN	NNG+JKS	_	10	nsubj	_	Translit=.in.sim.i|LTranslit=.in.sim+.i
 10	넓다	넓+다	ADJ	VA+EF	_	4	conj	_	SpaceAfter=No|Translit=.neorb.da|LTranslit=.neorb+.da
 11	.	.	PUNCT	SF	_	10	punct	_	Translit=.|LTranslit=.
@@ -15354,7 +15354,7 @@
 # sent_id = test-s969
 # text = 몸무게는 차이가 많이 나지 않은데 주변에서는 살 빠졌냐고 해요.
 # translit = .mom.mu.ge.neun .cha.i.ga .manh.i .na.ji .anh.eun.de .ju.byeon.e.seo.neun .sal .bba.jyeoss.nya.go .hae.yo.
-1	몸무게는	몸무게+는	NOUN	NNG+JX	_	4	nsubj	_	Translit=.mom.mu.ge.neun|LTranslit=.mom.mu.ge+.neun
+1	몸무게는	몸무게+는	NOUN	NNG+JX	_	4	nsubj:outer	_	Translit=.mom.mu.ge.neun|LTranslit=.mom.mu.ge+.neun
 2	차이가	차이+가	NOUN	NNG+JKS	_	4	nsubj	_	Translit=.cha.i.ga|LTranslit=.cha.i+.ga
 3	많이	많이	ADV	MAG	_	4	advmod	_	Translit=.manh.i|LTranslit=.manh.i
 4	나지	나+지	VERB	VV+EC	_	9	advcl	_	Translit=.na.ji|LTranslit=.na+.ji
@@ -15590,7 +15590,7 @@
 # text = 우리 아이도 약 먹고 키가 많이 자랐답니다.
 # translit = .u.ri .a.i.do .yag .meog.go .ki.ga .manh.i .ja.rass.dab.ni.da.
 1	우리	우리	PRON	NNG	_	2	det:poss	_	Translit=.u.ri|LTranslit=.u.ri
-2	아이도	아이+도	NOUN	NNG+JX	_	7	nsubj	_	Translit=.a.i.do|LTranslit=.a.i+.do
+2	아이도	아이+도	NOUN	NNG+JX	_	7	nsubj:outer	_	Translit=.a.i.do|LTranslit=.a.i+.do
 3	약	약	NOUN	NNG	_	4	obj	_	Translit=.yag|LTranslit=.yag
 4	먹고	먹+고	VERB	VV+EC	_	0	root	_	Translit=.meog.go|LTranslit=.meog+.go
 5	키가	키+가	NOUN	NNG+JKS	_	7	nsubj	_	Translit=.ki.ga|LTranslit=.ki+.ga
