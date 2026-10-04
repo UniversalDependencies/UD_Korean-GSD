@@ -412,7 +412,7 @@
 # sent_id = dev-s22
 # text = 총 연장길이는 14.3㎞로, 영동고속도로, 서울외곽순환고속도로 등과 연결된다.
 # translit = .chong .yeon.jang.gil.i.neun 14.3㎞.ro, .yeong.dong.go.sog.do.ro, .seo.ul.oe.gwag.sun.hwan.go.sog.do.ro .deung.gwa .yeon.gyeol.doen.da.
-1	총	총	NOUN	NNG	_	2	obl	_	Translit=.chong|LTranslit=.chong
+1	총	총	NOUN	NNG	_	2	nmod	_	Translit=.chong|LTranslit=.chong
 2	연장길이는	연장+길이+는	NOUN	NNG+NNG+JX	_	3	nsubj	_	Translit=.yeon.jang.gil.i.neun|LTranslit=.yeon.jang+.gil.i+.neun
 3	14.3	14.3	NUM	SN	_	11	nummod	_	SpaceAfter=No|Translit=14.3|LTranslit=14.3
 4	㎞	㎞	PUNCT	SW	_	3	punct	_	SpaceAfter=No|Translit=㎞|LTranslit=㎞
@@ -1520,7 +1520,7 @@
 11	이	이	DET	MM	_	12	det	_	Translit=.i|LTranslit=.i
 12	지역이	지역+이	NOUN	NNG+JKS	_	16	nsubj:pass	_	Translit=.ji.yeog.i|LTranslit=.ji.yeog+.i
 13	당시	당시	ADV	NNG	_	16	advmod	_	Translit=.dang.si|LTranslit=.dang.si
-14	후진	후진	NOUN	NNG	_	16	obl	_	Translit=.hu.jin|LTranslit=.hu.jin
+14	후진	후진	NOUN	NNG	_	16	nmod	_	Translit=.hu.jin|LTranslit=.hu.jin
 15	지역으로	지역+으로	ADV	NNG+JKB	_	14	flat	_	Translit=.ji.yeog.eu.ro|LTranslit=.ji.yeog+.eu.ro
 16	인식되었기	인식+되+었+기	NOUN	NNG+XSV+EP+ETN	_	18	nmod	_	Translit=.in.sig.doe.eoss.gi|LTranslit=.in.sig+.doe+.eoss+.gi
 17	때문에	때문+에	ADP	NNB+JKB	_	16	case	_	Translit=.ddae.mun.e|LTranslit=.ddae.mun+.e
@@ -2048,7 +2048,7 @@
 4	비가	비+가	NOUN	NNG+JKS	_	6	nsubj	_	Translit=.bi.ga|LTranslit=.bi+.ga
 5	꾸준히	꾸준히	ADV	MAG	_	6	advmod	_	Translit=.ggu.jun.hi|LTranslit=.ggu.jun.hi
 6	이어지다가	이어지+다가	VERB	VV+EC	_	10	advcl	_	Translit=.i.eo.ji.da.ga|LTranslit=.i.eo.ji+.da.ga
-7	토요일	토요일	NOUN	NNG	_	10	obl	_	Translit=.to.yo.il|LTranslit=.to.yo.il
+7	토요일	토요일	NOUN	NNG	_	10	nmod	_	Translit=.to.yo.il|LTranslit=.to.yo.il
 8	새벽에	새벽+에	ADV	NNG+JKB	_	7	flat	_	Translit=.sae.byeog.e|LTranslit=.sae.byeog+.e
 9	대부분	대부분	ADV	NNG	_	10	advmod	_	Translit=.dae.bu.bun|LTranslit=.dae.bu.bun
 10	그치기	그치+기	NOUN	VV+ETN	_	16	nmod	_	Translit=.geu.chi.gi|LTranslit=.geu.chi+.gi
@@ -2150,7 +2150,7 @@
 # text = 2005년 바레인 축구 국가대표팀과의 2006년 FIFA 월드컵 AFC-CONCACAF 플레이오프에는 출전하지 못했으며, 2006년 FIFA 월드컵에서는 주전 골키퍼인 켈빈 잭 (Kelvin Jack)의 부상으로 조별 리그 1차전 스웨덴 축구 국가대표팀 전에서 기회를 잡았다.
 # translit = 2005.nyeon .ba.re.in .chug.gu .gug.ga.dae.pyo.tim.gwa.yi 2006.nyeon FIFA .weol.deu.keob AFC-CONCACAF .peul.re.i.o.peu.e.neun .chul.jeon.ha.ji .mos.haess.eu.myeo, 2006.nyeon FIFA .weol.deu.keob.e.seo.neun .ju.jeon .gol.ki.peo.in .kel.bin .jaeg (Kelvin Jack).yi .bu.sang.eu.ro .jo.byeol .ri.geu 1.cha.jeon .seu.we.den .chug.gu .gug.ga.dae.pyo.tim .jeon.e.seo .gi.hoe.reul .jab.ass.da.
 1	2005년	2005+년	NOUN	SN+NNB	_	10	nmod	_	Translit=2005.nyeon|LTranslit=2005+.nyeon
-2	바레인	바레인	NOUN	NNP	_	5	obl	_	Translit=.ba.re.in|LTranslit=.ba.re.in
+2	바레인	바레인	NOUN	NNP	_	5	nmod	_	Translit=.ba.re.in|LTranslit=.ba.re.in
 3	축구	축구	NOUN	NNG	_	2	flat	_	Translit=.chug.gu|LTranslit=.chug.gu
 4	국가대표팀과의	국가+대표+팀+과+의	ADV	NNG+NNG+NNG+JKB+JKG	_	2	flat	_	Translit=.gug.ga.dae.pyo.tim.gwa.yi|LTranslit=.gug.ga+.dae.pyo+.tim+.gwa+.yi
 5	2006년	2006+년	NOUN	SN+NNB	_	10	obl	_	Translit=2006.nyeon|LTranslit=2006+.nyeon
@@ -5575,7 +5575,7 @@
 # text = 이런 곳에 있기 아까울 정도로 서비스와 음식 맛도 진짜 최고입니다
 # translit = .i.reon .gos.e .iss.gi .a.gga.ul .jeong.do.ro .seo.bi.seu.wa .eum.sig .mas.do .jin.jja .choe.go.ib.ni.da
 1	이런	이런	ADJ	MM	_	2	amod	_	Translit=.i.reon|LTranslit=.i.reon
-2	곳에	곳+에	ADV	NNG+JKB	_	3	obl	_	Translit=.gos.e|LTranslit=.gos+.e
+2	곳에	곳+에	ADV	NNG+JKB	_	3	advmod	_	Translit=.gos.e|LTranslit=.gos+.e
 3	있기	있+기	NOUN	VV+ETN	_	4	nsubj	_	Translit=.iss.gi|LTranslit=.iss+.gi
 4	아까울	아깝+ㄹ	VERB	VA+ETM	_	5	dep	_	Translit=.a.gga.ul|LTranslit=.a.ggab+ㄹ
 5	정도로	정도+로	ADV	NNG+JKB	_	10	obl	_	Translit=.jeong.do.ro|LTranslit=.jeong.do+.ro
@@ -8189,7 +8189,7 @@
 14	되어	되+어	VERB	VV+EC	_	13	flat	_	Translit=.doe.eo|LTranslit=.doe+.eo
 15	노선버스를	노선버스+를	NOUN	NNG+JKO	_	18	obj	_	Translit=.no.seon.beo.seu.reul|LTranslit=.no.seon.beo.seu+.reul
 16	보다	보다	ADV	MAG	_	17	advmod	_	Translit=.bo.da|LTranslit=.bo.da
-17	효율적으로	효율+적+으로	ADV	NNG+XSN+JKB	_	18	obl	_	Translit=.hyo.yul.jeog.eu.ro|LTranslit=.hyo.yul+.jeog+.eu.ro
+17	효율적으로	효율+적+으로	ADV	NNG+XSN+JKB	_	18	advmod	_	Translit=.hyo.yul.jeog.eu.ro|LTranslit=.hyo.yul+.jeog+.eu.ro
 18	운행하기	운행+하+기	NOUN	NNG+XSV+ETN	_	19	obj	_	Translit=.un.haeng.ha.gi|LTranslit=.un.haeng+.ha+.gi
 19	위해	위하+아	VERB	VV+EC	_	21	advcl	_	Translit=.wi.hae|LTranslit=.wi.ha+.a
 20	맞춤버스를	맞춤+버스+를	NOUN	NNG+NNG+JKO	_	21	obj	_	Translit=.maj.chum.beo.seu.reul|LTranslit=.maj.chum+.beo.seu+.reul
@@ -8541,7 +8541,7 @@
 # translit = .mang.weol.sa.yeog.e.seo .nae.ryeo .po.dae.neung.seon.eu.ro .ga.gi .wi.hae.seo.neun .eom.hong.gil.gi.nyeom.gwan .ap.eul .ji.na.ya .han.da.
 1	망월사역에서	망월사+역+에서	ADV	NNP+NNG+JKB	_	2	advmod	_	Translit=.mang.weol.sa.yeog.e.seo|LTranslit=.mang.weol.sa+.yeog+.e.seo
 2	내려	내리+어	VERB	VV+EC	_	4	advcl	_	Translit=.nae.ryeo|LTranslit=.nae.ri+.eo
-3	포대능선으로	포대+능선+으로	ADV	NNG+NNG+JKB	_	4	obl	_	Translit=.po.dae.neung.seon.eu.ro|LTranslit=.po.dae+.neung.seon+.eu.ro
+3	포대능선으로	포대+능선+으로	ADV	NNG+NNG+JKB	_	4	advmod	_	Translit=.po.dae.neung.seon.eu.ro|LTranslit=.po.dae+.neung.seon+.eu.ro
 4	가기	가+기	NOUN	VV+ETN	_	5	obj	_	Translit=.ga.gi|LTranslit=.ga+.gi
 5	위해서는	위하+아서+는	VERB	VV+EC+JX	_	8	advcl	_	Translit=.wi.hae.seo.neun|LTranslit=.wi.ha+.a.seo+.neun
 6	엄홍길기념관	엄홍길기념관	NOUN	NNP	_	8	nmod	_	Translit=.eom.hong.gil.gi.nyeom.gwan|LTranslit=.eom.hong.gil.gi.nyeom.gwan
@@ -8704,7 +8704,7 @@
 3	虛留	虛留	SYM	SH	_	1	appos	_	SpaceAfter=No|Translit=xūliú|LTranslit=xūliú
 4	)	)	PUNCT	SS	_	3	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
 5	는	는	ADP	JX	_	1	case	_	Translit=.neun|LTranslit=.neun
-6	조선	조선	NOUN	NNP	_	9	obl	_	Translit=.jo.seon|LTranslit=.jo.seon
+6	조선	조선	NOUN	NNP	_	9	nmod	_	Translit=.jo.seon|LTranslit=.jo.seon
 7	말	말	ADV	NNG	_	6	flat	_	Translit=.mal|LTranslit=.mal
 8	환곡의	환곡+의	NOUN	NNG+JKG	_	9	nmod:poss	_	Translit=.hwan.gog.yi|LTranslit=.hwan.gog+.yi
 9	폐단	폐단	NOUN	NNG	_	11	nmod	_	Translit=.pye.dan|LTranslit=.pye.dan
@@ -8787,7 +8787,7 @@
 # sent_id = dev-s526
 # text = 오후 10시까지만 영업을 하기 때문에 일찍 가야합니다
 # translit = .o.hu 10.si.gga.ji.man .yeong.eob.eul .ha.gi .ddae.mun.e .il.jjig .ga.ya.hab.ni.da
-1	오후	오후	NOUN	NNG	_	4	obl	_	Translit=.o.hu|LTranslit=.o.hu
+1	오후	오후	NOUN	NNG	_	4	nmod	_	Translit=.o.hu|LTranslit=.o.hu
 2	10시까지만	10+시+까지+만	ADV	SN+NNB+JX+JX	_	1	flat	_	Translit=10.si.gga.ji.man|LTranslit=10+.si+.gga.ji+.man
 3	영업을	영업+을	NOUN	NNG+JKO	_	4	obj	_	Translit=.yeong.eob.eul|LTranslit=.yeong.eob+.eul
 4	하기	하+기	NOUN	VV+ETN	_	7	nmod	_	Translit=.ha.gi|LTranslit=.ha+.gi
@@ -9427,7 +9427,7 @@
 23	지원할	지원+하+ㄹ	VERB	NNG+XSV+ETM	_	12	conj	_	Translit=.ji.weon.hal|LTranslit=.ji.weon+.ha+ㄹ
 24	계획인	계획+이+ㄴ	VERB	NNG+VCP+ETM	_	46	advcl	_	Translit=.gye.hoeg.in|LTranslit=.gye.hoeg+.i+ㄴ
 25	가운데	가운데	NOUN	NNG	_	24	obl	_	OrigDeprel=mark|Translit=.ga.un.de|LTranslit=.ga.un.de
-26	해외건설협회에	해외+건설협회+에	ADV	NNG+NNP+JKB	_	28	obl	_	Translit=.hae.oe.geon.seol.hyeob.hoe.e|LTranslit=.hae.oe+.geon.seol.hyeob.hoe+.e
+26	해외건설협회에	해외+건설협회+에	ADV	NNG+NNP+JKB	_	28	advmod	_	Translit=.hae.oe.geon.seol.hyeob.hoe.e|LTranslit=.hae.oe+.geon.seol.hyeob.hoe+.e
 27	'	'	PUNCT	SS	_	28	punct	_	SpaceAfter=No|Translit='|LTranslit='
 28	중동사태	중동+사태	PROPN	NNP+NNG	_	44	obl	_	Translit=.jung.dong.sa.tae|LTranslit=.jung.dong+.sa.tae
 29	법률지원단	법률+지원단	NOUN	NNG+NNG	_	28	flat	_	SpaceAfter=No|Translit=.beob.ryul.ji.weon.dan|LTranslit=.beob.ryul+.ji.weon.dan
@@ -9718,7 +9718,7 @@
 # sent_id = dev-s579
 # text = 총 11곡의 트랙으로 구성되어 있고, 전체 러닝타임은 42분 10초다.
 # translit = .chong 11.gog.yi .teu.raeg.eu.ro .gu.seong.doe.eo .iss.go, .jeon.che .reo.ning.ta.im.eun 42.bun 10.cho.da.
-1	총	총	NOUN	NNG	_	2	obl	_	Translit=.chong|LTranslit=.chong
+1	총	총	NOUN	NNG	_	2	nmod	_	Translit=.chong|LTranslit=.chong
 2	11곡의	11+곡+의	NOUN	SN+NNG+JKG	_	3	nmod:poss	_	Translit=11.gog.yi|LTranslit=11+.gog+.yi
 3	트랙으로	트랙+으로	ADV	NNG+JKB	_	4	obl	_	Translit=.teu.raeg.eu.ro|LTranslit=.teu.raeg+.eu.ro
 4	구성되어	구성+되+어	VERB	NNG+XSV+EC	_	0	root	_	Translit=.gu.seong.doe.eo|LTranslit=.gu.seong+.doe+.eo
@@ -13759,7 +13759,7 @@
 # translit = .i.nal .gi.nyeom.sig.e.seo.neun 30.nyeon .geun.sog.sa.weon.e .yeong.eob.gi.hoeg.sil .i.yeong.ha .bu.jang .oe 1.myeong, 20.nyeon .geun.sog.sa.weon.eun .gyeong.yeong.ji.weon.tim .im.gyeong.ryong .cha.jang .oe 9.myeong, 10.nyeon .geun.sog .sa.weon.e.neun .yeong.eob.gi.hoeg.sil .gim.jin.ho .gwa.jang .oe 33.myeong, .yu.gong.sa.weon.eu.ro.neun OTC.ma.ke.ting.bu .an.byeong.ug .gwa.jang .oe 26.myeong.e .dae.han .pyo.chang.i .iss.eoss.da.
 1	이날	이날	NOUN	NNG	_	36	nmod	_	Translit=.i.nal|LTranslit=.i.nal
 2	기념식에서는	기념식+에서+는	ADV	NNG+JKB+JX	_	36	advmod	_	Translit=.gi.nyeom.sig.e.seo.neun|LTranslit=.gi.nyeom.sig+.e.seo+.neun
-3	30년	30+년	NOUN	SN+NNB	_	9	obl	_	Translit=30.nyeon|LTranslit=30+.nyeon
+3	30년	30+년	NOUN	SN+NNB	_	9	nmod	_	Translit=30.nyeon|LTranslit=30+.nyeon
 4	근속사원에	근속+사원+에	ADV	NNG+NNG+JKB	_	3	flat	_	Translit=.geun.sog.sa.weon.e|LTranslit=.geun.sog+.sa.weon+.e
 5	영업기획실	영업+기획실	NOUN	NNG+NNG	_	9	nmod	_	Translit=.yeong.eob.gi.hoeg.sil|LTranslit=.yeong.eob+.gi.hoeg.sil
 6	이영하	이영하	NOUN	NNP	_	5	flat	_	Translit=.i.yeong.ha|LTranslit=.i.yeong.ha
@@ -14025,7 +14025,7 @@
 # translit = 3M.yi .je.pum.eun .yag 200.yeo .na.ra.e.seo .pan.mae.doe.go .iss.da.
 1	3M의	3+M+의	NOUN	SN+SL+JKG	_	2	nmod:poss	_	Translit=3M.yi|LTranslit=3+M+.yi
 2	제품은	제품+은	NOUN	NNG+JX	_	6	nsubj:pass	_	Translit=.je.pum.eun|LTranslit=.je.pum+.eun
-3	약	약	NOUN	MM	_	4	obl	_	Translit=.yag|LTranslit=.yag
+3	약	약	NOUN	MM	_	4	nmod	_	Translit=.yag|LTranslit=.yag
 4	200여	200+여	NOUN	SN+XSN	_	6	obl	_	Translit=200.yeo|LTranslit=200+.yeo
 5	나라에서	나라+에서	ADV	NNG+JKB	_	4	flat	_	Translit=.na.ra.e.seo|LTranslit=.na.ra+.e.seo
 6	판매되고	판매+되+고	VERB	NNG+XSV+EC	_	0	root	_	Translit=.pan.mae.doe.go|LTranslit=.pan.mae+.doe+.go
@@ -14306,7 +14306,7 @@
 3	열적으로	열+적+으로	ADV	NR+XSN+JKB	_	4	obl	_	Translit=.yeol.jeog.eu.ro|LTranslit=.yeol+.jeog+.eu.ro
 4	고립된	고립+되+ㄴ	VERB	NNG+XSV+ETM	_	5	acl:relcl	_	Translit=.go.rib.doen|LTranslit=.go.rib+.doe+ㄴ
 5	계의	계+의	NOUN	NNG+JKG	_	7	nmod:poss	_	Translit=.gye.yi|LTranslit=.gye+.yi
-6	총	총	NOUN	MM	_	7	obl	_	Translit=.chong|LTranslit=.chong
+6	총	총	NOUN	MM	_	7	nmod	_	Translit=.chong|LTranslit=.chong
 7	엔트로피가	엔트로피+가	NOUN	NNG+JKS	_	8	nsubj	_	Translit=.en.teu.ro.pi.ga|LTranslit=.en.teu.ro.pi+.ga
 8	감소하지	감소+하+지	VERB	NNG+XSV+EC	_	0	root	_	Translit=.gam.so.ha.ji|LTranslit=.gam.so+.ha+.ji
 9	않는다	않+는다	VERB	VX+EF	_	8	flat	_	SpaceAfter=No|Translit=.anh.neun.da|LTranslit=.anh+.neun.da
