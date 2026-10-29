@@ -25,6 +25,24 @@ The project repository: https://github.com/emorynlp/ud-korean
 
 # Changelog
 
+* 2026-10-29
+  - Fixed 65 instances of `too-many-objects` errors
+      - Cases involving a light verb, e.g., '뇌를 치료를 했다': the second object ('치료를') was changed from `obj` to `compound:lvc`
+      - Cases with the second object noun phrase denoting a quantity or extent, e.g., '쌀을 2키로를 샀다': the second object ('2키로를') was changed from `obj` to `obl`
+      - Cases involving classic 이중보어문형, e.g., '재료도 좋은 것만 쓴다': the outer `obj` ('재료도') was changed to `dislocated`    
+  - Fixed 402 instances of `too-many-subjects` errors
+      - Many cases involved 보어 construction, e.g., '철수가 학생이 아니다' where both noun phrases were marked as `nsubj`. We converted the inner noun argument ('학생이' in this example) to `xcomp`. The majority of these cases involved verbs '되다' and '아니다'. 
+      - Other, more typical cases of 이중주어문형, e.g., '철수가 키가 크다': the outer subject was given the label of `nsubj:outer`
+  - Fixed 13 instances of `fixed-without-extpos` errors
+      - The majority of cases involved grammaticalized expressions like '것 같다', '수 있다', '밖에 없다'. `ExtPos=AUX` was added to the nouns '것', '수',  '밖에', etc. 
+  - Fixed 1 instance of `leaf-det` error
+  - Fixed 3 instances of `fixed-gap` error
+  - Fixed 116 instances of `obl-should-be-mod` error
+    - `obl` changed to `nmod` when the head is a NOUN/PROPN/PRON.
+  - Fixed 1247 instances of `pron-det-without-prontype` error
+    - PronType value (`Int`, `Ind`, `Tot`, `Prs`, `Dem`) added for all PRON/DET tokens. 
+    - The Korean PronType spec was updated to DET to allow `Tot` and `Int`.
+  - Fixed 8 instances that were categorized as `pron-det-without-prontype` error due to annotation mistakes. For example: 온 (“whole/all” e.g. 온 가족) was mistakenly analyzed as 오+ㄴ (오는 “oncoming”).
 * 2022-11-15 v2.11
   * Fixed right-headed apposition and non-projective punctuation.
   * Symbols after numbers are units, not punctuation.
