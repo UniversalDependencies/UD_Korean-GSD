@@ -5,27 +5,27 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6339</sentences><tokens>80322</tokens><words>80322</words><fused>0</fused></total>
-    <train><sentences>4400</sentences><tokens>56687</tokens><words>56687</words><fused>0</fused></train>
+    <total><sentences>6339</sentences><tokens>80321</tokens><words>80321</words><fused>0</fused></total>
+    <train><sentences>4400</sentences><tokens>56686</tokens><words>56686</words><fused>0</fused></train>
     <dev><sentences>950</sentences><tokens>11958</tokens><words>11958</words><fused>0</fused></dev>
     <test><sentences>989</sentences><tokens>11677</tokens><words>11677</words><fused>0</fused></test>
   </size>
-  <lemmas unique="35852" /><!-- ., ,, ', (, ), ", 있+다, 이, 수, 있+는, %, 등, 그, 고, 좀 -->
-  <forms unique="35846" /><!-- ., ,, ', (, ), ", 있다, 수, 이, 있는, 한, %, 등, 그, 고 -->
+  <lemmas unique="35850" /><!-- ., ,, ', (, ), ", 있+다, 이, 수, 있+는, %, 등, 그, 고, 좀 -->
+  <forms unique="35845" /><!-- ., ,, ', (, ), ", 있다, 수, 이, 있는, 한, %, 등, 그, 고 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">2760</tag><!-- 있+다, 다른, 많+은, 좋+아요, 크+ㄴ, 맛있+어요, 같+아요, 없+다, 가깝+ㄴ, 다양+하+ㄴ -->
+    <tag name="ADJ">2761</tag><!-- 있+다, 다른, 많+은, 좋+아요, 크+ㄴ, 맛있+어요, 같+아요, 없+다, 가깝+ㄴ, 다양+하+ㄴ -->
     <tag name="ADP">1793</tag><!-- 고, 의, 는, 중, 때문+에, 를, 을, 에, 로, 가 -->
-    <tag name="ADV">11362</tag><!-- 좀, 것+으로, 정말, 너무, 더, 또, 잘, 가장, 많이, 함께 -->
+    <tag name="ADV">11365</tag><!-- 좀, 것+으로, 정말, 너무, 더, 또, 잘, 가장, 많이, 함께 -->
     <tag name="AUX">125</tag><!-- 이, 있, 하, 않, 싶 -->
     <tag name="CCONJ">223</tag><!-- 및, 또는, 그리고, 과, 와, 혹은, 물론, 겸, 그러나, 나 -->
-    <tag name="DET">573</tag><!-- 이, 그, 몇, 모든, 각, 어떤, 어느, 이+들, 약, 무슨 -->
+    <tag name="DET">567</tag><!-- 이, 그, 몇, 모든, 각, 어떤, 어느, 이+들, 약, 무슨 -->
     <tag name="INTJ">3</tag><!-- 글쎄, 아차, 에이 -->
-    <tag name="NOUN">32347</tag><!-- 수, 등, 것+이, 것, 때, 길, 맛+이, 것+을, 맛+도, 등+을 -->
-    <tag name="NUM">848</tag><!-- 한, 두, 첫, 10, 하+ㄴ, 1, 세, 50, 3, 30 -->
+    <tag name="NOUN">32349</tag><!-- 수, 등, 것+이, 것, 때, 길, 맛+이, 것+을, 맛+도, 등+을 -->
+    <tag name="NUM">849</tag><!-- 한, 두, 첫, 10, 하+ㄴ, 1, 세, 50, 3, 30 -->
     <tag name="PART">31</tag><!-- 에서+는, 에+는, 라+는, 과+는, 과+도, 과+의, 로+는, 마저+를, 보다+도, 에+까지 -->
-    <tag name="PRON">682</tag><!-- 그+는, 그+의, 우리, 이+를, 그, 이+는, 자신+의, 이, 여기, 제+가 -->
+    <tag name="PRON">680</tag><!-- 그+는, 그+의, 우리, 이+를, 그, 이+는, 자신+의, 이, 여기, 제+가 -->
     <tag name="PROPN">495</tag><!-- 미국, 경기, 서울, 한국+시간, 과천시, 광주, 네덜란드+의, 마이더스, 박근혜, 베트남전 -->
     <tag name="PUNCT">10411</tag><!-- ., ,, ', (, ), ", %, ?, !, • -->
     <tag name="SYM">275</tag><!-- %, ㎞, ㎡, ㎢, 孫權, 淮南尹, 燕, 科, 親, ? -->
@@ -33,45 +33,54 @@
     <tag name="X">13</tag><!-- ㅋ+ㅋ, ㅎ, ㅜ+ㅜ, F+1, Schools, in, ㅅ+ㅅ, ㅋ, ㅎ+ㅎ, ㅜ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="1">
+  <feats unique="7">
+    <feat name="ExtPos" value="AUX" upos="NOUN">5</feat><!-- 뿐만, 뿐 -->
     <feat name="NumType" value="Card" upos="DET,NUM,PUNCT">549</feat><!-- 한, 두, 첫, 세, 하나, 1, ', 다섯, 하나는, 하나의 -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">608</feat><!-- 이, 그, 이를, 이는, 여기, 이들, 이들은, 이것은, 이러한, 그런 -->
+    <feat name="PronType" value="Ind" upos="DET">44</feat><!-- 어떤, 어느, 약, 한, 여느, 몇몇, 아무, 모, 어떠한 -->
+    <feat name="PronType" value="Int" upos="DET,PRON">107</feat><!-- 몇, 누가, 무슨, 누구, 뭐가, 누구나, 누구든지, 뭐, 어디, 누구를 -->
+    <feat name="PronType" value="Prs" upos="PRON">421</feat><!-- 그는, 그의, 우리, 자신의, 제가, 내가, 저는, 그가, 우리는, 전 -->
+    <feat name="PronType" value="Tot" upos="DET">67</feat><!-- 모든, 각, 양, 온 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
+  <deps unique="38">
     <dep name="acl">9</dep>
     <dep name="acl:relcl">3194</dep>
-    <dep name="advcl">4555</dep>
-    <dep name="advmod">6516</dep>
-    <dep name="amod">1566</dep>
+    <dep name="advcl">4556</dep>
+    <dep name="advmod">6470</dep>
+    <dep name="amod">1567</dep>
     <dep name="appos">1510</dep>
     <dep name="aux">47</dep>
     <dep name="case">1631</dep>
     <dep name="cc">223</dep>
     <dep name="ccomp">651</dep>
     <dep name="compound">7</dep>
+    <dep name="compound:lvc">14</dep>
     <dep name="conj">3866</dep>
     <dep name="cop">73</dep>
     <dep name="csubj">20</dep>
-    <dep name="dep">2433</dep>
-    <dep name="det">569</dep>
+    <dep name="dep">2435</dep>
+    <dep name="det">566</dep>
     <dep name="det:poss">180</dep>
     <dep name="discourse">1</dep>
-    <dep name="fixed">13</dep>
-    <dep name="flat">12242</dep>
+    <dep name="dislocated">13</dep>
+    <dep name="fixed">5</dep>
+    <dep name="flat">12251</dep>
     <dep name="iobj">108</dep>
     <dep name="list">1</dep>
     <dep name="mark">86</dep>
-    <dep name="nmod">1843</dep>
+    <dep name="nmod">1896</dep>
     <dep name="nmod:poss">2327</dep>
-    <dep name="nsubj">7379</dep>
-    <dep name="nsubj:outer">415</dep>
+    <dep name="nsubj">7382</dep>
+    <dep name="nsubj:outer">327</dep>
     <dep name="nsubj:pass">496</dep>
-    <dep name="nummod">555</dep>
-    <dep name="obj">5800</dep>
-    <dep name="obl">5254</dep>
+    <dep name="nummod">556</dep>
+    <dep name="obj">5731</dep>
+    <dep name="obl">5279</dep>
+    <dep name="orphan">3</dep>
     <dep name="parataxis">1</dep>
     <dep name="punct">10411</dep>
     <dep name="root">6339</dep>
-    <dep name="xcomp">1</dep>
+    <dep name="xcomp">89</dep>
   </deps>
 </treebank>
