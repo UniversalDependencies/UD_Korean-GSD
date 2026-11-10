@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Korean-GSD:
-commit 925eec22693d37a922eb546c6a9500844d271d51
+commit 043d915c6f369110b45c6a0cc3de64a918facc5b
+Merge: 7628157 8537705
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:09:14 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ko_gsd'
 Language code (from CoNLL-U file name) = 'ko'
 Found the following data files: ko_gsd-ud-dev.conllu, ko_gsd-ud-test.conllu, ko_gsd-ud-train.conllu
-Size: counted 80322 of 80322 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.77208711206363.
+Size: counted 80321 of 80321 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.77206221213024.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -19,123 +19,25 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.4.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 549 out of 80322 total words have one or more features.
+Features: 1799 out of 80321 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-dev.conllu
-[Line 45 Sent dev-s3]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 11] ('해당 .hae.dang', '차이가 .cha.i.ga') under the predicate '난다 .nan.da' not subtyped as ':outer'.
-
-Outer subjects are allowed if a clause acts as the predicate of another clause.
-
-[Line 54 Sent dev-s4]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 3] ('건물은 .geon.mul.eun', '균형이 .gyun.hyeong.i') under the predicate '맞고 .maj.go' not subtyped as ':outer'.
-[Line 13 Sent dev-s2]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 207 Sent dev-s12]: [L3 SYNTAX too-many-subjects] Multiple subjects [2, 3] ('말투가 .mal.tu.ga', '기분 .gi.bun') under the predicate '나빠서 .na.bba.seo' not subtyped as ':outer'.
-[Line 213 Sent dev-s13]: [L3 WARNING pron-det-without-prontype] The word '몇 .myeoch' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 231 Sent dev-s14]: [L3 WARNING pron-det-without-prontype] The word '그 .geu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 299 Sent dev-s16]: [L3 WARNING pron-det-without-prontype] The word '그들 .geu.deul' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 403 Sent dev-s21]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 415 Sent dev-s22]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] '연장길이는 .yeon.jang.gil.i.neun') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 462 Sent dev-s24]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 474 Sent dev-s25]: [L3 WARNING pron-det-without-prontype] The word '저는 .jeo.neun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 560 Sent dev-s31]: [L3 WARNING pron-det-without-prontype] The word '그는 .geu.neun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 597 Sent dev-s33]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 609 Sent dev-s34]: [L3 WARNING pron-det-without-prontype] The word '그 .geu' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further messages regarding WARNING/MORPHO
-[Line 814 Sent dev-s45]: [L3 SYNTAX too-many-subjects] Multiple subjects [10, 16] ('이것은 .i.geos.eun', '가네토도 .ga.ne.to.do') under the predicate '배정되었다 .bae.jeong.doe.eoss.da' not subtyped as ':outer'.
-[Line 1045 Sent dev-s58]: [L3 SYNTAX too-many-subjects] Multiple subjects [8, 11] ('정시모집은 .jeong.si.mo.jib.eun', '문이 .mun.i') under the predicate '될 .doel' not subtyped as ':outer'.
-[Line 1219 Sent dev-s71]: [L3 SYNTAX too-many-subjects] Multiple subjects [7, 8] ('상품권은 .sang.pum.gweon.eun', '금액이 .geum.aeg.i') under the predicate '표시되어 .pyo.si.doe.eo' not subtyped as ':outer'.
-[Line 1278 Sent dev-s76]: [L3 SYNTAX too-many-objects] Multiple direct objects [1, 3] ('환자 .hwan.ja', '생각 .saeng.gag') under the predicate '안하고 .an.ha.go'.
-[Line 1502 Sent dev-s91]: [L3 SYNTAX too-many-objects] Multiple direct objects [1, 5] ('계산 .gye.san', 'root root') under the predicate '해 .hae'.
-[Line 1516 Sent dev-s92]: [L3 SYNTAX too-many-subjects] Multiple subjects [4, 6] ('지역은 .ji.yeog.eun', '산이 .san.i') under the predicate '많은데 .manh.eun.de' not subtyped as ':outer'.
-...suppressing further messages regarding ERROR/SYNTAX
-[Line 6521 Sent dev-s393]: [L3 WARNING fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
-[Line 7221 Sent dev-s432]: [L3 WARNING fixed-without-extpos] Fixed expression '1심과 같이' does not have the 'ExtPos' feature
-Warnings: 179
-SYNTAX errors: 83
-*** FAILED *** with 83 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-test.conllu
-[Line 82 Sent test-s4]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 9] ('위안화 .wi.an.hwa', '동인이 .dong.in.i') under the predicate '되어 .doe.eo' not subtyped as ':outer'.
-
-Outer subjects are allowed if a clause acts as the predicate of another clause.
-
-[Line 126 Sent test-s6]: [L3 SYNTAX too-many-objects] Multiple direct objects [1, 2] ('커피도 .keo.pi.do', '최고급을 .choe.go.geub.eul') under the predicate '사용한다고 .sa.yong.han.da.go'.
-[Line 185 Sent test-s9]: [L3 SYNTAX too-many-subjects] Multiple subjects [2, 3] ('커피전문점 .keo.pi.jeon.mun.jeom', '뭐 .mweo') under the predicate '있나 .iss.na' not subtyped as ':outer'.
-[Line 206 Sent test-s10]: [L3 SYNTAX too-many-subjects] Multiple subjects [12, 15] ('통화 .tong.hwa', '약효가 .yag.hyo.ga') under the predicate '같을 .gat.eul' not subtyped as ':outer'.
-[Line 89 Sent test-s5]: [L3 WARNING pron-det-without-prontype] The word '그는 .geu.neun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 151 Sent test-s7]: [L3 WARNING pron-det-without-prontype] The word '이들이 .i.deul.i' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 184 Sent test-s9]: [L3 WARNING pron-det-without-prontype] The word '뭐 .mweo' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 309 Sent test-s16]: [L3 WARNING pron-det-without-prontype] The word '그의 .geu.yi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 324 Sent test-s17]: [L3 WARNING pron-det-without-prontype] The word '그가 .geu.ga' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 537 Sent test-s29]: [L3 SYNTAX too-many-subjects] Multiple subjects [2, 9] ('일본 .il.bon', '상태가 .sang.tae.ga') under the predicate '아니라서 .a.ni.ra.seo' not subtyped as ':outer'.
-[Line 559 Sent test-s30]: [L3 WARNING pron-det-without-prontype] The word '울 .ul' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 579 Sent test-s31]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] '9월 9.weol') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 588 Sent test-s31]: [L3 SYNTAX too-many-subjects] Multiple subjects [8, 17] ('9월 9.weol', '% %') under the predicate '줄어들었다 .jul.eo.deul.eoss.da' not subtyped as ':outer'.
-[Line 620 Sent test-s33]: [L3 SYNTAX too-many-objects] Multiple direct objects [12, 16] ('기준금리를 .gi.jun.geum.ri.reul', '0.25 0.25') under the predicate '인상했다 .in.sang.haess.da'.
-[Line 626 Sent test-s34]: [L3 WARNING pron-det-without-prontype] The word '그는 .geu.neun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 630 Sent test-s34]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 634 Sent test-s34]: [L3 SYNTAX too-many-subjects] Multiple subjects [6, 8] ('서비스가 .seo.bi.seu.ga', '정착만 .jeong.chag.man') under the predicate '된다면 .doen.da.myeon' not subtyped as ':outer'.
-[Line 688 Sent test-s36]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 717 Sent test-s38]: [L3 WARNING pron-det-without-prontype] The word '몇 .myeoch' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 742 Sent test-s40]: [L3 SYNTAX too-many-subjects] Multiple subjects [3, 5] ('반찬도 .ban.chan.do', '가지 .ga.ji') under the predicate '나와요 .na.wa.yo' not subtyped as ':outer'.
-...suppressing further messages regarding WARNING/MORPHO
-...suppressing further messages regarding ERROR/SYNTAX
-[Line 3595 Sent test-s212]: [L3 WARNING fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
-Warnings: 206
-SYNTAX errors: 88
-*** FAILED *** with 88 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-GSD/ko_gsd-ud-train.conllu
-[Line 106 Sent train-s6]: [L3 WARNING pron-det-without-prontype] The word '이들은 .i.deul.eun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 117 Sent train-s7]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 215 Sent train-s13]: [L3 SYNTAX too-many-subjects] Multiple subjects [4, 6] ('해물탕은 .hae.mul.tang.eun', '성의 .seong.yi') under the predicate '없다 .eobs.da' not subtyped as ':outer'.
-
-Outer subjects are allowed if a clause acts as the predicate of another clause.
-
-[Line 237 Sent train-s14]: [L3 SYNTAX too-many-subjects] Multiple subjects [13, 17] ('사모펀드는 .sa.mo.peon.deu.neun', '상품이 .sang.pum.i') under the predicate '대부분 .dae.bu.bun' not subtyped as ':outer'.
-[Line 267 Sent train-s15]: [L3 WARNING pron-det-without-prontype] The word '그 .geu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 366 Sent train-s21]: [L3 WARNING pron-det-without-prontype] The word '내가 .nae.ga' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 459 Sent train-s29]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 631 Sent train-s38]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 669 Sent train-s41]: [L3 WARNING fixed-without-extpos] Fixed expression '충칭 아니라' does not have the 'ExtPos' feature
-[Line 669 Sent train-s41]: [L3 WARNING fixed-gap] Gaps in fixed expression [2, 4] '충칭 * 아니라'
-[Line 709 Sent train-s44]: [L3 WARNING pron-det-without-prontype] The word '저희 .jeo.hyi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 750 Sent train-s46]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 753 Sent train-s46]: [L3 WARNING pron-det-without-prontype] The word '우리도 .u.ri.do' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 756 Sent train-s46]: [L3 SYNTAX too-many-subjects] Multiple subjects [4, 6] ('우리도 .u.ri.do', '자유가 .ja.yu.ga') under the predicate '있네 .iss.ne' not subtyped as ':outer'.
-[Line 830 Sent train-s51]: [L3 SYNTAX too-many-subjects] Multiple subjects [6, 7] ('모습이 .mo.seub.i', '이웃집 .i.us.jib') under the predicate '같습니다 .gat.seub.ni.da' not subtyped as ':outer'.
-[Line 836 Sent train-s52]: [L3 WARNING pron-det-without-prontype] The word '이 .i' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further messages regarding WARNING/MORPHO
-[Line 930 Sent train-s58]: [L3 SYNTAX too-many-subjects] Multiple subjects [4, 12] ('83.8 83.8', '경험이 .gyeong.heom.i') under the predicate '있는 .iss.neun' not subtyped as ':outer'.
-[Line 1083 Sent train-s69]: [L3 SYNTAX too-many-subjects] Multiple subjects [5, 8] ('하나 .ha.na', '게 .ge') under the predicate '없다 .eobs.da' not subtyped as ':outer'.
-[Line 1184 Sent train-s77]: [L3 SYNTAX too-many-objects] Multiple direct objects [1, 6] ('머리도 .meo.ri.do', '디자인 .di.ja.in') under the predicate '해 .hae'.
-[Line 2064 Sent train-s131]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] '방어는 .bang.eo.neun') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2072 Sent train-s131]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] '녹아웃 .nog.a.us') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2280 Sent train-s144]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] '평균 .pyeong.gyun') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further messages regarding ERROR/SYNTAX
-[Line 5545 Sent train-s330]: [L3 WARNING fixed-without-extpos] Fixed expression '불치병환자뿐만 아니라' does not have the 'ExtPos' feature
-[Line 30141 Sent train-s1770]: [L3 WARNING fixed-without-extpos] Fixed expression '뿐 아니라' does not have the 'ExtPos' feature
-[Line 31149 Sent train-s1832]: [L3 WARNING fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
-[Line 31641 Sent train-s1865]: [L3 WARNING fixed-without-extpos] Fixed expression '전시 아니라' does not have the 'ExtPos' feature
-[Line 31641 Sent train-s1865]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 3] '전시 * 아니라'
-[Line 32205 Sent train-s1901]: [L3 WARNING fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
-[Line 58586 Sent train-s3442]: [L3 WARNING fixed-without-extpos] Fixed expression '뿐만 아니라' does not have the 'ExtPos' feature
-[Line 64737 Sent train-s3820]: [L3 WARNING fixed-without-extpos] Fixed expression '하루 빨리' does not have the 'ExtPos' feature
-...suppressing further messages regarding WARNING/SYNTAX
-Warnings: 886
-SYNTAX errors: 413
-*** FAILED *** with 413 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
 (weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
 (weight=0.111111111111111) * (score{lemmas}=0.4) = 0.0444444444444444
-(weight=0.37037037037037) * (score{size}=0.634944837923978) = 0.235164754786658
+(weight=0.37037037037037) * (score{size}=0.634943035606699) = 0.23516408726174
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
-(weight=0.111111111111111) * (score{udeprels}=0.648648648648649) = 0.0720720720720721
-(TOTAL score=0.535094488441882) * (availability=1) * (validity=0.01) = 0.00535094488441882
-STARS = 0
-UD_Korean-GSD	0.00535094488441882	0
+(weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
+(TOTAL score=0.539898625721769) * (availability=1) * (validity=1) = 0.539898625721769
+STARS = 2.5
+UD_Korean-GSD	0.539898625721769	2.5
